@@ -1,0 +1,1 @@
+mbrScript.filter("lowercase",function(){return function(a){return"string"==typeof a?a.toLowerCase():a}});mbrScript.filter("uppercase",function(){return function(a){return"string"==typeof a?a.toUpperCase():a}});mbrScript.filter("json",function(){return function(a,b){if(void 0!==a)return void 0===b?b=2:"number"!=typeof b&&(b=b?2:null),JSON.stringify(a,null,b)}});

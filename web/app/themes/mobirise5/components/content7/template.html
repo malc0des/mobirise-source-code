@@ -1,0 +1,24 @@
+<section class="content7" group="Content">
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="5">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="5">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle" checked>
+        <input type="range" name="textWidth" title="Width" min="4" max="12" value="10" step="1">
+        <input type="color" name="lineColor" title="Line Color" value="#6592e6">
+        <input type="color" name="cardColor" title="Color" value="#fafafa">
+        <header>Background</header>
+        <input type="color" title="Color" name="bgColor" value="#ffffff">
+    </mbr-parameters>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-{{textWidth}}">
+                <blockquote>
+                <h5 class="mbr-section-title mbr-fonts-style mb-2" mbr-theme-style="display-7" mbr-if="showTitle" data-app-selector=".mbr-section-title"><b>How mobirise works?</b></h5>
+                <p class="mbr-text mbr-fonts-style" mbr-theme-style="display-4" data-app-selector=".mbr-text">Use Mobirise website building software to create multiple sites for commercial and non-profit projects. Themes in the Mobirise website builder offer multiple blocks: intros, sliders, galleries, forms, articles, and so on. Start a project and click on the red plus buttons to see the blocks available for your theme.</p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>

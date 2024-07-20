@@ -1,0 +1,87 @@
+<section class="features1" group="Features" data-bg-video="{{bg.type == 'video' && bg.value.url}}"
+    mbr-class="{'mbr-parallax-background': bg.parallax}">
+
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="5">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="5">
+
+        <header>Card</header>
+        <input type="color" title="BG" name="cardColor" value="#ffffff">
+
+        <select title="Columns" name="columns">
+            <option value="3" selected>4</option>
+            <option value="4">3</option>
+            <option value="6">2</option>
+            <option value="12">1</option>
+        </select>
+
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax>
+            <input type="image" title="Image" value="../_images/background8.jpg">
+            <input type="color" title="Color" value="#fafafa" selected>
+            <input type="video" title="Video" value="https://vimeo.com/428046504">
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input type="image" title="Fallback Image" value="../_images/background13.jpg" name="fallBackImage" condition="bg.type === 'video'">
+        <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked>
+        <input type="color" title="Overlay Color" name="overlayColor" value="#ffffff"
+            condition="overlay && bg.type !== 'color'">
+        <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.5"
+            condition="overlay && bg.type !== 'color'">
+    </mbr-parameters>
+
+    <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+    <div class="mbr-overlay" mbr-if="overlay && bg.type!== 'color'"
+        mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}">
+    </div>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div class="item features-without-image mb-4 col-12 col-md-{{columns}}">
+                <div class="item-wrapper">
+                    <div class="card-box align-center">
+                        <span mbr-icon class="mbr-iconfont mobi-mbri-code mobi-mbri"></span>
+                        <h4 class="card-title align-center mbr-black mbr-fonts-style"
+                            mbr-theme-style="display-7" data-app-selector=".card-title, .card-box">
+                            <b>No Coding</b>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-without-image mb-4 col-12 col-md-{{columns}}">
+                <div class="item-wrapper">
+                    <div class="card-box align-center">
+                        <span mbr-icon class="mbr-iconfont mobi-mbri-devices mobi-mbri"></span>
+                        <h4 class="card-title align-center mbr-black mbr-fonts-style"
+                            mbr-theme-style="display-7" data-app-selector=".card-title, .card-box">
+                            <b>Mobile Friendly</b>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-without-image mb-4 col-12 col-md-{{columns}}">
+                <div class="item-wrapper">
+                    <div class="card-box align-center">
+                        <span mbr-icon class="mbr-iconfont mobi-mbri-website-theme-2 mobi-mbri"></span>
+                        <h4 class="card-title align-center mbr-black mbr-fonts-style"
+                            mbr-theme-style="display-7" data-app-selector=".card-title, .card-box">
+                            <b>Unique Styles</b>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-without-image mb-4 col-12 col-md-{{columns}}">
+                <div class="item-wrapper">
+                    <div class="card-box align-center">
+                        <span mbr-icon class="mbr-iconfont mobi-mbri-website-theme-2 mobi-mbri"></span>
+                        <h4 class="card-title align-center mbr-black mbr-fonts-style"
+                            mbr-theme-style="display-7" data-app-selector=".card-title, .card-box">
+                            <b>Unique Styles</b>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

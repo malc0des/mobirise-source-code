@@ -1,0 +1,66 @@
+& when not (@fullScreen) {
+    padding-top: (@paddingTop * 1rem);
+    padding-bottom: (@paddingBottom * 1rem);
+}
+
+& when (@bg-type ='image') {
+    background-image: url(@bg-value);
+}
+
+& when (@bg-type ='color') {
+    background-color: @bg-value;
+}
+
+.mbr-fallback-image.disabled {
+    display: none;
+}
+
+.mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+
+    & when (@bg-type ='video') {
+        background-image: url(@fallBackImage);
+    }
+}
+
+.topbg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background: @topbg;
+}
+
+.mbr-section-title {
+    color: #ffffff;
+}
+
+.mbr-text,
+.mbr-section-btn {
+    color: #ffffff;
+}
+
+.media-content,
+.mbr-figure {
+    align-self: center;
+}
+
+.mbr-figure iframe {
+    width: 100%;
+    overflow: hidden;
+}
+
+.app-video-wrapper {
+    background: transparent;
+}
+
+.content-head {
+    max-width: 800px;
+}

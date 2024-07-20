@@ -1,0 +1,130 @@
+<section
+  class="list05"
+  group="List"
+>
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input
+          type="range"
+          inline
+          title="Top"
+          name="paddingTop"
+          min="0"
+          max="10"
+          step="1"
+          value="5"
+        >
+        <input
+          type="range"
+          inline
+          title="Bottom"
+          name="paddingBottom"
+          min="0"
+          max="10"
+          step="1"
+          value="5"
+        >
+        <input
+          type="range"
+          name="textWidth"
+          title="Width"
+          min="4"
+          max="12"
+          value="8"
+          step="1"
+        >
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showMainTitle" checked>
+        <input type="checkbox" title="Subtitle" name="showMainSubtitle">
+        <input type="checkbox" title="Question" name="showTitle" checked>
+        <input type="color" title="Card BG" name="cardbg" value="#ffffff" selected>
+        <header>Background</header>
+        <input type="color" title="Color" name="bgColor" value="#edefeb">
+    </mbr-parameters>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="col-12 mb-5 content-head" mbr-if="showMainTitle || showMainSubtitle">
+            <h3
+              class="mbr-section-title mbr-fonts-style align-center mb-0"
+              mbr-theme-style="display-2"
+              mbr-if="showMainTitle"
+              data-app-selector=".mbr-section-title"
+            >
+                <b>FAQ</b>
+            </h3>
+            <h5
+              class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4"
+              mbr-theme-style="display-7"
+              mbr-if="showMainSubtitle"
+              data-app-selector=".mbr-section-subtitle"
+            >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </h5>
+        </div>
+        <div class="row justify-content-center ">
+            <div class=" col-12 col-lg-{{textWidth}}">
+                <div class="item features-without-image col-12 active">
+                    <div class="item-wrapper">
+                        <h5
+                          class="mbr-card-title mbr-fonts-style mt-0 mb-3"
+                          mbr-if="showTitle"
+                          data-app-selector=".mbr-card-title"
+                          mbr-theme-style="display-5"
+                        >
+                            <b>How long does it take to receive the final photos?</b></h5>
+                        <p
+                          class="mbr-text mbr-fonts-style mt-0 mb-3"
+                          data-app-selector=".mbr-text, .item .mbr-section-btn"
+                          mbr-theme-style="display-7"
+                        >
+                            The turnaround time for receiving the final edited photos depends on the scope of the
+                            project. Generally, you can expect to receive a preview or a selection of edited photos
+                            within a week after the photoshoot. The complete set of edited photos will be delivered
+                            within a few weeks.
+                        </p>
+                    </div>
+                </div>
+                <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                        <h5
+                          class="mbr-card-title mbr-fonts-style mt-0 mb-3"
+                          mbr-if="showTitle"
+                          data-app-selector=".mbr-card-title"
+                          mbr-theme-style="display-5"
+                        >
+                            <b>What is your pricing structure?</b></h5>
+                        <p
+                          class="mbr-text mbr-fonts-style mt-0 mb-3"
+                          data-app-selector=".mbr-text, .item .mbr-section-btn"
+                          mbr-theme-style="display-7"
+                        >
+                            My pricing varies depending on the type of photoshoot and the specific requirements. For
+                            detailed pricing information, please reach out via the contact form, and I'll provide you
+                            with a personalized quote.
+                        </p>
+                    </div>
+                </div>
+                <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                        <h5
+                          class="mbr-card-title mbr-fonts-style mt-0 mb-3"
+                          mbr-if="showTitle"
+                          data-app-selector=".mbr-card-title"
+                          mbr-theme-style="display-5"
+                        >
+                            <b>How can I access my photos after the shoot?</b></h5>
+                        <p
+                          class="mbr-text mbr-fonts-style mt-0 mb-3"
+                          data-app-selector=".mbr-text, .item .mbr-section-btn"
+                          mbr-theme-style="display-7"
+                        >
+                            After the photoshoot, I will provide you with a private online gallery where you can view
+                            and download your edited photos. You'll receive a password-protected link that you can share
+                            with friends and family.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

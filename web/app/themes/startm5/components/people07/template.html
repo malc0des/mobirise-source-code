@@ -1,0 +1,76 @@
+<section
+  class="people07"
+  group="People"
+>
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input
+          type="range"
+          inline
+          title="Top"
+          name="paddingTop"
+          min="0"
+          max="10"
+          step="1"
+          value="6"
+        >
+        <input
+          type="range"
+          inline
+          title="Bottom"
+          name="paddingBottom"
+          min="0"
+          max="10"
+          step="1"
+          value="6"
+        >
+        <input
+          type="range"
+          name="textWidth"
+          title="Width"
+          min="4"
+          max="12"
+          value="8"
+          step="1"
+        >
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Image" name="showImage" checked>
+        <select title="Image Align" name="contentAlign">
+          <option value="justify-content-start">Left</option>
+          <option value="justify-content-center" selected>Center</option>
+          <option value="justify-content-end">Right</option>
+        </select>
+        <input type="checkbox" title="Name" name="showTitle" checked>
+        <header>Background</header>
+        <input type="color" title="Color" name="bgColor" value="#ffffff">
+    </mbr-parameters>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-{{textWidth}}">
+                <p
+                  class="card-text mbr-fonts-style"
+                  mbr-theme-style="display-5"
+                  data-app-selector=".card-text"
+                >
+                    I can't express how much I admire the distinctive offerings from this creative small business. Each product exudes its 
+                    own character and charm, making me feel like I own a piece of art!
+                </p>
+                <div
+                  class="img-wrapper mt-4 {{contentAlign}}"
+                  mbr-if="showImage"
+                >
+                    <img src="../_images/people/team1.jpg" alt data-slide-to="0" data-bs-slide-to="0">
+                </div>
+                <p
+                  class="card-title mbr-fonts-style mt-3"
+                  mbr-theme-style="display-7"
+                  mbr-if="showTitle"
+                  data-app-selector=".card-title, .img-wrapper"
+                >
+                    <b>Sarah Jones</b>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

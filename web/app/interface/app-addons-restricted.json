@@ -1,0 +1,36 @@
+{
+    "purity": {
+        "minVersion": 5
+    },
+    "cookies-alert": {
+        "minVersion": 2,
+        "hiddenIfRestricted": true
+    },
+    "iconfont": {
+        "minVersion": 6
+    },
+    "dropdown-menu": {
+        "minVersion": 2
+    },
+    "code-editor": {
+        "minVersion": 22
+    },
+    "instagram-feed": {
+        "disabled": true
+    },
+    "social-feed": {
+        "disabled": true
+    },
+    "google-analytics": {
+        "hiddenIfRestricted": true
+    },
+    "seo": {
+        "hiddenIfRestricted": true
+    },
+    "mobirise4-blocks": {
+        "hiddenIfRestricted": true
+    },
+    "amp-blocks": {
+        "hiddenIfRestricted": true
+    }
+}

@@ -1,0 +1,134 @@
+<section class="clients04" group="Features" mbr-class="{'mbr-parallax-background': bg.parallax}">
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth" checked>
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="6">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="6">
+        <select title="Columns" name="cardsWidth">
+            <option value="12">1</option>
+            <option value="6">2</option>
+            <option value="4">3</option>
+            <option value="3">4</option>
+            <option value="2" selected>6</option>
+        </select>
+        <header>Show/Hide</header>
+        <input type="checkbox" name="showTitle" title="Title" checked>
+        <input type="checkbox" name="showSubtitle" title="Subtitle">
+        <header>Cards</header>
+        <input type="checkbox" title="Spacing" name="spacing" checked>
+        <input type="checkbox" name="showCardTitle" title="Title">
+        <header>Background</header>
+        <fieldset type="background" parallax name="bg" required>
+            <input type="image" title="Image" value="../_images/background1.jpg">
+            <input type="color" title="Color" value="#a0e1e1" selected>
+        </fieldset>
+        <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked>
+        <input type="color" title="Overlay Color" name="overlayColor" value="#edefeb"
+            condition="overlay && bg.type == 'image'">
+        <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.6"
+            condition="overlay && bg.type == 'image'">
+    </mbr-parameters>
+    <div class="mbr-overlay" mbr-if="overlay && bg.type !== 'color'"></div>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center mb-5">
+            <div class="col-12 content-head">
+                <div class="mbr-section-head" mbr-if="showTitle || showSubtitle">
+                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0" mbr-theme-style="display-2"
+                        mbr-if="showTitle" data-app-selector=".mbr-section-title">
+                        <b>Our Clients</b>
+                    </h4>
+                    <h5 class="mbr-section-subtitle mbr-fonts-style align-center mt-4 mb-0" mbr-theme-style="display-7"
+                        mbr-if="showSubtitle" data-app-selector=".mbr-section-subtitle">
+                        To add more cards, hover on a card and click 'Add items'.
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-{{cardsWidth}} active">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="../_images/clients/1.png" alt="Mobirise Website Builder" title data-slide-to="1"
+                            data-bs-slide-to="1">
+                    </div>
+                    <div class="item-content align-left" mbr-if="showCardTitle">
+                        <h5 class="item-title mbr-fonts-style mt-0 mb-3" mbr-theme-style="display-7"
+                            data-app-selector=".item-title" mbr-if="showCardTitle">
+                            Recharge
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-{{cardsWidth}}">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="../_images/clients/2.png" alt="Mobirise Website Builder" title data-slide-to="2"
+                            data-bs-slide-to="2">
+                    </div>
+                    <div class="item-content align-left" mbr-if="showCardTitle">
+                        <h5 class="item-title mbr-fonts-style mt-0 mb-3" mbr-theme-style="display-7"
+                            data-app-selector=".item-title" mbr-if="showCardTitle">
+                            Border
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-{{cardsWidth}}">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="../_images/clients/3.png" alt="Mobirise Website Builder" title data-slide-to="3"
+                            data-bs-slide-to="3">
+                    </div>
+                    <div class="item-content align-left" mbr-if="showCardTitle">
+                        <h5 class="item-title mbr-fonts-style mt-0 mb-3" mbr-theme-style="display-7"
+                            data-app-selector=".item-title" mbr-if="showCardTitle">
+                            Snowflake
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-{{cardsWidth}}">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="../_images/clients/4.png" alt="Mobirise Website Builder" title data-slide-to="4"
+                            data-bs-slide-to="4">
+                    </div>
+                    <div class="item-content align-left" mbr-if="showCardTitle">
+                        <h5 class="item-title mbr-fonts-style mt-0 mb-3" mbr-theme-style="display-7"
+                            data-app-selector=".item-title" mbr-if="showCardTitle">
+                            Sitemark
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-{{cardsWidth}}">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="../_images/clients/5.png" alt="Mobirise Website Builder" title data-slide-to="5"
+                            data-bs-slide-to="5">
+                    </div>
+                    <div class="item-content align-left" mbr-if="showCardTitle">
+                        <h5 class="item-title mbr-fonts-style mt-0 mb-3" mbr-theme-style="display-7"
+                            data-app-selector=".item-title" mbr-if="showCardTitle">
+                            Inspire
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-{{cardsWidth}}">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="../_images/clients/6.png" alt="Mobirise Website Builder" title data-slide-to="6"
+                            data-bs-slide-to="6">
+                    </div>
+                    <div class="item-content align-left" mbr-if="showCardTitle">
+                        <h5 class="item-title mbr-fonts-style mt-0 mb-3" mbr-theme-style="display-7"
+                            data-app-selector=".item-title" mbr-if="showCardTitle">
+                            Minty
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

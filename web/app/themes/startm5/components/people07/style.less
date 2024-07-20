@@ -1,0 +1,45 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+background-color: @bgColor;
+
+.mbr-text {
+    color: #000000;
+}
+
+.mbr-section-subtitle {
+    color: #000000;
+}
+
+.mbr-section-title {
+    color: #000000;
+}
+
+.img-wrapper img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50% !important;
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        width: 120px;
+        height: 120px;
+    }
+
+    @media (max-width: 768px) {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.img-wrapper {
+    display: flex;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-title,
+.img-wrapper {
+    text-align: center;
+}

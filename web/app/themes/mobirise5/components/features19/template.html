@@ -1,0 +1,58 @@
+<section class="features19" group="Features" data-bg-video="{{bg.type == 'video' && bg.value.url}}"
+    mbr-class="{'mbr-parallax-background': bg.parallax}" plugins="mobirise-icons2">
+
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="6">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="6">
+        <input type="range" name="imageWidth" title="Image" min="4" max="8" step="1" value="6">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle" checked>
+        <input type="checkbox" title="Text" name="showText" checked>
+        <input type="checkbox" title="Buttons" name="showButtons" checked>
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax>
+            <input type="image" title="Image" value="../_images/background5.jpg">
+            <input type="color" title="Color" value="#ffffff" selected>
+            <input type="video" title="Video" value="https://vimeo.com/428046504">
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input type="image" title="Fallback Image" value="../_images/background13.jpg" name="fallBackImage" condition="bg.type === 'video'">
+        <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked>
+        <input type="color" title="Overlay Color" name="overlayColor" value="#ffffff"
+            condition="overlay && bg.type !== 'color'">
+        <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.5"
+            condition="overlay && bg.type !== 'color'">
+    </mbr-parameters>
+
+    <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+    <div class="mbr-overlay" mbr-if="overlay && bg.type!== 'color'"
+        mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}">
+    </div>
+    <div mbr-class="{'container': !fullWidth}">
+        <div class="row justify-content-center">
+            <div class="card col-12 col-lg" mbr-class="{'offset-lg-1': fullWidth}">
+                <div class="card-wrapper">
+                    <h6 class="card-title mbr-fonts-style mb-4" mbr-theme-style="display-2" mbr-if="showTitle"
+                        data-app-selector=".card-title">
+                        <b>Easy and simple</b>
+                    </h6>
+                    <p class="mbr-text mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showText"
+                        data-app-selector=".mbr-text, .mbr-section-btn">
+                        All sites you create with the Mobirise web builder are mobile-friendly natively. No special actions required. You can preview your site inside the app. Check the icons on the top.</p>
+                    <div mbr-buttons mbr-theme-style="display-4" class="mbr-section-btn" mbr-if="showButtons"
+                        data-toolbar="-mbrBtnMove">
+                        <a class="btn btn-primary" href="https://mobiri.se"
+                            data-app-placeholder="Type Text">Start now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-{{imageWidth}}">
+                <div class="image-wrapper">
+                    <img src="../_images/hightlights/2.jpg" alt="Mobirise Website Builder">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

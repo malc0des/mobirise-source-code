@@ -1,0 +1,252 @@
+<section
+  class="features037"
+  group="Features"
+  data-bg-video="{{bg.type == 'video' &amp;&amp; bg.value.url}}"
+  mbr-class="{
+    'mbr-fullscreen': fullScreen,
+    'mbr-parallax-background': bg.parallax}"
+>
+	<mbr-parameters>
+		<header>Size</header>
+		<input type="checkbox" title="Full Width" name="fullWidth">
+		<input type="checkbox" name="reverseContent" title="Reverse">
+		<input
+		  type="range"
+		  inline
+		  title="Top"
+		  name="paddingTop"
+		  min="0"
+		  max="10"
+		  step="1"
+		  value="5"
+		>
+		<input
+		  type="range"
+		  inline
+		  title="Bottom"
+		  name="paddingBottom"
+		  min="0"
+		  max="10"
+		  step="1"
+		  value="5"
+		>
+		<header>Show/Hide</header>
+		<input type="checkbox" title="Title" name="showTitle" checked>
+		<input type="checkbox" title="Subtitle" name="showSubtitle" checked>
+		<input type="checkbox" name="showButton" title="Buttons">
+		<header>Card</header>
+		<input type="checkbox" title="Card Title" name="showCardTitle">
+		<input type="checkbox" title="Card Subtitle" name="showCardSubtitle" checked>
+		<input type="checkbox" name="showButtons" title="Buttons">
+		<input type="color" title="Card BG" name="cardbg" value="#ffffff" selected>
+		<header>Background</header>
+		<fieldset type="background" name="bg" parallax>
+			<input type="image" title="Image" value="../_images/background1.jpg">
+			<input type="color" title="Color" value="#edefeb" selected>
+			<input type="video" title="Video" value="https://vimeo.com/428046504">
+		</fieldset>
+		<header condition="bg.type === 'video'">Fallback Image</header>
+		<input type="image" title="Fallback Image" value="../_images/background1.jpg" name="fallBackImage" condition="bg.type === 'video'">
+		<input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'">
+		<input type="color" title="Overlay Color" name="overlayColor" value="#ffffff" condition="overlay && bg.type !== 'color'">
+		<input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.7" condition="overlay && bg.type !== 'color'">
+	</mbr-parameters>
+	<div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+	<div class="mbr-overlay" mbr-if="overlay &amp;&amp; bg.type!== 'color'" mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}"></div>
+	<div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+		<div class="row justify-content-center">
+			<div class="col-lg-4">
+				<div class="col-12 col-md-12">
+					<h5
+					  class="mbr-section-title mbr-fonts-style mt-0 mb-4"
+					  mbr-if="showTitle"
+					  data-app-selector=".mbr-section-title"
+					  mbr-theme-style="display-2"
+					>
+						<b>Join our community.</b>
+					</h5>
+					<h6
+					  class="mbr-section-subtitle mbr-fonts-style mt-0 mb-4"
+					  mbr-if="showSubtitle"
+					  data-app-selector=".mbr-section-subtitle, .main-button"
+					  mbr-theme-style="display-7"
+					>
+						With a spirit of innovation, we navigate uncharted territories, exploring new ideas, technologies, and approaches.</h6>
+					<div
+					  class="mbr-section-btn item-footer mt-3  main-button"
+					  mbr-if="showButton"
+					  data-toolbar="-mbrBtnMove,-mbrBtnAdd"
+					  mbr-buttons
+					  mbr-theme-style="display-7"
+					>
+						<a href class="btn item-btn btn-primary" data-app-placeholder="Type Text">Learn More</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-8 side-features">
+				<div class="item features-without-image col-12 col-md-12 col-lg-6 item-mb active">
+					<div class="item-wrapper">
+						<div class="item-content align-left">
+							<h5
+							  class="mbr-card-title mbr-fonts-style mt-0 mb-3 mbr-number"
+							  mbr-if="showCardTitle"
+							  data-app-selector=".mbr-number"
+							  mbr-theme-style="display-1"
+							>
+								<b>01.</b>
+							</h5>
+							<h5
+							  class="card-title mbr-fonts-style"
+							  mbr-theme-style="display-5"
+							  mbr-if="showCardSubtitle"
+							  data-app-selector=".card-title, .iconfont-wrapper"
+							>
+								<b>Innovation</b>
+							</h5>
+							<p
+							  class="card-text mbr-fonts-style"
+							  mbr-theme-style="display-7"
+							  data-app-selector=".card-text, .item .mbr-section-btn"
+							>
+								Discover the future of creativity through our solutions. We pioneer cutting-edge
+								techniques,
+								pushing boundaries to redefine creative possibilities.</p>
+							<div
+							  class="mbr-section-btn item-footer"
+							  mbr-if="showButtons"
+							  data-toolbar="-mbrBtnMove,-mbrBtnAdd"
+							  mbr-buttons
+							  mbr-theme-style="display-7"
+							>
+								<a href class="btn item-btn btn-primary" data-app-placeholder="Type Text">Learn more</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="item features-without-image col-12 col-md-12 col-lg-6 item-mb">
+					<div class="item-wrapper">
+						<div class="item-content align-left">
+							<h5
+							  class="mbr-card-title mbr-fonts-style mt-0 mb-3 mbr-number"
+							  mbr-if="showCardTitle"
+							  data-app-selector=".mbr-number"
+							  mbr-theme-style="display-1"
+							>
+								<b>02.</b>
+							</h5>
+							<h5
+							  class="card-title mbr-fonts-style"
+							  mbr-theme-style="display-5"
+							  mbr-if="showCardSubtitle"
+							  data-app-selector=".card-title, .iconfont-wrapper"
+							>
+								<b>Support</b>
+							</h5>
+							<p
+							  class="card-text mbr-fonts-style"
+							  mbr-theme-style="display-7"
+							  data-app-selector=".card-text, .item .mbr-section-btn"
+							>
+								Our support system ensures you're never alone on your journey, offering guidance,
+								resources,
+								and solutions when you need them.</p>
+							<div
+							  class="mbr-section-btn item-footer"
+							  mbr-if="showButtons"
+							  data-toolbar="-mbrBtnMove,-mbrBtnAdd"
+							  mbr-buttons
+							  mbr-theme-style="display-7"
+							>
+								<a href class="btn item-btn btn-primary" data-app-placeholder="Type Text">Learn more</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="item features-without-image col-12 col-md-12 col-lg-6 item-mb">
+					<div class="item-wrapper">
+						<div class="item-content align-left">
+							<h5
+							  class="mbr-card-title mbr-fonts-style mt-0 mb-3 mbr-number"
+							  mbr-if="showCardTitle"
+							  data-app-selector=".mbr-number"
+							  mbr-theme-style="display-1"
+							>
+								<b>03.</b>
+							</h5>
+							<h5
+							  class="card-title mbr-fonts-style"
+							  mbr-theme-style="display-5"
+							  mbr-if="showCardSubtitle"
+							  data-app-selector=".card-title, .iconfont-wrapper"
+							>
+								<b>Quality</b>
+							</h5>
+							<p
+							  class="card-text mbr-fonts-style"
+							  mbr-theme-style="display-7"
+							  data-app-selector=".card-text, .item .mbr-section-btn"
+							>
+							Elevate your standards with our commitment to uncompromising quality. Each creation embodies precision, durability, and timeless excellence.</p>
+
+							<div
+							  class="mbr-section-btn item-footer"
+							  mbr-if="showButtons"
+							  data-toolbar="-mbrBtnMove,-mbrBtnAdd"
+							  mbr-buttons
+							  mbr-theme-style="display-7"
+							>
+								<a href class="btn item-btn btn-primary" data-app-placeholder="Type Text">Learn more</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="item features-without-image col-12 col-md-12 col-lg-6 item-mb">
+					<div class="item-wrapper">
+						<div class="item-content align-left">
+							<h5
+							  class="mbr-card-title mbr-fonts-style mt-0 mb-3 mbr-number"
+							  mbr-if="showCardTitle"
+							  data-app-selector=".mbr-number"
+							  mbr-theme-style="display-1"
+							>
+								<b>04.</b>
+							</h5>
+							<h5
+							  class="card-title mbr-fonts-style"
+							  mbr-theme-style="display-5"
+							  mbr-if="showCardSubtitle"
+							  data-app-selector=".card-title, .iconfont-wrapper"
+							>
+								<b>Creativity</b>
+							</h5>
+							<p
+							  class="card-text mbr-fonts-style"
+							  mbr-theme-style="display-7"
+							  data-app-selector=".card-text, .item .mbr-section-btn"
+							>
+								Our products are designed to spark and amplify your imagination, empowering you to
+								express
+								your unique artistic vision.</p>
+
+							<div
+							  class="mbr-section-btn item-footer"
+							  mbr-if="showButtons"
+							  data-toolbar="-mbrBtnMove,-mbrBtnAdd"
+							  mbr-buttons
+							  mbr-theme-style="display-7"
+							>
+								<a href class="btn item-btn btn-primary" data-app-placeholder="Type Text">Learn more</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,231 @@
+<section
+	class="social02"
+	group="Social"
+	data-bg-video="{{bg.type == 'video' && bg.value.url}}"
+	mbr-class="{'mbr-parallax-background': bg.parallax}"
+>
+	<mbr-parameters>
+		<header>Size</header>
+		<input type="checkbox" title="Full Width" name="fullWidth" />
+		<input type="range" inline="" title="Top" name="paddingTop" min="0" max="10" step="1" value="6" />
+		<input type="range" inline="" title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="6" />
+		<header>Show/Hide</header>
+		<input type="checkbox" title="Title" name="showmainTitle" checked="" />
+		<input type="checkbox" title="Subtitle" name="showmainSubtitle"/>
+		<header>Cards</header>
+		<input type="checkbox" title="Title" name="showTitle" checked="" />
+		<input type="checkbox" title="Text" name="showText" checked="" />
+		<input type="checkbox" title="Icons" name="showIcon" checked="" />
+		<input type="color" title="Color" name="iconColor" value="#2e481a" selected="" condition="showIcon" />
+		<select title="Columns" name="columns">
+			<option value="12">1</option>
+			<option value="6">2</option>
+			<option value="4" selected>3</option>
+			<option value="3">4</option>
+		</select>
+		<header>Background</header>
+		<fieldset type="background" name="bg" parallax="">
+			<input type="image" title="Image" value="../_images/background1.jpg" />
+			<input type="color" title="Color" value="#ffffff" selected="" />
+			<input type="video" title="Video" value="https://vimeo.com/428046504" />
+		</fieldset>
+		<header condition="bg.type === 'video'">Fallback Image</header>
+		<input
+			type="image"
+			title="Fallback Image"
+			value="../_images/background1.jpg"
+			name="fallBackImage"
+			condition="bg.type === 'video'"
+		/>
+		<input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked="" />
+		<input
+			type="color"
+			title="Overlay Color"
+			name="overlayColor"
+			value="#ffffff"
+			condition="overlay && bg.type !== 'color'"
+		/>
+		<input
+			type="range"
+			inline=""
+			title="Opacity"
+			name="overlayOpacity"
+			min="0"
+			max="1"
+			step="0.1"
+			value="0.5"
+			condition="overlay && bg.type !== 'color'"
+		/>
+	</mbr-parameters>
+
+	<div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+	<div
+		class="mbr-overlay"
+		mbr-if="overlay && bg.type!== 'color'"
+		mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}"
+	></div>
+	<div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+		<div class="row justify-content-center">
+			<div class="col-12 content-head">
+				<div class="mb-5" mbr-if="showmainTitle || showmainSubtitle">
+					<h5
+						class="mbr-section-title mbr-fonts-style align-center mb-0"
+						mbr-theme-style="display-2"
+						mbr-if="showmainTitle"
+						data-app-selector=".mbr-section-title"
+					>
+						<b>Follow us</b>
+					</h5>
+					<h6
+						class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4"
+						mbr-theme-style="display-7"
+						mbr-if="showmainSubtitle"
+						data-app-selector=".mbr-section-subtitle"
+					>
+						Follow us
+					</h6>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="item features-without-image col-12 col-md-6 col-lg-{{columns}}">
+				<div class="item-wrapper">
+					<span mbr-icon="" class="mbr-iconfont m-auto socicon-instagram socicon" mbr-if="showIcon"></span>
+					<div class="card-box">
+						<h4
+							class="card-title mbr-fonts-style mb-1"
+							mbr-theme-style="display-7"
+							mbr-if="showTitle"
+							data-app-selector=".card-title"
+						>
+							<b>Instagram</b>
+						</h4>
+						<h5
+							class="card-text mbr-fonts-style"
+							mbr-theme-style="display-7"
+							mbr-if="showText"
+							data-app-selector=".card-text"
+						>
+							Lorem ipsum dolor sit amet.
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="item features-without-image col-12 col-md-6 col-lg-{{columns}}">
+				<div class="item-wrapper">
+					<span mbr-icon="" class="mbr-iconfont m-auto socicon-twitch socicon" mbr-if="showIcon"></span>
+					<div class="card-box">
+						<h4
+							class="card-title mbr-fonts-style mb-1"
+							mbr-theme-style="display-7"
+							mbr-if="showTitle"
+							data-app-selector=".card-title"
+						>
+							<b>Twitch</b>
+						</h4>
+						<h5
+							class="card-text mbr-fonts-style"
+							mbr-theme-style="display-7"
+							mbr-if="showText"
+							data-app-selector=".card-text"
+						>
+							Lorem ipsum dolor sit amet.
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="item features-without-image col-12 col-md-6 col-lg-{{columns}}">
+				<div class="item-wrapper">
+					<span mbr-icon="" class="mbr-iconfont m-auto socicon-twitter socicon" mbr-if="showIcon"></span>
+					<div class="card-box">
+						<h4
+							class="card-title mbr-fonts-style mb-1"
+							mbr-theme-style="display-7"
+							mbr-if="showTitle"
+							data-app-selector=".card-title"
+						>
+							<b>Twitter</b>
+						</h4>
+						<h5
+							class="card-text mbr-fonts-style"
+							mbr-theme-style="display-7"
+							mbr-if="showText"
+							data-app-selector=".card-text"
+						>
+							Lorem ipsum dolor sit amet.
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="item features-without-image col-12 col-md-6 col-lg-{{columns}}">
+				<div class="item-wrapper">
+					<span mbr-icon="" class="mbr-iconfont m-auto socicon-youtube socicon" mbr-if="showIcon"></span>
+					<div class="card-box">
+						<h4
+							class="card-title mbr-fonts-style mb-1"
+							mbr-theme-style="display-7"
+							mbr-if="showTitle"
+							data-app-selector=".card-title"
+						>
+							<b>YouTube</b>
+						</h4>
+						<h5
+							class="card-text mbr-fonts-style"
+							mbr-theme-style="display-7"
+							mbr-if="showText"
+							data-app-selector=".card-text"
+						>
+							Lorem ipsum dolor sit amet.
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="item features-without-image col-12 col-md-6 col-lg-{{columns}}">
+				<div class="item-wrapper">
+					<span mbr-icon="" class="mbr-iconfont m-auto socicon-tiktok socicon" mbr-if="showIcon"></span>
+					<div class="card-box">
+						<h4
+							class="card-title mbr-fonts-style mb-1"
+							mbr-theme-style="display-7"
+							mbr-if="showTitle"
+							data-app-selector=".card-title"
+						>
+							<b>TikTol</b>
+						</h4>
+						<h5
+							class="card-text mbr-fonts-style"
+							mbr-theme-style="display-7"
+							mbr-if="showText"
+							data-app-selector=".card-text"
+						>
+							Lorem ipsum dolor sit amet.
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="item features-without-image col-12 col-md-6 col-lg-{{columns}}">
+				<div class="item-wrapper">
+					<span mbr-icon="" class="mbr-iconfont m-auto socicon-facebook socicon" mbr-if="showIcon"></span>
+					<div class="card-box">
+						<h4
+							class="card-title mbr-fonts-style mb-1"
+							mbr-theme-style="display-7"
+							mbr-if="showTitle"
+							data-app-selector=".card-title"
+						>
+							<b>Facebook</b>
+						</h4>
+						<h5
+							class="card-text mbr-fonts-style"
+							mbr-theme-style="display-7"
+							mbr-if="showText"
+							data-app-selector=".card-text"
+						>
+							Lorem ipsum dolor sit amet.
+						</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

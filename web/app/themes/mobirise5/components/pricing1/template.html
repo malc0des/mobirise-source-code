@@ -1,0 +1,79 @@
+<section class="pricing1" group="Pricing Tables" data-bg-video="{{bg.type == 'video' && bg.value.url}}"
+    mbr-class="{'mbr-parallax-background': bg.parallax}" plugins="mobirise-icons2">
+
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" name="fullWidth" title="Full Width">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="9" step="1" value="4">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="9" step="1" value="4">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle" checked>
+        <input type="checkbox" title="Text" name="showText" checked>
+        <input type="checkbox" title="Buttons" name="showButtons" checked>
+        <input type="color" title="Color" name="cardColor" value="#ffffff" selected>
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax>
+            <input type="image" title="Image" value="../_images/background1.jpg" parallax>
+            <input type="color" title="Color" value="#fafafa" selected>
+            <input type="video" title="Video" value="https://vimeo.com/428046504">
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input type="image" title="Fallback Image" value="../_images/background13.jpg" name="fallBackImage" condition="bg.type === 'video'">
+        <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked>
+        <input type="color" title="Overlay Color" name="overlayColor" value="#ffffff"
+            condition="overlay && bg.type !== 'color'">
+        <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.5"
+            condition="overlay && bg.type !== 'color'">
+    </mbr-parameters>
+
+    <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+    <div class="mbr-overlay" mbr-if="overlay && bg.type!== 'color'"
+        mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}">
+    </div>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div class="card col-12 col-lg-6">
+                <div class="card-wrapper">
+                    <div class="card-box align-left">
+                        <h6 class="card-title mbr-fonts-style mb-4" mbr-theme-style="display-2" mbr-if="showTitle"
+                            data-app-selector=".card-title">
+                            <b>Mobirise Kit</b>
+                        </h6>
+                        <ul class="list mbr-fonts-style mb-5" mbr-theme-style="display-7" data-app-selector=".list"
+                            data-multiline mbr-article>
+                            <li class="item-wrap">3100+ beautiful website blocks</li>
+                            <li class="item-wrap">40+ beautiful site themes</li>
+                            <li class="item-wrap">Code Editor</li>
+                            <li class="item-wrap">Form Builder</li>
+                        </ul>
+                    </div>
+                    <div mbr-buttons mbr-theme-style="display-4" class="mbr-section-btn" mbr-if="showButtons"
+                        data-toolbar="-mbrBtnMove">
+                        <a class="btn btn-primary" href="https://mobiri.se"
+                            data-app-placeholder="Type Text">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card col-12 col-lg-6">
+                <div class="card-wrapper">
+                    <div class="card-box align-left">
+                        <h4 class="card-title mb-4  mbr-fonts-style" mbr-theme-style="display-2" mbr-if="showTitle"
+                            data-app-selector=".card-title">
+                            <b>Code Editor</b>
+                        </h4>
+                        <p class="mbr-text mbr-fonts-style mb-5" mbr-theme-style="display-7" mbr-if="showText"
+                            data-app-selector=".mbr-text, .link-wrap, .mbr-section-btn">
+                            Code Editor is an extension that's intended for advanced developers who know how to edit code. Using this extension you can edit the HTML/CSS code of every block.<br>
+                        </p>
+                    </div>
+                    <div mbr-buttons mbr-theme-style="display-4" class="mbr-section-btn" mbr-if="showButtons"
+                        data-toolbar="-mbrBtnMove">
+                        <a class="btn btn-primary" href="https://mobiri.se"
+                            data-app-placeholder="Type Text">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

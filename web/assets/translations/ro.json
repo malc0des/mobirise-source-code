@@ -1,0 +1,4216 @@
+{
+    "title": "Romanian",
+    "language": "ro",
+    "type": "main",
+    "groups": {
+        "global": [
+            {
+                "phrase": "Pages",
+                "translate": "Pagini",
+                "active": true
+            },
+            {
+                "phrase": "Page Settings",
+                "translate": "Setări pagină",
+                "active": true
+            },
+            {
+                "phrase": "Page Title:",
+                "translate": "Titlul paginii:",
+                "active": true
+            },
+            {
+                "phrase": "Page Description:",
+                "translate": "Descrierea paginii:",
+                "active": true
+            },
+            {
+                "phrase": "Page URL:",
+                "translate": "URL-ul paginii:",
+                "active": true
+            },
+            {
+                "phrase": "Create, Clone, Rename Pages, Edit Meta Tags",
+                "translate": "Creează, Clonează, Redenumește Pagini, Editează Meta Tag-uri",
+                "active": true
+            },
+            {
+                "phrase": "Sites",
+                "translate": "Site-uri",
+                "active": true
+            },
+            {
+                "phrase": "Create, Open, Rename Sites",
+                "translate": "Crează, Deschide, Redenumește Site-uri",
+                "active": true
+            },
+            {
+                "phrase": "Account",
+                "translate": "Cont",
+                "active": true
+            },
+            {
+                "phrase": "Sign Up / Login to Get Latest Updates and Extensions",
+                "translate": "Sign Up, Logare pt a vedea ultimele extensii și modificări",
+                "active": true
+            },
+            {
+                "phrase": "Reset password",
+                "translate": "Resetare parolă",
+                "active": true
+            },
+            {
+                "phrase": "Logout",
+                "translate": "Ieșire din program",
+                "active": true
+            },
+            {
+                "phrase": "Preview in Browser",
+                "translate": "Vizualizează în Navigator",
+                "active": true
+            },
+            {
+                "phrase": "Publish to Local Drive, FTP",
+                "translate": "Publică în dosarul local, FTP",
+                "active": true
+            },
+            {
+                "phrase": "Publish",
+                "translate": "Publică",
+                "active": true
+            },
+            {
+                "phrase": "Mobile View",
+                "translate": "Vizualizare Mobil",
+                "active": true
+            },
+            {
+                "phrase": "Tablet View",
+                "translate": "Vizualizare Tabletă",
+                "active": true
+            },
+            {
+                "phrase": "Tablet Horizontal View",
+                "translate": "Vizualizare pe orizontală Tabletă",
+                "active": true
+            },
+            {
+                "phrase": "Desktop View",
+                "translate": "Vizualizare Desktop",
+                "active": true
+            },
+            {
+                "phrase": "Blocks",
+                "translate": "Blocuri",
+                "active": true
+            },
+            {
+                "phrase": "Edit Site Styles",
+                "translate": "Editează Stilurile Site-ului",
+                "active": true
+            },
+            {
+                "phrase": "Add Block to Page",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-addons": [
+            {
+                "phrase": "Not available for your Mobirise version",
+                "translate": "Nu este disponibil pentru versiunea Dvs de Mobirise",
+                "active": true
+            },
+            {
+                "phrase": "Not compatible with your version of Mobirise",
+                "translate": "Nu este compatibil cu versiunile anterioare de Mobirise",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "Îndepărtează",
+                "active": true
+            },
+            {
+                "phrase": "Update",
+                "translate": "Updatare",
+                "active": true
+            },
+            {
+                "phrase": "Coming soon...",
+                "translate": "Urmează în curând...",
+                "active": true
+            },
+            {
+                "phrase": "Soon...",
+                "translate": "Curând",
+                "active": true
+            },
+            {
+                "phrase": "Add",
+                "translate": "Adaugă",
+                "active": true
+            },
+            {
+                "phrase": "Buy",
+                "translate": "Cumpără",
+                "active": true
+            },
+            {
+                "phrase": "extension",
+                "translate": "extensie",
+                "active": true
+            },
+            {
+                "phrase": "$extension$ is successfuly added",
+                "translate": "$extension$ a fost adăugată cu succes",
+                "active": true
+            },
+            {
+                "phrase": "About",
+                "translate": "Despre",
+                "active": true
+            },
+            {
+                "phrase": "Buy help",
+                "translate": "Cumpără ajutor",
+                "active": true
+            },
+            {
+                "phrase": "Redeem code",
+                "translate": "Solicită codul",
+                "active": true
+            },
+            {
+                "phrase": "Enter code...",
+                "translate": "Introdu codul...",
+                "active": true
+            },
+            {
+                "phrase": "Redeem",
+                "translate": "Solicită extensie",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "Eroare la adăugare extensie",
+                "active": true
+            },
+            {
+                "phrase": "Code is successfully redeemed!",
+                "translate": "Codul solicitat este acceptat!",
+                "active": true
+            },
+            {
+                "phrase": "Incorrect code",
+                "translate": "Cod incorect",
+                "active": true
+            },
+            {
+                "phrase": "Activation error",
+                "translate": "Eroare de activare",
+                "active": true
+            },
+            {
+                "phrase": "Select extension package",
+                "translate": "Selectează extensia de pachet",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise Extension",
+                "translate": "Extensie Mobirise",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension package",
+                "translate": "Eroare la adăugare extensie pachet",
+                "active": true
+            },
+            {
+                "phrase": "Themes",
+                "translate": "Teme",
+                "active": true
+            },
+            {
+                "phrase": "Extensions",
+                "translate": "Extensii",
+                "active": true
+            },
+            {
+                "phrase": "Import",
+                "translate": "Import",
+                "active": true
+            },
+            {
+                "phrase": "Note: The server list is not available. Only installed extensions are shown",
+                "translate": "Notă: Lista de pe server nu este disponibilă, doar extensiile instalate sunt afișate",
+                "active": true
+            },
+            {
+                "phrase": "Get more extensions",
+                "translate": "Obține mai multe extensii",
+                "active": true
+            },
+            {
+                "phrase": "Try to log out and log back in",
+                "translate": "Încearcă să ieși și să intri în program",
+                "active": true
+            },
+            {
+                "phrase": "Warning",
+                "translate": "Avertisment",
+                "active": true
+            },
+            {
+                "phrase": "During the last run the program failed to load all extensions. To run again, program will temporarily disable them. Please update the extensions you use.",
+                "translate": "În timpul ultimei sesiuni programul nu a încărcat toate extensiile. Pentru a rula din nou, programul le va indisponibiliza temporar. Te rog fă update la extensiile tale",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "Ok",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Anulează",
+                "active": true
+            },
+            {
+                "phrase": "Open \"Extensions list\"",
+                "translate": "Deschide ”Lista de extensii”",
+                "active": true
+            },
+            {
+                "phrase": "Some installed extensions $ext names$ are not compatible with the current version of the application. Please visit \"Extensions list\" dialog to update it.",
+                "translate": "Unele extensii instalate $ext names$ nu sunt compatibile cu versiunea curentă a aplicației. Te rog vezi ”Lista de extensii” pentru updatare",
+                "active": true
+            },
+            {
+                "phrase": "Extension",
+                "translate": "Extensie",
+                "active": true
+            },
+            {
+                "phrase": "No extensions matched your search. Try again.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create Site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "View Demo",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unexpected project create error",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to create the $site name$ site based on the $theme name$ theme, $name preset$ Template?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "theme",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unknown Source Warning!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You're importing an extension from unknown sources. Extension from unknown sources can harm your projects and bring incompatibility issues with Mobirise app and other extensions. Mobirise doesn't provide a support for 3rd-party extensions.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Import Anyway",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This extension works with app version $ext_version$ and higher. Please update your Mobirise app",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Update All",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Add All",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Update all installed extensions?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to download all available themes and extensions?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download all",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable to download $extension$. Try to re-login.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download cancelled:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Downloading...",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Add Themes and Extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Get ALL Mobirise Themes & Extensions!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "During the last run the program failed to load all extensions. To run again, program will temporarily disable them.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-common": [
+            {
+                "phrase": "This is a critical error, some functions of the program may not work correctly, please send information to the developers.",
+                "translate": "Aceasta este o eroare critică, unele funcții ale programului s-ar putea să nu funcționeze corect, te rog trimite informațiile la dezvoltatori",
+                "active": true
+            },
+            {
+                "phrase": "Critical error",
+                "translate": "Eroare critică",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Anulează",
+                "active": true
+            },
+            {
+                "phrase": "Send feedback",
+                "translate": "Trimite feedback",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "Ok",
+                "active": true
+            },
+            {
+                "phrase": "More",
+                "translate": "Mai mult",
+                "active": true
+            },
+            {
+                "phrase": "Less",
+                "translate": "Mai puțin",
+                "active": true
+            },
+            {
+                "phrase": "LOADING...",
+                "translate": "SE ÎNCARCĂ...",
+                "active": true
+            },
+            {
+                "phrase": "Send Error Report",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-component-params": [
+            {
+                "phrase": "Remove",
+                "translate": "Îndepărtează",
+                "active": true
+            },
+            {
+                "phrase": "Drag Block",
+                "translate": "Trage blocul",
+                "active": true
+            },
+            {
+                "phrase": "Block Parameters",
+                "translate": "Parametrii blocului",
+                "active": true
+            },
+            {
+                "phrase": "Remove Block",
+                "translate": "Îndepărtează blocul",
+                "active": true
+            },
+            {
+                "phrase": "Show More",
+                "translate": "Arată mai mult",
+                "active": true
+            },
+            {
+                "phrase": "Remove Block?",
+                "translate": "Îndepărtezi blocul?",
+                "active": true
+            },
+            {
+                "phrase": "Type address or insert",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "google map iframe",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Update",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Loading images",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This block is global. Do you want to remove it from all pages?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to remove the $ID$ block?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-components-list": [
+            {
+                "phrase": "Add Block to Page",
+                "translate": "Adaugă Bloc la Pagină",
+                "active": true
+            },
+            {
+                "phrase": "Close",
+                "translate": "Închide",
+                "active": true
+            },
+            {
+                "phrase": "Show All Blocks",
+                "translate": "Arată Toate Blocurile",
+                "active": true
+            },
+            {
+                "phrase": "Show All",
+                "translate": "Arată Totul",
+                "active": true
+            },
+            {
+                "phrase": "Theme",
+                "translate": "Temă",
+                "active": true
+            },
+            {
+                "phrase": "Show Blocks From Theme",
+                "translate": "Arată Blocurile din Temă",
+                "active": true
+            },
+            {
+                "phrase": "Extensn",
+                "translate": "Extensii",
+                "active": true
+            },
+            {
+                "phrase": "Show Blocks From Extensions",
+                "translate": "Arată Blocurile din Extensii",
+                "active": true
+            },
+            {
+                "phrase": "Add More",
+                "translate": "Adaugă mai mult",
+                "active": true
+            },
+            {
+                "phrase": "Extension",
+                "translate": "Extensie",
+                "active": true
+            },
+            {
+                "phrase": "All",
+                "translate": "Toate",
+                "active": true
+            },
+            {
+                "phrase": "Added",
+                "translate": "Adăugate",
+                "active": true
+            },
+            {
+                "phrase": "More $groupName$ Blocks",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download $theme title$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Choose blocks' theme",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-core": [
+            {
+                "phrase": "Remove Block?",
+                "translate": "Îndepărtezi blocul?",
+                "active": true
+            }
+        ],
+        "app-fonts": [
+            {
+                "phrase": "Browse Computer",
+                "translate": "Navighează prin calculator",
+                "active": true
+            },
+            {
+                "phrase": "Google Fonts",
+                "translate": "Fonturi Google",
+                "active": true
+            },
+            {
+                "phrase": "Site Fonts",
+                "translate": "Fonturile site-ului",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "Ok",
+                "active": true
+            },
+            {
+                "phrase": "Select font",
+                "translate": "Selectează font",
+                "active": true
+            },
+            {
+                "phrase": "Fonts file",
+                "translate": "Fișierele fontului",
+                "active": true
+            },
+            {
+                "phrase": "Error saving project settings.",
+                "translate": "Eroare la salvarea setărilor proiectului",
+                "active": true
+            },
+            {
+                "phrase": "Error saving style.css for $font name$",
+                "translate": "Eroare la salvarea style.css pentru $font name$",
+                "active": true
+            },
+            {
+                "phrase": "The quick brown fox jumps over the lazy dog.",
+                "translate": "Vulpea cea șireată sare peste cîinele cel leneș",
+                "active": true
+            },
+            {
+                "phrase": "Download font error!",
+                "translate": "Eroare la descărcare font!",
+                "active": true
+            },
+            {
+                "phrase": "This font has been successfully removed.",
+                "translate": "Acest font a fost îndepărtat cu succes",
+                "active": true
+            },
+            {
+                "phrase": "Error removal!",
+                "translate": "Eroare de îndepărtare!",
+                "active": true
+            },
+            {
+                "phrase": "This is the font used in the project!",
+                "translate": "Acesta este fontul utilizat în proiect!",
+                "active": true
+            },
+            {
+                "phrase": "Error file saving!",
+                "translate": "Eroare de salvare fișier!",
+                "active": true
+            },
+            {
+                "phrase": "More fonts",
+                "translate": "Mai multe fonturi",
+                "active": true
+            },
+            {
+                "phrase": "Font removal error!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Fonts",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search by font name",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-pages": [
+            {
+                "phrase": "Drag Page",
+                "translate": "Trage pagina",
+                "active": true
+            },
+            {
+                "phrase": "Clone Page",
+                "translate": "Clonează pagina",
+                "active": true
+            },
+            {
+                "phrase": "Rename Page, Edit Meta Tags",
+                "translate": "Redenumește Pagina, Editează Meta Tag-urile",
+                "active": true
+            },
+            {
+                "phrase": "Remove Page",
+                "translate": "Îndepărtează Pagina",
+                "active": true
+            },
+            {
+                "phrase": "OK",
+                "translate": "OK",
+                "active": true
+            },
+            {
+                "phrase": "Edit Title",
+                "translate": "Editează Titlul",
+                "active": true
+            },
+            {
+                "phrase": "Remove page $page name$?",
+                "translate": "Îndepărtezi pagina $page name$?",
+                "active": true
+            },
+            {
+                "phrase": "Create New Page",
+                "translate": "Creează Pagină Nouă",
+                "active": true
+            },
+            {
+                "phrase": "Create Page",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Page Settings",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-click-to-start": [
+            {
+                "phrase": "Click to Start",
+                "translate": "Clic pentru Start",
+                "active": true
+            }
+        ],
+        "app-plugin-components-list-userblocks": [
+            {
+                "phrase": "Remove Block?",
+                "translate": "Îndepărtezi Blocul?",
+                "active": true
+            },
+            {
+                "phrase": "User",
+                "translate": "Utilizator",
+                "active": true
+            },
+            {
+                "phrase": "Show Blocks Saved By User",
+                "translate": "Arată Blocurile Salvate de Utilizator",
+                "active": true
+            },
+            {
+                "phrase": "Save To User Blocks",
+                "translate": "Salvează la Blocurile Utilizatorului",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "User Blocks",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-favicon": [
+            {
+                "phrase": "Favicon",
+                "translate": "Iconiță de prezentare",
+                "active": true
+            },
+            {
+                "phrase": "Use menu logo",
+                "translate": "Utilizează logo-ul meniului",
+                "active": true
+            },
+            {
+                "phrase": "Change favicon",
+                "translate": "Schimbă iconița de prezentare",
+                "active": true
+            },
+            {
+                "phrase": "Select Image",
+                "translate": "Selectează Imaginea",
+                "active": true
+            }
+        ],
+        "app-plugin-github": [
+            {
+                "phrase": "GitHub UserName",
+                "translate": "Nume Utilizator GitHub",
+                "active": true
+            },
+            {
+                "phrase": "GitHub Password or Token",
+                "translate": "Token sau parolă GitHub",
+                "active": true
+            },
+            {
+                "phrase": "You can create GitHub Account %here%",
+                "translate": "Poți creea un cont GitHub %here%",
+                "active": true
+            },
+            {
+                "phrase": "Enter your credentials",
+                "translate": "Introdu datele de acreditare",
+                "active": true
+            },
+            {
+                "phrase": "ОК",
+                "translate": "OK",
+                "active": true
+            },
+            {
+                "phrase": "Success",
+                "translate": "Succes",
+                "active": true
+            },
+            {
+                "phrase": "The site is successfully uploaded to GitHub Pages. Usually GitHub can take up to 5 minutes to show up the changes. Do you want to open the site?",
+                "translate": "Site-ul a fost încărcat cu succes pe GitHub. De obicei, GitHub are nevoie de 5 minute pentru a afișa schimbările. Dorești să deschizi site-ul?",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Anulează",
+                "active": true
+            },
+            {
+                "phrase": "Open",
+                "translate": "Deschide",
+                "active": true
+            },
+            {
+                "phrase": "Error",
+                "translate": "Eroare",
+                "active": true
+            },
+            {
+                "phrase": "error(s) occured while uploading files to GitHub.com. Do you want to open $link$ anyway?",
+                "translate": "eoare(erori) detectate în timpul încărcării pe GitHub. Dorești să deschizi $link$?",
+                "active": true
+            },
+            {
+                "phrase": "Check your credentials and internet connection",
+                "translate": "Verifică acreditările și conexiunea la internet",
+                "active": true
+            },
+            {
+                "phrase": "Error while connecting to Github.",
+                "translate": "Eroare în timpul conectării la GitHub",
+                "active": true
+            },
+            {
+                "phrase": "Close",
+                "translate": "Închide",
+                "active": true
+            },
+            {
+                "phrase": "GitHub Pages",
+                "translate": "Pagini GitHub",
+                "active": true
+            },
+            {
+                "phrase": "Account",
+                "translate": "Cont",
+                "active": true
+            },
+            {
+                "phrase": "folder",
+                "translate": "dosar",
+                "active": true
+            },
+            {
+                "phrase": "Upload",
+                "translate": "Încarcă",
+                "active": true
+            },
+            {
+                "phrase": "GitHub Token",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Congratulations!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your site is published. Note that it takes a while for Github Pages to show updated content.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "ok",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-help": [
+            {
+                "phrase": "Please sign up/login to contact us or get the access to public forums",
+                "translate": "Te rog să Sign-up/Login pentru a ne contacta sau a avea acces la forumul public",
+                "active": true
+            },
+            {
+                "phrase": "Help",
+                "translate": "Ajutor",
+                "active": true
+            },
+            {
+                "phrase": "Please visit %Help Center% or %Forums% before contacting us.",
+                "translate": "Te rog vezi %Help Center% sau %Forums% înainte să ne contactezi",
+                "active": true
+            },
+            {
+                "phrase": "Visit Help Center",
+                "translate": "Vezi Centrul de Ajutor",
+                "active": true
+            },
+            {
+                "phrase": "Visit Forums",
+                "translate": "Vezi Forumul",
+                "active": true
+            },
+            {
+                "phrase": "Send us a message",
+                "translate": "Trimite-ne un mesaj.",
+                "active": true
+            },
+            {
+                "phrase": "From",
+                "translate": "De la:",
+                "active": true
+            },
+            {
+                "phrase": "Message",
+                "translate": "Mesaj:",
+                "active": true
+            },
+            {
+                "phrase": "Please explain in details what happened and what steps we can take to reproduce the problem.",
+                "translate": "Te rog detailează ce s-a întîmplat și pașii, pentru a putea reproduce problema.",
+                "active": true
+            },
+            {
+                "phrase": "Send",
+                "translate": "Trimite",
+                "active": true
+            },
+            {
+                "phrase": "Your message is too short. Please add more details",
+                "translate": "Mesaj prea scurt. Te rog adaugă mai multe detalii.",
+                "active": true
+            },
+            {
+                "phrase": "Your message has been successfully sent!",
+                "translate": "Mesajul a fost trimis cu succes!",
+                "active": true
+            },
+            {
+                "phrase": "We will reply to your email $userEmail$ shortly.",
+                "translate": "Vom răspunde în timpul cel mai scurt la emailul $userEmail$",
+                "active": true
+            },
+            {
+                "phrase": "SEND",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Visit Help Center or Contact Us",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-history": [
+            {
+                "phrase": "Site Settings",
+                "translate": "Setări site",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "Imagine",
+                "active": true
+            },
+            {
+                "phrase": "Video",
+                "translate": "Video",
+                "active": true
+            },
+            {
+                "phrase": "Remove Page",
+                "translate": "Îndepărtează Pagina",
+                "active": true
+            },
+            {
+                "phrase": "Add Block",
+                "translate": "Adaugă Bloc",
+                "active": true
+            },
+            {
+                "phrase": "Remove Block",
+                "translate": "Îndepărtează Blocul",
+                "active": true
+            },
+            {
+                "phrase": "Block Position",
+                "translate": "Poziția Blocului",
+                "active": true
+            },
+            {
+                "phrase": "Block Params",
+                "translate": "Parametrii Blocului",
+                "active": true
+            },
+            {
+                "phrase": "Add Page",
+                "translate": "Adaugă Pagină",
+                "active": true
+            },
+            {
+                "phrase": "Page Settings",
+                "translate": "Setările Paginii",
+                "active": true
+            },
+            {
+                "phrase": "Block to HTML",
+                "translate": "Bloc la HTML",
+                "active": true
+            },
+            {
+                "phrase": "Code Editor",
+                "translate": "Editor de Cod",
+                "active": true
+            },
+            {
+                "phrase": "Text Type",
+                "translate": "Tastare Text",
+                "active": true
+            },
+            {
+                "phrase": "Icon",
+                "translate": "Iconiță",
+                "active": true
+            },
+            {
+                "phrase": "Load Site",
+                "translate": "Încărcare Site",
+                "active": true
+            },
+            {
+                "phrase": "Undo",
+                "translate": "Anulează ultima acțiune",
+                "active": true
+            },
+            {
+                "phrase": "Redo",
+                "translate": "Refă ultima acțiune",
+                "active": true
+            },
+            {
+                "phrase": "Change Component",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-iconfont": [
+            {
+                "phrase": "Icon Color",
+                "translate": "Culoare Iconiță",
+                "active": true
+            },
+            {
+                "phrase": "Icon Size",
+                "translate": "Mărime iconiță",
+                "active": true
+            },
+            {
+                "phrase": "Auto",
+                "translate": "Auto",
+                "active": true
+            },
+            {
+                "phrase": "Link Icon to",
+                "translate": "Leagă Iconița de",
+                "active": true
+            },
+            {
+                "phrase": "Edit Link",
+                "translate": "Editează Legătura",
+                "active": true
+            },
+            {
+                "phrase": "Search...",
+                "translate": "Caută....",
+                "active": true
+            },
+            {
+                "phrase": "Select icons",
+                "translate": "Selectează Iconițele",
+                "active": true
+            },
+            {
+                "phrase": "Insert Icon",
+                "translate": "Introdu Iconiță",
+                "active": true
+            },
+            {
+                "phrase": "Remove Icon",
+                "translate": "Îndepărtează Iconița",
+                "active": true
+            },
+            {
+                "phrase": "Collapse All",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Expand All",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-image-editor-site-library": [
+            {
+                "phrase": "This image is used on the site and can't be removed from Site Library.",
+                "translate": "Această imagine este utilizată în site și nu poate fi îndepărtată din Biblioteca Site-ului",
+                "active": true
+            }
+        ],
+        "app-plugin-image-editor-unsplash": [
+            {
+                "phrase": "Search by keyword",
+                "translate": "Caută după cuvintele cheie",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "Caută",
+                "active": true
+            },
+            {
+                "phrase": "Online image library is not available",
+                "translate": "Imaginea online din bibliotecă nu este disponibilă",
+                "active": true
+            },
+            {
+                "phrase": "No images found!",
+                "translate": "Nu s-au găsit imaginii!",
+                "active": true
+            },
+            {
+                "phrase": "Please try another keyword",
+                "translate": "Încearcă alt cuvînt cheie",
+                "active": true
+            },
+            {
+                "phrase": "e.g.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-link-editor": [
+            {
+                "phrase": "Add File",
+                "translate": "Adaugă fișier",
+                "active": true
+            },
+            {
+                "phrase": "Documents",
+                "translate": "Documente",
+                "active": true
+            },
+            {
+                "phrase": "This document is already added.",
+                "translate": "Acest document este deja adăugat",
+                "active": true
+            },
+            {
+                "phrase": "Link to",
+                "translate": "Legătura la",
+                "active": true
+            },
+            {
+                "phrase": "Page",
+                "translate": "Pagină",
+                "active": true
+            },
+            {
+                "phrase": "Web Address",
+                "translate": "Adresă Web",
+                "active": true
+            },
+            {
+                "phrase": "Email",
+                "translate": "Email",
+                "active": true
+            },
+            {
+                "phrase": "Phone",
+                "translate": "Tel",
+                "active": true
+            },
+            {
+                "phrase": "File",
+                "translate": "Fișier",
+                "active": true
+            },
+            {
+                "phrase": "Site Pages",
+                "translate": "Paginile site-ului",
+                "active": true
+            },
+            {
+                "phrase": "Block on Page",
+                "translate": "Bloc din pagină",
+                "active": true
+            },
+            {
+                "phrase": "Open in new window",
+                "translate": "Deschide în fereastră nouă",
+                "active": true
+            },
+            {
+                "phrase": "Browse Computer",
+                "translate": "Navighează în calculator",
+                "active": true
+            },
+            {
+                "phrase": "Choose pdf, doc, docx, ppt, pptx, xls, xlsx, odp or odt file",
+                "translate": "Alege fișier  pdf, docx, ppt, xls, xlxs, odp sau odt",
+                "active": true
+            },
+            {
+                "phrase": "Insert Link",
+                "translate": "Introdu legătură",
+                "active": true
+            },
+            {
+                "phrase": "Remove Link",
+                "translate": "Îndepărtează legătură",
+                "active": true
+            },
+            {
+                "phrase": "Block on $page title$ Page",
+                "translate": "Bloc în pagina $page title$",
+                "active": true
+            },
+            {
+                "phrase": "Block on $current page$ Page",
+                "translate": "Bloc în pagina $current page$",
+                "active": true
+            },
+            {
+                "phrase": "Custom URL",
+                "translate": "URL personalizat",
+                "active": true
+            },
+            {
+                "phrase": "e.g.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Call Phone Number",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Send SMS Text to Number",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with WhatsApp",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with Viber",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Call with Skype by Number or Name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with Telegram",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with Signal",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with Discord",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Phone/chat",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-media-editor": [
+            {
+                "phrase": "Media Image",
+                "translate": "Imagine Media",
+                "active": true
+            },
+            {
+                "phrase": "Browse Computer",
+                "translate": "Navighează în Calculator",
+                "active": true
+            },
+            {
+                "phrase": "Free Online Library",
+                "translate": "Bibliotecă Online Gratis",
+                "active": true
+            },
+            {
+                "phrase": "Site Library",
+                "translate": "Bibliotecă Site",
+                "active": true
+            },
+            {
+                "phrase": "Selected Image",
+                "translate": "Imagine Selectată",
+                "active": true
+            },
+            {
+                "phrase": "Link Image to",
+                "translate": "Leagă Imaginea de",
+                "active": true
+            },
+            {
+                "phrase": "Edit Link",
+                "translate": "Editează Legătura",
+                "active": true
+            },
+            {
+                "phrase": "Edit alt and title",
+                "translate": "Editează alt și title",
+                "active": true
+            },
+            {
+                "phrase": "Alt",
+                "translate": "Alt",
+                "active": true
+            },
+            {
+                "phrase": "Title",
+                "translate": "Title",
+                "active": true
+            },
+            {
+                "phrase": "Select Image",
+                "translate": "Selectează Imaginea",
+                "active": true
+            },
+            {
+                "phrase": "Crop Image",
+                "translate": "Taie Imaginea",
+                "active": true
+            },
+            {
+                "phrase": "More",
+                "translate": "Mai mult",
+                "active": true
+            },
+            {
+                "phrase": "Zoom In",
+                "translate": "Mărește",
+                "active": true
+            },
+            {
+                "phrase": "Zoom Out",
+                "translate": "Micșorează",
+                "active": true
+            },
+            {
+                "phrase": "Flip Horizontal",
+                "translate": "Răstoarnă Orizontal",
+                "active": true
+            },
+            {
+                "phrase": "Flip Vertical",
+                "translate": "Răstoarnă Vertical",
+                "active": true
+            },
+            {
+                "phrase": "Aspect Ratio",
+                "translate": "Raportul de Aspect",
+                "active": true
+            },
+            {
+                "phrase": "Aspect Ratio: Free",
+                "translate": "Raport de Aspect: La alegere",
+                "active": true
+            },
+            {
+                "phrase": "Free",
+                "translate": "La alegere",
+                "active": true
+            },
+            {
+                "phrase": "Media Video",
+                "translate": "Media  Video",
+                "active": true
+            },
+            {
+                "phrase": "Video URL",
+                "translate": "Video URL",
+                "active": true
+            },
+            {
+                "phrase": "Supported Youtube and Vimeo URL's",
+                "translate": "Suportă URL la Youtube și Vimeo",
+                "active": true
+            },
+            {
+                "phrase": "Autoplay",
+                "translate": "Auto-redare",
+                "active": true
+            },
+            {
+                "phrase": "Loop",
+                "translate": "Buclă",
+                "active": true
+            },
+            {
+                "phrase": "From Phone",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Library",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Adding and optimizing images",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Adding images to the project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "To disable the image optimization, use Sites->Site Settings->Optimization",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Creating gallery",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Drop images here",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "or",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Full Screen Image",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your image is too large to be resized in the app. Please resize it before adding. You can disable the Resize Images option in Site Settings -> Optimization.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit Image",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Counter Clockwise",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Clockwise",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "YouTube, Vimeo, or custom e.g. https://site.com/video.mp4",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unsupported video format. MP4 only.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-progress": [
+            {
+                "phrase": "Progress",
+                "translate": "Progres",
+                "active": true
+            },
+            {
+                "phrase": "Exporting...",
+                "translate": "Exportare...",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Anulează",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to stop?",
+                "translate": "Vrei să te oprești?",
+                "active": true
+            },
+            {
+                "phrase": "Stop",
+                "translate": "Stop",
+                "active": true
+            },
+            {
+                "phrase": "Continue",
+                "translate": "Continuă",
+                "active": true
+            },
+            {
+                "phrase": "Unknown error",
+                "translate": "Eroare necunoscută",
+                "active": true
+            },
+            {
+                "phrase": "Ignore Errors",
+                "translate": "Ignorează erorile",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to stop the publication?",
+                "translate": "Vrei să oprești publicarea?",
+                "active": true
+            },
+            {
+                "phrase": "Publishing...",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-projects-history": [
+            {
+                "phrase": "Unable to revert to history $history date$",
+                "translate": "Nu pot sa mă întorc la istoricul $history date$",
+                "active": true
+            },
+            {
+                "phrase": "Show Project History",
+                "translate": "Arată istoricul proiectelor",
+                "active": true
+            },
+            {
+                "phrase": "History",
+                "translate": "Istoric",
+                "active": true
+            },
+            {
+                "phrase": "Do you really want to remove the site version from $selected date$?",
+                "translate": "Chiar vrei să îndepărtezi versiunea site-ului din $selected date$?",
+                "active": true
+            },
+            {
+                "phrase": "Select saved version of project",
+                "translate": "Selectează versiunea salvată a proiectului",
+                "active": true
+            },
+            {
+                "phrase": "Revert back",
+                "translate": "Revin la starea inițială",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Anulează",
+                "active": true
+            },
+            {
+                "phrase": "Do you really want to revert back to the site version from $selected date$? The current site will not be lost, it will be saved under $current date$.",
+                "translate": "Chiar vrei să revii la starea inițială a versiunii proiectului din $selected date$? Site-ul curent nu va fi pierdut, va fi salvat sub numele $current date$",
+                "active": true
+            },
+            {
+                "phrase": "Remove Selected Version",
+                "translate": "Indepărtează versiunea selectată",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "Îndepărtează",
+                "active": true
+            },
+            {
+                "phrase": "Revert Back To Selected Version",
+                "translate": "Revenire la starea inițială a versiunii selectate",
+                "active": true
+            },
+            {
+                "phrase": "Project history is empty",
+                "translate": "Istoricul proiectelor este gol",
+                "active": true
+            },
+            {
+                "phrase": "Error while load from selected history:",
+                "translate": "Eroare în timpul încărcării din istoricul selectat:",
+                "active": true
+            }
+        ],
+        "app-plugin-resize-images": [
+            {
+                "phrase": "Resize Images",
+                "translate": "Redimensionare imagini",
+                "active": true
+            }
+        ],
+        "app-plugin-spectrum": [
+            {
+                "phrase": "More",
+                "translate": "Mai mult",
+                "active": true
+            },
+            {
+                "phrase": "Less",
+                "translate": "Mai puțin",
+                "active": true
+            }
+        ],
+        "app-projects-hash": [
+            {
+                "phrase": "Publish changes only",
+                "translate": "Publică doar schimbările",
+                "active": true
+            }
+        ],
+        "app-projects": [
+            {
+                "phrase": "Project file error",
+                "translate": "Eroare fișier de proiect",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Anulează",
+                "active": true
+            },
+            {
+                "phrase": "Error to save project file. Close application and run again.",
+                "translate": "Eroare la salvarea fișierului de proiect. Închide aplicația si rulează din nou.",
+                "active": true
+            },
+            {
+                "phrase": "Error update recents list.",
+                "translate": "Lista cu erorile recente.",
+                "active": true
+            },
+            {
+                "phrase": "error",
+                "translate": "eroare",
+                "active": true
+            },
+            {
+                "phrase": "Unknown error while publish",
+                "translate": "Eroare necunoscută în timpul publicării",
+                "active": true
+            },
+            {
+                "phrase": "Open Mobirise Site",
+                "translate": "Deschide Site-ul Mobirise",
+                "active": true
+            },
+            {
+                "phrase": "Create New Site",
+                "translate": "Crează Site Nou",
+                "active": true
+            },
+            {
+                "phrase": "Open Mobirise site (project.mobirise) not listed here.",
+                "translate": "Deschide site Mobirise (project.mobirise) nu este listat",
+                "active": true
+            },
+            {
+                "phrase": "Import Mobirise Site",
+                "translate": "Importă Site Mobirise",
+                "active": true
+            },
+            {
+                "phrase": "Clone Site",
+                "translate": "Clonează Site",
+                "active": true
+            },
+            {
+                "phrase": "Edit Site Styles",
+                "translate": "Editează Stilurile Site-ului",
+                "active": true
+            },
+            {
+                "phrase": "Rename, Favicon, Export",
+                "translate": "Redenumește, Iconiță de prezentare, Exportare",
+                "active": true
+            },
+            {
+                "phrase": "Remove Site",
+                "translate": "Îndepărtează Site",
+                "active": true
+            },
+            {
+                "phrase": "Select Project File",
+                "translate": "Selectează Fișierul de Proiect",
+                "active": true
+            },
+            {
+                "phrase": "Create New Site",
+                "translate": "Crează Site nou",
+                "active": true
+            },
+            {
+                "phrase": "Site Name",
+                "translate": "Numele Site-ului",
+                "active": true
+            },
+            {
+                "phrase": "Type the name of your new site",
+                "translate": "Tastează numele noului site",
+                "active": true
+            },
+            {
+                "phrase": "Select the Theme for this Site",
+                "translate": "Selectează Tema pentru acest Site",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "Ok",
+                "active": true
+            },
+            {
+                "phrase": "More Themes",
+                "translate": "Mai multe Teme",
+                "active": true
+            },
+            {
+                "phrase": "Site Settings",
+                "translate": "Setările Site-ului",
+                "active": true
+            },
+            {
+                "phrase": "Site Files",
+                "translate": "Fișierele Site-ului",
+                "active": true
+            },
+            {
+                "phrase": "Create a project copy in a different location. Use Publish to create a full copy of the site",
+                "translate": "Crează a copie a site-ului într-o locație diferită",
+                "active": true
+            },
+            {
+                "phrase": "Export Project",
+                "translate": "Exportare Site",
+                "active": true
+            },
+            {
+                "phrase": "Theme",
+                "translate": "Temă",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to remove $site name$?",
+                "translate": "Vrei să îndepărtezi $site name$?",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to close the current site and open $site name$?",
+                "translate": "Vrei să inchizi site-ul prezent și să deschizi $site name$?",
+                "active": true
+            },
+            {
+                "phrase": "%This site% is not available. Do you want to remove it from the list?",
+                "translate": "%This site% nu este disponibil. Vrei să-l îndepărtezi?",
+                "active": true
+            },
+            {
+                "phrase": "No Name",
+                "translate": "Fără nume",
+                "active": true
+            },
+            {
+                "phrase": "Project file error. Try to restore from history",
+                "translate": "Eroare a fișierului  de proiect",
+                "active": true
+            },
+            {
+                "phrase": "Unexpected project save error",
+                "translate": "Eroare neprevăzută la salvarea proiectului",
+                "active": true
+            },
+            {
+                "phrase": "Unable to save loaded project",
+                "translate": "Nu se poate salva proiectul încărcat",
+                "active": true
+            },
+            {
+                "phrase": "Unexpected project create error",
+                "translate": "Proiect neprevăzut creează eroare",
+                "active": true
+            },
+            {
+                "phrase": "Cloned project is wrong",
+                "translate": "Proiectul clonat este greșit",
+                "active": true
+            },
+            {
+                "phrase": "Empty project",
+                "translate": "Proiect gol.",
+                "active": true
+            },
+            {
+                "phrase": "Create Site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "or",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable to init project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable to clone project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create a project copy in a different location.&lt;br /&gt;Use Publish to create a full copy of the site",
+                "translate": "",
+                "active": false
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download $theme title$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Sites",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Add Blank Page",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Page Templates",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Themes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No templates matched your search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No themes matched your search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to create the $site name$ site based on the $theme name$ theme, $name preset$ Template?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Common",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Theme Name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Project Files",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to remove a local copy of $site name$?",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-publish-dlg": [
+            {
+                "phrase": "Local drive folder",
+                "translate": "Dosar local în calculator",
+                "active": true
+            },
+            {
+                "phrase": "folder",
+                "translate": "dosar",
+                "active": true
+            },
+            {
+                "phrase": "Edit",
+                "translate": "Editare",
+                "active": true
+            },
+            {
+                "phrase": "Browse...",
+                "translate": "Navigare...",
+                "active": true
+            },
+            {
+                "phrase": "To export the site project, please use %Sites -> Site Settings%",
+                "translate": "Pt a exporta proiectul site-ului, te rog utilizează %Site-uri -> Setări Site%",
+                "active": true
+            },
+            {
+                "phrase": "Publish",
+                "translate": "Publicare",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Anulează",
+                "active": true
+            },
+            {
+                "phrase": "Browse for folder",
+                "translate": "Navighează pentru dosar",
+                "active": true
+            }
+        ],
+        "app-publish-ftp": [
+            {
+                "phrase": "Edit",
+                "translate": "Editare",
+                "active": true
+            },
+            {
+                "phrase": "Add New",
+                "translate": "Adaugă nou",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "Îndepărtare",
+                "active": true
+            },
+            {
+                "phrase": "FTP",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "root folder",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Protocol",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Host",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Port",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Username",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Password",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Test FTP Server",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "FTP Site Manager",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Test connection",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Successful connection",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable connect to FTP",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Save",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove this site?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "The site published successfully to $ftp location$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "e.g.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Empty ftp.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connection timed out",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connection reset by peer",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connection refused",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Couldn't resolve the hostname to an IP address",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Network is unreachable",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unknown error while publish",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-publish": [
+            {
+                "phrase": "Initialization, please wait...",
+                "translate": "Așteaptă te rog, se inițializează",
+                "active": true
+            },
+            {
+                "phrase": "Preparing $page name$",
+                "translate": "Se pregătește $page name$",
+                "active": true
+            },
+            {
+                "phrase": "Internal error while processing page $page name$",
+                "translate": "Eroare internă în timp ce se procesează pagina $page name$",
+                "active": true
+            },
+            {
+                "phrase": "Your site was successfully exported to the folder $folder name$",
+                "translate": "Site-ul tău a fost exportat cu succes în dosarul $folder name$",
+                "active": true
+            },
+            {
+                "phrase": "Unknown error while publish",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Progress",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Publishing...",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Internal error while translating page $page name$",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-settings": [
+            {
+                "phrase": "App Settings",
+                "translate": "Setările aplicației",
+                "active": true
+            },
+            {
+                "phrase": "Top Toolbar",
+                "translate": "Bară superioară scule",
+                "active": true
+            },
+            {
+                "phrase": "Show Page & Site Names",
+                "translate": "Arată pagina & numele site-ului",
+                "active": true
+            },
+            {
+                "phrase": "Show All Views",
+                "translate": "Arată toate vizualizările",
+                "active": true
+            },
+            {
+                "phrase": "Show Redo",
+                "translate": "Arată Refă",
+                "active": true
+            },
+            {
+                "phrase": "Editor",
+                "translate": "Editor",
+                "active": true
+            },
+            {
+                "phrase": "Show All Block Buttons",
+                "translate": "Arată toate Butoanele Blocului",
+                "active": true
+            },
+            {
+                "phrase": "Show Site Styles Button",
+                "translate": "Arată Butoanele de Stil ale Site-ului",
+                "active": true
+            },
+            {
+                "phrase": "APP",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Dark Mode",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Fullscreen Canvas",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Publish to GitHub Pages",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Github Login",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Token",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-theme-settings": [
+            {
+                "phrase": "Close",
+                "translate": "Închide",
+                "active": true
+            },
+            {
+                "phrase": "More",
+                "translate": "Mai mult",
+                "active": true
+            },
+            {
+                "phrase": "Less",
+                "translate": "Mai puțin",
+                "active": true
+            }
+        ],
+        "app-updater": [
+            {
+                "phrase": "New version $version$ is available",
+                "translate": "Versiune nouă $version$ este disponibilă",
+                "active": true
+            },
+            {
+                "phrase": "Download now!",
+                "translate": "Descarcă acum!",
+                "active": true
+            },
+            {
+                "phrase": "Remind later",
+                "translate": "Adu-mi aminte mai târziu!",
+                "active": true
+            },
+            {
+                "phrase": "News",
+                "translate": "Noutăți",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise news is available, please visit $site url$ website for details.",
+                "translate": "Noutăți Mobirise disponibile, vezi  $site url$ website pentru detalii",
+                "active": true
+            },
+            {
+                "phrase": "Read more...",
+                "translate": "Citește mai mult....",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "Ok",
+                "active": true
+            },
+            {
+                "phrase": "Skip this version",
+                "translate": "Sari peste această versiune",
+                "active": true
+            }
+        ],
+        "app-user-account": [
+            {
+                "phrase": "Please, Sign Up",
+                "translate": "Te rog Sign Up",
+                "active": true
+            },
+            {
+                "phrase": "Please sign up / login to get latest updates and extensions",
+                "translate": "Te rog să Sign Up/Login pentru a obține ultimele extensii sau modificări",
+                "active": true
+            },
+            {
+                "phrase": "Your Email",
+                "translate": "Emailul tău",
+                "active": true
+            },
+            {
+                "phrase": "Sign Up / login",
+                "translate": "Sign Up/Login",
+                "active": true
+            },
+            {
+                "phrase": "or",
+                "translate": "sau",
+                "active": true
+            },
+            {
+                "phrase": "Login with Google",
+                "translate": "Login cu Google",
+                "active": true
+            },
+            {
+                "phrase": "Login with Facebook",
+                "translate": "Login cu Facebook",
+                "active": true
+            },
+            {
+                "phrase": "No, I don't need this and don't show me this anymore",
+                "translate": "Nu, nu doresc acest lucru și nu mai afișa acest mesaj",
+                "active": true
+            },
+            {
+                "phrase": "Forgot password?",
+                "translate": "Ai uitat parola?",
+                "active": true
+            },
+            {
+                "phrase": "We've sent an email with instructions on how to reset your password to the email address $email$",
+                "translate": "Am trimis un email cu instrucțiuni despre cum să resetezi parola pentru adresa de email $email$",
+                "active": true
+            },
+            {
+                "phrase": "Are you sure you want to logout?",
+                "translate": "Ești sigur că vrei să ieși?",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "Ok",
+                "active": true
+            },
+            {
+                "phrase": "You successfully signed in",
+                "translate": "Te-ai înscris cu succes",
+                "active": true
+            },
+            {
+                "phrase": "Your Password",
+                "translate": "Parola ta",
+                "active": true
+            },
+            {
+                "phrase": "Login",
+                "translate": "Intrare",
+                "active": true
+            },
+            {
+                "phrase": "Enter your password",
+                "translate": "Introdu parola",
+                "active": true
+            },
+            {
+                "phrase": "Please enter a valid email address",
+                "translate": "Introdu o adresă valabilă de email",
+                "active": true
+            },
+            {
+                "phrase": "Your account password is sent to your email. If you haven't received the email, please check Spam folder",
+                "translate": "Parola pentru contul tău a fost trimisă prin email, verifică și dosarul Spam",
+                "active": true
+            },
+            {
+                "phrase": "You already have the Mobirise account, please login with your password",
+                "translate": "Deja ai cont Mobirise, te rog intră cu parola ta",
+                "active": true
+            },
+            {
+                "phrase": "Please sign up / login to load the free theme",
+                "translate": "Te rog să Sign Up/Login pentru a încărca tema gratis",
+                "active": true
+            },
+            {
+                "phrase": "Your password is sent to $email$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "If you haven't received the email, please check Spam folder.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter password for your Mobirise account",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your password is sent to $email$ with first sign up. Check your email to find it.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change email",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please login to get latest updates and extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter your email",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter password",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Check your email. Your password is sent to $email$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You already have the Mobirise account for $email$. Enter your password.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please login to load the free themes and extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your account token has expired, please log in again",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/extbridge.js": [
+            {
+                "phrase": "Images",
+                "translate": "Imagini",
+                "active": true
+            }
+        ],
+        "add-builder-ext": [
+            {
+                "phrase": "To remove all buttons from the block use %\"Block Parameters\" -> \"Show Buttons\"%",
+                "translate": "Pentru a îndepărta toate butoanele din bloc, utilizează %”Parametrii blocului”-> ”Arată butoanele”%",
+                "active": true
+            },
+            {
+                "phrase": "Insert icon",
+                "translate": "Introdu iconiță",
+                "active": true
+            },
+            {
+                "phrase": "Font",
+                "translate": "Font",
+                "active": true
+            },
+            {
+                "phrase": "Color",
+                "translate": "Culoare",
+                "active": true
+            },
+            {
+                "phrase": "Add",
+                "translate": "Adaugă",
+                "active": true
+            },
+            {
+                "phrase": "Move Left",
+                "translate": "Mută la Stînga",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "Îndepărtează",
+                "active": true
+            },
+            {
+                "phrase": "Align",
+                "translate": "Aliniază",
+                "active": true
+            },
+            {
+                "phrase": "Link",
+                "translate": "Legătură",
+                "active": true
+            },
+            {
+                "phrase": "Edit Site Styles",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Top of Page",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Bottom of Page",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "carousel": [
+            {
+                "phrase": "VIDEO SLIDE",
+                "translate": "DIAPOZITIV VIDEO",
+                "active": true
+            },
+            {
+                "phrase": "Play Video",
+                "translate": "Rulează Video",
+                "active": true
+            },
+            {
+                "phrase": "Youtube or Vimeo",
+                "translate": "Youtube sau Vimeo",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "Imagine",
+                "active": true
+            },
+            {
+                "phrase": "Show Title",
+                "translate": "Arată Titlu",
+                "active": true
+            },
+            {
+                "phrase": "Show Text",
+                "translate": "Arată Text",
+                "active": true
+            },
+            {
+                "phrase": "Show Buttons",
+                "translate": "Arată Butoane",
+                "active": true
+            },
+            {
+                "phrase": "Color",
+                "translate": "Culoare",
+                "active": true
+            },
+            {
+                "phrase": "Opacity",
+                "translate": "Opacitate",
+                "active": true
+            },
+            {
+                "phrase": "Content Align",
+                "translate": "Aliniere Conținut",
+                "active": true
+            },
+            {
+                "phrase": "FULL SCREEN SLIDER",
+                "translate": "DIAPOZITIV ECRAN COMPLET",
+                "active": true
+            },
+            {
+                "phrase": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "translate": "Alege dintr-o larga selecție de blocuri gata-făcute, jumbotron, imagini epice, derulare cu efect de paralaxă, video în fundal, meniu hamburger, antet static(lipicios) și multe altele.",
+                "active": true
+            },
+            {
+                "phrase": "FOR WINDOWS",
+                "translate": "Pt WINDOWS",
+                "active": true
+            },
+            {
+                "phrase": "FOR MAC",
+                "translate": "Pt MAC",
+                "active": true
+            },
+            {
+                "phrase": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
+                "translate": "Diapozitive cu fundal video youtube și supra-strat de culoare. Titlul și textul sunt aliniate la stînga.",
+                "active": true
+            },
+            {
+                "phrase": "IMAGE SLIDE",
+                "translate": "DIAPOZITIV IMAGINE",
+                "active": true
+            },
+            {
+                "phrase": "Autoplay",
+                "translate": "Auto-redare",
+                "active": true
+            },
+            {
+                "phrase": "Autoplay Interval (ms)",
+                "translate": "Auto-redare cu interval [ms]",
+                "active": true
+            },
+            {
+                "phrase": "Show Bullets",
+                "translate": "Arată cerculețe",
+                "active": true
+            },
+            {
+                "phrase": "Type Text",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "gallery": [
+            {
+                "phrase": "Play Video",
+                "translate": "Rulează video",
+                "active": true
+            },
+            {
+                "phrase": "Video URL",
+                "translate": "Video URL",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "Imagine",
+                "active": true
+            },
+            {
+                "phrase": "Tags",
+                "translate": "Etichete",
+                "active": true
+            },
+            {
+                "phrase": "Awesome image",
+                "translate": "Imagine superbă",
+                "active": true
+            },
+            {
+                "phrase": "Awesome",
+                "translate": "Uluitor",
+                "active": true
+            },
+            {
+                "phrase": "Responsive",
+                "translate": "Adaptabil",
+                "active": true
+            },
+            {
+                "phrase": "Creative",
+                "translate": "Creativ",
+                "active": true
+            },
+            {
+                "phrase": "Animated",
+                "translate": "Animat",
+                "active": true
+            },
+            {
+                "phrase": "Type caption here",
+                "translate": "Tastează titlul aici",
+                "active": true
+            },
+            {
+                "phrase": "Show Bullets",
+                "translate": "Arată cerculețe",
+                "active": true
+            },
+            {
+                "phrase": "Show Text",
+                "translate": "Arată text",
+                "active": true
+            },
+            {
+                "phrase": "Show Tags",
+                "translate": "Arată etichete",
+                "active": true
+            },
+            {
+                "phrase": "Type Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Row/Column",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Containers Count",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "1st Container Items",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "2nd Container Items",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "3rd Container Items",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "4th Container Items",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "map": [
+            {
+                "phrase": "350 5th Ave, New York, NY 10118",
+                "translate": "Blv. 5, nr.350 New York, NY 10118",
+                "active": true
+            },
+            {
+                "phrase": "Address",
+                "translate": "Adresa",
+                "active": true
+            }
+        ],
+        "shop": [
+            {
+                "phrase": "Best Seller",
+                "translate": "Cel mai vândut",
+                "active": true
+            },
+            {
+                "phrase": "On Sale",
+                "translate": "La Vânzare",
+                "active": true
+            },
+            {
+                "phrase": "Old Price",
+                "translate": "Preț Vechi",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "Imagine",
+                "active": true
+            },
+            {
+                "phrase": "Tags",
+                "translate": "Etichete",
+                "active": true
+            },
+            {
+                "phrase": "Awesome image",
+                "translate": "Imagine  minunată",
+                "active": true
+            },
+            {
+                "phrase": "Brown Glasses",
+                "translate": "Ochelari Maro",
+                "active": true
+            },
+            {
+                "phrase": "Men\\'s Shoes",
+                "translate": "Pantofi Bărbătești",
+                "active": true
+            },
+            {
+                "phrase": "Blue Backpack",
+                "translate": "Rucsac Albastru",
+                "active": true
+            },
+            {
+                "phrase": "Red Snapback",
+                "translate": "Rucsăcel Roșu",
+                "active": true
+            },
+            {
+                "phrase": "Black Glasses",
+                "translate": "Ochelari Negri",
+                "active": true
+            },
+            {
+                "phrase": "Women\\'s Shoes",
+                "translate": "Pantofi de Damă",
+                "active": true
+            },
+            {
+                "phrase": "Pink Backpack",
+                "translate": "Rucsac Roz",
+                "active": true
+            },
+            {
+                "phrase": "Red Cap",
+                "translate": "Șapcă Roșie",
+                "active": true
+            },
+            {
+                "phrase": "Awesome",
+                "translate": "Teribil",
+                "active": true
+            },
+            {
+                "phrase": "Wonderful",
+                "translate": "Minunat",
+                "active": true
+            },
+            {
+                "phrase": "Creative",
+                "translate": "Creativ",
+                "active": true
+            },
+            {
+                "phrase": "Responsive",
+                "translate": "Adaptabil",
+                "active": true
+            },
+            {
+                "phrase": "Animated",
+                "translate": "Animat",
+                "active": true
+            },
+            {
+                "phrase": "Casual shoes (contact us for sizing)",
+                "translate": "Pantofi pentru ocazii[contactați-ne pentru mărimi]",
+                "active": true
+            },
+            {
+                "phrase": "Lightweight textured fabric",
+                "translate": "Material din țesătură ușoară",
+                "active": true
+            },
+            {
+                "phrase": "Rounded v-neckline",
+                "translate": "Croi în fomă de v-rotunjit",
+                "active": true
+            },
+            {
+                "phrase": "Pom pom trims",
+                "translate": "Briz-briz-uri",
+                "active": true
+            },
+            {
+                "phrase": "Regular fit – true to size",
+                "translate": "Regulat pentru a se potrivi cu mărimea",
+                "active": true
+            },
+            {
+                "phrase": "Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.",
+                "translate": "Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.",
+                "active": true
+            },
+            {
+                "phrase": "Product code:",
+                "translate": "Cod produs:",
+                "active": true
+            },
+            {
+                "phrase": "From:",
+                "translate": "De la:",
+                "active": true
+            },
+            {
+                "phrase": "Buy now!",
+                "translate": "Cumpără acum!",
+                "active": true
+            },
+            {
+                "phrase": "Type caption here",
+                "translate": "Tastează legenda aici",
+                "active": true
+            },
+            {
+                "phrase": "Show Sidebar",
+                "translate": "Bară Laterală",
+                "active": true
+            },
+            {
+                "phrase": "Show Card Buttons",
+                "translate": "Arată Butoanele Cardului",
+                "active": true
+            },
+            {
+                "phrase": "Show Sorting Buttons",
+                "translate": "Arată Butoanele de Sortare",
+                "active": true
+            },
+            {
+                "phrase": "Show Best Sellers",
+                "translate": "Arată Cel Mai Bine Vândut",
+                "active": true
+            },
+            {
+                "phrase": "Show Price Range",
+                "translate": "Arată Interval Preț",
+                "active": true
+            },
+            {
+                "phrase": "Show Tags",
+                "translate": "Arată Etichete",
+                "active": true
+            },
+            {
+                "phrase": "Default sorting",
+                "translate": "Sortare normală",
+                "active": true
+            },
+            {
+                "phrase": "Price: low to high",
+                "translate": "Preț: mic la mare",
+                "active": true
+            },
+            {
+                "phrase": "Price: high to low",
+                "translate": "Preț: mare la mic",
+                "active": true
+            },
+            {
+                "phrase": "Filter",
+                "translate": "Filtru",
+                "active": true
+            },
+            {
+                "phrase": "Show all",
+                "translate": "Arată tot",
+                "active": true
+            },
+            {
+                "phrase": "Sale",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Title",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Price",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Caption",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reverse Sidebar:",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-translate": [
+            {
+                "phrase": "Language",
+                "translate": "Limbă",
+                "active": true
+            },
+            {
+                "phrase": "Open",
+                "translate": "Deschide",
+                "active": true
+            },
+            {
+                "phrase": "You\\'re connected as:",
+                "translate": "Ești conectat ca și:",
+                "active": true
+            },
+            {
+                "phrase": "Disconnect",
+                "translate": "Deconectare",
+                "active": true
+            },
+            {
+                "phrase": "Add",
+                "translate": "Adaugă",
+                "active": true
+            },
+            {
+                "phrase": "Change language",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error setup language!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change language?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "blocks": [
+            {
+                "phrase": "Menu",
+                "translate": "Meniu",
+                "active": true
+            },
+            {
+                "phrase": "Headers",
+                "translate": "Antete",
+                "active": true
+            },
+            {
+                "phrase": "Images & Videos",
+                "translate": "Imagini & Videouri",
+                "active": true
+            },
+            {
+                "phrase": "Sliders & Galleries",
+                "translate": "Diapozitive & Galerii",
+                "active": true
+            },
+            {
+                "phrase": "Article",
+                "translate": "Articol",
+                "active": true
+            },
+            {
+                "phrase": "Features",
+                "translate": "Blocuri dedicate",
+                "active": true
+            },
+            {
+                "phrase": "Animated Features",
+                "translate": "Caracteristici animate",
+                "active": true
+            },
+            {
+                "phrase": "Pricing Tables",
+                "translate": "Tabele de preț",
+                "active": true
+            },
+            {
+                "phrase": "Counters",
+                "translate": "Contoare",
+                "active": true
+            },
+            {
+                "phrase": "Countdowns",
+                "translate": "Numărătoare inverse",
+                "active": true
+            },
+            {
+                "phrase": "Progress",
+                "translate": "Progres",
+                "active": true
+            },
+            {
+                "phrase": "Timelines",
+                "translate": "Cronologie",
+                "active": true
+            },
+            {
+                "phrase": "Accordions & Toggles & Tabs",
+                "translate": "Acordeon & Comutator & Buton filă",
+                "active": true
+            },
+            {
+                "phrase": "Info",
+                "translate": "Info",
+                "active": true
+            },
+            {
+                "phrase": "Forms",
+                "translate": "Formulare Contact",
+                "active": true
+            },
+            {
+                "phrase": "Maps",
+                "translate": "Hărți",
+                "active": true
+            },
+            {
+                "phrase": "Social",
+                "translate": "Social",
+                "active": true
+            },
+            {
+                "phrase": "Testimonials",
+                "translate": "Recenzii",
+                "active": true
+            },
+            {
+                "phrase": "Clients",
+                "translate": "Clienți",
+                "active": true
+            },
+            {
+                "phrase": "Tables",
+                "translate": "Tabele",
+                "active": true
+            },
+            {
+                "phrase": "Footers",
+                "translate": "Note subsol",
+                "active": true
+            }
+        ],
+        "app-themes": [
+            {
+                "phrase": "This site uses the theme $theme title$ that isn't available.",
+                "translate": "Acest site utilizează temă $theme title$ care nu este disponibilă",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Anulez",
+                "active": true
+            },
+            {
+                "phrase": "Install $theme title$",
+                "translate": "Instalează $theme title$",
+                "active": true
+            },
+            {
+                "phrase": "No themes available for loaded project",
+                "translate": "Nu sunt teme disponibile pentru proiectul încărcat",
+                "active": true
+            },
+            {
+                "phrase": "This site uses the theme $theme title$ that isn't available. If the theme is installed, then reinstall it please.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Try to log out and log back in",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download $addonName",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-mobile-interface": [
+            {
+                "phrase": "Remove Block?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove Page",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove page $page name$?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove Site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit Site Styles",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-form-editor": [
+            {
+                "phrase": "Form Fields",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Form Options",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Notification Email or Action URL",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please enter a valid email address or URL",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Success Message",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Form",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Verify",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Verified",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Email verified",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "secondary-components": [
+            {
+                "phrase": "Block Parameters",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Content",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/app-translate.js": [
+            {
+                "phrase": "Open",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You\\'re connected as:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Disconnect",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Add",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change language?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error setup language!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Language",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/app-plugin-mbrsite.js": [
+            {
+                "phrase": "Incorrect server response.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Incorrect domain name.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "File too large",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Site Domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Delete",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to delete the domain $domain$?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change Site Domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change Site Name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable to init project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Can't download the site because it was published incorrectly.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error loading project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to remove the domain $domain$? Your site will be completely removed from the Web.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error removing site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Congratulations!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your site is published and live online:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Next:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit your site online:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connect your own domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "https://",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "ok",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove Site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error removing the domain",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-account": [
+            {
+                "phrase": "Please login to get latest updates and extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Login with Google",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Login with Facebook",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "or",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter your email",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Login",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use free version",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No, I don't need this and don't show me this anymore",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Forgot password?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You successfully signed in",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter password",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter your password",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please enter a valid email address",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Check your email. Your password is sent to $email$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change email",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "If you haven't received the email, please check Spam folder.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You already have the Mobirise account for $email$. Enter your password.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your password is sent to $email$ with first sign up. Check your email to find it.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Are you sure you want to logout?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "We've sent an email with instructions on how to reset your password to the email address $email$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please login to load the free themes and extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your account token has expired, please log in again",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "addons-core": [
+            {
+                "phrase": "No internet connection found. Some extensions may be not available.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-expiration-checking": [
+            {
+                "phrase": "No internet connection found. Some extensions may be not available.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connect to the Internet to add this block",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "The block cannot be added because your license for $extension$ has expired.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Update",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-payment-checking": [
+            {
+                "phrase": "No internet connection found. Continue without Code Editor Extension.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-auto-update": [
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Updating",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Downloading",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "All extensions $text$.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Сancel $title$?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Yes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-cms": [
+            {
+                "phrase": "Add online editor (CMS) to /edit/ folder",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "cookies-alert": [
+            {
+                "phrase": "By continuing you agree to our %Terms of Service% and %Privacy Policy%",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "We use cookies to give you the best experience. Read our %cookie policy%",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "GOT IT",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "REJECT",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cookies Alert",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enable",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "GDPR Compliance",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cookies Alert Editor",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Consent",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Alert only - without blocking",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reject and Accept - \"Reject\" blocks JS and iframes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Accept - page loads only after \"Accept\"",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Layout",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Bottom panel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Center popup",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Text Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Background Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Accept Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Link Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reject Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Background Opacity",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Overlay Opacity",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your cookies alert message.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reject Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your cookies alert reject button text.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reject",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Accept Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your cookies alert accept button text.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Compliance GDPR",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Underline Link",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your GDPR message.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Demo",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/app-plugin-domains.js": [
+            {
+                "phrase": "Incorrect server response.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Copy",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connect domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "OK",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Disconnect",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Site Domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connect",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove Domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Open in Browser",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Publish",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Recheck",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Invalid domain name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This feature is not available",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Domain successfully detached",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Are you sure you want to delete this record?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Delete",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Internal server error.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "DNS management",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to disconnect the domain $domain$?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Copied",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "google-analytics": [
+            {
+                "phrase": "Analytics",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your Analytics code snippet here or paste any other code that you want to have on every page immediately after the opening $body$ tag.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-mobirise-ai": [
+            {
+                "phrase": "Create with Mobirise AI",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Describe in detail what your site will be about, what it will offer, who is behind it, your benefits and specialties. You can write in any language.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "We are Craft22, a team of skilled artisans from Brooklyn, NY.  We offer a wide range of handmade crafts, from custom jewelry to home decor.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Minimum 32 characters",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Generate",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your prompt is too short, add more details.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your prompt is too long, shorten it.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-page-presets": [
+            {
+                "phrase": "If the theme is installed, please reinstall it.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Install $theme title$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Choose Template for Page",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-projects-presets": [
+            {
+                "phrase": "If the theme is installed, please reinstall it.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Install $theme title$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Choose Template for $nameTheme$ Theme",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-restore": [
+            {
+                "phrase": "Do you really want to restore the deleted sites?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Restore Deleted Sites",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you really want to restore ALL deleted sites? This may take some time...",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/app-plugin-seo.js": [
+            {
+                "phrase": "Edit sitemap.xml",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit robots.txt",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter site URL",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "URL is not valid! (must be like \"http://mysite.com\")",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "SEO & Analytics",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use robots.txt",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit Robots.txt",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use sitemap.xml",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Auto",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit Sitemap Settings",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "user-licenses": [
+            {
+                "phrase": "No active licenses",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Kits",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Themes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Sites",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Expired",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "User Licenses",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Licenses",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-webp-convert": [
+            {
+                "phrase": "Optimization",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Convert Images to WebP",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Publishing...",
+                "translate": "",
+                "active": true
+            }
+        ]
+    }
+}

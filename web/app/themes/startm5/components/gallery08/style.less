@@ -1,0 +1,124 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type = "color") {
+  background-color: @bg-value;
+}
+
+& when (@bg-type = "image") {
+  background-image: url(@bg-value);
+  & when (@overlay) {
+    .mbr-overlay {
+      background: @overlayColor;
+      opacity: @overlayOpacity;
+    }
+  }
+}
+.item:focus,
+span:focus {
+  outline: none;
+}
+
+.item {
+  cursor: pointer;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+}
+
+.content-head {
+  max-width: 800px;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.ticker-wrap {
+  width: 100%;
+  overflow: hidden;
+  padding-left: 100%;
+  box-sizing: content-box;
+
+  .ticker {
+    display: inline-block;
+    line-height: 4rem;
+    white-space: nowrap;
+    padding-right: 100%;
+    box-sizing: content-box;
+
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: ticker;
+    animation-duration: (@durationTopLine * 1s);
+
+    &__item {
+      display: inline-block;
+      padding: 0 2rem;
+      color: @contentColor;
+    }
+  }
+
+  @keyframes ticker__center {
+    0% {
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+    }
+
+    100% {
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+
+  .ticker__center {
+    display: inline-block;
+    line-height: 4rem;
+    white-space: nowrap;
+    padding-right: 100%;
+    box-sizing: content-box;
+
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: ticker__center;
+    animation-duration: (@durationCenterLine * 1s);
+  }
+
+  @keyframes ticker__end {
+    0% {
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+    }
+
+    100% {
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+
+  .ticker__end {
+    display: inline-block;
+    line-height: 4rem;
+    white-space: nowrap;
+    padding-right: 100%;
+    box-sizing: content-box;
+
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: ticker__end;
+    animation-duration: (@durationEndLine * 1s);;
+  }
+}
+
+.mbr-section-title,
+.mbr-section-subtitle {
+  color: #000000;
+}

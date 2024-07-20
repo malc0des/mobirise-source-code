@@ -1,0 +1,96 @@
+& when not (@fullScreen) {
+    padding-top: (@paddingTop * 1rem);
+    padding-bottom: (@paddingBottom * 1rem);
+}
+
+& when (@bg-type ='color') {
+    background-color: @bg-value;
+}
+
+& when (@bg-type ='image') {
+    background-image: url(@bg-value);
+}
+input {
+    padding: 1.2rem 1.5rem;
+    border: none !important;
+    height: 100%;
+    &:hover {
+        border: none !important;
+      }    
+}
+.mbr-fallback-image.disabled {
+    display: none;
+}
+.mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    & when (@bg-type ='video') {
+        background-image: url(@fallBackImage);
+    }
+}
+
+.number-wrap {
+    color: @labelsColor;
+    text-align: center;
+}
+
+.number {
+    color: @numbersColor;
+    white-space: nowrap;
+}
+
+.row {
+    justify-content: center;
+}
+
+.period {
+    display: block;
+}
+
+.dot {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .period {
+        font-size: 0.8rem;
+    }
+}
+
+.btn {
+    height: 100%;
+    margin: auto;
+
+    @media (min-width:768px) {
+        margin-left: 0.625rem;
+    }
+}
+
+.mbr-section-btn {
+    display: flex;
+    margin-bottom: 1.2rem;
+    width: fit-content;
+
+    .btn {
+        width: auto;
+    }
+}
+
+.justify-content-center {
+    align-items: center;
+}
+
+.mbr-section-title {
+    color: #ffd7ef;
+}
+
+.mbr-section-subtitle,
+.mbr-text{
+    color: #ffffff;
+}

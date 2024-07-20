@@ -1,0 +1,66 @@
+<section class="gallery08" group="Gallery" data-bg-video="{{bg.type == 'video' && bg.value.url}}" mbr-class="{'mbr-parallax-background': bg.parallax}">
+  <mbr-parameters>
+    <header>Size</header>
+    <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="6" />
+    <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="6" />
+    </select>
+    <header>Animated Text Settings</header>
+    <select title="Font style" name="linesTitle">
+      <option value="title1" selected>Title 1</option>
+      <option value="title2">Title 2</option>
+      <option value="title3">Title 3</option>
+      <option value="text">Text</option>
+      <option value="menu">Menu</option>
+    </select>
+    <input type="text" title="Line content 1" inline name="animatedLine1" value="Dream • Create • Inspire">
+    <input type="text" title="Line content 2" inline name="animatedLine2" value="From idea to reality • Start small">
+    <input type="text" title="Line content 3" inline name="animatedLine3" value="Be fearless • Start now!">
+    <input type="range" inline title="Line 1 duration" name="durationTopLine" min="1" max="40" step="1" value="20" />
+    <input type="range" inline title="Line 2 duration" name="durationCenterLine" min="1" max="40" step="1" value="25" />
+    <input type="range" inline title="Line 3 duration" name="durationEndLine" min="1" max="40" step="1" value="18" />
+    <input type="color" title="Content color" value="#232323" name="contentColor" selected />
+    <header>Background</header>
+    <fieldset type="background" parallax name="bg" required>
+      <input type="image" title="Image" value="../_images/background1.jpg" />
+      <input type="color" title="Color" value="#ffffff" selected />
+    </fieldset>
+    <input type="checkbox" title="Overlay" name="overlay" checked condition="bg.type !== 'color'">
+    <input type="color" title="Overlay Color" name="overlayColor" value="#f7f7f7"
+        condition="overlay && bg.type !== 'color'">
+    <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.7"
+        condition="overlay && bg.type !== 'color'">
+</mbr-parameters>
+
+<div class="mbr-overlay" mbr-if="overlay && bg.type!== 'color'"
+    mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}">
+</div>
+  <div class="container-fluid gallery-wrapper">
+
+    <div class="ticker-wrap">
+      <div class="ticker">
+        <div class="ticker__item" mbr-class="{'display-1':linesTitle=='title1','display-2':linesTitle=='title2',
+        'display-5':linesTitle=='title3','display-7':linesTitle=='text',
+        'display-4':linesTitle=='menu'}" data-word="{{animatedLine1}}">Dream • Create • Inspire
+        </div>
+      </div>
+    </div>
+
+    <div class="ticker-wrap">
+      <div class="ticker ticker__center">
+        <div class="ticker__item" mbr-class="{'display-1':linesTitle=='title1','display-2':linesTitle=='title2',
+        'display-5':linesTitle=='title3','display-7':linesTitle=='text',
+        'display-4':linesTitle=='menu'}" data-word="{{animatedLine2}}">From idea to reality • Start small
+        </div>
+      </div>
+    </div>
+
+    <div class="ticker-wrap">
+      <div class="ticker ticker__end">
+        <div class="ticker__item" mbr-class="{'display-1':linesTitle=='title1','display-2':linesTitle=='title2',
+        'display-5':linesTitle=='title3','display-7':linesTitle=='text',
+        'display-4':linesTitle=='menu'}" data-word="{{animatedLine3}}">Be fearless • Start now!
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,64 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+  display: none;
+}
+.mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  & when (@bg-type = 'video') {
+    background-image: url(@fallBackImage);
+  }
+}
+.mbr-text {
+  color: #000000;
+  text-align: left;
+  margin-bottom: 2rem;
+  @media (max-width: 767px) {
+    margin-bottom: 1rem;
+  }
+}
+.mbr-section-subtitle {
+  color: #000000;
+}
+.item-wrapper {
+  background: @cardbg;
+  margin-bottom: 2rem;
+  padding: 2.25rem;
+  @media (max-width: 767px) {
+    padding: 2rem 1.5rem;
+    margin-bottom: 1rem;
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    padding: 2rem 1.5rem;
+    margin-bottom: 2rem;
+  }
+}
+.mbr-number {
+  color: #d70081;
+}
+& when (@reverseContent) {
+  .row {
+    flex-direction: row-reverse;
+  }
+}
+.mbr-section-title {
+  text-align: center;
+}
+.mbr-subtitle {
+  text-align: center;
+}
+.card-text, .item .mbr-section-btn {
+  text-align: left;
+}

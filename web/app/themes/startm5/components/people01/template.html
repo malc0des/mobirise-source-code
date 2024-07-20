@@ -1,0 +1,149 @@
+<section class="people01" group="People" mbr-class="{
+    'mbr-fullscreen': fullScreen,
+    'mbr-parallax-background': bg.parallax}">
+  <mbr-parameters>
+    <header>Size</header>
+    <input type="checkbox" title="Full Screen" name="fullScreen" />
+    <input type="checkbox" title="Full Width" name="fullWidth" />
+    <input type="checkbox" title="Reverse" name="reverseContent" />
+    <input type="range" inline="" title="Top" name="paddingTop" min="0" max="10" step="1" value="5"
+      condition="fullScreen == false" />
+    <input type="range" inline="" title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="5"
+      condition="fullScreen == false" />
+    <header>Show/Hide</header>
+    <input type="checkbox" title="Main Title" name="showmainTitle" checked="" />
+    <input type="checkbox" title="Main Text" name="showmainText" checked="" />
+    <input type="checkbox" title="Main Buttons" name="showmainButtons" checked="" />
+    <input type="checkbox" title="Title" name="showTitle" checked="" />
+    <input type="checkbox" title="Subtitle" name="showsubTitle" checked="" />
+    <input type="checkbox" title="Text" name="showText" checked="" />
+    <input type="checkbox" title="Buttons" name="showButtons" checked="" />
+    <header>Background</header>
+    <fieldset type="background" name="bg" parallax="">
+      <input type="color" title="Color" value="#edefeb" selected="" />
+      <input type="image" title="Image" value="../_images/background1.jpg" />
+    </fieldset>
+    <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" />
+    <input type="color" title="Overlay Color" name="overlayColor" value="#ffffff"
+      condition="overlay && bg.type !== 'color'" />
+    <input type="range" inline="" title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.8"
+      condition="overlay && bg.type !== 'color'" />
+  </mbr-parameters>
+
+  <div class="mbr-overlay" mbr-if="overlay && bg.type !== 'color'" opacity="{{overlayOpacity}}"
+    bg-color="{{overlayColor}}"></div>
+
+  <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+    <div class="row" mbr-class="{'flex-row-reverse' : reverseContent}">
+      <div class="col-lg-5 mb-5">
+        <h3 class="mbr-section-maintitle mbr-fonts-style mb-4" data-app-selector=".mbr-section-maintitle"
+          mbr-if="showmainTitle" mbr-theme-style="display-2">
+          <b>Open roles</b>
+        </h3>
+        <p class="mbr-section-maintext mbr-fonts-style mb-4" data-app-selector=".mbr-section-maintext, .btn-move"
+          mbr-if="showmainText" mbr-theme-style="display-7">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+          vitae pellentesque. Integer aliquam.<br />
+        </p>
+
+        <div mbr-buttons="" mbr-theme-style="display-7" class="mbr-section-btn btn-move" mbr-if="showmainButtons">
+          <a class="btn btn-primary" href="https://mobiri.se" data-app-placeholder="Type Text"><strong>Read
+              more</strong></a>
+        </div>
+      </div>
+
+      <div class="col-lg-7">
+        <div class="item features-without-image">
+          <div class="item-wrapper">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <div class="align-left">
+                  <h3 class="mbr-section-title mbr-fonts-style mb-2" data-app-selector=".mbr-section-title"
+                    mbr-if="showTitle" mbr-theme-style="display-5">
+                    <b>Designer</b>
+                  </h3>
+                  <h4 class="mbr-section-subtitle mbr-fonts-style mb-3" data-app-selector=".mbr-section-subtitle"
+                    mbr-if="showsubTitle" mbr-theme-style="display-7">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </h4>
+                  <p class="mbr-section-text mbr-fonts-style mb-0" data-app-selector=".mbr-section-text"
+                    mbr-if="showText" mbr-theme-style="display-7">
+                    Full-time<br />
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-5">
+                <div mbr-buttons="" mbr-theme-style="display-7" class="mbr-section-btn align-right"
+                  mbr-if="showButtons">
+                  <a class="btn btn-black" href="https://mobiri.se" data-app-placeholder="Type Text"><strong>Read
+                      more</strong></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item features-without-image">
+          <div class="item-wrapper">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <div class="align-left">
+                  <h3 class="mbr-section-title mbr-fonts-style mb-2" data-app-selector=".mbr-section-title"
+                    mbr-if="showTitle" mbr-theme-style="display-5">
+                    <b>Manager</b>
+                  </h3>
+                  <h4 class="mbr-section-subtitle mbr-fonts-style mb-3" data-app-selector=".mbr-section-subtitle"
+                    mbr-if="showsubTitle" mbr-theme-style="display-7">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </h4>
+                  <p class="mbr-section-text mbr-fonts-style mb-0" data-app-selector=".mbr-section-text"
+                    mbr-if="showText" mbr-theme-style="display-7">
+                    Full-time<br />
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-5">
+                <div mbr-buttons="" mbr-theme-style="display-7" class="mbr-section-btn align-right"
+                  mbr-if="showButtons">
+                  <a class="btn btn-black" href="https://mobiri.se" data-app-placeholder="Type Text"><strong>Read
+                      more</strong></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item features-without-image">
+          <div class="item-wrapper">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <div class="align-left">
+                  <h3 class="mbr-section-title mbr-fonts-style mb-2" data-app-selector=".mbr-section-title"
+                    mbr-if="showTitle" mbr-theme-style="display-5">
+                    <b>Designer</b>
+                  </h3>
+                  <h4 class="mbr-section-subtitle mbr-fonts-style mb-3" data-app-selector=".mbr-section-subtitle"
+                    mbr-if="showsubTitle" mbr-theme-style="display-7">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </h4>
+                  <p class="mbr-section-text mbr-fonts-style mb-0" data-app-selector=".mbr-section-text"
+                    mbr-if="showText" mbr-theme-style="display-7">
+                    Full-time<br />
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-5">
+                <div mbr-buttons="" mbr-theme-style="display-7" class="mbr-section-btn align-right"
+                  mbr-if="showButtons">
+                  <a class="btn btn-black" href="https://mobiri.se" data-app-placeholder="Type Text"><strong>Read
+                      more</strong></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

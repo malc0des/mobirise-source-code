@@ -1,0 +1,102 @@
+<section
+  class="video03"
+  group="Image & Video"
+  data-bg-video="{{bg.type == 'video' && bg.value.url}}"
+  plugins="PlayerVimeo"
+>
+  <mbr-parameters>
+    <header>Size</header>
+    <input type="checkbox" name="fullWidth" title="Full Width" />
+		<input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="6" />
+		<input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="6" />
+    <input type="range" name="videoWidth" title="Video" min="4" max="12" step="1" value="9" />
+
+    <header>Show/Hide</header>
+    <input type="checkbox" title="Title" name="showTitle" checked />
+    <input type="checkbox" title="Text" name="showText" checked />
+    <input type="checkbox" title="Buttons" name="showButtons" checked />
+
+    <header>Background</header>
+    <fieldset type="background" name="bg" parallax>
+      <input type="image" title="Image" value="../_images/background1.jpg" />
+      <input type="color" title="Color" value="#edefeb" selected />
+    </fieldset>
+    <input
+      type="checkbox"
+      title="Overlay"
+      name="overlay"
+      condition="bg.type !== 'color'"
+    />
+    <input
+      type="color"
+      title="Overlay Color"
+      name="overlayColor"
+      value="#ffffff"
+      condition="overlay && bg.type !== 'color'"
+    />
+    <input
+      type="range"
+      inline
+      title="Opacity"
+      name="overlayOpacity"
+      min="0"
+      max="1"
+      step="0.1"
+      value="0.5"
+      condition="overlay && bg.type !== 'color'"
+    />
+  </mbr-parameters>
+  <div
+    class="mbr-overlay"
+    mbr-if="overlay && bg.type !== 'color'"
+    opacity="{{overlayOpacity}}"
+    bg-color="{{overlayColor}}"
+  ></div>
+
+  <div
+    class="text-center"
+    mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}"
+  >
+    <div class="row justify-content-center">
+      <div mbr-video class="mbr-figure col-12 mb-5 col-md-{{videoWidth}}">
+        <iframe
+          src="https://www.youtube.com/watch?v=-BSQlJxCDcI&loop=1&autoplay=1"
+        ></iframe>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-12 content-text">
+        <h5
+          class="mbr-section-title mbr-fonts-style mb-4"
+          data-app-selector=".mbr-section-title"
+          mbr-theme-style="display-2"
+          mbr-if="showTitle"
+        >
+          <b>From ordinary to extraordinary</b>
+        </h5>
+        <p
+          class="mbr-text mbr-fonts-style mb-4"
+          mbr-theme-style="display-7"
+          mbr-if="showText"
+          data-app-selector=".mbr-text, .mbr-section-btn"
+        >
+          Unleash your creativity and sew your way to endless possibilities.
+        </p>
+        <div
+          mbr-buttons
+          mbr-theme-style="display-7"
+          class="mbr-section-btn mt-4"
+          mbr-if="showButtons"
+          data-toolbar="-mbrBtnMove"
+        >
+          <a
+            class="btn btn-primary"
+            href="https://mobiri.se"
+            data-app-placeholder="Type Text"
+            >Download now</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

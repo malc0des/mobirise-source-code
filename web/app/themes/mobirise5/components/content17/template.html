@@ -1,0 +1,142 @@
+<section class="content17" group="Content" data-bg-video="{{bg.type == 'video' && bg.value.url}}" mbr-class="{'mbr-parallax-background':bg.parallax}" plugins="mbr-switch-arrow, mobirise-icons2">
+
+    <mbr-parameters>
+    <!-- Block parameters controls (Blue "Gear" panel) -->
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="6">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="6">
+        <input type="range" name="textWidth" title="Width" min="4" max="12" value="10" step="1">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle" checked>
+        <input type="checkbox" title="Subtitle" name="showSubtitle">
+        <select title="Amount" name="cardAmount">
+             <option value="1">1</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5</option>
+             <option value="6" selected>6</option>
+        </select>
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax>
+            <input type="image" title="Image" value="../_images/background1.jpg">
+            <input type="color" title="Color" value="#ffffff" selected>
+            <input type="video" title="Video" value="https://vimeo.com/428046504">
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input type="image" title="Fallback Image" value="../_images/background13.jpg" name="fallBackImage" condition="bg.type === 'video'">
+        <input type="checkbox" title="Overlay" name="overlay" checked condition="bg.type !== 'color'">
+        <input type="color" title="Overlay Color" name="overlayColor" value="#ffffff" condition="overlay && bg.type !== 'color'">
+        <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.9" condition="overlay && bg.type !== 'color'">
+    </mbr-parameters>
+
+    <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+    <div class="mbr-overlay" mbr-if="overlay && bg.type!== 'color'" mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}">
+    </div>
+    
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-{{textWidth}}">
+                    <div class="section-head align-center mb-4" mbr-if="showTitle || showSubtitle">
+                        <h3 class="mbr-section-title mb-0 mbr-fonts-style" mbr-theme-style="display-2" mbr-if="showTitle">
+                            <b>Toggle FAQ</b>
+                        </h3>
+                        <h4 class="mbr-section-subtitle mt-2 mb-0 mbr-fonts-style" mbr-theme-style="display-5" mbr-if="showSubtitle">
+                            Subtitle</h4>
+                    </div>
+                    
+                    <div id="bootstrap-toggle" class="toggle-panel accordionStyles tab-content">
+                        <div class="card mb-3">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core href="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0" mbr-theme-style="display-7" data-app-selector=".panel-title-edit"><b>How to create more items in this list?</b>
+                                </h6>
+                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text" mbr-theme-style="display-7" data-app-selector=".panel-text">The number of items is limited in this block. Open
+                                    the Block parameters to change the amount of items.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3" mbr-if="cardAmount > 1">
+                            <div class="card-header" role="tab" id="headingTwo">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0" mbr-theme-style="display-7" data-app-selector=".panel-title-edit"><b>What is Mobirise Kit?</b>
+                                </h6>
+                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                </a>
+
+                            </div>
+                            <div id="collapse2" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text" mbr-theme-style="display-7" data-app-selector=".panel-text">Mobirise Kit is a service that provides the access to all current and new themes/extensions developed by Mobirise. New themes/extensions are released every month and will be available in your account during your plan period, without any additional charge.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3" mbr-if="cardAmount > 2">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0" mbr-theme-style="display-7" data-app-selector=".panel-title-edit"><b>Can I create sites for commerical projects?</b>
+                                </h6>
+                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse3" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text" mbr-theme-style="display-7" data-app-selector=".panel-text">Yes, Mobirise is free for both non-profit and commercial sites.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3" mbr-if="cardAmount > 3">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0" mbr-theme-style="display-7" data-app-selector=".panel-title-edit"><b>What is Code Editor?</b>
+                                </h6>
+                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse4" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text" mbr-theme-style="display-7" data-app-selector=".panel-text">
+                                       This extension allows editing the code of block in the app. Also, it's possible to add code to the head and body parts of pages.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3" mbr-if="cardAmount > 4">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                   <h6 class="panel-title-edit mbr-fonts-style mb-0" mbr-theme-style="display-7" data-app-selector=".panel-title-edit"><b>What is Mobirise Kit?</b></h6>
+                                        <span class="mbr-iconfont mobi-mbri-arrow-down mobi-mbri"></span>
+                                </a>
+                            </div>
+                            <div id="collapse5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text" mbr-theme-style="display-7" data-app-selector=".panel-text">
+                                       Mobirise Kit is a service that provides the access to all current and new themes/extensions developed by Mobirise. New themes/extensions are released every month and will be available in your account during your plan period, without any additional charge.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3" mbr-if="cardAmount > 5">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0" mbr-theme-style="display-7" data-app-selector=".panel-title-edit"><b>Can I create sites for commerical projects?</b></h6>
+                                    <span class="mbr-iconfont mobi-mbri-arrow-down mobi-mbri"></span>
+                                </a>
+                            </div>
+                            <div id="collapse6" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text" mbr-theme-style="display-7" data-app-selector=".panel-text">
+                                       Yes, Mobirise is free for both non-profit and commercial sites.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>

@@ -1,0 +1,131 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type ="color") {
+    background-color: @bg-value;
+}
+
+& when (@bg-type ="image") {
+    background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+    display: none;
+}
+.mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    & when (@bg-type ='video') {
+        background-image: url(@fallBackImage);
+    }
+}
+.timeline-element {
+    position: relative;
+}
+
+.image-wrapper img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.iconBackground {
+    position: absolute;
+
+    @media (max-width: 767px) {
+        left: 15px;
+    }
+
+    @media (min-width: 768px) {
+        left: 50%;
+    }
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid @lineColor;
+    top: 30px;
+    margin-left: -9px;
+    padding: 0;
+}
+
+.row {
+    &:after {
+        content: "";
+        position: absolute;
+        background-color: @lineColor;
+        width: 2px;
+
+        @media (max-width: 767px) {
+            left: 15px;
+        }
+
+        @media (min-width: 768px) {
+            left: 50%;
+        }
+
+        top: 50px;
+        height: calc(100% ~"-"10px);
+    }
+
+    & when (@reverseTimeline) {
+        flex-direction: row-reverse;
+
+        &:nth-child(even) {
+            .mbr-timeline-date {
+                text-align: right;
+            }
+
+            @media (max-width: 767px) {
+                flex-direction: column-reverse;
+            }
+        }
+    }
+
+    & when not (@reverseTimeline) {
+        &:nth-child(odd) {
+            .mbr-timeline-date {
+                text-align: right;
+            }
+        }
+
+        &:nth-child(even) {
+            @media (max-width: 767px) {
+                flex-direction: column-reverse;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+
+    .timeline-date-wrapper,
+    .timeline-text-wrapper {
+        padding: 0rem;
+        padding-left: 2rem;
+    }
+
+    .mbr-timeline-date {
+        text-align: left !important;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .timeline-date-wrapper,
+    .timeline-text-wrapper {
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .timeline-date-wrapper,
+    .timeline-text-wrapper {
+        padding: 2rem;
+    }
+}

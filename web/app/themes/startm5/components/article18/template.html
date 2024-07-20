@@ -1,0 +1,60 @@
+<section  class="article18" group="Article">
+  <mbr-parameters>
+    <header>Size</header>
+    <input type="checkbox" title="Full Width" name="fullWidth">
+    <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="5">
+    <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="5">
+    <input type="range" name="textWidth" title="Width" min="4" max="12" value="8" step="1">
+    <header>Show/Hide</header>
+    <input type="checkbox" title="Title" name="showMainTitle">
+    <input type="checkbox" title="Subtitle" name="showMainSubtitle">
+    <input type="color" name="iconColor" title="Color" value="#9fe870">
+    <header>Background</header>
+    <input type="color" title="Color" name="bgColor" value="#ffffff">
+  </mbr-parameters>
+  <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+    <div class="row justify-content-center">
+      <div class="counter-container col-md-12 col-lg-{{textWidth}}">
+        <div
+          class="row mb-5 justify-content-center"
+          mbr-if="showMainTitle || showMainSubtitle"
+        >
+          <div class="col-12 content-head">
+            <h3
+              class="mbr-section-title mbr-fonts-style align-center mb-0"
+              mbr-theme-style="display-2"
+              mbr-if="showMainTitle"
+              data-app-selector=".mbr-section-title"
+            >
+              <b>List</b>
+            </h3>
+            <h5
+             class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4"
+             mbr-theme-style="display-7"
+             mbr-if="showMainSubtitle"
+             data-app-selector=".mbr-section-subtitle"
+            >
+              Press "Enter" to add more items to the list.
+            </h5>
+          </div>
+        </div>
+        <div
+          class="mbr-text mbr-fonts-style"
+          mbr-theme-style="display-7"
+          data-app-selector=".mbr-text"
+          data-multiline
+          mbr-article
+        >
+          <ul>
+            <li><b>Composition. </b>A harmonious arrangement of elements, like notes in a symphony, creating a balanced
+              and expressive piece of art.</li>
+            <li><b>Performance.</b> An engaging and dynamic display of talent, emotion, or skill, captivating audiences
+              and evoking powerful reactions.</li>
+            <li><b>Presentation.</b> A structured and compelling delivery of information or ideas, effectively
+              communicating and engaging with the audience.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

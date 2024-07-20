@@ -1,0 +1,173 @@
+<section
+  class="timeline02"
+  group="News"
+>
+  <mbr-parameters>
+    <header>Size</header>
+    <input
+      type="checkbox"
+      title="Full Width"
+      name="fullWidth"
+    >
+    <input
+      type="checkbox"
+      name="reverseContent"
+      title="Reverse"
+    >
+    <input
+      type="range"
+      inline
+      title="Top"
+      name="paddingTop"
+      min="0"
+      max="10"
+      step="1"
+      value="6"
+    >
+    <input
+      type="range"
+      inline
+      title="Bottom"
+      name="paddingBottom"
+      min="0"
+      max="10"
+      step="1"
+      value="4"
+    >
+    <input
+      type="range"
+      name="textWidth"
+      title="Width"
+      min="4"
+      max="8"
+      value="8"
+      step="1"
+    >
+    <header>Show/Hide</header>
+    <input
+      type="checkbox"
+      title="Title"
+      name="showMainTitle"
+      checked
+    >
+    <input
+      type="checkbox"
+      title="Subtitle"
+      name="showMainSubtitle"
+    >
+    <input
+      type="checkbox"
+      title="Event"
+      name="showTitle"
+      checked
+    >
+    <input
+      type="checkbox"
+      title="Date"
+      name="showSubtitle"
+      checked
+    >
+    <header>Background</header>
+    <input
+      type="color"
+      title="Color"
+      name="bgColor"
+      value="#ffffff"
+    >
+  </mbr-parameters>
+  <div
+    mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}"
+  >
+    <div class="row justify-content-center">
+      <div
+        class="col-12 mb-5 content-head"
+        mbr-if="showMainTitle || showMainSubtitle"
+      >
+        <h3
+          class="mbr-section-title mbr-fonts-style align-center mb-0"
+          mbr-theme-style="display-2"
+          mbr-if="showMainTitle"
+          data-app-selector=".mbr-section-title"
+        >
+          <b>Timeline</b>
+        </h3>
+        <h5
+          class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4"
+          mbr-theme-style="display-7"
+          mbr-if="showMainSubtitle"
+          data-app-selector=".mbr-section-subtitle"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+      </div>
+    </div>
+    <div
+      class="row justify-content-center item features-without-image active"
+    >
+      <div class="col-12 col-lg">
+        <p
+          class="mbr-card-subtitle mbr-fonts-style mt-0 mb-2"
+          mbr-if="showSubtitle"
+          data-app-selector=".mbr-card-subtitle"
+          mbr-theme-style="display-7"
+        >
+          2018
+        </p>
+        <h5
+          class="mbr-card-title mbr-fonts-style mt-0 mb-2"
+          mbr-if="showTitle"
+          data-app-selector=".mbr-card-title"
+          mbr-theme-style="display-5"
+        >
+          <b>Award-winning photographer</b>
+        </h5>
+        <p
+          class="mbr-text mbr-fonts-style mt-0"
+          data-app-selector=".mbr-text"
+          mbr-theme-style="display-7"
+        >
+          The photographer's talent and hard work are recognized as they receive a prestigious photography award. This
+          milestone represents their achievement and recognition within the photography community.</p>
+      </div>
+      <div class="col-md-12 col-lg-{{textWidth}} item-wrapper ">
+        <div class="image-wrapper mb-5">
+          <img src="../_images/hightlights/11.jpg" alt="Mobirise Website Builder">
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center item features-without-image">
+      <div class="col-12 col-lg">
+        <p
+          class="mbr-card-subtitle mbr-fonts-style mt-0 mb-2"
+          mbr-if="showSubtitle"
+          data-app-selector=".mbr-card-subtitle"
+          mbr-theme-style="display-7"
+        >
+          2010
+        </p>
+        <h5
+          class="mbr-card-title mbr-fonts-style mt-0 mb-2"
+          mbr-if="showTitle"
+          data-app-selector=".mbr-card-title"
+          mbr-theme-style="display-5"
+        >
+          <b>Professional photography career launch</b>
+        </h5>
+        <p
+          class="mbr-text mbr-fonts-style mt-0"
+          data-app-selector=".mbr-text"
+          mbr-theme-style="display-7"
+        >
+          The photographer takes a leap into the professional world of photography. They establish their photography
+          studio, build a portfolio, and begin offering services to clients. This milestone signifies their dedication
+          to their craft.
+        </p>
+      </div>
+      <div class="col-md-12 col-lg-{{textWidth}} item-wrapper ">
+        <div class="image-wrapper mb-5">
+          <img src="../_images/hightlights/13.jpg"
+            alt="Mobirise Website Builder" data-slide-to="1" data-bs-slide-to="2">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

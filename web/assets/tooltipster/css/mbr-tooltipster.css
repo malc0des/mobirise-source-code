@@ -1,0 +1,8 @@
+.tooltipster-base {
+    background: #2A2A2F;
+    border: none;
+}
+
+.tooltipster-base .tooltipster-arrow-border {
+    display: none;
+}

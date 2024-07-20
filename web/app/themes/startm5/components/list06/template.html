@@ -1,0 +1,225 @@
+<section class="list06" group="List">
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input
+          type="range"
+          inline
+          title="Top"
+          name="paddingTop"
+          min="0"
+          max="10"
+          step="1"
+          value="6"
+        >
+        <input
+          type="range"
+          inline
+          title="Bottom"
+          name="paddingBottom"
+          min="0"
+          max="10"
+          step="1"
+          value="6"
+        >
+        <input
+          type="range"
+          name="textWidth"
+          title="Width"
+          min="4"
+          max="12"
+          value="9"
+          step="1"
+        >
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showMainTitle" checked>
+        <input type="checkbox" title="Subtitle" name="showMainSubtitle">
+        <input type="checkbox" title="Position" name="showTitle" checked>
+        <input type="checkbox" title="Date" name="showSubtitle" checked>
+        <input type="checkbox" title="List 1" name="showList1" checked>
+        <input type="checkbox" title="List 2" name="showList2">
+        <input type="checkbox" title="Buttons" name="showButtons">
+        <input type="color" title="Card BG" name="cardbg" value="#ffffff" selected>
+        <input type="color" title="Bullet Color" name="iconColor" value="#9fe870" selected>
+        <header>Background</header>
+        <input type="color" title="Color" name="bgColor" value="#edefeb">
+    </mbr-parameters>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div
+          class="col-12 mb-5 content-head"
+          mbr-if="showMainTitle || showMainSubtitle"
+        >
+            <h3
+              class="mbr-section-title mbr-fonts-style align-center mb-0"
+              mbr-theme-style="display-2"
+              mbr-if="showMainTitle"
+              data-app-selector=".mbr-section-title"
+            >
+                <b>Work Experience</b>
+            </h3>
+            <h5
+              class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4"
+              mbr-theme-style="display-7"
+              mbr-if="showMainSubtitle"
+              data-app-selector=".mbr-section-subtitle"
+            >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </h5>
+        </div>
+        <div class="row justify-content-center ">
+            <div class=" col-12 col-lg-{{textWidth}}">
+                <div class="item features-without-image col-12 active">
+                    <div class="item-wrapper">
+                        <h5
+                          class="mbr-card-title mbr-fonts-style mt-0 mb-3"
+                          mbr-if="showTitle"
+                          data-app-selector=".mbr-card-title"
+                          mbr-theme-style="display-5"
+                        >
+                            <b>Graphic Designer</b>
+                        </h5>
+                        <h6
+                          class="mbr-card-subtitle mbr-fonts-style mt-0 mb-4"
+                          mbr-if="showSubtitle"
+                          data-app-selector=".mbr-card-subtitle"
+                          mbr-theme-style="display-7"
+                        >
+                            Stellar Corporation, January 2020 - December 2022<br>
+                        </h6>
+                        <h6
+                          class="mbr-card-subtitle mbr-fonts-style mt-0 mb-3"
+                          mbr-if="showList1"
+                          data-app-selector=".mbr-card-subtitle"
+                          mbr-theme-style="display-7"
+                        >
+                            <b>Responsibilities</b>
+                        </h6>
+                        <div
+                          class="counter-container mbr-text mbr-fonts-style"
+                          mbr-if="showList1"
+                          mbr-theme-style="display-7"
+                          data-app-selector=".mbr-text"
+                          data-multiline
+                          mbr-article
+                        >
+                            <ul>
+                                <li>Designed marketing materials such as logos, brochures, flyers, and social media
+                                    graphics.</li>
+                                <li>Managed the company's website.</li>
+                                <li>Collaborated with the team on marketing campaign development and implementation.
+                                </li>
+                            </ul>
+                        </div>
+                        <h6
+                          class="mbr-card-subtitle mbr-fonts-style mt-0 mb-3"
+                          mbr-if="showList2"
+                          data-app-selector=".mbr-card-subtitle"
+                          mbr-theme-style="display-7"
+                        >
+                            <b>Achievements</b>
+                        </h6>
+                        <div
+                          class="counter-container mbr-text mbr-fonts-style"
+                          mbr-if="showList2"
+                          mbr-theme-style="display-7"
+                          data-app-selector=".mbr-text"
+                          data-multiline
+                          mbr-article
+                        >
+                            <ul>
+                                <li>Created a fresh logo for a prominent company that garnered positive feedback from
+                                    both its clientele and staff.</li>
+                                <li>Crafted a social media campaign resulting in over 1 million impressions.</li>
+                            </ul>
+                        </div>
+                        <div
+                          mbr-buttons
+                          mbr-theme-style="display-7"
+                          class="mbr-section-btn"
+                          mbr-if="showButtons"
+                          data-toolbar="-mbrBtnMove"
+                        >
+                            <a class="btn btn-white" href="https://mobiri.se" data-app-placeholder="Type Text">
+                                Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                        <h5
+                          class="mbr-card-title mbr-fonts-style mt-0 mb-3"
+                          mbr-if="showTitle"
+                          data-app-selector=".mbr-card-title"
+                          mbr-theme-style="display-5"
+                        >
+                            <b>SMM Manager</b>
+                        </h5>
+                        <h6
+                          class="mbr-card-subtitle mbr-fonts-style mt-0 mb-4"
+                          mbr-if="showSubtitle"
+                          data-app-selector=".mbr-card-subtitle"
+                          mbr-theme-style="display-7"
+                        >
+                            Puppy Media, December 2021 - July 2022</h6>
+                        <h6
+                          class="mbr-card-subtitle mbr-fonts-style mt-0 mb-3"
+                          mbr-if="showList1"
+                          data-app-selector=".mbr-card-subtitle"
+                          mbr-theme-style="display-7"
+                        >
+                            <b>Responsibilities</b>
+                        </h6>
+                        <div
+                          class="counter-container mbr-text mbr-fonts-style"
+                          mbr-if="showList1"
+                          mbr-theme-style="display-7"
+                          data-app-selector=".mbr-text"
+                          data-multiline
+                          mbr-article
+                        >
+                            <ul>
+                                <li>Designed and executed print and digital ad campaigns.</li>
+                                <li>Oversaw social media accounts.</li>
+                                <li>Collaborated with copywriters to craft creative concepts for marketing initiatives.
+                                </li>
+                            </ul>
+                        </div>
+                        <h6
+                          class="mbr-card-subtitle mbr-fonts-style mt-0 mb-3"
+                          mbr-if="showList2"
+                          data-app-selector=".mbr-card-subtitle"
+                          mbr-theme-style="display-7"
+                        >
+                            <b>Achievements</b>
+                        </h6>
+                        <div
+                          class="counter-container mbr-text mbr-fonts-style"
+                          mbr-if="showList2"
+                          mbr-theme-style="display-7"
+                          data-app-selector=".mbr-text"
+                          data-multiline
+                          mbr-article
+                        >
+                            <ul>
+                                <li>Designed and developed an advertising campaign.</li>
+                                <li>Increased social media engagement by 20%.</li>
+                                <li>Developed creative concepts for marketing campaigns that resulted in a 10% increase
+                                    in sales.</li>
+                            </ul>
+                        </div>
+                        <div
+                          mbr-buttons
+                          mbr-theme-style="display-7"
+                          class="mbr-section-btn"
+                          mbr-if="showButtons"
+                          data-toolbar="-mbrBtnMove"
+                        >
+                            <a class="btn btn-white" href="https://mobiri.se" data-app-placeholder="Type Text">
+                                Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

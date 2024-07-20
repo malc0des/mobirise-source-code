@@ -1,0 +1,145 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type ='color') {
+    background-color: @bg-value;
+}
+
+& when (@bg-type ='image') {
+    background-image: url(@bg-value);
+}
+
+& when (@reverseContent) {
+    .row {
+        flex-direction: row-reverse;
+    }
+}
+
+.mbr-fallback-image.disabled {
+    display: none;
+}
+
+.mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    & when (@bg-type ='video') {
+        background-image: url(@fallBackImage);
+    }
+}
+
+.mbr-description {
+    text-align: left;
+}
+
+.item-wrapper {
+    background: @cardbg;
+    margin-bottom: 2rem;
+    padding: 2.25rem 2.25rem 1rem 2.25rem;
+
+    @media (max-width: 767px) {
+        padding: 2rem 1.5rem 0.5rem 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    @media (min-width: 992px) and (max-width: 1200px) {
+        padding: 2rem 1.5rem 0.5rem 1.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.card-title,
+.iconfont-wrapper {
+    color: #000000;
+}
+
+.card-text {
+    color: #000000;
+}
+
+.mbr-section-title {
+    color: #000000;
+    text-align: center;
+}
+
+.mbr-text,
+.mbr-section-btn {
+    text-align: center;
+}
+
+.card-text,
+.item .mbr-section-btn {
+    text-align: left;
+}
+
+.counter-container {
+    ul {
+        margin: 0;
+        padding-left: 2.25rem;
+        list-style: none;
+
+        li {
+            position: relative;
+            list-style: none;
+            margin-bottom: 2rem;
+
+            &:before {
+                position: absolute;
+                left: -1.5em;
+                content: "";
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: @iconColor;
+                background-color: @iconColor;
+                width: 0.5em;
+                height: 0.5em;
+                top: 0.4em;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    ol {
+        margin-bottom: 0;
+        padding-left: 2.25rem;
+
+        li {
+            margin-bottom: 2rem;
+            list-style: none;
+            position: relative;
+
+            &:before {
+                font-weight: 700;
+                position: absolute;
+                left: -1.5em;
+                counter-increment: myCounter;
+                content: counter(myCounter);
+                transition: all .2s;
+                color: @iconColor;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        counter-reset: myCounter;
+    }
+}
+
+.mbr-text UL {
+    text-align: left;
+}
+
+.mbr-text {
+    text-align: left;
+}
+
+.mbr-subtitle {
+    text-align: center;
+}

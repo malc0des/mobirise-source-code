@@ -1,0 +1,62 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+background-color: @bgColor;
+
+.counter-container {
+    ul {
+        margin: 0;
+        list-style: none;
+        padding-left: 2.5rem;
+        li {
+            margin-bottom: 1rem;
+            position: relative;
+            & when (@stylizedCounters) {
+                list-style: none;
+                position: relative;
+                padding-left: 1rem;
+
+                &:before {
+                    position: absolute;
+                    left: -40px;
+                    content: "";
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: contrast(@iconColor);
+                    background-color: @iconColor;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    margin-top: 5px;
+
+                    & when (@countersType ="circle") {
+                        background: none;
+                        border: 1px solid @iconColor;
+                        color: @iconColor;
+                    }
+
+                    & when (@countersType ="square") {
+                        border-radius: 0;
+                    }
+
+                    & when (@mark) {
+                        content: "✓";
+                    }
+                }
+            }
+
+            & when not (@stylizedCounters) {
+                &:before {
+                    position: absolute;
+                    left: -1.6rem;
+                    content: "\2022";
+                    color: @iconColor;
+                    font-weight: bold;
+                    font-size: 2rem;
+                    width: 1.6rem;
+                    line-height: 1.2;
+                }
+            }
+        }
+    }
+}

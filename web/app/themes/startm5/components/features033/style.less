@@ -1,0 +1,37 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+  display: none;
+}
+.mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  & when (@bg-type = 'video') {
+    background-image: url(@fallBackImage);
+  }
+}
+.item-wrapper {
+  display: flex;
+  margin-bottom: 2rem;
+  @media (max-width: 767px) {
+    margin-bottom: 1rem;
+  }
+}
+.img-wrapper {
+  width: 10rem;
+  padding-right: 1.5rem;
+}
+.content-head {
+  max-width: 800px;
+}

@@ -1,0 +1,1 @@
+(function(a,b){b.regExtension({name:"core-menu-styles",global:{closeSubitems:function(){a(".nav-dropdown li").each(function(){var c=a(this)[0];a(c).removeClass("open")})}},events:{loadedComponent:function(a,b,d,e){~a._name.toLowerCase().indexOf("menu")&&this.closeSubitems()}}})})(jQuery,mbrAppCore);

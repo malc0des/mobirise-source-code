@@ -1,0 +1,55 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type ='color') {
+  background-color: @bg-value;
+}
+
+& when (@bg-type ='image') {
+  background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+  display: none;
+}
+.mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+
+  & when (@bg-type ='video') {
+      background-image: url(@fallBackImage);
+  }
+}
+
+.item-wrapper {
+  background-color: @cardsBg;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+  background: @cardsBg;
+  transition: all 0.3s;
+  padding: 2rem;
+  padding-top: 3rem;
+}
+
+.mbr-section-title,
+.mbr-section-subtitle {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .item-wrapper {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .item-wrapper {
+    padding: 1rem;
+    padding-top: 2rem;
+  }
+}

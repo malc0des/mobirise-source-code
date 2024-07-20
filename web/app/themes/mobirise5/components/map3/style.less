@@ -1,0 +1,51 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+  display: none;
+}
+.mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+
+  & when (@bg-type ='video') {
+      background-image: url(@fallBackImage);
+  }
+}
+.google-map {
+  height: 350px;
+  position: relative;
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
+  [data-state-details] {
+    color: #6b6763;
+    height: 1.5em;
+    margin-top: -0.75em;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+  }
+  &[data-state] {
+    background: #e9e5dc;
+  }
+  &[data-state="loading"] {
+    [data-state-details] {
+      display: none;
+    }
+  }
+}

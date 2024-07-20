@@ -1,0 +1,928 @@
+{
+    "title": "StartM5",
+    "description": "StartM5 is a theme for portfolio, business, finance, influencer, influencers blog, creatives,  instagram influencer, tiktok influencer, business blogger.",
+    "name": "startm5",
+    "largeCover": "cover.jpg",
+    "version": 1,
+    "minAppVersion": "5.3.14",
+    "includes": [
+        "core-summernote-dropdown-menu-bs-5",
+        "arrow-down",
+        "core-accordion-bootstrap",
+        "core-toggle-bootstrap",
+        "dropdown",
+        "gallery-video",
+        "scroll-to-top",
+        "scroll-animation",
+        "core-after-navbar",
+        "core-auto-paddings",
+        "menu-styles",
+        "core-menu-styles",
+        "gallery",
+        "core-gallery",
+        "testimonials",
+        "core-testimonials",
+        "slider-mobirise",
+        "core-slider-mobirise",
+        "core-dropdown",
+        "item-wizard"
+    ],
+    "theme": {
+        "type": "secondary",
+        "base": {
+            "name": "bootstrap",
+            "version": 5
+        },
+        "settings": [
+            {
+                "type": "title",
+                "title": "Site Styles"
+            },
+            {
+                "type": "subtitle",
+                "title": "Colors"
+            },
+            {
+                "var": "primaryColor",
+                "type": "color",
+                "title": "Primary",
+                "groupName": "colors",
+                "default": "#9fe870"
+            },
+            {
+                "type": "colors",
+                "title": "Buttons and Links",
+                "groupName": "colors",
+                "set": [
+                    {
+                        "var": "secondaryColor",
+                        "default": "#ffd7ef"
+                    },
+                    {
+                        "var": "successColor",
+                        "default": "#3a341c"
+                    },
+                    {
+                        "var": "infoColor",
+                        "default": "#320707"
+                    },
+                    {
+                        "var": "warningColor",
+                        "default": "#a0e2e1"
+                    },
+                    {
+                        "var": "dangerColor",
+                        "default": "#ffea64"
+                    }
+                ]
+            },
+            {
+                "type": "subtitle",
+                "title": "Fonts"
+            },
+            {
+                "var": "mainFont",
+                "default": "Inter Tight"
+            },
+            {
+                "type": "group",
+                "rule": ".mbr-fonts-style, [mbr-buttons], [mbr-menu]",
+                "title": "Title 1",
+                "name": "display-1",
+                "set": [
+                    {
+                        "type": "font",
+                        "var": "display1Font",
+                        "default": "Inter Tight"
+                    },
+                    {
+                        "type": "range",
+                        "min": 0.4,
+                        "max": 12,
+                        "step": 0.2,
+                        "var": "display1Size",
+                        "default": 5
+                    }
+                ]
+            },
+            {
+                "type": "group",
+                "rule": ".mbr-fonts-style, [mbr-buttons], [mbr-menu]",
+                "title": "Title 2",
+                "name": "display-2",
+                "set": [
+                    {
+                        "type": "font",
+                        "var": "display2Font",
+                        "default": "Inter Tight"
+                    },
+                    {
+                        "type": "range",
+                        "min": 0.4,
+                        "max": 6,
+                        "step": 0.2,
+                        "var": "display2Size",
+                        "default": 4
+                    }
+                ]
+            },
+            {
+                "type": "group",
+                "rule": ".mbr-fonts-style, [mbr-buttons], [mbr-menu]",
+                "title": "Title 3",
+                "name": "display-5",
+                "set": [
+                    {
+                        "type": "font",
+                        "var": "display5Font",
+                        "default": "Inter Tight"
+                    },
+                    {
+                        "type": "range",
+                        "min": 0.4,
+                        "max": 3,
+                        "step": 0.2,
+                        "var": "display5Size",
+                        "default": 2
+                    }
+                ]
+            },
+            {
+                "type": "group",
+                "rule": ".mbr-fonts-style, [mbr-buttons], [mbr-menu]",
+                "title": "Text",
+                "name": "display-7",
+                "set": [
+                    {
+                        "type": "font",
+                        "var": "display7Font",
+                        "default": "Inter Tight"
+                    },
+                    {
+                        "type": "range",
+                        "min": 0.4,
+                        "max": 2,
+                        "step": 0.2,
+                        "var": "display7Size",
+                        "default": 1.4
+                    }
+                ]
+            },
+            {
+                "type": "group",
+                "rule": ".mbr-fonts-style, [mbr-buttons], [mbr-menu]",
+                "title": "Menu",
+                "name": "display-4",
+                "set": [
+                    {
+                        "type": "font",
+                        "var": "display4Font",
+                        "default": "Inter Tight"
+                    },
+                    {
+                        "type": "range",
+                        "min": 0.4,
+                        "max": 2,
+                        "step": 0.2,
+                        "var": "display4Size",
+                        "default": 1.4
+                    }
+                ]
+            },
+            {
+                "type": "subtitle",
+                "title": "Options"
+            },
+            {
+                "var": "isRoundedImages",
+                "type": "switch",
+                "title": "Rounded Corners",
+                "default": true
+            },
+            {
+                "var": "isRoundedButtons",
+                "type": "switch",
+                "title": "Rounded Buttons",
+                "default": true
+            },
+            {
+                "var": "isLargeButtons",
+                "type": "switch",
+                "title": "Large Buttons",
+                "default": true
+            },
+            {
+                "var": "isGhostButtonBorder",
+                "default": true
+            },
+            {
+                "var": "underlinedLinks",
+                "type": "switch",
+                "title": "Underlined Links",
+                "default": false
+            },
+            {
+                "var": "isAnimatedOnScroll",
+                "type": "switch",
+                "title": "Animation on Scroll",
+                "default": false
+            },
+            {
+                "var": "isScrollToTopButton",
+                "type": "switch",
+                "title": "Scroll to Top Button",
+                "default": false
+            }
+        ],
+        "fonts": [
+            {
+                "url": "https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap",
+                "name": "Inter Tight",
+                "css": "'Inter Tight', sans-serif"
+            }
+        ],
+        "buttonColors": {
+            "btn-primary": "@primaryColor",
+            "btn-secondary": "@secondaryColor",
+            "btn-success": "@successColor",
+            "btn-info": "@infoColor",
+            "btn-warning": "@warningColor",
+            "btn-danger": "@dangerColor",
+            "btn-white": "#fff",
+            "btn-black": "#000"
+        },
+        "hasButtonOutlineColors": true,
+        "linkColors": {
+            "text-primary": "@primaryColor",
+            "text-secondary": "@secondaryColor",
+            "text-success": "@successColor",
+            "text-info": "@infoColor",
+            "text-warning": "@warningColor",
+            "text-danger": "@dangerColor",
+            "text-white": "#fff",
+            "text-black": "#000"
+        },
+        "colorsSet": [
+            "#2E481A","#9FE870","#163300","#7787A5","#0C2C68","#EDEFEB","#FFFFFF",
+            "#D70081","#FFD7EF","#320707","#9C98CF","#393193","#A6A99C","#F7F7F7",
+            "#1F6463","#A0E1E1","#260A30","#FFA0A0","#F92C50","#757B62","#232323",
+            "#645600","#FFEB69","#3A341C","#FFC091","#FFA600","#BCEF9B","#000000"
+        ],
+        "customLESS": "plugins/theme/css/custom.less"
+    },
+    "components": [
+        {
+            "_group": "Menu",
+            "_once": "menu",
+            "path": "components/menu01"
+        },
+        {
+            "_group": "Menu",
+            "_once": "menu",
+            "path": "components/menu02"
+        },
+        {
+            "_group": "Menu",
+            "_once": "menu",
+            "path": "components/menu03"
+        },
+        {
+            "_group": "Menu",
+            "_once": "menu",
+            "path": "components/menu04"
+        },
+        {
+            "_group": "Menu",
+            "_once": "menu",
+            "path": "components/menu05"
+        },
+        {
+            "_group": "Menu",
+            "_once": "menu",
+            "path": "components/menu06"
+        },
+        {
+            "_group": "Header",
+            "path": "components/header09"
+        },
+        {
+            "_group": "Header",
+            "path": "components/header19"
+        },
+        {
+            "_group": "Header",
+            "path": "components/header18"
+        },
+        {
+            "_group": "Header",
+            "path": "components/header17"
+        },
+        {
+            "_group": "Header",
+            "path": "components/header01"
+        },
+        {
+            "_group": "Header",
+            "path": "components/header12"
+        },
+        {
+            "_group": "Header",
+            "path": "components/header13"
+        },
+        {
+            "_group": "Header",
+            "path": "components/header10"
+        },
+        {
+            "_group": "Header",
+            "path": "components/header04"
+        },
+        {
+            "_group": "Header",
+            "path": "components/header06"
+        },
+        {
+            "_group": "Header",
+            "path": "components/header08"
+        },
+        {
+            "_group": "Header",
+            "path": "components/header02"
+        },
+        {
+            "_group": "Header",
+            "path": "components/header14"
+        },
+        {
+            "_group": "Header",
+            "path": "components/header15"
+        },
+        {
+            "_group": "Header",
+            "path": "components/header16"
+        },
+        {
+            "_group": "Header",
+            "path": "components/header05"
+        },
+        {
+            "_group": "Header",
+            "path": "components/header07"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features03"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features04"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features05"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features06"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features010"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features012"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features013"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features015"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features016"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features017"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features019"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features020"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features021"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features022"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features027"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features028"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features029"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features032"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features033"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features034"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features035"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features036"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features037"
+        },
+        {
+            "_group": "Features",
+            "path": "components/features038"
+        },
+        {
+            "_group": "Article",
+            "path": "components/article01"
+        },
+        {
+            "_group": "Article",
+            "path": "components/article02"
+        },
+        {
+            "_group": "Article",
+            "path": "components/article04"
+        },
+        {
+            "_group": "Article",
+            "path": "components/article05"
+        },
+        {
+            "_group": "Article",
+            "path": "components/article06"
+        },
+        {
+            "_group": "Article",
+            "path": "components/article07"
+        },
+        {
+            "_group": "Article",
+            "path": "components/article08"
+        },
+        {
+            "_group": "Article",
+            "path": "components/article09"
+        },
+        {
+            "_group": "Article",
+            "path": "components/article10"
+        },{
+            "_group": "Article",
+            "path": "components/article11"
+        },
+        {
+            "_group": "Article",
+            "path": "components/article12"
+        },
+        {
+            "_group": "Article",
+            "path": "components/article13"
+        },
+        {
+            "_group": "Article",
+            "path": "components/article14"
+        },
+        {
+            "_group": "Article",
+            "path": "components/article15"
+        },
+        {
+            "_group": "Article",
+            "path": "components/article16"
+        },
+        {
+            "_group": "Article",
+            "path": "components/article17"
+        },
+        {
+            "_group": "Article",
+            "path": "components/article18"
+        },
+        {
+            "_group": "Article",
+            "path": "components/article19"
+        },
+        {
+            "_group": "Article",
+            "path": "components/article20"
+        },
+        {
+            "_group": "Article",
+            "path": "components/article21"
+        },
+        {
+            "_group": "Article",
+            "path": "components/article22"
+        },
+        {
+            "_group": "Article",
+            "path": "components/features030"
+        },
+        {
+            "_group": "Article",
+            "path": "components/features031"
+        },
+        {
+            "_group": "Image & Video",
+            "path": "components/image01"
+        },
+        {
+            "_group": "Image & Video",
+            "path": "components/image02"
+        },
+        {
+            "_group": "Image & Video",
+            "path": "components/image03"
+        },
+        {
+            "_group": "Image & Video",
+            "path": "components/image04"
+        },
+        {
+            "_group": "Image & Video",
+            "path": "components/image05"
+        },
+        {
+            "_group": "Image & Video",
+            "path": "components/image06"
+        },
+        {
+            "_group": "Image & Video",
+            "path": "components/image07"
+        },
+        {
+            "_group": "Image & Video",
+            "path": "components/image08"
+        },
+        {
+            "_group": "Image & Video",
+            "path": "components/video01"
+        },
+        {
+            "_group": "Image & Video",
+            "path": "components/video02"
+        },
+        {
+            "_group": "Image & Video",
+            "path": "components/video03"
+        },
+        {
+            "_group": "Image & Video",
+            "path": "components/video04"
+        },
+        {
+            "_group": "Image & Video",
+            "path": "components/video05"
+        },
+        {
+            "_group": "Gallery & Slider",
+            "path": "components/gallery01"
+        },
+        {
+            "_group": "Gallery & Slider",
+            "path": "components/gallery02"
+        },
+        {
+            "_group": "Gallery & Slider",
+            "path": "components/gallery03"
+        },
+        {
+            "_group": "Gallery & Slider",
+            "path": "components/gallery04"
+        },
+        {
+            "_group": "Gallery & Slider",
+            "path": "components/gallery05"
+        },
+        {
+            "_group": "Gallery & Slider",
+            "path": "components/gallery06"
+        },
+        {
+            "_group": "Gallery & Slider",
+            "path": "components/gallery07"
+        },
+        {
+            "_group": "Gallery & Slider",
+            "path": "components/gallery08"
+        },
+        {
+            "_group": "Gallery & Slider",
+            "path": "components/gallery09"
+        },
+        {
+            "_group": "Gallery & Slider",
+            "path": "components/gallery10"
+        },
+        {
+            "_group": "Gallery & Slider",
+            "path": "components/slider02"
+        },
+        {
+            "_group": "Gallery & Slider",
+            "path": "components/slider03"
+        },
+        {
+            "_group": "Gallery & Slider",
+            "path": "components/slider04"
+        },
+        {
+            "_group": "Gallery & Slider",
+            "path": "components/slider05"
+        },
+        {
+            "_group": "People",
+            "path": "components/clients01"
+        },
+        {
+            "_group": "People",
+            "path": "components/people01"
+        },
+        {
+            "_group": "People",
+            "path": "components/people02"
+        },
+        {
+            "_group": "People",
+            "path": "components/people03"
+        },
+        {
+            "_group": "People",
+            "path": "components/people04"
+        },
+        {
+            "_group": "People",
+            "path": "components/people05"
+        },
+        {
+            "_group": "People",
+            "path": "components/people06"
+        },
+        {
+            "_group": "People",
+            "path": "components/people07"
+        },
+        {
+            "_group": "People",
+            "path": "components/clients02"
+        },
+        {
+            "_group": "People",
+            "path": "components/clients03"
+        },
+        {
+            "_group": "People",
+            "path": "components/clients04"
+        },
+        {
+            "_group": "Contact",
+            "path": "components/map01"
+        },
+        {
+            "_group": "Contact",
+            "path": "components/map02"
+        },
+        {
+            "_group": "Contact",
+            "path": "components/contacts01"
+        },
+        {
+            "_group": "Contact",
+            "path": "components/contacts02"
+        },
+        {
+            "_group": "Contact",
+            "path": "components/contacts03"
+        },
+        {
+            "_group": "Contact",
+            "path": "components/contacts04"
+        },
+        {
+            "_group": "Social",
+            "path": "components/social01"
+        },
+        {
+            "_group": "Social",
+            "path": "components/social02"
+        },
+        {
+            "_group": "Social",
+            "path": "components/social03"
+        },
+        {
+            "_group": "Social",
+            "path": "components/social04"
+        },
+        {
+            "_group": "Social",
+            "path": "components/social05"
+        },
+        {
+            "_group": "Social",
+            "path": "components/social06"
+        },
+        {
+            "_group": "Footer",
+            "_once": "footers",
+            "path": "components/footer01"
+        },
+        {
+            "_group": "Footer",
+            "_once": "footers",
+            "path": "components/footer02"
+        },
+        {
+            "_group": "Footer",
+            "_once": "footers",
+            "path": "components/footer03"
+        },
+        {
+            "_group": "Footer",
+            "_once": "footers",
+            "path": "components/footer04"
+        },
+        {
+            "_group": "Form",
+            "path": "components/form01"
+        },
+        {
+            "_group": "Form",
+            "path": "components/form02"
+        },
+        {
+            "_group": "Form",
+            "path": "components/form03"
+        },
+        {
+            "_group": "List",
+            "path": "components/list01"
+        },
+        {
+            "_group": "List",
+            "path": "components/list02"
+        },
+        {
+            "_group": "List",
+            "path": "components/list05"
+        },
+        {
+            "_group": "List",
+            "path": "components/list03"
+        },
+        {
+            "_group": "List",
+            "path": "components/list04"
+        },
+        {
+            "_group": "List",
+            "path": "components/list06"
+        },
+        {
+            "_group": "List",
+            "path": "components/list07"
+        },
+        {
+            "_group": "List",
+            "path": "components/tabs1"
+        },
+        {
+            "_group": "Numbers",
+            "path": "components/countdown1"
+        },
+        {
+            "_group": "Numbers",
+            "path": "components/countdown2"
+        },
+        {
+            "_group": "Numbers",
+            "path": "components/features023"
+        },
+        {
+            "_group": "Numbers",
+            "path": "components/counter1"
+        },
+        {
+            "_group": "Numbers",
+            "path": "components/numbers01"
+        },
+        {
+            "_group": "Pricing",
+            "path": "components/features024"
+        },
+        {
+            "_group": "Pricing",
+            "path": "components/features025"
+        },
+        {
+            "_group": "Pricing",
+            "path": "components/features026"
+        },
+        {
+            "_group": "News",
+            "path": "components/news08"
+        },
+        {
+            "_group": "News",
+            "path": "components/news09"
+        },
+        {
+            "_group": "News",
+            "path": "components/timeline02"
+        },
+        {
+            "_group": "News",
+            "path": "components/timeline03"
+        },
+        {
+            "_group": "News",
+            "path": "components/timeline04"
+        },
+        {
+            "_group": "News",
+            "path": "components/news01"
+        },
+        {
+            "_group": "News",
+            "path": "components/news02"
+        },
+        {
+            "_group": "News",
+            "path": "components/news03"
+        },
+        {
+            "_group": "News",
+            "path": "components/news04"
+        },
+        {
+            "_group": "News",
+            "path": "components/news05"
+        },
+        {
+            "_group": "News",
+            "path": "components/news06"
+        },
+        {
+            "_group": "News",
+            "path": "components/news07"
+        },
+        {
+            "_group": "Pricing",
+            "path": "components/pricing01"
+        },
+        {
+            "_group": "Pricing",
+            "path": "components/pricing02"
+        }
+        ,
+        {
+            "_group": "Pricing",
+            "path": "components/pricing03"
+        },
+        {
+            "_group": "Pricing",
+            "path": "components/pricing04"
+        }
+    ],
+    "plugins": [
+        "plugins"
+    ],
+    "coreDependencies": [
+        "fonts/style.css"
+    ],
+    "logo": "thumbnail.png"
+}

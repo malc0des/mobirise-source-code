@@ -1,0 +1,64 @@
+<section
+  class="article16"
+  group="Article"
+>
+    <mbr-parameters>
+        <header>Size</header>
+        <input
+          type="checkbox"
+          title="Full Width"
+          name="fullWidth"
+        >
+        <input
+          type="range"
+          inline
+          title="Top"
+          name="paddingTop"
+          min="0"
+          max="10"
+          step="1"
+          value="6"
+        >
+        <input
+          type="range"
+          inline
+          title="Bottom"
+          name="paddingBottom"
+          min="0"
+          max="10"
+          step="1"
+          value="6"
+        >
+        <input
+          type="range"
+          name="textWidth"
+          title="Width"
+          min="4"
+          max="12"
+          value="10"
+          step="1"
+        >
+        <header>Background</header>
+        <input
+          type="color"
+          title="Color"
+          name="bgColor"
+          value="#ffffff"
+        >
+    </mbr-parameters>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-{{textWidth}}">
+                <div
+                  class="mbr-section-btn align-center"
+                  mbr-buttons
+                  mbr-theme-style="display-4"
+                  data-toolbar="-mbrBtnMove"
+                >
+                    <a class="btn btn-secondary" href data-app-placeholder="Type Text">Learn more</a>
+                    <a class="btn btn-secondary-outline" href data-app-placeholder="Type Text">Live demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

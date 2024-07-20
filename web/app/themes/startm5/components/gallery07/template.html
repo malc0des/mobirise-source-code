@@ -1,0 +1,57 @@
+<section class="gallery07" group="Gallery" plugins="scrollGallery" mbr-class="{'mbr-parallax-background': bg.parallax}">
+  <mbr-parameters>
+    <header>Size</header>
+    <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="6" />
+    <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="6" />
+    </select>
+    <header>Show/Hide</header>
+    <input type="checkbox" name="showTitle" title="Title" checked />
+    <input type="checkbox" name="showSubtitle" title="Subtitle" checked/>
+    <header>Cards</header>
+    <input type="checkbox" title="Spacing" name="spacing" checked />
+    <input type="checkbox" title="Reverse direction" name="movingLeft" checked/>
+    <header>Background</header>
+    <fieldset type="background" parallax name="bg" required>
+      <input type="image" title="Image" value="../_images/background1.jpg" />
+      <input type="color" title="Color" value="#ffffff" selected />
+    </fieldset>
+    <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" />
+    <input type="color" title="Overlay Color" name="overlayColor" value="#edefeb"
+      condition="overlay && bg.type == 'image'" />
+    <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.6"
+      condition="overlay && bg.type == 'image'" />
+  </mbr-parameters>
+  <div class="mbr-overlay" mbr-if="overlay && bg.type !== 'color'"></div>
+  <div class="container-fluid gallery-wrapper">
+    <div class="row justify-content-center">
+      <div class="col-12 content-head">
+        <div class="mbr-section-head mb-5" mbr-if="showTitle || showSubtitle">
+          <h4 class="mbr-section-title mbr-fonts-style align-center mb-0" mbr-theme-style="display-2" mbr-if="showTitle"
+            data-app-selector=".mbr-section-title">
+            <b>Gallery with scroll animation</b>
+          </h4>
+          <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4" mbr-theme-style="display-7"
+            mbr-if="showSubtitle" data-app-selector=".mbr-section-subtitle">
+            Publish your site or preview it to see how the slider works in action.
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="grid-container-3" mbr-class="{'moving-left': movingLeft}" style="transform: translate3d(-200px, 0px, 0px);">
+        <div class="grid-item">
+          <img src="../_images/gallery/gallery01.jpg" alt="Mobirise Website Builder">
+        </div>
+        <div class="grid-item">
+          <img src="../_images/gallery/gallery02.jpg" alt="Mobirise Website Builder">
+        </div>
+        <div class="grid-item">
+          <img src="../_images/gallery/gallery03.jpg" alt="Mobirise Website Builder">
+        </div>
+        <div class="grid-item">
+          <img src="../_images/gallery/gallery04.jpg" alt="Mobirise Website Builder">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

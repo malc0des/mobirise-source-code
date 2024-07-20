@@ -1,0 +1,75 @@
+<section class="slider05" group="Gallery & Slider">
+    <mbr-parameters>
+        <input type="id" name="sliderId">
+        <header>Size</header>
+        <input type="checkbox" name="fullWidth" title="Full Width">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="5">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="5">
+        <input type="range" name="textWidth" title="Width" min="4" max="12" step="1" value="10" condition="!fullWidth">
+        <input type="range" name="carouselHeight" title="Height" min="2" max="8" step="1" value="6">
+        <header>Carousel</header>
+        <input type="checkbox" title="Fade Effect" name="fade">
+        <input type="checkbox" title="Autoplay" name="autoplay">
+        <input type="range" title="Interval" name="interval" min="3" max="10" value="5" step="1" condition="autoplay">
+        <header>Slide</header>
+        <input type="checkbox" title="Bullets" name="bullets" checked>
+        <input type="checkbox" title="Arrows" name="arrows" checked>
+            condition="overlaySlide">
+        <header>Background</header>
+        <input type="color" title="Color" name="bgColor" value="#ffffff" selected>
+    </mbr-parameters>
+
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-{{textWidth}}" mbr-class="{'col-lg-12':fullWidth}">
+                <div id={{sliderId}} class="carousel slide" mbr-class="{'carousel-fade': fade}"
+                    data-ride="{{autoplay ? 'carousel' : false}}" data-interval="{{interval*1000}}">
+                    <ol class="carousel-indicators" mbr-if="bullets">
+                        <li data-target="#{{sliderId}}" data-slide-to="0" class="active"></li>
+                        <li data-target="#{{sliderId}}" data-slide-to="1"></li>
+                        <li data-target="#{{sliderId}}" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item slider-image item active">
+                            <div class="item-wrapper">
+                                <div class="mbr-overlay" mbr-if="overlaySlide"
+                                    mbr-style="{'opacity': overlaySlideOpacity, 'background-color': overlaySlideColor}">
+                                </div>
+                                <img class="d-block w-100" src="../_images/background16.jpg"
+                                    alt="Mobirise Website Builder">
+                            </div>
+                        </div>
+                        <div class="carousel-item slider-image item">
+                            <div class="item-wrapper">
+                                <div class="mbr-overlay" mbr-if="overlaySlide"
+                                    mbr-style="{'opacity': overlaySlideOpacity, 'background-color': overlaySlideColor}">
+                                </div>
+                                <img class="d-block w-100" src="../_images/background18.jpg"
+                                    alt="Mobirise Website Builder">
+                            </div>
+                        </div>
+                        <div class="carousel-item slider-image item">
+                            <div class="item-wrapper">
+                                <div class="mbr-overlay" mbr-if="overlaySlide"
+                                    mbr-style="{'opacity': overlaySlideOpacity, 'background-color': overlaySlideColor}">
+                                </div>
+                                <img class="d-block w-100" src="../_images/background19.jpg"
+                                    alt="Mobirise Website Builder">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control carousel-control-prev" href="#{{sliderId}}" role="button"
+                        data-slide="prev" mbr-if="arrows">
+                        <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control carousel-control-next" href="#{{sliderId}}" role="button"
+                        data-slide="next" mbr-if="arrows">
+                        <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,60 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+  display: none;
+}
+.mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+
+  & when (@bg-type ='video') {
+      background-image: url(@fallBackImage);
+  }
+}
+.oldcost {
+  text-decoration: line-through;
+  color: #353535;
+}
+.currentcost {
+  color: #232323;
+}
+.card-wrapper {
+  border-radius: 4px;
+  background: @cardsBg;
+}
+@media (min-width: 992px) {
+  .text-box {
+    padding: 2rem;
+    padding-right: 4rem;
+    & when (@reverseContent) {
+      padding-left: 4rem;
+      padding-right: 2rem;
+    }
+  }
+}
+@media (max-width: 991px) {
+  .text-box {
+    padding: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .text-box {
+    padding: 1rem;
+  }
+}
+
+.image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}

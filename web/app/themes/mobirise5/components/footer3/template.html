@@ -1,0 +1,96 @@
+<section class="footer3" group="Footers" global once="footers"
+    mbr-class="{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}">
+
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="8" step="1" value="2">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="8" step="1" value="2">
+        <header>Show/Hide</header>
+        <input type="range" inline title="Menu Items" name="menuItems" min="0" max="10" step="1" value="5">
+        <input type="range" inline title="Social Items" name="socialItems" min="0" max="10" step="1" value="6">
+        <input type="checkbox" title="Reveal effect" name="reveal">
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax>
+            <input type="image" title="Image" value="../_images/background8.jpg">
+            <input type="color" title="Color" value="#232323" selected>
+        </fieldset>
+        <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked>
+        <input type="color" title="Overlay Color" name="overlayColor" value="#232323"
+            condition="overlay && bg.type !== 'color'">
+        <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.8"
+            condition="overlay && bg.type !== 'color'">
+    </mbr-parameters>
+
+    <div class="mbr-overlay" mbr-if="overlay && bg.type !== 'color'" opacity="{{overlayOpacity}}"
+        bg-color="{{overlayColor}}"></div>
+
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="media-container-row align-center mbr-white">
+            <div class="row row-links" mbr-if="menuItems > 0">
+                <ul class="foot-menu" mbr-list mbr-list-grow="menuItems">
+                    <li mbr-text class="foot-menu-item mbr-fonts-style" mbr-theme-style="display-7"
+                        data-app-selector="foot-menu-item">
+                        <a class="text-white" href="#" target="_blank">About us</a>
+                    </li>
+                    <li mbr-text class="foot-menu-item mbr-fonts-style" mbr-theme-style="display-7"
+                        data-app-selector="foot-menu-item">
+                        <a class="text-white" href="#" target="_blank">Services</a>
+                    </li>
+                    <li mbr-text class="foot-menu-item mbr-fonts-style" mbr-theme-style="display-7"
+                        data-app-selector="foot-menu-item">
+                        <a class="text-white" href="#" target="_blank">Contact Us</a>
+                    </li>
+                    <li mbr-text class="foot-menu-item mbr-fonts-style" mbr-theme-style="display-7"
+                        data-app-selector="foot-menu-item">
+                        <a class="text-white" href="#" target="_blank">Careers</a>
+                    </li>
+                    <li mbr-text class="foot-menu-item mbr-fonts-style" mbr-theme-style="display-7"
+                        data-app-selector="foot-menu-item">
+                        <a class="text-white" href="#" target="_blank">Work</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row social-row" mbr-if="socialItems > 0">
+                <div mbr-list mbr-list-grow="socialItems" class="social-list align-right pb-2">
+                    <div class="soc-item">
+                        <a href="https://twitter.com/mobirise" target="_blank">
+                            <span mbr-icon class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                            <span mbr-icon class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="https://www.youtube.com/c/mobirise" target="_blank">
+                            <span mbr-icon class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="https://instagram.com/mobirise" target="_blank">
+                            <span mbr-icon class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
+                            <span mbr-icon class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="https://www.behance.net/Mobirise" target="_blank">
+                            <span mbr-icon class="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-copirayt">
+                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center" mbr-theme-style="display-7"
+                    data-app-selector=".media-container-row .mbr-text">
+                    © Copyright 2025 Mobirise. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

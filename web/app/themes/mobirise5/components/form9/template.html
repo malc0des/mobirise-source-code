@@ -1,0 +1,63 @@
+<section class="form9" group="Forms" plugins="formstyler, datepicker">
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="range" inline="" title="Top" name="paddingTop" min="0" max="10" step="1" value="5">
+        <input type="range" inline="" title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="5">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle" checked="">
+        <input type="checkbox" title="Subtitle" name="showSubtitle">
+        <input type="checkbox" title="Title" name="showText" checked="">
+        <header>Background</header>
+        <fieldset type="background" name="bg">
+            <input type="image" title="Image" value="../_images/background1.jpg">
+            <input type="color" title="Color" value="#ffffff" selected="">
+        </fieldset>
+        <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked="">
+        <input type="color" title="Overlay Color" name="overlayColor" value="#ffffff"
+            condition="overlay && bg.type !== 'color'">
+        <input type="range" inline="" title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.4"
+            condition="overlay && bg.type !== 'color'">
+        <input type="hidden" name="usedRecaptcha" value="false">
+    </mbr-parameters>
+    <div class="mbr-overlay" mbr-if="(overlay && bg.type=='image')"></div>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="mbr-section-head" mbr-if="showTitle || showSubtitle">
+            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0" mbr-theme-style="display-2"
+                mbr-if="showTitle" data-app-selector=".mbr-section-title">
+                <b>Subscribe to us</b>
+            </h3>
+            <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2" mbr-theme-style="display-5"
+                mbr-if="showSubtitle" data-app-selector=".mbr-section-subtitle">
+                Form Subtitle
+            </h4>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div mbr-form="" class="col-lg-8 mx-auto mbr-form">
+                <form action="" name="Form Name" method="POST" class="mbr-form form-with-styler mx-auto">
+                    <div class="row">
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!</div>
+                    </div>
+                    <div class="dragArea row">
+                        <div class="col-lg-12">
+                            <p mbr-theme-style="display-7" mbr-if="showText"
+                                class="mbr-text mbr-fonts-style align-center mb-4"> Exclusive offers in your inbox</p>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12 form-group" data-for="name">
+                            <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="">
+                        </div>
+                        <div data-for="email" class="col-lg-4 col-md-12 col-sm-12 form-group">
+                            <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="">
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12 mbr-section-btn align-center" mbr-buttons="true"
+                            mbr-theme-style="display-4" data-toolbar="-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd">
+                            <a data-toolbar="-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd" type="submit"
+                                class="btn btn-primary">Submit</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

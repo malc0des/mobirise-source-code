@@ -1,0 +1,91 @@
+<section class="footer2" group="Footers" data-bg-video="{{bg.type == 'video' && bg.value.url}}" global once="footers"
+    mbr-class="{
+    'mbr-parallax-background': bg.parallax}">
+
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="5">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="5">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle" checked>
+        <input type="checkbox" title="Copyright" name="showCopyright">
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax>
+            <input type="image" title="Image" value="../_images/background8.jpg">
+            <input type="color" title="Color" value="#232323" selected>
+            <input type="video" title="Video" value="https://vimeo.com/428046504">
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input type="image" title="Fallback Image" value="../_images/background13.jpg" name="fallBackImage" condition="bg.type === 'video'">
+        <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked>
+        <input type="color" title="Overlay Color" name="overlayColor" value="#232323"
+            condition="overlay && bg.type !== 'color'">
+        <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.6"
+            condition="overlay && bg.type !== 'color'">
+    </mbr-parameters>
+
+    <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+    <div class="mbr-overlay" mbr-if="overlay && bg.type !== 'color'" opacity="{{overlayOpacity}}"
+        bg-color="{{overlayColor}}"></div>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row mbr-white">
+            <div class="col-6 col-md-4 col-lg-3">
+                <h5 mbr-text class="mbr-section-subtitle mbr-fonts-style mb-2" data-app-selector=".mbr-section-subtitle"
+                    mbr-theme-style="display-7" mbr-if="showTitle">
+                    <b>Mobirise Help</b>
+                </h5>
+                <ul class="list mbr-fonts-style" mbr-theme-style="display-4" data-app-selector=".list" data-multiline
+                    mbr-article>
+                    <li class="mbr-text item-wrap">Help Center</li>
+                    <li class="mbr-text item-wrap">Mobirise Forums</li>
+                    <li class="mbr-text item-wrap">Mobirise Kit</li>
+                    <li class="mbr-text item-wrap">Our site</li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <h5 mbr-text class="mbr-section-subtitle mbr-fonts-style mb-2" data-app-selector=".mbr-section-subtitle"
+                    mbr-theme-style="display-7" mbr-if="showTitle">
+                    <b>Themes</b>
+                </h5>
+                <ul class="list mbr-fonts-style" mbr-theme-style="display-4" data-app-selector=".list" data-multiline
+                    mbr-article>
+                    <li class="mbr-text item-wrap">Mobirise 5</li>
+                    <li class="mbr-text item-wrap">Mobirise AMP</li>
+                    <li class="mbr-text item-wrap">Mobirise Kit</li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <h5 mbr-text class="mbr-section-subtitle mbr-fonts-style mb-2" data-app-selector=".mbr-section-subtitle"
+                    mbr-theme-style="display-7" mbr-if="showTitle">
+                    <b>Extensions</b>
+                </h5>
+                <ul class="list mbr-fonts-style" mbr-theme-style="display-4" data-app-selector=".list" data-multiline
+                    mbr-article>
+                    <li class="mbr-text item-wrap">Code Editor</li>
+                    <li class="mbr-text item-wrap">Form Builder</li>
+                    <li class="mbr-text item-wrap">Popup Builder</li>
+                    <li class="mbr-text item-wrap">Enterprise</li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <h5 mbr-text class="mbr-section-subtitle mbr-fonts-style mb-2" data-app-selector=".mbr-section-subtitle"
+                    mbr-theme-style="display-7" mbr-if="showTitle">
+                    <b>Mobirise Help</b>
+                </h5>
+                <ul class="list mbr-fonts-style" mbr-theme-style="display-4" data-app-selector=".list" data-multiline
+                    mbr-article>
+                    <li class="mbr-text item-wrap">Help Center</li>
+                    <li class="mbr-text item-wrap">Mobirise Forums</li>
+                    <li class="mbr-text item-wrap">Mobirise Kit</li>
+                    <li class="mbr-text item-wrap">Our site</li>
+                </ul>
+            </div>
+            <div class="col-12 mt-4" mbr-if="showCopyright">
+                <p class="mbr-text mb-0 mbr-fonts-style copyright align-center" mbr-theme-style="display-7" data-app-selector=".copyright" data-app-placeholder="Type Text">
+                    © Copyright 2025 Mobirise - All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

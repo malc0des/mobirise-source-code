@@ -1,0 +1,43 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+@min-height: 90px;
+@min-height-small: @min-height / 2;
+
+& when (@bg-type = "color") {
+  background-color: @bg-value;
+}
+
+& when (@bg-type = "image") {
+  background-image: url(@bg-value);
+  & when (@overlay) {
+    .mbr-overlay {
+      background: @overlayColor;
+      opacity: @overlayOpacity;
+    }
+  }
+}
+
+.item:focus,
+span:focus {
+  outline: none;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+}
+
+.content-head {
+  max-width: 800px;
+}
+
+.item {
+  color: @contentColor;
+  min-height: @min-height;
+
+  @media (max-width: 768px) {
+    min-height: @min-height-small;
+  }
+}

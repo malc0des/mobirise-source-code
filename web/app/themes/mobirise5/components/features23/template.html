@@ -1,0 +1,212 @@
+<section class="features23" group="Features" data-bg-video="{{bg.type == 'video' && bg.value.url}}"
+    mbr-class="{'mbr-parallax-background': bg.parallax}">
+
+    <mbr-parameters>
+        <!-- Block parameters controls (Blue "Gear" panel) -->
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="9" step="1" value="6">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="9" step="1" value="6">
+        <select title="Steps" name="cardsAmount">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle">
+        <input type="checkbox" title="Text" name="showText">
+        <input type="checkbox" title="Button" name="showButton">
+        <header>Step</header>
+        <input type="checkbox" title="Title" name="showCardTitle" checked>
+        <input type="checkbox" title="Text" name="showCardText" checked>
+
+        <fieldset type="background" name="bg" parallax="">
+            <input type="image" title="Background Image" value="../_images/background2.jpg" parallax="">
+            <input type="color" title="Background Color" value="#ffffff" selected>
+            <input type="video" title="Background Video" value="https://www.youtube.com/watch?v=-BSQlJxCDcI">
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input type="image" title="Fallback Image" value="../_images/background13.jpg" name="fallBackImage" condition="bg.type === 'video'">
+        <input type="checkbox" title="Overlay" name="overlay" checked="" condition="bg.type !== 'color'">
+        <input type="color" title="Overlay Color" name="overlayColor" value="#ffffff"
+            condition="overlay && bg.type !== 'color'">
+        <input type="range" inline="" title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.9"
+            condition="overlay && bg.type !== 'color'">
+        <!-- End block parameters -->
+    </mbr-parameters>
+
+    <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+    <div class="mbr-overlay" mbr-if="overlay && bg.type!== 'color'"
+        mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}">
+    </div>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="card-wrapper">
+            <div class="card-box align-left">
+                <h4 class="mbr-section-title mbr-fonts-style" mbr-theme-style="display-2" mbr-if="showTitle"
+                    data-app-selector=".mbr-section-title, .card-box">
+                    <b>What is Mobirise?</b>
+                </h4>
+                <p class="mbr-text mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showText"
+                    data-app-selector=".mbr-text, .mbr-section-btn">
+                    Mobirise is a free offline app for Windows and Mac to easily create small/medium websites, landing
+                    pages, online resumes and portfolios. 2500+ beautiful website blocks, templates and themes help you
+                    to start easily.</p>
+                <div mbr-buttons mbr-theme-style="display-4" class="mbr-section-btn" data-toolbar="-mbrBtnMove"
+                    mbr-if="showButton">
+                    <a class="btn btn-primary" href="https://mobiri.se" data-app-placeholder="Type Text">Create your own
+                        site</a>
+                </div>
+            </div>
+        </div>
+        <!-- col-12 col-md-6 col-lg-4 -->
+        <div class="row justify-content-center content-row mt-4">
+            <div class="card p-4 p-md-3" mbr-class="{'col-md-6 col-lg-3':cardsAmount>='4',
+                            'col-md-6 col-lg-4':cardsAmount=='3',
+                            'col-md-6':cardsAmount<3}">
+                <div class="card-box" mbr-if="showCardTitle||showCardText">
+                    <div class="title">
+                        <span class="num mbr-fonts-style" mbr-theme-style="display-1" mbr-text data-app-selector=".num"><b>01.</b></span>
+                    </div>
+                    <h4 class="card-title mbr-fonts-style" mbr-theme-style="display-5" mbr-if="showCardTitle"
+                        data-app-selector=".card-title, .card-img">
+                        <b>Specification</b>
+                    </h4>
+                    <p class="mbr-text card-text mbr-fonts-style " mbr-theme-style="display-7" mbr-if="showCardText"
+                        data-app-selector=".card-text">
+                        Mobirise is perfect for non-techies who are not familiar with the intricacies of web
+                        development.
+                    </p>
+                </div>
+            </div>
+            <div class="card p-4 p-md-3" mbr-if="cardsAmount > 1" mbr-class="{'col-md-6 col-lg-3':cardsAmount>='4',
+                            'col-md-6 col-lg-4':cardsAmount=='3',
+                            'col-md-6':cardsAmount<3}">
+                <div class="card-box" mbr-if="showCardTitle||showCardText">
+                    <div class="title">
+                        <span class="num mbr-fonts-style" mbr-theme-style="display-1" mbr-text data-app-selector=".num"><b>02.</b></span>
+                    </div>
+                    <h4 class="card-title mbr-fonts-style" mbr-theme-style="display-5" mbr-if="showCardTitle"
+                        data-app-selector=".card-title, .card-img">
+                        <b>Project Planning</b>
+                    </h4>
+                    <p class="mbr-text card-text mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showCardText"
+                        data-app-selector=".card-text">
+                        Mobirise is perfect for non-techies who are not familiar with the intricacies of web
+                        development.
+                    </p>
+                </div>
+            </div>
+            <div class="card p-4 p-md-3" mbr-if="cardsAmount>2" mbr-class="{'col-md-6 col-lg-3':cardsAmount>='4',
+                            'col-md-6 col-lg-4':cardsAmount=='3',
+                            'col-md-6':cardsAmount<3}">
+                <div class="card-box" mbr-if="showCardTitle||showCardText">
+                    <div class="title">
+                        <span class="num mbr-fonts-style" mbr-theme-style="display-1" mbr-text data-app-selector=".num"><b>03.</b></span>
+                    </div>
+                    <h4 class="card-title mbr-fonts-style" mbr-theme-style="display-5" mbr-if="showCardTitle"
+                        data-app-selector=".card-title, .card-img">
+                        <b>Deployment</b>
+                    </h4>
+                    <p class="mbr-text card-text mbr-fonts-style " mbr-theme-style="display-7" mbr-if="showCardText"
+                        data-app-selector=".card-text">
+                        Mobirise is perfect for non-techies who are not familiar with the intricacies of web
+                        development.
+                    </p>
+                </div>
+            </div>
+            <div class="card p-4 p-md-3" mbr-if="cardsAmount > 3" mbr-class="{'col-md-6 col-lg-3':cardsAmount>='4',
+                            'col-md-4':cardsAmount=='3',
+                            'col-md-6':cardsAmount<3}">
+                <div class="card-box" mbr-if="showCardTitle||showCardText">
+                    <div class="title">
+                        <span class="num mbr-fonts-style" mbr-theme-style="display-1" mbr-text data-app-selector=".num"><b>04.</b></span>
+                    </div>
+                    <h4 class="card-title mbr-fonts-style" mbr-theme-style="display-5" mbr-if="showCardTitle"
+                        data-app-selector=".card-title, .card-img">
+                        <b>Our Philosophy</b>
+                    </h4>
+                    <p class="mbr-text card-text mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showCardText"
+                        data-app-selector=".card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+            <div class="card p-4 p-md-3" mbr-if="cardsAmount > 4" mbr-class="{'col-md-6 col-lg-3':cardsAmount>='4',
+                            'col-md-6 col-lg-4':cardsAmount=='3',
+                            'col-md-6':cardsAmount==5}">
+                <div class="card-box" mbr-if="showCardTitle||showCardText">
+                    <div class="title">
+                        <span class="num mbr-fonts-style" mbr-theme-style="display-1" mbr-text data-app-selector=".num"><b>05.</b></span>
+                    </div>
+                    <h4 class="card-title mbr-fonts-style" mbr-theme-style="display-5" mbr-if="showCardTitle"
+                        data-app-selector=".card-title, .card-img">
+                        <b>Specification</b>
+                    </h4>
+                    <p class="mbr-text card-text mbr-fonts-style " mbr-theme-style="display-7" mbr-if="showCardText"
+                        data-app-selector=".card-text">
+                        Mobirise is perfect for non-techies who are not familiar with the intricacies of web
+                        development.
+                    </p>
+                </div>
+            </div>
+            <div class="card p-4 p-md-3" mbr-if="cardsAmount > 5" mbr-class="{'col-md-6 col-lg-3':cardsAmount>='4',
+                            'col-md-6 col-lg-4':cardsAmount=='3',
+                            'col-md-6':cardsAmount<3}">
+                <div class="card-box" mbr-if="showCardTitle||showCardText">
+                    <div class="title">
+                        <span class="num mbr-fonts-style" mbr-theme-style="display-1" mbr-text data-app-selector=".num"><b>06.</b></span>
+                    </div>
+                    <h4 class="card-title mbr-fonts-style" mbr-theme-style="display-5" mbr-if="showCardTitle"
+                        data-app-selector=".card-title, .card-img">
+                        <b>Project Planning</b>
+                    </h4>
+                    <p class="mbr-text card-text mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showCardText"
+                        data-app-selector=".card-text">
+                        Mobirise is perfect for non-techies who are not familiar with the intricacies of web
+                        development.
+                    </p>
+                </div>
+            </div>
+            <div class="card p-4 p-md-3" mbr-if="cardsAmount>6" mbr-class="{'col-md-6 col-lg-3':cardsAmount>='4',
+                            'col-md-6 col-lg-4':cardsAmount=='3',
+                            'col-md-6':cardsAmount<3}">
+                <div class="card-box" mbr-if="showCardTitle||showCardText">
+                    <div class="title">
+                        <span class="num mbr-fonts-style" mbr-theme-style="display-1" mbr-text data-app-selector=".num"><b>07.</b></span>
+                    </div>
+                    <h4 class="card-title mbr-fonts-style" mbr-theme-style="display-5" mbr-if="showCardTitle"
+                        data-app-selector=".card-title, .card-img">
+                        <b>Deployment</b>
+                    </h4>
+                    <p class="mbr-text card-text mbr-fonts-style " mbr-theme-style="display-7" mbr-if="showCardText"
+                        data-app-selector=".card-text">
+                        Mobirise is perfect for non-techies who are not familiar with the intricacies of web
+                        development.
+                    </p>
+                </div>
+            </div>
+            <div class="card p-4 p-md-3" mbr-if="cardsAmount > 7" mbr-class="{'col-md-6 col-lg-3':cardsAmount>='4',
+                            'col-md-4':cardsAmount=='3',
+                            'col-md-6':cardsAmount<3}">
+                <div class="card-box" mbr-if="showCardTitle||showCardText">
+                    <div class="title">
+                        <span class="num mbr-fonts-style" mbr-theme-style="display-1" mbr-text data-app-selector=".num"><b>08.</b></span>
+                    </div>
+                    <h4 class="card-title mbr-fonts-style" mbr-theme-style="display-5" mbr-if="showCardTitle"
+                        data-app-selector=".card-title, .card-img">
+                        <b>Our Philosophy</b>
+                    </h4>
+                    <p class="mbr-text card-text mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showCardText"
+                        data-app-selector=".card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

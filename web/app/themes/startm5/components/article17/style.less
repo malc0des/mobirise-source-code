@@ -1,0 +1,39 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+background-color: @bgColor;
+
+.counter-container {
+    ol {
+        margin-bottom: 0;
+        padding-left: 2.25rem;
+
+        li {
+            margin-bottom: 2rem;
+            list-style: none;
+            position: relative;
+
+            &:before {
+                font-weight: 700;
+                position: absolute;
+                left: -1.5em;
+                counter-increment: myCounter;
+                content: counter(myCounter);
+                transition: all .2s;
+                color: @iconColor;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        counter-reset: myCounter;
+    }
+}
+
+.mbr-section-title {
+    text-align: center;
+}
+
+.mbr-section-subtitle {
+    text-align: center;
+}

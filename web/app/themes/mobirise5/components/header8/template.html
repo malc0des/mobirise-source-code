@@ -1,0 +1,39 @@
+<section class="header8" group="Headers" data-bg-video="{{bg.type == 'video' && bg.value.url}}" mbr-class="{
+    'mbr-fullscreen': fullScreen,
+    'mbr-parallax-background': bg.parallax}">
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Screen" name="fullScreen" checked>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="6" condition="fullScreen == false">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="6" condition="fullScreen == false">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle" checked>
+        <input type="checkbox" title="Text" name="showText" checked>
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax>
+            <input type="image" title="Image" value="../_images/background12.jpg" parallax>
+            <input type="color" title="Color" value="#4479d9" selected>
+            <input type="video" title="Video" value="https://vimeo.com/428046504">
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input type="image" title="Fallback Image" value="../_images/background13.jpg" name="fallBackImage" condition="bg.type === 'video'">
+        <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked>
+        <input type="color" title="Overlay Color" name="overlayColor" value="#4479d9" condition="overlay && bg.type !== 'color'">
+        <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.8" condition="overlay && bg.type !== 'color'">
+    </mbr-parameters>
+
+    <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+    <div class="mbr-overlay" mbr-if="overlay && bg.type !== 'color'" opacity="{{overlayOpacity}}" bg-color="{{overlayColor}}"></div>
+    
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <h3 class="mbr-section-title mbr-white mbr-fonts-style" mbr-theme-style="display-1" mbr-if="showTitle">
+                    <b>Mobirise Free Website Builder.</b>
+                </h3>
+                <p class="mbr-text mbr-fonts-style mbr-white mb-4" mbr-theme-style="display-1" mbr-if="showText" data-app-selector=".mbr-text, .mbr-section-btn">Create your own website.<br><a href="#" class="text-danger"><b>How to start a website &gt;&gt;</b></a></p>
+            </div>
+        </div>
+    </div>
+</section>

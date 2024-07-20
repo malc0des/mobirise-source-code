@@ -1,0 +1,112 @@
+/* preloader style from http://codepen.io/CKH4/pen/ZGNyep */
+
+/* Preloader */
+.preloader {
+  position: absolute;
+  background: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1202;
+}
+.preloader .logo {
+  position: absolute;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #c0a375;
+  font-size: 20px;
+  left: 48%;
+  top: 50%;
+  margin-top: 50px;
+  margin-left: -75px;
+  background-color: green;
+}
+
+
+.mobirise-spinner {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  margin-left: 10%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  z-index: 4;
+  background-color: yellow;
+}
+.mobirise-spinner i {
+  width: 24px;
+  height: 24px;
+  background: #3ac;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: slide 1s infinite;
+}
+.mobirise-spinner i:nth-child(1) {
+  -webkit-animation-delay: 0.1s;
+  background: #c0a375;
+}
+.mobirise-spinner i:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+  background: #B2A17D;
+}
+.mobirise-spinner i:nth-child(3) {
+  -webkit-animation-delay: 0.3s;
+  background: #9F9F8A;
+}
+.mobirise-spinner i:nth-child(4) {
+  -webkit-animation-delay: 0.4s;
+  background: #8B9C96;
+}
+.mobirise-spinner i:nth-child(5) {
+  -webkit-animation-delay: 0.5s;
+  background: #7e9b9f;
+}
+@-moz-keyframes slide {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  50% {
+    opacity: 0.3;
+    -webkit-transform: scale(2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  50% {
+    opacity: 0.3;
+    -webkit-transform: scale(2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+@-o-keyframes slide {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  50% {
+    opacity: 0.3;
+    -webkit-transform: scale(2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes slide {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  50% {
+    opacity: 0.3;
+    -webkit-transform: scale(2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}

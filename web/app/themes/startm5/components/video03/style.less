@@ -1,0 +1,11 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+& when (@bg-type = "image") {
+  background-image: url(@bg-value);
+}
+& when (@bg-type = "color") {
+  background-color: @bg-value;
+}
+.content-text {
+  max-width: 800px;
+}

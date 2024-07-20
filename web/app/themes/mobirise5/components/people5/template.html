@@ -1,0 +1,129 @@
+<section class="people5 mbr-embla" group="People"
+    data-bg-video="{{bg.type == 'video' && bg.value.url}}" mbr-class="{'mbr-parallax-background': bg.parallax}"
+    plugins="embla">
+
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" name="fullWidth" title="Full Width" checked>
+        <input type="range" title="Padding Top" name="paddingTop" min="0" max="8" step="1" value="6" inline="">
+        <input type="range" title="Padding Bottom" name="paddingBottom" min="0" max="8" step="1" value="6" inline="">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle" checked="">
+        <header>Carousel</header>
+        <input type="checkbox" title="Autoplay" name="autoplay">
+        <input type="range" title="Interval" name="interval" min="1" max="10" value="5" step="1" condition="autoplay">
+        <input type="checkbox" title="Loop" name="loop">
+        <input type="checkbox" title="Draggable" name="draggable" checked="">
+        <input type="checkbox" name="arrows" title="Arrows" checked>
+        <input type="checkbox" name="arrowsMobile" title="Mobile Arrows" condition="arrows">
+        <header>Slides</header>
+        <input type="range" name="gap" title="Gap" min="0" max="10" step="1" value="7">
+        <input type="checkbox" title="Author Name" name="showName" checked="">
+        <input type="checkbox" title="Author Title" name="showDesk" checked="">
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax="">
+            <input type="image" title="Image" value="../_images/background1.jpg">
+            <input type="color" title="Color" value="#ffffff" selected="">
+            <input type="video" title="Video" value="https://vimeo.com/428046504">
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input type="image" title="Fallback Image" value="../_images/background13.jpg" name="fallBackImage" condition="bg.type === 'video'">
+        <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked="">
+        <input type="color" title="Overlay Color" name="overlayColor" value="#ffffff"
+            condition="overlay && bg.type !== 'color'">
+        <input type="range" inline="" title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.9"
+            condition="overlay && bg.type !== 'color'">
+    </mbr-parameters>
+
+    <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+    <div class="mbr-overlay" mbr-if="overlay && bg.type!== 'color'"
+        mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}">
+    </div>
+
+    <div class="position-relative text-center">
+        <h3 class="mb-4 mbr-fonts-style" mbr-theme-style="display-2" mbr-if="showTitle">
+            <b>What Our Fantastic Users Say</b>
+        </h3>
+
+        <div class="embla" data-loop={{loop}} data-auto-play={{autoplay}} data-auto-play-interval={{interval}} data-draggable={{draggable}} data-skip-snaps="true" data-align="center">
+            <div class="embla__viewport" mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+                <div class="embla__container">
+                    <div class="embla__slide slider-image item" mbr-style="{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}">
+                        <div class="user">
+                            <div class="user_image">
+                                <div class="item-wrapper position-relative">
+                                    <img src="../_images/people/team3.jpg" alt="Mobirise Website Builder">
+                                </div>
+                            </div>
+                            <div class="user_text mb-4">
+                                <p class="mbr-fonts-style" mbr-theme-style="display-7" data-app-selector=".user_text">
+                                    Themes in the Mobirise website builder offer multiple blocks: intros, sliders, galleries, forms, articles, and so on. Start a project and click on the red plus buttons to see the blocks available for your theme.
+                                </p>
+                            </div>
+                            <div mbr-text="" class="user_name mbr-fonts-style mb-2" mbr-theme-style="display-7"
+                                mbr-if="showName" data-app-selector=".user_name">
+                                <b>Alexa</b>
+                            </div>
+                            <div mbr-text="" class="user_desk mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showDesk"
+                                data-app-selector=".user_desk">
+                                DESIGNER
+                            </div>
+                        </div>
+                    </div>
+                    <div class="embla__slide slider-image item" mbr-style="{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}">
+                        <div class="user">
+                            <div class="user_image">
+                                <div class="item-wrapper position-relative">
+                                    <img src="../_images/people/team2.jpg" alt="Mobirise Website Builder">
+                                </div>
+                            </div>
+                            <div class="user_text mb-4">
+                                <p class="mbr-fonts-style" mbr-theme-style="display-7" data-app-selector=".user_text">
+                                    Themes in the Mobirise website builder offer multiple blocks: intros, sliders, galleries, forms, articles, and so on. Start a project and click on the red plus buttons to see the blocks available for your theme.
+                                </p>
+                            </div>
+                            <div mbr-text="" class="user_name mbr-fonts-style mb-2" mbr-theme-style="display-7"
+                                mbr-if="showName" data-app-selector=".user_name">
+                                <b>Linda</b>
+                            </div>
+                            <div mbr-text="" class="user_desk mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showDesk"
+                                data-app-selector=".user_desk">
+                                DEVELOPER
+                            </div>
+                        </div>
+                    </div>
+                    <div class="embla__slide slider-image item" mbr-style="{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}">
+                        <div class="user">
+                            <div class="user_image">
+                                <div class="item-wrapper position-relative">
+                                    <img src="../_images/people/team1.jpg" alt="Mobirise Website Builder">
+                                </div>
+                            </div>
+                            <div class="user_text mb-4">
+                                <p class="mbr-fonts-style" mbr-theme-style="display-7" data-app-selector=".user_text">
+                                    Themes in the Mobirise website builder offer multiple blocks: intros, sliders, galleries, forms, articles, and so on. Start a project and click on the red plus buttons to see the blocks available for your theme.
+                                </p>
+                            </div>
+                            <div mbr-text="" class="user_name mbr-fonts-style mb-2" mbr-theme-style="display-7"
+                                mbr-if="showName" data-app-selector=".user_name">
+                                <b>Herbert</b>
+                            </div>
+                            <div mbr-text="" class="user_desk mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showDesk"
+                                data-app-selector=".user_desk">
+                                DEVELOPER
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="embla__button embla__button--prev">
+                <span class="mobi-mbri mobi-mbri-arrow-prev mbr-iconfont" aria-hidden="true"></span>
+                <span class="sr-only visually-hidden">Previous</span>
+            </button>
+            <button class="embla__button embla__button--next">
+                <span class="mobi-mbri mobi-mbri-arrow-next mbr-iconfont" aria-hidden="true"></span>
+                <span class="sr-only visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>

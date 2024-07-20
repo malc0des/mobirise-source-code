@@ -1,0 +1,115 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type ="color") {
+  background-color: @bg-value;
+}
+
+& when (@bg-type ="image") {
+  background-image: url(@bg-value);
+
+  & when (@overlay) {
+    .mbr-overlay {
+      background: @overlayColor;
+      opacity: @overlayOpacity;
+    }
+  }
+}
+
+h6 {
+  line-height: 1.2;
+}
+
+img,
+.item-img {
+  width: 100%;
+  height: 100%;
+
+  & when (@autoSize) {
+    height: (@imageHeight * 100px);
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  img,
+  .item-img {
+    & when (@autoSize) {
+      height: (@imageHeight * 75px);
+      object-fit: cover;
+    }
+  }
+}
+
+.item:focus,
+span:focus {
+  outline: none;
+}
+
+& when not (@spacing) {
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .item {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.item-wrapper {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-bottom: 2rem;
+}
+
+.mbr-section-btn {
+  margin-top: auto !important;
+  text-align: center;
+}
+
+.mbr-section-title {
+  color: #000000;
+}
+
+.mbr-text,
+.mbr-section-btn {
+  color: #000000;
+}
+
+.item-title {
+  color: #000000;
+  text-align: center;
+}
+
+.item-subtitle {
+  color: #000000;
+  text-align: center;
+}
+
+.item-text {
+  color: #000000;
+  text-align: center;
+}
+
+.content-head {
+  max-width: 800px;
+}
+
+@media (max-width: 767px) {
+
+  img,
+  .item-img {
+    & when (@autoSize) {
+      height: (@imageHeight * 75px);
+      object-fit: cover;
+    }
+  }
+
+  .item-wrapper {
+    margin-bottom: 1rem;
+  }
+}

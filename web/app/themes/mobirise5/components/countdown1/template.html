@@ -1,0 +1,91 @@
+<section class="countdown1" group="Countdowns" plugins="countdown"
+    data-bg-video="{{bg.type == 'video' && bg.value.url}}" mbr-class="{
+        'mbr-fullscreen': fullScreen,
+        'mbr-parallax-background': bg.parallax}">
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Screen" name="fullScreen">
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="5"
+            condition="fullScreen == false">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="5"
+            condition="fullScreen == false">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle" checked>
+        <input type="checkbox" title="Subtitle" name="showSubtitle" checked>
+        <input type="checkbox" title="Text" name="showText" checked>
+        <header>Settings</header>
+        <input type="text" title="Countdown" name="countdown" value="2021/01/01">
+        <input type="text" inline="" title="Days" name="daysCountdown" value="Days">
+        <input type="text" inline="" title="Hours" name="hoursCountdown" value="Hours">
+        <input type="text" inline="" title="Minutes" name="minutesCountdown" value="Minutes">
+        <input type="text" inline="" title="Seconds" name="secondsCountdown" value="Seconds">
+        <input type="color" title="Numbers Color" name="numbersColor" value="#232323">
+        <input type="color" title="Labels Color" name="labelsColor" value="#232323">
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax="">
+            <input type="image" title="Image" value="../_images/background1.jpg">
+            <input type="color" title="Color" value="#ffffff" selected="">
+            <input type="video" title="Video" value="https://vimeo.com/428046504">
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input type="image" title="Fallback Image" value="../_images/background13.jpg" name="fallBackImage" condition="bg.type === 'video'">
+        <input type="checkbox" title="Overlay" name="overlay" checked="" condition="bg.type !== 'color'">
+        <input type="color" title="Overlay Color" name="overlayColor" value="#ffffff"
+            condition="overlay && bg.type !== 'color'">
+        <input type="range" inline="" title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.7"
+            condition="overlay && bg.type !== 'color'">
+    </mbr-parameters>
+
+    <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+    <div class="mbr-overlay" mbr-if="overlay && bg.type!== 'color'"
+        mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}">
+    </div>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h3 class="mbr-section-title mb-5 align-center mbr-fonts-style" mbr-theme-style="display-2"
+                    mbr-if="showTitle">
+                    <b>Coming Soon</b>
+                </h3>
+                <h4 class="mbr-section-subtitle mb-5 align-center mbr-fonts-style" mbr-theme-style="display-7"
+                    mbr-if="showSubtitle" data-app-selector=".mbr-section-subtitle">
+                    Use this block as a countdown for your project if it's not ready yet. Set the date in Block
+                    Parameters.
+                </h4>
+                <div class="countdown-cont align-center mb-5">
+                    <div title="{{daysCountdown}}" class="daysCountdown col-xs-3 col-sm-3 col-md-3"></div>
+                    <div title="{{hoursCountdown}}" class="hoursCountdown col-xs-3 col-sm-3 col-md-3"></div>
+                    <div title="{{minutesCountdown}}" class="minutesCountdown col-xs-3 col-sm-3 col-md-3"></div>
+                    <div title="{{secondsCountdown}}" class="secondsCountdown col-xs-3 col-sm-3 col-md-3"></div>
+                    <div class="countdown" data-due-date="{{countdown}}"></div>
+                </div>
+                <p class="mbr-text mb-5 align-center mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showText"
+                    data-app-selector=".mbr-text">
+                    Subscribe to find out when we launch.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div mbr-form="" class="col-lg-4 mx-auto mbr-form">
+                <form action="" name="Form Name" method="POST" data-rcpha_sitekey="" data-rcpha_secretkey=""
+                    class="mbr-form form-with-styler">
+                    <div class="row">
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!</div>
+                    </div>
+                    <div class="dragArea row">
+                        <div class="col form-group" data-for="email">
+                            <input type="text" name="email" placeholder="Email" data-form-field="email" class="form-control" required="required" value="">
+                        </div>
+                        <div class="mbr-section-btn" mbr-buttons="true" mbr-theme-style="display-4"
+                            data-toolbar="-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd" class="col-auto">
+                            <a data-toolbar="-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd" type="submit"
+                                class="btn btn-primary">Subscribe</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

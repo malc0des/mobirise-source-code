@@ -1,0 +1,119 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+  display: none;
+}
+.mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  & when (@bg-type = 'video') {
+    background-image: url(@fallBackImage);
+  }
+}
+.bg-facebook when (@facebook) {
+  background: #1778f2;
+  color: contrast(#1778f2);
+  &:hover {
+    background: darken(#1778f2, 10);
+  }
+}
+.bg-twitter when (@twitter) {
+  background: #1da1f2;
+  color: contrast(#1da1f2);
+  &:hover {
+    background: darken(#1da1f2, 10);
+  }
+}
+.bg-pinterest when (@pinterest) {
+  background: #e60023;
+  color: contrast(#e60023);
+  &:hover {
+    background: darken(#e60023, 10);
+  }
+}
+.bg-instagram when (@instagram) {
+  background: #f00075;
+  color: contrast(#f00075);
+  &:hover {
+    background: darken(#f00075, 10);
+  }
+}
+.bg-slack when (@slack) {
+  background: #4a154b;
+  color: contrast(#4a154b);
+  &:hover {
+    background: darken(#4a154b, 10);
+  }
+}
+.bg-linkedin when (@linkedin) {
+  background: #0077b5;
+  color: contrast(#0077b5);
+  &:hover {
+    background: darken(#0077b5, 10);
+  }
+}
+.bg-behance when (@behance) {
+  background: #0056ff;
+  color: contrast(#0056ff);
+  &:hover {
+    background: darken(#0056ff, 10);
+  }
+}
+.bg-dribbble when (@dribbble) {
+  background: #ea4c89;
+  color: contrast(#ea4c89);
+  &:hover {
+    background: darken(#ea4c89, 10);
+  }
+}
+.bg-tiktok when (@tiktok) {
+  background: #000000;
+  color: contrast(#000000);
+  &:hover {
+    background: darken(#000000, 10);
+  }
+}
+.bg-youtube when (@youtube) {
+  background: #ff0000;
+  color: contrast(#ff0000);
+  &:hover {
+    background: darken(#ff0000, 10);
+  }
+}
+.bg-twitch when (@twitch) {
+  background: #9146ff;
+  color: contrast(#9146ff);
+  &:hover {
+    background: darken(#9146ff, 10);
+  }
+}
+.iconfont-wrapper {
+  display: inline-block;
+  font-size: 32px;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  line-height: 72px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+& when (@squareIcons) {
+  .iconfont-wrapper {
+    border-radius: 0 !important;
+  }
+}
+[class^="socicon-"]:before, [class*=" socicon-"]:before {
+  line-height: 55px;
+  padding: .6rem;
+}

@@ -1,0 +1,339 @@
+<section
+  class="people04"
+  plugins="Masonry"
+  group="People"
+  mbr-class="{'mbr-parallax-background': bg.parallax}"
+>
+	<mbr-parameters>
+		<header>Size</header>
+		<input
+		  type="checkbox"
+		  title="Full Width"
+		  name="fullWidth"
+		>
+		<input
+		  type="range"
+		  inline
+		  title="Top"
+		  name="paddingTop"
+		  min="0"
+		  max="10"
+		  step="1"
+		  value="6"
+		>
+		<input
+		  type="range"
+		  inline
+		  title="Bottom"
+		  name="paddingBottom"
+		  min="0"
+		  max="10"
+		  step="1"
+		  value="6"
+		>
+		<header>Show/Hide</header>
+		<input
+		  type="checkbox"
+		  title="Title"
+		  name="showMainTitle"
+		  checked
+		>
+		<input
+		  type="checkbox"
+		  title="Subtitle"
+		  name="showMainSubtitle"
+		>
+		<header>Card</header>
+		<select title="Columns" name="columns">
+			<option value="12">1</option>
+			<option value="6">2</option>
+			<option value="4" selected>3</option>
+			<option value="3">4</option>
+		</select>
+		<input
+		  type="checkbox"
+		  title="Image"
+		  name="showImage"
+		  checked
+		>
+		<input
+		  type="checkbox"
+		  title="Name"
+		  name="showTitle"
+		  checked
+		>
+		<input
+		  type="color"
+		  title="Card BG"
+		  name="cardbg"
+		  value="#ffffff"
+		  selected
+		>
+		<header>Background</header>
+		<fieldset type="background" name="bg" parallax>
+			<input
+			  type="image"
+			  title="Image"
+			  value="../_images/background1.jpg"
+			  parallax
+			>
+			<input
+			  type="color"
+			  title="Color"
+			  value="#edefeb"
+			  selected
+			>
+		</fieldset>
+		
+		<input
+		  type="checkbox"
+		  title="Overlay"
+		  name="overlay"
+		  condition="bg.type !== 'color'"
+		>
+		<input
+		  type="color"
+		  title="Overlay Color"
+		  name="overlayColor"
+		  value="#ffffff"
+		  condition="overlay && bg.type !== 'color'"
+		>
+		<input
+		  type="range"
+		  inline
+		  title="Opacity"
+		  name="overlayOpacity"
+		  min="0"
+		  max="1"
+		  step="0.1"
+		  value="0.5"
+		  condition="overlay && bg.type !== 'color'"
+		>
+	</mbr-parameters>
+	<div
+	  class="mbr-overlay"
+	  mbr-if="overlay && bg.type!== 'color'"
+	  mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}"
+	>
+	</div>
+	<div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+		<div
+		  class="row mb-5 justify-content-center"
+		  mbr-if="showMainTitle || showMainSubtitle"
+		>
+			<div class="col-12 mb-0 content-head">
+				<h3
+				  class="mbr-section-title mbr-fonts-style align-center mb-0"
+				  mbr-theme-style="display-2"
+				  mbr-if="showMainTitle"
+				  data-app-selector=".mbr-section-title"
+				>
+					<b>Testimonials</b>
+				</h3>
+				<h5
+				  class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4"
+				  mbr-theme-style="display-7"
+				  mbr-if="showMainSubtitle"
+				  data-app-selector=".mbr-section-subtitle"
+				>
+					List your customers' testimonials in this block.</h5>
+			</div>
+		</div>
+		<div
+		  class="row mbr-masonry"
+		  data-masonry="{&quot;percentPosition&quot;: true }"
+		>
+			<div class="item features-without-image col-12 col-md-6 col-lg-{{columns}} active">
+				<div class="item-wrapper">
+					<div class="card-box align-left">
+						<p
+						  class="card-text mbr-fonts-style"
+						  mbr-theme-style="display-7"
+						  data-app-selector=".card-text"
+						>
+							I can't express how much I adore the unique clothing pieces from this small creative
+							business. Each piece has its own character and charm. I feel like I'm wearing a work of art!
+						</p>
+						<div
+						  class="img-wrapper mt-4 mb-2"
+						  mbr-if="showImage"
+						>
+							<img src="../_images/people/team1.jpg"
+								alt data-slide-to="0" data-bs-slide-to="0">
+						</div>
+						<h5
+						  class="card-title mbr-fonts-style"
+						  mbr-theme-style="display-7"
+						  mbr-if="showTitle"
+						  data-app-selector=".card-title, .img-wrapper"
+						>
+							<b>Sarah</b>
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="item features-without-image col-12 col-md-6 col-lg-{{columns}}">
+				<div class="item-wrapper">
+					<div class="card-box align-left">
+						<p
+						  class="card-text mbr-fonts-style"
+						  mbr-theme-style="display-7"
+						  data-app-selector=".card-text"
+						>
+							I've been a customer for years, and I'm always excited to see the latest creations. The
+							designs are fresh and exciting, and the customer service is top-notch.
+						</p>
+						<div
+						  class="img-wrapper mt-4 mb-2"
+						  mbr-if="showImage"
+						>
+							<img
+							  src="../_images/people/team2.jpg"
+							  data-slide-to="1"
+							  data-bs-slide-to="1"
+							  alt
+							>
+						</div>
+						<h5
+						  class="card-title mbr-fonts-style"
+						  mbr-theme-style="display-7"
+						  mbr-if="showTitle"
+						  data-app-selector=".card-title, .img-wrapper"
+						>
+							<b>Rachel</b>
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="item features-without-image col-12 col-md-6 col-lg-{{columns}}">
+				<div class="item-wrapper">
+					<div class="card-box align-left">
+						<p
+						  class="card-text mbr-fonts-style"
+						  mbr-theme-style="display-7"
+						  data-app-selector=".card-text"
+						>
+							I keep coming back for more because I can't find clothing like this anywhere else. It's not
+							just clothing; it's a statement. I'm proud to support such a talented small business.
+						</p>
+						<div
+						  class="img-wrapper mt-4 mb-2"
+						  mbr-if="showImage"
+						>
+							<img
+							  src="../_images/people/team4.jpg"
+							  data-slide-to="2"
+							  data-bs-slide-to="2"
+							  alt
+							>
+						</div>
+						<h5
+						  class="card-title mbr-fonts-style"
+						  mbr-theme-style="display-7"
+						  mbr-if="showTitle"
+						  data-app-selector=".card-title, .img-wrapper"
+						>
+							<b>Emily</b>
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="item features-without-image col-12 col-md-6 col-lg-{{columns}}">
+				<div class="item-wrapper">
+					<div class="card-box align-left">
+						<p
+						  class="card-text mbr-fonts-style"
+						  mbr-theme-style="display-7"
+						  
+						  data-app-selector=".card-text"
+						>
+							As a fashion enthusiast, I appreciate the craftsmanship in every piece. These clothes are
+							comfortable, stylish, and perfect for any occasion. I'm hooked!
+						</p>
+						<div
+						  class="img-wrapper mt-4 mb-2"
+						  mbr-if="showImage"
+						>
+							<img
+							  src="../_images/people/team3.jpg"
+							  data-slide-to="3"
+							  data-bs-slide-to="3"
+							  alt
+							>
+						</div>
+						<h5
+						  class="card-title mbr-fonts-style"
+						  mbr-theme-style="display-7"
+						  mbr-if="showTitle"
+						  data-app-selector=".card-title, .img-wrapper"
+						>
+							<b>David</b>
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="item features-without-image col-12 col-md-6 col-lg-{{columns}}">
+				<div class="item-wrapper">
+					<div class="card-box align-left">
+						<p
+						  class="card-text mbr-fonts-style"
+						  mbr-theme-style="display-7"
+						  
+						  data-app-selector=".card-text"
+						>
+							The quality and attention to detail are truly impressive. Thank you for making me feel stylish!
+						</p>
+						<div
+						  class="img-wrapper mt-4 mb-2"
+						  mbr-if="showImage"
+						>
+							<img src="../_images/people/team6.jpg"
+								data-slide-to="4" data-bs-slide-to="4" alt>
+						</div>
+						<h5
+						  class="card-title mbr-fonts-style"
+						  mbr-theme-style="display-7"
+						  mbr-if="showTitle"
+						  data-app-selector=".card-title, .img-wrapper"
+						>
+							<b>Michael</b>
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="item features-without-image col-12 col-md-6 col-lg-{{columns}}">
+				<div class="item-wrapper">
+					<div class="card-box align-left">
+						<p
+						  class="card-text mbr-fonts-style"
+						  mbr-theme-style="display-7"
+						  
+						  data-app-selector=".card-text"
+						>
+							I've received so many inquiries about where I get my outfits. Keep up the fantastic work!
+						</p>
+						<div
+						  class="img-wrapper mt-4 mb-2"
+						  mbr-if="showImage"
+						>
+							<img
+							  src="../_images/people/team2.jpg"
+							  data-slide-to="5"
+							  data-bs-slide-to="5"
+							  alt
+							>
+						</div>
+						<h5
+						  class="card-title mbr-fonts-style"
+						  mbr-theme-style="display-7"
+						  mbr-if="showTitle"
+						  data-app-selector=".card-title, .img-wrapper"
+						>
+							<b>Jessica</b>
+						</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

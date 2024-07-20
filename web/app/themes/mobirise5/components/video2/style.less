@@ -1,0 +1,35 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type ='color') {
+    background-color: @bg-value;
+}
+
+& when (@bg-type ='image') {
+    background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+    display: none;
+}
+.mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    & when (@bg-type ='video') {
+        background-image: url(@fallBackImage);
+    }
+}
+.video-wrapper iframe {
+	width: 100%;
+}
+
+.mbr-section-title,
+.mbr-section-subtitle,
+.mbr-text {
+    text-align: center;
+}

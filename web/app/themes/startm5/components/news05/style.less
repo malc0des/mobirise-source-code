@@ -1,0 +1,42 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+background-color: @bgColor;
+
+& when (@reverseContent) {
+  .row {
+    flex-direction: row-reverse;
+  }
+}
+
+.mbr-text {
+  color: #000000;
+  text-align: left;
+}
+
+.mbr-section-subtitle {
+  color: #000000;
+  text-align: center;
+}
+
+.mbr-section-title {
+  text-align: center;
+  color: #000000;
+}
+
+.mbr-card-title {
+  color: #000000;
+}
+
+.mbr-card-subtitle {
+  color: #000000;
+  text-align: left;
+}
+
+.mbr-text,
+.mbr-section-btn {
+  text-align: left;
+}
+
+.row {
+  align-items: center;
+}

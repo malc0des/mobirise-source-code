@@ -1,0 +1,116 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type ="color") {
+    background-color: @bg-value;
+}
+
+& when (@bg-type ="image") {
+    background-image: url(@bg-value);
+
+    & when (@overlay) {
+        .mbr-overlay {
+            background: @overlayColor;
+            opacity: @overlayOpacity;
+        }
+    }
+}
+
+.item:focus,
+span:focus {
+    outline: none;
+}
+
+.item {
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 767px) {
+    .item {
+        margin-bottom: 1rem;
+    }
+}
+
+.item-content {
+    margin-top: 2rem;
+    padding: 0 2.25rem 2.25rem;
+
+    @media (min-width: 992px) and (max-width: 1200px) {
+        padding: 2rem 1.5rem;
+        padding-top: 1rem;
+        margin-top: 1rem;
+    }
+
+    @media (max-width: 767px) {
+        padding: 2rem 1.5rem;
+        padding-top: 1rem;
+        margin-top: 1rem;
+    }
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.item-wrapper {
+    position: relative;
+    background: @cardsBg;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+
+    .item-footer {
+        margin-top: auto;
+    }
+}
+
+.mbr-section-title {
+    color: #000000;
+    text-align: center;
+}
+
+.mbr-text,
+.item .mbr-section-btn {
+    text-align: center;
+}
+
+.content-head {
+    max-width: 800px;
+}
+
+.mbr-number {
+    color: #9fe870;
+}
+
+.mbr-section-subtitle,
+.mbr-section-head .mbr-section-btn {
+    text-align: center;
+}
+
+.mbr-text {
+    text-align: left;
+}
+
+.mbr-text,
+.mbr-card-btn {
+    text-align: left;
+}
+
+.mbr-text,
+.mbr-section-btn {
+    text-align: left;
+}
+
+.mbr-text,
+.item-footer .mbr-section-btn {
+    text-align: left;
+}
+
+.card-text,
+.item .mbr-section-btn {
+    text-align: left;
+}
+
+.card-title {
+    text-align: left;
+}

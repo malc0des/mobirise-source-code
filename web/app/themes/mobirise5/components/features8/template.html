@@ -1,0 +1,268 @@
+<section class="features8" group="Features" data-bg-video="{{bg.type == 'video' && bg.value.url}}"
+    mbr-class="{'mbr-parallax-background': bg.parallax}">
+    <!---->
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="range" inline="" title="Top" name="paddingTop" min="0" max="9" step="1" value="6">
+        <input type="range" inline="" title="Bottom" name="paddingBottom" min="0" max="9" step="1" value="6">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle" checked="">
+        <input type="checkbox" title="Subtitle" name="showSubtitle">
+        <header>Cards</header>
+        <input type="checkbox" title="Title" name="showTitleCards" checked="">
+        <input type="checkbox" title="Text" name="showText" checked="">
+        <input type="color" title="Bg" name="cardsBg" value="#fafafa">
+
+        <select title="Count" name="cardsAmount">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6" selected="">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select>
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax="">
+            <input type="image" title="Image" value="../_images/background3.jpg" parallax="">
+            <input type="color" title="Color" value="#ffffff" selected="">
+            <input type="video" title="Video" value="https://vimeo.com/428046504">
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input type="image" title="Fallback Image" value="../_images/background13.jpg" name="fallBackImage" condition="bg.type === 'video'">
+        <input type="checkbox" title="Overlay" name="overlay" checked="" condition="bg.type !== 'color'">
+        <input type="color" title="Overlay Color" name="overlayColor" value="#ffffff"
+            condition="overlay && bg.type !== 'color'">
+        <input type="range" inline="" title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.5"
+            condition="overlay && bg.type !== 'color'">
+    </mbr-parameters>
+
+    <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+    <div class="mbr-overlay" mbr-if="overlay && bg.type!== 'color'"
+        mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}">
+    </div>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row" mbr-cards="bootstrap">
+            <div class="title col-12">
+                <h5 mbr-if="showTitle" class="mbr-section-title mbr-fonts-style mb-3" mbr-theme-style="display-2"
+                    data-app-selector=".mbr-section-title">
+                    <b>Our Products</b>
+                </h5>
+                <h6 mbr-if="showSubtitle" data-app-selector=".mbr-section-subtitle"
+                    class="mbr-section-subtitle mbr-fonts-style mb-4" mbr-theme-style="display-5">
+                    Subtitle
+                </h6>
+            </div>
+            <div class="card col-12 col-md-6">
+                <div class="card-wrapper">
+                    <div class="top-line" mbr-if="showTitleCards">
+                        <h6 class="card-title mbr-fonts-style" mbr-theme-style="display-5"
+                            data-app-selector=".card-title">
+                            <b>Special Issue</b>
+                        </h6>
+                        <p class="mbr-text cost mbr-fonts-style" mbr-theme-style="display-5">$39</p>
+                    </div>
+                    <div class="bottom-line">
+                        <p class="mbr-text mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showText">
+                            All sites you create with the Mobirise web builder are mobile-friendly natively. No special
+                            actions required. For your commercial and non-profit projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6" mbr-if="cardsAmount>1">
+                <div class="card-wrapper">
+                    <div class="top-line" mbr-if="showTitleCards">
+                        <h6 class="card-title mbr-fonts-style" mbr-theme-style="display-5"
+                            data-app-selector=".card-title">
+                            <b>Special Issue</b>
+                        </h6>
+                        <p class="mbr-text cost mbr-fonts-style" mbr-theme-style="display-5">$49</p>
+                    </div>
+                    <div class="bottom-line">
+                        <p class="mbr-text mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showText">
+                            All sites you create with the Mobirise web builder are mobile-friendly natively. No special
+                            actions required. For your commercial and non-profit projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6" mbr-if="cardsAmount>2">
+                <div class="card-wrapper">
+                    <div class="top-line" mbr-if="showTitleCards">
+                        <h6 class="card-title mbr-fonts-style" mbr-theme-style="display-5"
+                            data-app-selector=".card-title">
+                            <b>Special Issue</b>
+                        </h6>
+                        <p class="mbr-text cost mbr-fonts-style" mbr-theme-style="display-5">$39</p>
+                    </div>
+                    <div class="bottom-line">
+                        <p class="mbr-text mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showText">
+                            All sites you create with the Mobirise web builder are mobile-friendly natively. No special
+                            actions required. For your commercial and non-profit projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6" mbr-if="cardsAmount>3">
+                <div class="card-wrapper">
+                    <div class="top-line" mbr-if="showTitleCards">
+                        <h6 class="card-title mbr-fonts-style" mbr-theme-style="display-5"
+                            data-app-selector=".card-title">
+                            <b>Special Issue</b>
+                        </h6>
+                        <p class="mbr-text cost mbr-fonts-style" mbr-theme-style="display-5">$49</p>
+                    </div>
+                    <div class="bottom-line">
+                        <p class="mbr-text mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showText">
+                            All sites you create with the Mobirise web builder are mobile-friendly natively. No special
+                            actions required. For your commercial and non-profit projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6" mbr-if="cardsAmount>4">
+                <div class="card-wrapper">
+                    <div class="top-line" mbr-if="showTitleCards">
+                        <h6 class="card-title mbr-fonts-style" mbr-theme-style="display-5"
+                            data-app-selector=".card-title">
+                            <b>Special Issue</b>
+                        </h6>
+                        <p class="mbr-text cost mbr-fonts-style" mbr-theme-style="display-5">$39</p>
+                    </div>
+                    <div class="bottom-line">
+                        <p class="mbr-text mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showText">
+                            All sites you create with the Mobirise web builder are mobile-friendly natively. No special
+                            actions required. For your commercial and non-profit projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6" mbr-if="cardsAmount>5">
+                <div class="card-wrapper">
+                    <div class="top-line" mbr-if="showTitleCards">
+                        <h6 class="card-title mbr-fonts-style" mbr-theme-style="display-5"
+                            data-app-selector=".card-title">
+                            <b>Special Issue</b>
+                        </h6>
+                        <p class="mbr-text cost mbr-fonts-style" mbr-theme-style="display-5">$49</p>
+                    </div>
+                    <div class="bottom-line">
+                        <p class="mbr-text mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showText">
+                            All sites you create with the Mobirise web builder are mobile-friendly natively. No special
+                            actions required. For your commercial and non-profit projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6" mbr-if="cardsAmount>6">
+                <div class="card-wrapper">
+                    <div class="top-line" mbr-if="showTitleCards">
+                        <h6 class="card-title mbr-fonts-style" mbr-theme-style="display-5"
+                            data-app-selector=".card-title">
+                            <b>Special Issue</b>
+                        </h6>
+                        <p class="mbr-text cost mbr-fonts-style" mbr-theme-style="display-5">$39</p>
+                    </div>
+                    <div class="bottom-line">
+                        <p class="mbr-text mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showText">
+                            All sites you create with the Mobirise web builder are mobile-friendly natively. No special
+                            actions required. For your commercial and non-profit projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6" mbr-if="cardsAmount>7">
+                <div class="card-wrapper">
+                    <div class="top-line" mbr-if="showTitleCards">
+                        <h6 class="card-title mbr-fonts-style" mbr-theme-style="display-5"
+                            data-app-selector=".card-title">
+                            <b>Special Issue</b>
+                        </h6>
+                        <p class="mbr-text cost mbr-fonts-style" mbr-theme-style="display-5">$39</p>
+                    </div>
+                    <div class="bottom-line">
+                        <p class="mbr-text mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showText">
+                            All sites you create with the Mobirise web builder are mobile-friendly natively. No special
+                            actions required. For your commercial and non-profit projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6" mbr-if="cardsAmount>8">
+                <div class="card-wrapper">
+                    <div class="top-line" mbr-if="showTitleCards">
+                        <h6 class="card-title mbr-fonts-style" mbr-theme-style="display-5"
+                            data-app-selector=".card-title">
+                            <b>Special Issue</b>
+                        </h6>
+                        <p class="mbr-text cost mbr-fonts-style" mbr-theme-style="display-5">$49</p>
+                    </div>
+                    <div class="bottom-line">
+                        <p class="mbr-text mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showText">
+                            All sites you create with the Mobirise web builder are mobile-friendly natively. No special
+                            actions required. For your commercial and non-profit projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6" mbr-if="cardsAmount>9">
+                <div class="card-wrapper">
+                    <div class="top-line" mbr-if="showTitleCards">
+                        <h6 class="card-title mbr-fonts-style" mbr-theme-style="display-5"
+                            data-app-selector=".card-title">
+                            <b>Special Issue</b>
+                        </h6>
+                        <p class="mbr-text cost mbr-fonts-style" mbr-theme-style="display-5">$39</p>
+                    </div>
+                    <div class="bottom-line">
+                        <p class="mbr-text mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showText">
+                            All sites you create with the Mobirise web builder are mobile-friendly natively. No special
+                            actions required. For your commercial and non-profit projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6" mbr-if="cardsAmount>10">
+                <div class="card-wrapper">
+                    <div class="top-line" mbr-if="showTitleCards">
+                        <h6 class="card-title mbr-fonts-style" mbr-theme-style="display-5"
+                            data-app-selector=".card-title">
+                            <b>Special Issue</b>
+                        </h6>
+                        <p class="mbr-text cost mbr-fonts-style" mbr-theme-style="display-5">$49</p>
+                    </div>
+                    <div class="bottom-line">
+                        <p class="mbr-text mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showText">
+                            All sites you create with the Mobirise web builder are mobile-friendly natively. No special
+                            actions required. For your commercial and non-profit projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6" mbr-if="cardsAmount>11">
+                <div class="card-wrapper">
+                    <div class="top-line" mbr-if="showTitleCards">
+                        <h6 class="card-title mbr-fonts-style" mbr-theme-style="display-5"
+                            data-app-selector=".card-title">
+                            <b>Special Issue</b>
+                        </h6>
+                        <p class="mbr-text cost mbr-fonts-style" mbr-theme-style="display-5">$39</p>
+                    </div>
+                    <div class="bottom-line">
+                        <p class="mbr-text mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showText">
+                            All sites you create with the Mobirise web builder are mobile-friendly natively. No special
+                            actions required. For your commercial and non-profit projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

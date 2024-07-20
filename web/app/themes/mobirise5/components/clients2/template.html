@@ -1,0 +1,123 @@
+<section class="clients2" group="Clients" data-bg-video="{{bg.type == 'video' && bg.value.url}}"
+    mbr-class="{'mbr-parallax-background': bg.parallax}" plugins="mobirise-icons2">
+
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="5">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="5">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle" checked>
+        <input type="checkbox" title="Subtitle" name="showSubtitle">
+        <input type="checkbox" title="Text" name="showText" checked>
+        <input type="checkbox" title="Buttons" name="showButtons" checked>
+        <header>Cards</header>
+        <input type="color" title="BG" name="cardColor" value="#fafafa" selected>
+        <select title="Columns" name="columns">
+            <option value="3">4</option>
+            <option value="4" selected>3</option>
+            <option value="6">2</option>
+            <option value="12">1</option>
+        </select>
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax>
+            <input type="image" title="Image" value="../_images/background3.jpg">
+            <input type="color" title="Color" value="#ffffff" selected>
+            <input type="video" title="Video" value="https://vimeo.com/428046504">
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input type="image" title="Fallback Image" value="../_images/background13.jpg" name="fallBackImage" condition="bg.type === 'video'">
+        <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked>
+        <input type="color" title="Overlay Color" name="overlayColor" value="#ffffff"
+            condition="overlay && bg.type !== 'color'">
+        <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.5"
+            condition="overlay && bg.type !== 'color'">
+    </mbr-parameters>
+
+    <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+    <div class="mbr-overlay" mbr-if="overlay && bg.type!== 'color'"
+        mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}">
+    </div>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div class="item features-without-image mb-5 col-12 col-md-{{columns}}">
+                <div class="item-wrapper">
+                    <div class="img-wrapper">
+                        <img src="../_images/clients/1.png" alt="Mobirise Website Builder">
+                    </div>
+                    <div class="card-box align-center">
+                        <h6 class="card-subtitle mbr-fonts-style mb-0" mbr-theme-style="display-4" mbr-if="showSubtitle"
+                            data-app-selector=".card-subtitle">
+                         Our Clients
+                        </h6>
+                        <h5 class="card-title mbr-fonts-style mb-3" mbr-theme-style="display-5" mbr-if="showTitle"
+                            data-app-selector=".card-title">
+                            <b>Our partner</b>
+                        </h5>
+                        <p class="mbr-text mbr-fonts-style mb-4" mbr-theme-style="display-4" mbr-if="showText"
+                            data-app-selector=".mbr-text, .mbr-section-btn">
+                            No special actions required, all sites you make with Mobirise are mobile-friendly.</p>
+                        <div mbr-buttons mbr-theme-style="display-4"
+                            data-toolbar="-mbrBtnAdd, -mbrBtnMove, -mbrBtnRemove" class="mbr-section-btn mt-3"
+                            mbr-if="showButtons">
+                            <a class="btn btn-primary-outline" href="https://mobiri.se"
+                                data-app-placeholder="Type Text">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-without-image mb-5 col-12 col-md-{{columns}}">
+                <div class="item-wrapper">
+                    <div class="img-wrapper">
+                        <img src="../_images/clients/1.png" alt="Mobirise Website Builder">
+                    </div>
+                    <div class="card-box align-center">
+                        <h6 class="card-subtitle mbr-fonts-style mb-0" mbr-theme-style="display-4" mbr-if="showSubtitle"
+                            data-app-selector=".card-subtitle">
+                            Our Clients
+                        </h6>
+                        <h5 class="card-title mbr-fonts-style mb-3" mbr-theme-style="display-5" mbr-if="showTitle"
+                            data-app-selector=".card-title">
+                            <b>Our partner</b>
+                        </h5>
+                        <p class="mbr-text mbr-fonts-style mb-4" mbr-theme-style="display-4" mbr-if="showText"
+                            data-app-selector=".mbr-text, .mbr-section-btn">
+                            Use Mobirise website building software to create multiple sites for your clients.</p>
+                        <div mbr-buttons mbr-theme-style="display-4"
+                            data-toolbar="-mbrBtnAdd, -mbrBtnMove, -mbrBtnRemove" class="mbr-section-btn mt-3"
+                            mbr-if="showButtons">
+                            <a class="btn btn-primary-outline" href="https://mobiri.se"
+                                data-app-placeholder="Type Text">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-without-image mb-5 col-12 col-md-{{columns}}">
+                <div class="item-wrapper">
+                    <div class="img-wrapper">
+                        <img src="../_images/clients/1.png" alt="Mobirise Website Builder">
+                    </div>
+                    <div class="card-box align-center">
+                        <h6 class="card-subtitle mbr-fonts-style mb-0" mbr-theme-style="display-4" mbr-if="showSubtitle"
+                            data-app-selector=".card-subtitle">
+                            Our Clients
+                        </h6>
+                        <h5 class="card-title mbr-fonts-style mb-3" mbr-theme-style="display-5" mbr-if="showTitle"
+                            data-app-selector=".card-title">
+                            <b>Our partner</b>
+                        </h5>
+                        <p class="mbr-text mbr-fonts-style mb-4" mbr-theme-style="display-4" mbr-if="showText"
+                            data-app-selector=".mbr-text, .mbr-section-btn">
+                            Create multiple pages. Don't forget to set links to your pages after creating them.</p>
+                        <div mbr-buttons mbr-theme-style="display-4"
+                            data-toolbar="-mbrBtnAdd, -mbrBtnMove, -mbrBtnRemove" class="mbr-section-btn mt-3"
+                            mbr-if="showButtons">
+                            <a class="btn btn-primary-outline" href="https://mobiri.se"
+                                data-app-placeholder="Type Text">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,246 @@
+<section
+  class="features027"
+  group="Features"
+  data-bg-video="{{bg.type == 'video' && bg.value.url}}"
+  mbr-class="{'mbr-fullscreen': fullScreen,'mbr-parallax-background': bg.parallax}"
+>
+	<mbr-parameters>
+		<header>Size</header>
+		<input type="checkbox" title="Full Screen" name="fullScreen">
+		<input type="checkbox" title="Full Width" name="fullWidth">
+		<input
+		  type="range"
+		  inline
+		  title="Top"
+		  name="paddingTop"
+		  min="0"
+		  max="10"
+		  step="1"
+		  value="6"
+		  condition="fullScreen == false"
+		>
+		<input
+		  type="range"
+		  inline
+		  title="Bottom"
+		  name="paddingBottom"
+		  min="0"
+		  max="10"
+		  step="1"
+		  value="6"
+		  condition="fullScreen == false"
+		>
+		<input type="checkbox" title="Reverse" name="reverseContent">
+		<header>Show/Hide</header>
+		<input type="checkbox" title="Title" name="showTitle">
+		<input type="checkbox" title="Text" name="showText">
+		<input type="range" name="imageWidth" title="Image" min="4" max="8" step="1" value="6">
+		<header>Card</header>
+		<input type="checkbox" title="Card Title" name="showCardTitle">
+		<input type="checkbox" title="Card Subtitle" name="showCardSubtitle" checked>
+		<input type="checkbox" name="showButtons" title="Buttons">
+		<input type="color" title="Card BG" name="cardbg" value="#ffffff" selected>
+		<header>Background</header>
+		<fieldset type="background" name="bg" parallax>
+			<input type="image" title="Image"
+				value="../_images/background1.jpg">
+			<input type="color" title="Color" value="#edefeb" selected>
+			<input type="video" title="Video" value="https://vimeo.com/428046504">
+		</fieldset>
+		<header condition="bg.type === 'video'">Fallback Image</header>
+		<input type="image" title="Fallback Image"
+			value="../_images/background1.jpg"
+			name="fallBackImage" condition="bg.type === 'video'">
+		<input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'">
+		<input type="color" title="Overlay Color" name="overlayColor" value="#ffffff"
+			condition="overlay && bg.type !== 'color'">
+		<input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.7"
+			condition="overlay && bg.type !== 'color'">
+	</mbr-parameters>
+
+	<div
+	  class="mbr-fallback-image disabled"
+	  mbr-if="bg.type == 'video'"
+	></div>
+	<div
+	  class="mbr-overlay"
+	  mbr-if="overlay && bg.type!== 'color'"
+	  mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}"
+	></div>
+
+	<div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+		<div
+		  class="row justify-content-center"
+		  mbr-if="showTitle || showText"
+		>
+			<div class="col-md-12 content-head mb-5">
+				<h1
+				  class="mbr-section-title mbr-fonts-style  mb-0"
+				  data-app-selector=".mbr-section-title"
+				  mbr-theme-style="display-2"
+				  mbr-if="showTitle"
+				>
+					<b>Features with image</b>
+				</h1>
+				<p
+				  class="mbr-text mbr-fonts-style mt-4 mb-0"
+				  mbr-theme-style="display-7"
+				  mbr-if="showText"
+				  data-app-selector=".mbr-text, .mbr-section-btn"
+				>
+					Great for pro-coders for fast prototyping and small customers' projects.
+				</p>
+			</div>
+		</div>
+
+
+		<div class="row justify-content-center  blockContent">
+			<div class="col-12 col-lg">
+				<div class="item features-without-image col-12 col-md-12 col-lg-12 active">
+					<div class="item-wrapper">
+						<div
+						  class="item-content"
+						>
+							<h5
+							  class="mbr-card-title mbr-fonts-style mt-0 mb-3 mbr-number"
+							  mbr-if="showCardTitle"
+							  data-app-selector=".mbr-number"
+							  mbr-theme-style="display-1"
+							>
+								<b>01.</b>
+							</h5>
+							<h4
+							  class="card-title mbr-fonts-style"
+							  mbr-theme-style="display-5"
+							  mbr-if="showCardSubtitle"
+							  data-app-selector=".card-title"
+							>
+								<b>Form</b>
+							</h4>
+							<p
+							  class="card-text mbr-fonts-style mt-0 mb-0"
+							  data-app-selector=".card-text, .item .mbr-section-btn"
+							  mbr-theme-style="display-7"
+							>
+								We begin by shaping the form of concepts, setting the stage for meaningful content.
+							</p>
+							<div
+							  class="mbr-section-btn item-footer mt-3"
+							  mbr-if="showButtons"
+							  data-toolbar="-mbrBtnMove,-mbrBtnAdd"
+							  mbr-buttons
+							  mbr-theme-style="display-7"
+							>
+								<a
+								  href
+								  class="btn item-btn btn-primary"
+								  data-app-placeholder="Type Text"
+								>Learn More</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="item features-without-image col-12 col-md-12 col-lg-12">
+					<div class="item-wrapper">
+						<div
+						  class="item-content"
+						>
+							<h5
+							  class="mbr-card-title mbr-fonts-style mt-0 mb-3 mbr-number"
+							  mbr-if="showCardTitle"
+							  data-app-selector=".mbr-number"
+							  mbr-theme-style="display-1"
+							>
+								<b>02.</b>
+							</h5>
+							<h4
+							  class="card-title mbr-fonts-style"
+							  mbr-theme-style="display-5"
+							  mbr-if="showCardSubtitle"
+							  data-app-selector=".card-title"
+							>
+								<b>Content</b>
+							</h4>
+							<p
+							  class="card-text mbr-fonts-style mt-0 mb-0"
+							  data-app-selector=".card-text, .item .mbr-section-btn"
+							  mbr-theme-style="display-7"
+							>
+								With form in place, we infuse it with engaging content, giving depth and purpose.
+							</p>
+							<div
+							  class="mbr-section-btn item-footer mt-3"
+							  mbr-if="showButtons"
+							  data-toolbar="-mbrBtnMove,-mbrBtnAdd"
+							  mbr-buttons
+							  mbr-theme-style="display-7"
+							>
+								<a
+								  href
+								  class="btn item-btn btn-primary"
+								  data-app-placeholder="Type Text"
+								>Learn More</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="item features-without-image col-12 col-md-12 col-lg-12">
+					<div class="item-wrapper">
+						<div
+						  class="item-content"
+						>
+							<h5
+							  class="mbr-card-title mbr-fonts-style mt-0 mb-3 mbr-number"
+							  mbr-if="showCardTitle"
+							  data-app-selector=".mbr-number"
+							  mbr-theme-style="display-1"
+							>
+								<b>03.</b>
+							</h5>
+							<h4
+							  class="card-title mbr-fonts-style"
+							  mbr-theme-style="display-5"
+							  mbr-if="showCardSubtitle"
+							  data-app-selector=".card-title"
+							>
+								<b>Meaning</b>
+							</h4>
+							<p
+							  class="card-text mbr-fonts-style mt-0 mb-0"
+							  data-app-selector=".card-text, .item .mbr-section-btn"
+							  mbr-theme-style="display-7"
+							>
+								The journey concludes as we uncover the profound meaning within our creations, making
+								them
+								truly resonate.
+							</p>
+							<div
+							  class="mbr-section-btn item-footer mt-3"
+							  mbr-if="showButtons"
+							  data-toolbar="-mbrBtnMove,-mbrBtnAdd"
+							  mbr-buttons
+							  mbr-theme-style="display-7"
+							>
+								<a
+								  href
+								  class="btn item-btn btn-primary"
+								  data-app-placeholder="Type Text"
+								>Learn More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-lg-{{imageWidth}}">
+				<div class="image-wrapper">
+					<img class="w-100"
+						src="../_images/gallery/gallery04.jpg"
+						alt="Mobirise Website Builder">
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>

@@ -1,0 +1,167 @@
+<section
+  class="image02"
+  group="Image & Video"
+  mbr-class="{'mbr-parallax-background':bg.parallax}"
+  data-bg-video="{{bg.type == 'video' && bg.value.url}}"
+>
+  <mbr-parameters>
+    <header>Size</header>
+    <input type="checkbox" title="Full Width" name="fullWidth" />
+    <input
+      type="range"
+      inline
+      title="Top"
+      name="paddingTop"
+      min="0"
+      max="10"
+      step="1"
+      value="5"
+    />
+    <input
+      type="range"
+      inline
+      title="Bottom"
+      name="paddingBottom"
+      min="0"
+      max="10"
+      step="1"
+      value="5"
+    />
+    <input
+      type="range"
+      inline
+      title="Width"
+      name="contentWidth"
+      min="6"
+      max="12"
+      value="10"
+      step="1"
+    />
+    <input
+      type="range"
+      inline
+      title="Sizes"
+      name="proportions"
+      min="4"
+      max="8"
+      value="5"
+      step="1"
+    />
+    <header>Show/Hide</header>
+    <input type="checkbox" name="autoSize" title="Auto Size" checked />
+    <input
+      type="range"
+      name="imageHeight"
+      title="Height"
+      min="1"
+      max="10"
+      step="1"
+      value="5"
+      condition="autoSize"
+    />
+    <input type="checkbox" title="Title" name="showTitle" checked />
+    <input type="checkbox" title="Text" name="showText" checked />
+    <header>Background</header>
+    <fieldset type="background" name="bg" parallax>
+      <input type="image" title="Image" value="../_images/background1.jpg" />
+      <input type="color" title="Color" value="#ffffff" selected />
+      <input type="video" title="Video" value="https://vimeo.com/428046504" />
+    </fieldset>
+    <header condition="bg.type === 'video'">Fallback Image</header>
+    <input
+      type="image"
+      title="Fallback Image"
+      value="../_images/background1.jpg"
+      name="fallBackImage"
+      condition="bg.type === 'video'"
+    />
+    <input
+      type="checkbox"
+      title="Overlay"
+      name="overlay"
+      checked
+      condition="bg.type !== 'color'"
+    />
+    <input
+      type="color"
+      title="Overlay Color"
+      name="overlayColor"
+      value="#ffffff"
+      condition="overlay && bg.type !== 'color'"
+    />
+    <input
+      type="range"
+      inline
+      title="Opacity"
+      name="overlayOpacity"
+      min="0"
+      max="1"
+      step="0.1"
+      value="0.5"
+      condition="overlay && bg.type !== 'color'"
+    />
+  </mbr-parameters>
+  <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+  <div
+    class="mbr-overlay"
+    mbr-if="overlay && bg.type!== 'color'"
+    mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}"
+  ></div>
+  <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+    <div class="row">
+      <div class="col-12 col-lg-{{contentWidth}}">
+        <div class="row">
+          <div class="col-12 col-lg-{{proportions}}">
+            <div class="img-item">
+              <img
+                class="w-100 mb-4"
+                src="../_images/gallery/gallery02.jpg"
+                alt="Mobirise Website Builder"
+              />
+              <h5
+                class="mbr-fonts-style mb-3"
+                mbr-theme-style="display-5"
+                mbr-if="showTitle"
+              >
+                <b>Fabric becomes art</b>
+              </h5>
+              <p
+                class="mbr-text mbr-fonts-style mb-sm-5"
+                mbr-theme-style="display-7"
+                mbr-if="showText"
+                data-app-selector=".mbr-text, .mbr-section-btn"
+              >
+                The dance of needle and thread, weaving dreams into reality.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg">
+            <div class="img-item">
+              <img
+                class="w-100 mb-4"
+                src="../_images/hightlights/11.jpg"
+                alt="Mobirise Website Builder"
+              />
+              <h5
+                class="mbr-fonts-style mb-3"
+                mbr-theme-style="display-5"
+                mbr-if="showTitle"
+              >
+                <b>Sewing ignites imagination</b>
+              </h5>
+              <p
+                class="mbr-text mbr-fonts-style mb-0"
+                mbr-theme-style="display-7"
+                mbr-if="showText"
+                data-app-selector=".mbr-text, .mbr-section-btn"
+              >
+                Stitch by stitch, sewing creates a tapestry of self-expression.
+                Sew a world uniquely yours.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

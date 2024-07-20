@@ -1,0 +1,102 @@
+<section
+	class="start article6"
+	group="Article"
+	data-bg-video="{{bg.type == 'video' && bg.value.url}}"
+	mbr-class="{
+    'mbr-fullscreen': fullScreen,
+    'mbr-parallax-background': bg.parallax}"
+>
+	<mbr-parameters>
+		<header>Size</header>
+		<input type="checkbox" title="Full Screen" name="fullScreen" />
+		<input type="checkbox" title="Full Width" name="fullWidth" />
+		<input type="range" inline="" title="Top" name="paddingTop" min="0" max="10" step="1" value="6" />
+		<input type="range" inline="" title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="6" />
+		<input type="range" inline="" title="Content Width" name="contentWidth" min="4" max="12" step="1" value="12" />
+		<header>Show/Hide</header>
+		<input type="checkbox" title="Title" name="showTitle" checked="" />
+		<input type="checkbox" title="Text" name="showText" />
+		<input type="checkbox" title="Buttons" name="showButtons" />
+		<input type="color" title="Wrap Bg" name="wrapBgColor" value="#9fe870" />
+		<header>Background</header>
+		<fieldset type="background" name="bg" parallax="">
+			<input type="image" title="Image" value="../_images/background1.jpg" parallax="" />
+			<input type="color" title="Color" value="#2e481a" selected="" />
+			<input type="video" title="Video" value="https://vimeo.com/428046504" />
+		</fieldset>
+		<header condition="bg.type === 'video'">Fallback Image</header>
+		<input
+			type="image"
+			title="Fallback Image"
+			value="../_images/background1.jpg"
+			name="fallBackImage"
+			condition="bg.type === 'video'"
+		/>
+		<input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked="" />
+		<input
+			type="color"
+			title="Overlay Color"
+			name="overlayColor"
+			value="#ffffff"
+			condition="overlay && bg.type !== 'color'"
+		/>
+		<input
+			type="range"
+			inline=""
+			title="Opacity"
+			name="overlayOpacity"
+			min="0"
+			max="1"
+			step="0.1"
+			value="0.3"
+			condition="overlay && bg.type !== 'color'"
+		/>
+	</mbr-parameters>
+
+	<div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+	<div
+		class="mbr-overlay"
+		mbr-if="overlay && bg.type!== 'color'"
+		mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}"
+	></div>
+	<div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+		<div class="row justify-content-center">
+			<div class="card col-md-12 col-lg-{{contentWidth}}">
+				<div class="card-wrapper">
+					<div class="card-box align-left">
+						<h4
+							class="card-title mbr-fonts-style"
+							mbr-theme-style="display-2"
+							mbr-if="showTitle"
+							data-app-selector=".card-title, .card-box"
+						>
+							<b>Start Creating Magic Now!</b>
+						</h4>
+						<p
+							class="mbr-text mbr-fonts-style mt-4"
+							mbr-theme-style="display-7"
+							mbr-if="showText"
+							data-app-selector=".mbr-text, .mbr-section-btn"
+						>
+							Click any text to edit or style it. Select text to insert a link. Click blue "Gear" icon in
+							the top right corner to hide/show buttons, text, title and change the block background.
+							Click red "+" in the bottom right corner to add a new block. Use the top left menu to create
+							new pages, sites and add themes.
+						</p>
+						<div
+							mbr-buttons=""
+							mbr-theme-style="display-7"
+							class="mbr-section-btn mt-4"
+							mbr-if="showButtons"
+							data-toolbar="-mbrBtnMove"
+						>
+							<a class="btn btn-white btn-lg" href="https://mobiri.se" data-app-placeholder="Type Text"
+								>Start Now</a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

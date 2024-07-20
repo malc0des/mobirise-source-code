@@ -1,0 +1,71 @@
+display: flex;
+
+& when not (@fullScreen) {
+  padding-top: (@paddingTop * 1rem);
+  padding-bottom: (@paddingBottom * 1rem);
+}
+
+& when (@bg-type ="color") {
+  background-color: @bg-value;
+}
+
+& when (@bg-type ="image") {
+  background-image: url(@bg-value);
+
+  .mbr-overlay {
+    background-color: @overlayColor;
+    opacity: @overlayOpacity;
+  }
+}
+
+.content-wrap {
+  padding: 5rem 1rem;
+
+  @media (min-width: 992px) {
+    padding: 5rem 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  align-items:~"@{verticalAlign}";
+
+  .row {
+    justify-content:~"@{horizontalAlign}";
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .content-wrap {
+    min-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  -webkit-align-items: center;
+  align-items: center;
+
+  .mbr-row {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+
+  .content-wrap {
+    width: 100%;
+  }
+}
+
+.mbr-section-title {
+  text-align: center;
+  color: #ffffff;
+}
+
+.mbr-text,
+.mbr-section-btn {
+  text-align: center;
+  color: #ffffff;
+}
+
+.mbr-description {
+  text-align: center;
+  color: #ffffff;
+}

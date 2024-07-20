@@ -1,0 +1,32 @@
+<section class="content10" group="Content">
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="checkbox" name="reverseContent" title="Reverse">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="5">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="5">
+        <input type="range" name="textWidth" title="Width" min="4" max="8" value="6" step="1">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle">
+        <input type="checkbox" title="Subtitle" name="showSubtitle" checked>
+        <header>Background</header>
+        <input type="color" title="Color" name="bgColor" value="#ffffff">
+    </mbr-parameters>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md">
+                <h5 class="mbr-section-title mbr-fonts-style mb-4" mbr-if="showTitle"
+                    data-app-selector=".mbr-section-title" mbr-theme-style="display-2">
+                    <b>Article Title</b>
+                </h5>
+                <h6 class="mbr-section-subtitle mbr-fonts-style mb-4" mbr-if="showSubtitle"
+                    data-app-selector=".mbr-section-subtitle" mbr-theme-style="display-5">
+                    Shape your future web project with the Mobirise app.
+                </h6>
+            </div>
+            <div class="col-md-12 col-lg-{{textWidth}}">
+                <p class="mbr-text mbr-fonts-style" data-app-selector=".mbr-text" mbr-theme-style="display-7">Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>
+            </div>
+        </div>
+    </div>
+</section>

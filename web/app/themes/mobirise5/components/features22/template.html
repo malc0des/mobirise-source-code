@@ -1,0 +1,237 @@
+<section class="features22" group="Features" data-bg-video="{{bg.type == 'video' && bg.value.url}}"
+    mbr-class="{'mbr-parallax-background': bg.parallax}" plugins="mobirise-icons2">
+
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="9" step="1" value="6">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="9" step="1" value="6">
+        <input type="range" name="textWidth" title="Width" min="5" max="12" value="8" step="1">
+        <select title="Steps" name="steps">
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle" checked>
+        <input type="checkbox" title="Text" name="showText" checked>
+        <input type="checkbox" title="Button" name="showButton">
+        <input type="range" inline title="Numbers Size" name="numbersSize" min="1" max="33" step="1" value="10">
+        <input type="color" name="iconColor" title="Color" value="#6592e6">
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax>
+            <input type="image" title="Image" value="../_images/background1.jpg">
+            <input type="color" title="Color" value="#ffffff" selected>
+            <input type="video" title="Video" value="https://vimeo.com/428046504">
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input type="image" title="Fallback Image" value="../_images/background13.jpg" name="fallBackImage" condition="bg.type === 'video'">
+        <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked>
+        <input type="color" title="Overlay Color" name="overlayColor" value="#ffffff"
+            condition="overlay && bg.type !== 'color'">
+        <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.8"
+            condition="overlay && bg.type !== 'color'">
+    </mbr-parameters>
+
+    <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+    <div class="mbr-overlay" mbr-if="overlay && bg.type!== 'color'"
+        mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}">
+    </div>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-{{textWidth}}">
+                <div class="item mbr-flex">
+                    <div class="icon-box w-100">
+                        <span mbr-text class="step-number mbr-fonts-style" mbr-theme-style="display-1"
+                            data-app-selector=".item .icon-box .step-number">01</span>
+                    </div>
+                    <div class="text-box" mbr-if="showTitle || showText || showButton">
+                        <h4 class="icon-title card-title mbr-black mbr-fonts-style" mbr-theme-style="display-2"
+                            data-app-selector=".icon-title, .mbr-section-btn, .item .icon-box .step-number"
+                            mbr-if="showTitle">
+                            <b>Specification</b>
+                        </h4>
+                        <h5 class="icon-text mbr-black mbr-fonts-style" mbr-theme-style="display-7"
+                            data-app-selector=".icon-text, .mbr-section-btn" mbr-if="showText">Mobirise is perfect for
+                            non-techies who are
+                            not familiar with
+                            the intricacies of web development.</h5>
+                        <div mbr-buttons mbr-theme-style="display-4" class="mbr-section-btn" data-toolbar="-mbrBtnMove"
+                            mbr-if="showButton">
+                            <a class="btn btn-primary" href="https://mobiri.se" data-app-placeholder="Type Text">Create
+                                your own site</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item mbr-flex" mbr-if="steps > 1">
+                    <div class="icon-box w-100">
+                        <span mbr-text class="step-number mbr-fonts-style" mbr-theme-style="display-1"
+                            data-app-selector=".item .icon-box .step-number">02</span>
+                    </div>
+                    <div class="text-box" mbr-if="showTitle || showText || showButton">
+                        <h4 class="icon-title card-title mbr-black mbr-fonts-style" mbr-theme-style="display-2"
+                            data-app-selector=".icon-title, .mbr-section-btn, .item .icon-box .step-number"
+                            mbr-if="showTitle">
+                            <b>Project Planning</b>
+                        </h4>
+                        <h5 class="icon-text mbr-black mbr-fonts-style" mbr-theme-style="display-7"
+                            data-app-selector=".icon-text, .mbr-section-btn" mbr-if="showText">Mobirise is perfect for
+                            non-techies who are
+                            not familiar with
+                            the intricacies of web development.</h5>
+                        <div mbr-buttons mbr-theme-style="display-4" class="mbr-section-btn" data-toolbar="-mbrBtnMove"
+                            mbr-if="showButton">
+                            <a class="btn btn-primary" href="https://mobiri.se" data-app-placeholder="Type Text">Create
+                                your own site</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item mbr-flex" mbr-if="steps > 2">
+                    <div class="icon-box w-100">
+                        <span mbr-text class="step-number mbr-fonts-style" mbr-theme-style="display-1"
+                            data-app-selector=".item .icon-box .step-number">03</span>
+                    </div>
+                    <div class="text-box" mbr-if="showTitle || showText || showButton">
+                        <h4 class="icon-title card-title mbr-black mbr-fonts-style" mbr-theme-style="display-2"
+                            data-app-selector=".icon-title, .mbr-section-btn, .item .icon-box .step-number"
+                            mbr-if="showTitle">
+                            <b>Deployment</b>
+                        </h4>
+                        <h5 class="icon-text mbr-black mbr-fonts-style" mbr-theme-style="display-7"
+                            data-app-selector=".icon-text, .mbr-section-btn" mbr-if="showText">Mobirise is perfect for
+                            non-techies who are
+                            not familiar with
+                            the intricacies of web development.</h5>
+                        <div mbr-buttons mbr-theme-style="display-4" class="mbr-section-btn" data-toolbar="-mbrBtnMove"
+                            mbr-if="showButton">
+                            <a class="btn btn-primary" href="https://mobiri.se" data-app-placeholder="Type Text">Create
+                                your own site</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item mbr-flex" mbr-if="steps > 3">
+                    <div class="icon-box w-100">
+                        <span mbr-text class="step-number mbr-fonts-style" mbr-theme-style="display-1"
+                            data-app-selector=".item .icon-box .step-number">04</span>
+                    </div>
+                    <div class="text-box" mbr-if="showTitle || showText || showButton">
+                        <h4 class="icon-title card-title mbr-black mbr-fonts-style" mbr-theme-style="display-2"
+                            data-app-selector=".icon-title, .mbr-section-btn, .item .icon-box .step-number"
+                            mbr-if="showTitle">
+                            <b>Specification</b>
+                        </h4>
+                        <h5 class="icon-text mbr-black mbr-fonts-style" mbr-theme-style="display-7"
+                            data-app-selector=".icon-text, .mbr-section-btn" mbr-if="showText">Mobirise is perfect for
+                            non-techies who are
+                            not familiar with
+                            the intricacies of web development.</h5>
+                        <div mbr-buttons mbr-theme-style="display-4" class="mbr-section-btn" data-toolbar="-mbrBtnMove"
+                            mbr-if="showButton">
+                            <a class="btn btn-primary" href="https://mobiri.se" data-app-placeholder="Type Text">Create
+                                your own site</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item mbr-flex" mbr-if="steps > 4">
+                    <div class="icon-box w-100">
+                        <span mbr-text class="step-number mbr-fonts-style" mbr-theme-style="display-1"
+                            data-app-selector=".item .icon-box .step-number">05</span>
+                    </div>
+                    <div class="text-box" mbr-if="showTitle || showText || showButton">
+                        <h4 class="icon-title card-title mbr-black mbr-fonts-style" mbr-theme-style="display-2"
+                            data-app-selector=".icon-title, .mbr-section-btn, .item .icon-box .step-number"
+                            mbr-if="showTitle">
+                            <b>Project Planning</b>
+                        </h4>
+                        <h5 class="icon-text mbr-black mbr-fonts-style" mbr-theme-style="display-7"
+                            data-app-selector=".icon-text, .mbr-section-btn" mbr-if="showText">Mobirise is perfect for
+                            non-techies who are
+                            not familiar with
+                            the intricacies of web development.</h5>
+                        <div mbr-buttons mbr-theme-style="display-4" class="mbr-section-btn" data-toolbar="-mbrBtnMove"
+                            mbr-if="showButton">
+                            <a class="btn btn-primary" href="https://mobiri.se" data-app-placeholder="Type Text">Create
+                                your own site</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item mbr-flex" mbr-if="steps > 5">
+                    <div class="icon-box w-100">
+                        <span mbr-text class="step-number mbr-fonts-style" mbr-theme-style="display-1"
+                            data-app-selector=".item .icon-box .step-number">06</span>
+                    </div>
+                    <div class="text-box" mbr-if="showTitle || showText || showButton">
+                        <h4 class="icon-title card-title mbr-black mbr-fonts-style" mbr-theme-style="display-2"
+                            data-app-selector=".icon-title, .mbr-section-btn, .item .icon-box .step-number"
+                            mbr-if="showTitle">
+                            <b>Deployment</b>
+                        </h4>
+                        <h5 class="icon-text mbr-black mbr-fonts-style" mbr-theme-style="display-7"
+                            data-app-selector=".icon-text, .mbr-section-btn" mbr-if="showText">Mobirise is perfect for
+                            non-techies who are
+                            not familiar with
+                            the intricacies of web development.</h5>
+                        <div mbr-buttons mbr-theme-style="display-4" class="mbr-section-btn" data-toolbar="-mbrBtnMove"
+                            mbr-if="showButton">
+                            <a class="btn btn-primary" href="https://mobiri.se" data-app-placeholder="Type Text">Create
+                                your own site</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item mbr-flex" mbr-if="steps > 6">
+                    <div class="icon-box w-100">
+                        <span mbr-text class="step-number mbr-fonts-style" mbr-theme-style="display-1"
+                            data-app-selector=".item .icon-box .step-number">07</span>
+                    </div>
+                    <div class="text-box" mbr-if="showTitle || showText || showButton">
+                        <h4 class="icon-title card-title mbr-black mbr-fonts-style" mbr-theme-style="display-2"
+                            data-app-selector=".icon-title, .mbr-section-btn, .item .icon-box .step-number"
+                            mbr-if="showTitle">
+                            <b>Specification</b>
+                        </h4>
+                        <h5 class="icon-text mbr-black mbr-fonts-style" mbr-theme-style="display-7"
+                            data-app-selector=".icon-text, .mbr-section-btn" mbr-if="showText">Mobirise is perfect for
+                            non-techies who are
+                            not familiar with
+                            the intricacies of web development.</h5>
+                        <div mbr-buttons mbr-theme-style="display-4" class="mbr-section-btn" data-toolbar="-mbrBtnMove"
+                            mbr-if="showButton">
+                            <a class="btn btn-primary" href="https://mobiri.se" data-app-placeholder="Type Text">Create
+                                your own site</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item mbr-flex" mbr-if="steps > 7">
+                    <div class="icon-box w-100">
+                        <span mbr-text class="step-number mbr-fonts-style" mbr-theme-style="display-1"
+                            data-app-selector=".item .icon-box .step-number">08</span>
+                    </div>
+                    <div class="text-box" mbr-if="showTitle || showText || showButton">
+                        <h4 class="icon-title card-title mbr-black mbr-fonts-style" mbr-theme-style="display-2"
+                            data-app-selector=".icon-title, .mbr-section-btn, .item .icon-box .step-number"
+                            mbr-if="showTitle">
+                            <b>Project Planning</b>
+                        </h4>
+                        <h5 class="icon-text mbr-black mbr-fonts-style" mbr-theme-style="display-7"
+                            data-app-selector=".icon-text, .mbr-section-btn" mbr-if="showText">Mobirise is perfect for
+                            non-techies who are
+                            not familiar with
+                            the intricacies of web development.</h5>
+                        <div mbr-buttons mbr-theme-style="display-4" class="mbr-section-btn" data-toolbar="-mbrBtnMove"
+                            mbr-if="showButton">
+                            <a class="btn btn-primary" href="https://mobiri.se" data-app-placeholder="Type Text">Create
+                                your own site</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

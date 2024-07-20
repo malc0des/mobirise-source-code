@@ -1,0 +1,68 @@
+<section group="Features" class="info2" data-bg-video="{{bg.type == 'video' && bg.value.url}}" mbr-class="{
+    'mbr-fullscreen': fullScreen,
+    'mbr-parallax-background': bg.parallax}">
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Screen" name="fullScreen">
+        <input type="checkbox" title="Full Width" name="fullWidth" checked>
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="6"
+            condition="fullScreen == false">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="6"
+            condition="fullScreen == false">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle" checked>
+        <input type="checkbox" title="Text" name="showText" checked>
+        <input type="checkbox" title="Buttons" name="showButtons" checked>
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax>
+            <input type="image" title="Image" value="../_images/background3.jpg">
+            <input type="color" title="Color" value="#40b0bf" selected>
+            <input type="video" title="Video" value="https://vimeo.com/428046504">
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input type="image" title="Fallback Image" value="../_images/background13.jpg" name="fallBackImage" condition="bg.type === 'video'">
+        <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked>
+        <input type="color" title="Overlay Color" name="overlayColor" value="#6592e6"
+            condition="overlay && bg.type !== 'color'">
+        <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.5"
+            condition="overlay && bg.type !== 'color'">
+    </mbr-parameters>
+
+    <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+    <div class="mbr-overlay" mbr-if="overlay && bg.type !== 'color'" opacity="{{overlayOpacity}}"
+        bg-color="{{overlayColor}}"></div>
+    <div class="align-center" mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div class="card col-12 col-lg-6">
+                <div class="wrapper">
+                    <h3 class="mbr-section-title mb-4 mbr-fonts-style" mbr-theme-style="display-5" mbr-if="showTitle">
+                        <b>Mobirise Help</b>
+                    </h3>
+                    <p class="mbr-text mb-4 mbr-fonts-style" mbr-theme-style="display-4" mbr-if="showText"
+                        data-app-selector=".mbr-text, .mbr-section-btn">
+                        Visit our Help Center to get started developing websites with Mobirise. Use Help Center to find answers to your questions. Contact us directly at info@site.com</p>
+                    <div mbr-buttons mbr-theme-style="display-4" class="mbr-section-btn" mbr-if="showButtons"
+                        data-toolbar="-mbrBtnMove">
+                        <a class="btn btn-white" href="https://mobiri.se"
+                            data-app-placeholder="Type Text">Visit Help Center</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="wrapper">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-4" mbr-theme-style="display-5" mbr-if="showTitle">
+                        <b>Mobirise Kit</b>
+                    </h3>
+                    <p class="mbr-text mbr-fonts-style mb-4" mbr-theme-style="display-4" mbr-if="showText"
+                        data-app-selector=".mbr-text, .mbr-section-btn">
+                        Beautiful website blocks, templates and themes help you to start easily. Expand your Mobirise experience with Code Editor, Form Builder and other extensions.</p>
+                    <div mbr-buttons mbr-theme-style="display-4" class="mbr-section-btn" mbr-if="showButtons"
+                        data-toolbar="-mbrBtnMove">
+                        <a class="btn btn-white" href="https://mobiri.se"
+                            data-app-placeholder="Type Text">Buy Mobirise Kit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

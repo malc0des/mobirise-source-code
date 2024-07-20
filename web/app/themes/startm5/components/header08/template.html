@@ -1,0 +1,116 @@
+<section
+	class="header8"
+	group="Headers"
+	mbr-class="{
+    'mbr-fullscreen': fullScreen}"
+	plugins="formstyler, datepicker"
+>
+	<mbr-parameters>
+		<header>Size</header>
+		<input type="checkbox" title="Full Screen" name="fullScreen" />
+		<input type="checkbox" title="Full Width" name="fullWidth" />
+		<input
+			type="range"
+			inline=""
+			title="Top"
+			name="paddingTop"
+			min="0"
+			max="12"
+			step="1"
+			value="6"
+			condition="fullScreen == false"
+		/>
+		<input
+			type="range"
+			inline=""
+			title="Bottom"
+			name="paddingBottom"
+			min="0"
+			max="12"
+			step="1"
+			value="6"
+			condition="fullScreen == false"
+		/>
+		<header>Show/Hide</header>
+		<input type="checkbox" title="Title" name="showTitle" checked="" />
+		<input type="checkbox" title="Text" name="showText" checked="" />
+		<header>Background</header>
+		<input type="color" name="bgColor" title="Color" value="#a0e1e1" selected="" />
+		<input type="hidden" name="usedRecaptcha" value="false" />
+	</mbr-parameters>
+
+	<div
+		class="mbr-overlay"
+		mbr-if="overlay && bg.type !== 'color'"
+		opacity="{{overlayOpacity}}"
+		bg-color="{{overlayColor}}"
+	></div>
+
+	<div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+		<div class="row content-wrapper justify-content-center">
+			<div mbr-form="" class="col-lg-7 mbr-form">
+				<div class="text-wrapper align-left">
+					<form action="" name="Form Name" method="POST" class="mbr-form form-with-styler" data-verified="">
+						<div class="dragArea row">
+							<div class="col-lg-12 col-md-12 col-sm-12">
+								<h1
+									class="mbr-section-title mbr-fonts-style mb-4"
+									data-app-selector=".mbr-section-title"
+									mbr-theme-style="display-1"
+									mbr-if="showTitle"
+								>
+									<b>Dream big, achieve bigger</b>
+								</h1>
+							</div>
+							<div class="col-lg-12 col-md-12 col-sm-12">
+								<p mbr-theme-style="display-7" mbr-if="showText" class="mbr-text mbr-fonts-style mb-4"
+								data-app-selector=".mbr-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas massa vel
+									nulla gravida pulvinar. Pellentesque habitant morbi tristique senectus et netus et
+									malesuada fames ac turpis egestas.
+								</p>
+							</div>
+							<div data-for="email" class="col-lg-6 col-md-6 col-sm-12">
+								<input
+									type="email"
+									name="email"
+									placeholder="test@email.com"
+									data-form-field="email"
+									mbr-theme-style="display-7"
+									class="form-control"
+									value=""
+								/>
+							</div>
+							<div
+								class="col-auto mbr-section-btn"
+								mbr-buttons="true"
+								mbr-theme-style="display-7"
+								data-toolbar="-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd"
+							>
+								<a
+									type="submit"
+									class="w-100 btn btn-black"
+									data-app-placeholder="Type Text"
+									>Submit</a
+								>
+							</div>
+							<div class="row">
+								<div hidden="hidden" data-form-alert="" class="alert alert-success col-12">
+									Thanks for filling out the form!
+								</div>
+								<div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
+									Oops...! some problem!
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="col-lg-5 col-12">
+				<div class="image-wrapper">
+					<img class="w-100" src="../_images/hightlights/4.jpg" alt="Mobirise Website Builder" />
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

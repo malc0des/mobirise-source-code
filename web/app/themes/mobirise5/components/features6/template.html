@@ -1,0 +1,97 @@
+<section class="features5" group="Features" data-bg-video="{{bg.type == 'video' && bg.value.url}}"
+    mbr-class="{'mbr-parallax-background': bg.parallax}">
+
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="6">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="6">
+        <select title="Cards" name="cardsAmount">
+            <option value="1">1</option>
+            <option value="2" selected>2</option>
+        </select>
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Subtitle" name="showsubTitle">
+        <input type="checkbox" title="Title" name="showTitle" checked>
+        <input type="checkbox" title="Text" name="showText" checked>
+        <input type="checkbox" title="Buttons" name="showButtons" checked>
+        <header>Colors</header>
+        <input type="color" title="Bg" name="cardColor" value="#fafafa" selected>
+        <input type="color" title="Icon 1" name="cardColor2" value="#ffe161" selected>
+        <input type="color" title="Icon 2" name="cardColor3" value="#6592e6" selected condition="cardsAmount > 1">
+        <input type="color" title="Icon" name="iconColor" value="#ffffff" selected>
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax>
+            <input type="image" title="Image" value="../_images/background3.jpg" parallax>
+            <input type="color" title="Color" value="#ffffff" selected>
+            <input type="video" title="Video" value="https://vimeo.com/428046504">
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input type="image" title="Fallback Image" value="../_images/background13.jpg" name="fallBackImage" condition="bg.type === 'video'">
+        <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked>
+        <input type="color" title="Overlay Color" name="overlayColor" value="#ffffff"
+            condition="overlay && bg.type !== 'color'">
+        <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.5"
+            condition="overlay && bg.type !== 'color'">
+    </mbr-parameters>
+
+    <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+    <div class="mbr-overlay" mbr-if="overlay && bg.type!== 'color'"
+        mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}">
+    </div>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div class="card col-12 col-lg-6">
+                <div class="card-wrapper mbr-flex">
+                    <div class="card-box align-left">
+                        <h6 class="card-subtitle mbr-fonts-style align-left mb-2" mbr-theme-style="display-4"
+                            mbr-if="showsubTitle" data-app-selector=".card-subtitle">
+                            Elevate your business
+                        </h6>
+                        <h5 class="card-title mbr-fonts-style align-left mb-3" mbr-theme-style="display-5"
+                            mbr-if="showTitle" data-app-selector=".card-title, .card-box">
+                            <b>No Coding</b>
+                        </h5>
+                        <p class="mbr-text mbr-fonts-style mb-3" mbr-theme-style="display-4" mbr-if="showText"
+                            data-app-selector=".mbr-text, .mbr-section-btn">
+                            You don't have to code when you create your own site. Select one of available themes in the Mobirise sitebuilder.</p>
+                        <div mbr-buttons mbr-theme-style="display-4" class="mbr-section-btn" mbr-if="showButtons"
+                            data-toolbar="-mbrBtnMove">
+                            <a href="https://mobiri.se" class="btn btn-primary"
+                                data-app-placeholder="Type Text">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="img-wrapper img1 align-center">
+                        <span mbr-icon class="mbr-iconfont mobi-mbri-setting mobi-mbri"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card col-12 col-lg-6" mbr-if="cardsAmount > 1">
+                <div class="card-wrapper mbr-flex">
+                    <div class="card-box align-left">
+                        <h6 class="card-subtitle mbr-fonts-style align-left mb-2" mbr-theme-style="display-4"
+                            mbr-if="showsubTitle" data-app-selector=".card-subtitle">
+                            Elevate your business
+                        </h6>
+                        <h5 class="card-title mbr-fonts-style align-left mb-3" mbr-theme-style="display-5"
+                            mbr-if="showTitle" data-app-selector=".card-title, .card-box">
+                            <b>Unique Styles</b>
+                        </h5>
+                        <p class="mbr-text mbr-fonts-style mb-3" mbr-theme-style="display-4" mbr-if="showText"
+                            data-app-selector=".mbr-text, .mbr-section-btn">
+                            Select the theme that suits you. Each theme in the Mobirise website building software contains a set of unique blocks.</p>
+                        <div mbr-buttons mbr-theme-style="display-4" class="mbr-section-btn" mbr-if="showButtons"
+                            data-toolbar="-mbrBtnMove">
+                            <a href="https://mobiri.se" class="btn btn-primary"
+                                data-app-placeholder="Type Text">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="img-wrapper img2 align-center">
+                        <span mbr-icon class="mbr-iconfont mobi-mbri-users mobi-mbri"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

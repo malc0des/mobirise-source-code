@@ -1,0 +1,113 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type ='color') {
+  background-color: @bg-value;
+}
+
+& when (@bg-type ='image') {
+  background-image: url(@bg-value);
+}
+
+.mbr-iconfont {
+  font-size: 1.2rem !important;
+  font-family: 'Moririse2' !important;
+  color: white;
+  transition: all 0.3s;
+  transform: rotate(180deg);
+  padding-left: 0.5rem;
+}
+
+.panel-group {
+  border: none;
+}
+
+.card-header {
+  padding: 0rem;
+
+  @media (max-width: 767px) {
+    padding: 0rem;
+  }
+}
+
+.panel-body {
+  padding: 0rem;
+  padding-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+.img-col {
+  padding: 0;
+}
+
+.img-item {
+  height: 100%;
+}
+
+img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.collapsed {
+  span {
+    transform: rotate(0deg);
+  }
+}
+
+.panel-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+p {
+  margin-bottom: 0.3rem;
+}
+
+.panel-title-edit {
+  color: #000000;
+}
+
+.card .card-header {
+  background-color: transparent;
+  margin-bottom: 0;
+  border: 0;
+  border-radius: 2rem;
+}
+
+.card {
+  background: @items;
+  padding: 2.25rem;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+
+  @media (max-width: 767px) {
+    padding: 2rem 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+    margin-bottom: 1rem;
+    padding: 2rem 1.5rem;
+  }
+}
+
+.panel-text {
+  color: #000000;
+}
+
+.mbr-section-title {
+  text-align: center;
+  color: #000000;
+}
+
+.mbr-section-subtitle {
+  color: #000000;
+  text-align: center;
+}
+
+.panel-title-edit,
+.mbr-iconfont {
+  color: #000000;
+}

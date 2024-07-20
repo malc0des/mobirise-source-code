@@ -1,0 +1,47 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+  display: none;
+}
+.mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+
+  & when (@bg-type ='video') {
+      background-image: url(@fallBackImage);
+  }
+}
+[class^="socicon-"]:before, [class*=" socicon-"]:before {
+  line-height: 55px;
+}
+.btn-social {
+  font-size: 32px;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+  color: @iconsColor;
+  border-width: 2px;
+  transition: all .3s;
+  &:hover {
+    background: @iconsColor;
+    & i.socicon {
+      color: contrast(@iconsColor) !important;
+    }
+  }
+  border-color: @iconsColor;
+}

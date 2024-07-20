@@ -1,0 +1,119 @@
+<section
+	class="video01"
+	group="Image & Video"
+	data-bg-video="{{bg.type == 'video' && bg.value.url}}"
+	plugins="PlayerVimeo"
+	mbr-class="{'mbr-parallax-background': bg.parallax}"
+>
+	<mbr-parameters>
+		<header>Size</header>
+		<input type="checkbox" name="fullWidth" title="Full Width" />
+		<input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="6" />
+		<input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="6" />
+		<input type="range" name="textWidth" title="Video" min="4" max="12" step="1" value="12" />
+		<header>Show/Hide</header>
+		<input type="checkbox" title="Title" name="showTitle" checked />
+		<input type="checkbox" title="Subtitle" name="showSubtitle" />
+		<header>Video</header>
+		<input type="text" title="Link" name="modalVideo" value="https://www.youtube.com/watch?v=VA8PzkQa8d8" />
+		<header>Background</header>
+		<fieldset type="background" name="bg" parallax>
+			<input title="Image" type="image" value="../_images/background1.jpg" parallax />
+			<input title="Color" type="color" selected value="#edefeb" />
+			<input type="video" title="Video" value="https://vimeo.com/428046504" />
+		</fieldset>
+		<header condition="bg.type === 'video'">Fallback Image</header>
+		<input
+			type="image"
+			title="Fallback Image"
+			value="../_images/background1.jpg"
+			name="fallBackImage"
+			condition="bg.type === 'video'"
+		/>
+
+		<input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked />
+		<input
+			type="color"
+			title="Overlay Color"
+			name="overlayColor"
+			value="#ffffff"
+			condition="overlay && bg.type !== 'color'"
+		/>
+		<input
+			type="range"
+			inline
+			title="Opacity"
+			name="overlayOpacity"
+			min="0"
+			max="1"
+			step="0.1"
+			value="0.6"
+			condition="overlay && bg.type !== 'color'"
+		/>
+	</mbr-parameters>
+	<div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+
+	<div
+		class="mbr-overlay"
+		mbr-if="overlay && bg.type!== 'color'"
+		mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}"
+	></div>
+	<div class="align-center" mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+		<div class="row justify-content-center">
+			<div class="col-12 content-head">
+				<div class="mbr-section-head mb-5">
+					<h4
+						class="mbr-section-title mbr-fonts-style mb-0"
+						data-app-selector=".mbr-section-title"
+						mbr-theme-style="display-2"
+						mbr-if="showTitle"
+					>
+						<b>Watch Video</b>
+					</h4>
+					<h5
+						class="mbr-section-subtitle mbr-fonts-style mb-0 mt-4"
+						data-app-selector=".mbr-section-subtitle"
+						mbr-theme-style="display-7"
+						mbr-if="showSubtitle"
+					>
+						Click on the video in this block to set the link to your own video.
+					</h5>
+				</div>
+			</div>
+		</div>
+
+		<div class="row justify-content-center">
+			<div class="col-12 col-lg-{{textWidth}}">
+				<div class="box">
+					<div class="mbr-media show-modal align-center" data-modal=".modalWindow">
+						<img src="../_images/video/video1.jpg" alt="Mobirise" />
+						<div class="icon-wrap">
+							<span mbr-icon class="mbr-iconfont socicon-youtube socicon" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div>
+		<div class="modalWindow" style="display: none">
+			<div class="modalWindow-container">
+				<div class="modalWindow-video-container">
+					<div class="modalWindow-video">
+						<iframe
+							width="100%"
+							height="100%"
+							data-src="{{modalVideo}}"
+							frameborder="0"
+							allowfullscreen="1"
+						></iframe>
+					</div>
+					<a class="close" role="button" data-dismiss="modal" data-bs-dismiss="modal">
+						<span aria-hidden="true" class="mbr-iconfont mobi-mbri-close mobi-mbri closeModal"></span>
+						<span class="sr-only visually-hidden">Close</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

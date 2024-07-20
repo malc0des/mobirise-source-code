@@ -1,0 +1,113 @@
+<section class="gallery09" group="Gallery & Slider" mbr-class="{'mbr-parallax-background': bg.parallax}">
+  <mbr-parameters>
+    <header>Size</header>
+    <input type="checkbox" title="Full Width" name="fullWidth">
+    <input type="checkbox" name="reverseContent" title="Reverse">
+    <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="6">
+    <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="6">
+    <header>Show/Hide</header>
+    <input type="checkbox" title="Title" name="showTitle" checked>
+    <input type="checkbox" title="Subtitle" name="showSubtitle" checked>
+    <input type="checkbox" name="showButton" title="Buttons">
+    <header>Gallery</header>
+    <input type="checkbox" name="showCardTitle" title="Captions">
+    <select title="Image Width" name="cardsWidth">
+      <option value="4">Narrow</option>
+      <option value="6" selected>Wide</option>
+    </select>
+    <input type="checkbox" name="autoSize" title="Auto Size">
+    <input type="range" name="imageHeight" title="Height" min="1" max="5" step="1" value="4" condition="autoSize">
+    <input type="checkbox" title="Spacing" name="spacing" checked>
+    <header>Background</header>
+    <fieldset type="background" name="bg" parallax>
+      <input type="image" title="Image" value="../_images/background1.jpg">
+      <input type="color" title="Color" value="#edefeb" selected>
+    </fieldset>
+    <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'">
+    <input type="color" title="Overlay Color" name="overlayColor" value="#ffffff"
+      condition="overlay && bg.type !== 'color'">
+    <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.7"
+      condition="overlay && bg.type !== 'color'">
+  </mbr-parameters>
+
+  <div class="mbr-overlay" mbr-if="overlay && bg.type !== 'color'" opacity="{{overlayOpacity}}"
+    bg-color="{{overlayColor}}"></div>
+
+  <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-12 col-lg-4 main-text">
+        <div class>
+          <h5 class="mbr-section-title mbr-fonts-style mt-0 mb-4" mbr-if="showTitle"
+            data-app-selector=".mbr-section-title" mbr-theme-style="display-2"><b>Fresh stock</b></h5>
+          <h6 class="mbr-section-subtitle mbr-fonts-style mt-0 mb-4" mbr-if="showSubtitle"
+            data-app-selector=".mbr-section-subtitle, .mbr-section-btn" mbr-theme-style="display-7">
+            With a spirit of innovation, we navigate uncharted territories, exploring new ideas,
+            technologies, and approaches.</h6>
+          <div class="mbr-section-btn mt-3 main-button" mbr-if="showButton" data-toolbar="-mbrBtnMove,-mbrBtnAdd"
+            mbr-buttons mbr-theme-style="display-7">
+            <a href class="btn item-btn btn-primary" data-app-placeholder="Type Text">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-8 side-features row">
+        <div class="item features-image col-12 col-md-6 col-lg-{{cardsWidth}} active">
+          <div class="item-wrapper">
+            <div class="item-img">
+              <img src="../_images/gallery/gallery01.jpg" alt="Mobirise Website Builder" title data-slide-to="1"
+                data-bs-slide-to="1">
+            </div>
+            <div class="item-content align-left" mbr-if="showCardTitle">
+              <h5 class="item-title mbr-fonts-style mt-3 mb-3" mbr-theme-style="display-7"
+                data-app-selector=".item-title, .mbr-section-btn" mbr-if="showCardTitle">
+                <b>Innovation</b>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="item features-image col-12 col-md-6 col-lg-{{cardsWidth}} active">
+          <div class="item-wrapper">
+            <div class="item-img">
+              <img src="../_images/gallery/gallery02.jpg" alt="Mobirise Website Builder" title data-slide-to="2"
+                data-bs-slide-to="2">
+            </div>
+            <div class="item-content align-left" mbr-if="showCardTitle">
+              <h5 class="item-title mbr-fonts-style mt-3 mb-3" mbr-theme-style="display-7"
+                data-app-selector=".item-title, .mbr-section-btn" mbr-if="showCardTitle">
+                <b>Support</b>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="item features-image col-12 col-md-6 col-lg-{{cardsWidth}} active">
+          <div class="item-wrapper">
+            <div class="item-img">
+              <img src="../_images/gallery/gallery03.jpg" alt="Mobirise Website Builder" title data-slide-to="3"
+                data-bs-slide-to="3">
+            </div>
+            <div class="item-content align-left" mbr-if="showCardTitle">
+              <h5 class="item-title mbr-fonts-style mt-3 mb-3" mbr-theme-style="display-7"
+                data-app-selector=".item-title, .mbr-section-btn" mbr-if="showCardTitle">
+                <b>Quality</b>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="item features-image col-12 col-md-6 col-lg-{{cardsWidth}} active">
+          <div class="item-wrapper">
+            <div class="item-img">
+              <img src="../_images/gallery/gallery04.jpg" alt="Mobirise Website Builder" title data-slide-to="4"
+                data-bs-slide-to="4">
+            </div>
+            <div class="item-content align-left" mbr-if="showCardTitle">
+              <h5 class="item-title mbr-fonts-style mt-3 mb-3" mbr-theme-style="display-7"
+                data-app-selector=".item-title, .mbr-section-btn" mbr-if="showCardTitle">
+                <b>Creativity</b>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

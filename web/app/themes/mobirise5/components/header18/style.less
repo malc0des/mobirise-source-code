@@ -1,0 +1,34 @@
+& when not (@fullScreen) {
+	padding-top: (@paddingTop * 1rem);
+	padding-bottom: (@paddingBottom * 1rem);
+}
+
+& when (@bg-type ="image") {
+	background-image: url(@bg-value);
+}
+
+& when (@bg-type ="color") {
+	& when not (@gradientBg) {
+		background-color: @bg-value;
+	}
+
+	& when (@gradientBg) {
+		background-image: linear-gradient(~"@{gradientAngle}deg", @gradientColor2 10%, @bg-value 100%) !important;
+	}
+}
+.mbr-fallback-image.disabled {
+    display: none;
+}
+.mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    & when (@bg-type ='video') {
+        background-image: url(@fallBackImage);
+    }
+}

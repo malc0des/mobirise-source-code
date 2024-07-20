@@ -1,0 +1,145 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type ='color') {
+    background-color: @bg-value;
+}
+
+& when (@bg-type ='image') {
+    background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+    display: none;
+}
+.mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    & when (@bg-type ='video') {
+        background-image: url(@fallBackImage);
+    }
+}
+.embla__slide {
+    display: flex;
+    justify-content: center;
+}
+
+.embla__button--next,
+.embla__button--prev {
+    display: flex;
+}
+
+.embla__button {
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: -1.5rem;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: all 0.3s;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & when not (@arrows) {
+        display: none;
+    }
+
+    & when not (@arrowsMobile) {
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+    &:disabled {
+        cursor: default;
+        display: none;
+    }
+    &:hover {
+        background: #000;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    &.embla__button--prev {
+        left: 0;
+        margin-left: 2.5rem;
+    }
+    &.embla__button--next {
+        right: 0;
+        margin-right: 2.5rem;
+    }
+    @media (max-width: 768px) {
+      top: auto;
+    }
+}
+
+.user_image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1.6rem;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 2rem auto;
+    .item-wrapper {
+        width: 200px;
+        height: 200px;
+    }
+    img {
+        width: 100%;
+        min-width: 100%;
+        min-height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 230px) {
+    .user_image {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.embla {
+    position: relative;
+    width: 100%;
+}
+
+.embla__viewport {
+    overflow: hidden;
+    width: 100%;
+}
+
+.embla__viewport.is-draggable {
+    cursor: move;
+    cursor: grab;
+}
+
+.embla__viewport.is-dragging {
+    cursor: grabbing;
+}
+
+.embla__container {
+    display: flex;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.embla__slide {
+    position: relative;
+    min-width: 570px;
+    max-width: 570px;
+    @media (max-width: 768px) {
+        min-width: 70%;
+        max-width: initial;
+        margin-left: 1rem !important;
+        margin-right: 1rem !important;
+    }
+}

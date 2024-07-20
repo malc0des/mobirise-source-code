@@ -1,0 +1,30 @@
+<section class="content5" group="Content">
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="5">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="5">
+        <input type="range" name="textWidth" title="Width" min="4" max="12" value="10" step="1">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle">
+        <input type="checkbox" title="Subtitle" name="showSubtitle" checked>
+        <header>Background</header>
+        <input type="color" title="Color" name="bgColor" value="#ffffff">
+    </mbr-parameters>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-{{textWidth}}">
+                <h3 class="mbr-section-title mbr-fonts-style mb-4" mbr-if="showTitle"
+                    data-app-selector=".mbr-section-title" mbr-theme-style="display-2">
+                    <b>Article Title</b>
+                </h3>
+                <h4 class="mbr-section-subtitle mbr-fonts-style mb-4" mbr-if="showSubtitle"
+                    data-app-selector=".mbr-section-subtitle" mbr-theme-style="display-5">
+                    Enter your subtitle here
+                </h4>
+                <p class="mbr-text mbr-fonts-style" data-app-selector=".mbr-text" mbr-theme-style="display-7">
+                    You can use content blocks to arrange your articles, large texts, instructions. Combine these blocks with media blocks to add illustrations and video tutorials. You can use various content blocks to work with your text. Add quotations, lists, buttons. Select your text to change its formatting or add links. Mobirise is a simple website builder that helps you create amazing web pages without knowing any code.</p>
+            </div>
+        </div>
+    </div>
+</section>

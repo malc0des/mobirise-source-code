@@ -1,0 +1,136 @@
+<section
+  class="article021"
+  group="Article" 
+  mbr-class="{'mbr-parallax-background': bg.parallax}"
+>
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="checkbox" name="reverseContent" title="Reverse">
+        <input
+          type="range"
+          inline
+          title="Top"
+          name="paddingTop"
+          min="0"
+          max="10"
+          step="1"
+          value="5"
+        >
+        <input
+          type="range"
+          inline
+          title="Bottom"
+          name="paddingBottom"
+          min="0"
+          max="10"
+          step="1"
+          value="5"
+        >
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle" checked>
+        <input type="checkbox" title="Subtitle" name="showSubtitle" checked>
+        <input type="checkbox" name="showButton" title="Buttons">
+        <header>Card</header>
+        <input type="color" title="Card BG" name="cardbg" value="#ffffff" selected>
+        <input type="color" title="Card Color" name="cardbg" value="#ffffff" selected>
+        <input type="color" title="Icon Color" name="iconColor" value="#9fe870" selected>
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax>
+            <input type="image" title="Image" value="../_images/background1.jpg">
+            <input type="color" title="Color" value="#edefeb" selected>
+            <input type="video" title="Video" value="https://vimeo.com/428046504">
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input
+          type="image"
+          title="Fallback Image"
+          value="../_images/background1.jpg"
+          name="fallBackImage"
+          condition="bg.type === 'video'"
+        >
+        <input
+          type="checkbox"
+          title="Overlay"
+          name="overlay"
+          condition="bg.type !== 'color'"
+        >
+        <input
+          type="color"
+          title="Overlay Color"
+          name="overlayColor"
+          value="#ffffff"
+          condition="overlay && bg.type !== 'color'"
+        >
+        <input
+          type="range"
+          inline
+          title="Opacity"
+          name="overlayOpacity"
+          min="0"
+          max="1"
+          step="0.1"
+          value="0.7"
+          condition="overlay && bg.type !== 'color'"
+        >
+    </mbr-parameters>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div class="col-lg-4">
+                <div class="col-12 col-md-12">
+                    <h5
+                      class="mbr-section-title mbr-fonts-style mt-0 mb-4"
+                      mbr-if="showTitle"
+                      data-app-selector=".mbr-section-title"
+                      mbr-theme-style="display-2"
+                    >
+                        <b>Join our community</b>
+                    </h5>
+                    <h6
+                      class="mbr-section-subtitle mbr-fonts-style mt-0 mb-4"
+                      mbr-if="showSubtitle"
+                      data-app-selector=".mbr-section-subtitle, .main-button"
+                      mbr-theme-style="display-7"
+                    >
+                        With a spirit of innovation, we navigate uncharted territories, exploring new ideas,
+                        technologies, and approaches.</h6>
+                    <div
+                      class="mbr-section-btn item-footer mt-3  main-button"
+                      mbr-if="showButton"
+                      data-toolbar="-mbrBtnMove,-mbrBtnAdd"
+                      mbr-buttons
+                      mbr-theme-style="display-7"
+                    >
+                        <a href class="btn item-btn btn-primary" data-app-placeholder="Type Text">
+                            Learn more
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8 side-features">
+                <div class="item-wrapper align-left">
+                    <div class="counter-container mbr-text mbr-fonts-style" mbr-theme-style="display-7"
+                        data-app-selector=".mbr-text" data-multiline mbr-article>
+                        <ul>
+                            <li><b>Inspiration.</b> We begin by seeking inspiration from various sources, exploring
+                                trends, and brainstorming ideas to fuel creativity.
+                            </li>
+                            <li><b>Concept.</b> Once inspired, we refine our ideas, developing a clear concept and
+                                direction for the project.
+                            </li>
+                            <li><b>Design.</b> With a solid concept in place, our team dives into the design and
+                                creation phase, bringing ideas to life.
+                            </li>
+                            <li><b>Feedback.</b> We value collaboration and gather feedback to refine our work, ensuring
+                                it aligns with your vision.
+                            </li>
+                            <li><b>Delivery.</b> The final step involves delivering the polished project, ready to
+                                captivate your audience and achieve your goals.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

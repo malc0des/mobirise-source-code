@@ -1,0 +1,18 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+background-color: @bgColor;
+img {
+  width: 120px;
+  margin: auto;
+}
+.card {
+  transition: all 0.3s;
+  height: fit-content;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+@media (min-width: 992px) {
+  .card {
+    max-width: 12.5%;
+  }
+}

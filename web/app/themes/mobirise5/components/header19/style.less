@@ -1,0 +1,78 @@
+& when not (@fullScreen) {
+    padding-top: @paddingTop * 15px;
+    padding-bottom: @paddingBottom * 15px;
+}
+
+& when (@bg-type="color") {
+    background-color: @bg-value;
+}
+
+& when (@bg-type="image") {
+    background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+    display: none;
+}
+.mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    & when (@bg-type ='video') {
+        background-image: url(@fallBackImage);
+    }
+}
+.icons-media-container {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+
+    .mbr-iconfont {
+        font-size: 96px;
+        color: rgb(255, 255, 255);
+    }
+
+    .icon-block {
+        padding-bottom: 1rem;
+    }
+}
+
+.mbr-text {
+    color: #ffffff;
+}
+
+.card {
+    padding-bottom: 1.5rem;
+}
+
+.item-wrapper {
+    min-height: 220px;
+    transition: all 0.3s;
+    border-radius: 4px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .mbr-iconfont {
+        display: block;
+        font-size: 4rem;
+        color: #ffffff;
+        margin-bottom: 2rem;
+    }
+
+    .card-title {
+        color: #ffffff;
+    }
+}

@@ -1,0 +1,26 @@
+$color-main1: #40b0bf;
+$color-main2: #6592e6;
+$color-main3: #ff6666;
+
+$color-main1-hover: scale-color($color: $color-main1, $lightness: -10%);
+$color-main2-hover: scale-color($color: $color-main2, $lightness: -10%);
+$color-main3-hover: scale-color($color: $color-main3, $lightness: -10%);
+
+// default light mode
+$color-light-background: scale-color($color: $color-main2, $lightness: 87%);
+$color-light3: scale-color($color: $color-main2, $lightness: 80%);
+$color-light2: lighten($color-light3, 4);
+$color-light1: lighten($color-light3, 8);
+
+$color-title1: #000000;
+$color-title2: #777d74;
+
+//dark mode
+$color-dark1: #373c48;
+$color-dark2: darken($color-dark1, 4);
+$color-dark3: darken($color-dark1, 8);
+
+$color-dark-title1: #ffffff;
+$color-dark-title2: #dcdcdc;
+
+$color-dark-background: scale-color($color: $color-main2, $saturation: -75%);

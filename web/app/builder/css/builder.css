@@ -1,0 +1,607 @@
+/* Remove animation for header arrow */
+.is-builder .mbr-arrow--floating .mbr-arrow__link {
+  animation: none; }
+
+body,
+html {
+  height: 100%; }
+
+body {
+  margin-bottom: 0 !important;
+  background-color: #ebf1fc !important; }
+  body.rounded-canvas .app-component.sticky-component {
+    position: sticky;
+    top: 0;
+    z-index: 1001; }
+  body.desktop.rounded-canvas {
+    overflow-x: hidden;
+    padding: 34px; }
+    body.desktop.rounded-canvas .template {
+      min-height: calc(100vh - 68px);
+      border-radius: 8px; }
+    body.desktop.rounded-canvas .app-component {
+      /* component menu */ }
+      @media (min-width: 600px) {
+        body.desktop.rounded-canvas .app-component::after {
+          top: -4px;
+          right: -4px;
+          left: -4px;
+          bottom: -4px;
+          border-radius: 8px; } }
+      body.desktop.rounded-canvas .app-component:first-child:not(.focused) > .app-component-content > section {
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px; }
+        body.desktop.rounded-canvas .app-component:first-child:not(.focused) > .app-component-content > section .navbar, body.desktop.rounded-canvas .app-component:first-child:not(.focused) > .app-component-content > section > .mbr-overlay, body.desktop.rounded-canvas .app-component:first-child:not(.focused) > .app-component-content > section > [id^="jarallax-container"], body.desktop.rounded-canvas .app-component:first-child:not(.focused) > .app-component-content > section .slider-fullscreen-image, body.desktop.rounded-canvas .app-component:first-child:not(.focused) > .app-component-content > section .mbr-background-video-preview, body.desktop.rounded-canvas .app-component:first-child:not(.focused) > .app-component-content > section .mbr-figure:not(.container) {
+          border-top-right-radius: 8px;
+          border-top-left-radius: 8px; }
+      @media (min-width: 600px) {
+        body.desktop.rounded-canvas .app-component:first-child:not(.focused).pos-absolute + .app-component::after {
+          top: -2px; } }
+      body.desktop.rounded-canvas .app-component:first-child:not(.focused).pos-absolute + .app-component > .app-component-content > section {
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+        transition: .2s border-radius ease; }
+        body.desktop.rounded-canvas .app-component:first-child:not(.focused).pos-absolute + .app-component > .app-component-content > section > .mbr-overlay, body.desktop.rounded-canvas .app-component:first-child:not(.focused).pos-absolute + .app-component > .app-component-content > section > [id^="jarallax-container"], body.desktop.rounded-canvas .app-component:first-child:not(.focused).pos-absolute + .app-component > .app-component-content > section .slider-fullscreen-image, body.desktop.rounded-canvas .app-component:first-child:not(.focused).pos-absolute + .app-component > .app-component-content > section .mbr-background-video-preview, body.desktop.rounded-canvas .app-component:first-child:not(.focused).pos-absolute + .app-component > .app-component-content > section .mbr-figure:not(.container) {
+          border-top-right-radius: 8px;
+          border-top-left-radius: 8px;
+          transition: .2s border-radius ease; }
+      body.desktop.rounded-canvas .app-component:first-child > .app-component-content > section {
+        transition: .2s border-radius ease; }
+        body.desktop.rounded-canvas .app-component:first-child > .app-component-content > section .navbar {
+          transition: .2s border-radius ease; }
+      body.desktop.rounded-canvas .app-component:last-child:not(.focused) > .app-component-content > section {
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px; }
+        body.desktop.rounded-canvas .app-component:last-child:not(.focused) > .app-component-content > section > .mbr-overlay, body.desktop.rounded-canvas .app-component:last-child:not(.focused) > .app-component-content > section > [id^="jarallax-container"], body.desktop.rounded-canvas .app-component:last-child:not(.focused) > .app-component-content > section .slider-fullscreen-image, body.desktop.rounded-canvas .app-component:last-child:not(.focused) > .app-component-content > section .mbr-background-video-preview, body.desktop.rounded-canvas .app-component:last-child:not(.focused) > .app-component-content > section .mbr-figure:not(.container) {
+          border-bottom-right-radius: 8px;
+          border-bottom-left-radius: 8px; }
+      body.desktop.rounded-canvas .app-component:last-child > .app-component-content > section {
+        transition: .2s border-radius ease; }
+      body.desktop.rounded-canvas .app-component[data-app-always-bottom] .app-component-menu {
+        right: 75px; }
+      body.desktop.rounded-canvas .app-component .app-component-menu .app-component-edit {
+        right: -22px; }
+      body.desktop.rounded-canvas .app-component[data-app-always-top="true"] > .app-component-menu .app-component-edit, body.desktop.rounded-canvas .app-component.pos-absolute > .app-component-menu .app-component-edit {
+        top: -33px; }
+      body.desktop.rounded-canvas .app-component[data-app-always-top="true"] + .app-component .app-component-menu, body.desktop.rounded-canvas .app-component.pos-absolute + .app-component .app-component-menu {
+        top: -73px; }
+        body.desktop.rounded-canvas .app-component[data-app-always-top="true"] + .app-component .app-component-menu .app-component-edit, body.desktop.rounded-canvas .app-component.pos-absolute + .app-component .app-component-menu .app-component-edit {
+          top: 93px; }
+  body.scaled {
+    padding: 120px !important; }
+    body.scaled > .template {
+      min-height: calc(100vh - 120px * 2) !important;
+      border-radius: 32px !important;
+      box-shadow: 0 0 48px 0 rgba(55, 73, 72, 0.06); }
+      body.scaled > .template .app-component.sticky-component {
+        position: sticky;
+        top: 0;
+        z-index: 1001; }
+      body.scaled > .template .app-component:first-child:not(.focused) > .app-component-content > section {
+        border-top-right-radius: 32px;
+        border-top-left-radius: 32px; }
+        body.scaled > .template .app-component:first-child:not(.focused) > .app-component-content > section .navbar, body.scaled > .template .app-component:first-child:not(.focused) > .app-component-content > section > .mbr-overlay, body.scaled > .template .app-component:first-child:not(.focused) > .app-component-content > section > [id^="jarallax-container"], body.scaled > .template .app-component:first-child:not(.focused) > .app-component-content > section .slider-fullscreen-image, body.scaled > .template .app-component:first-child:not(.focused) > .app-component-content > section .mbr-background-video-preview, body.scaled > .template .app-component:first-child:not(.focused) > .app-component-content > section .mbr-figure:not(.container) {
+          border-top-right-radius: 32px;
+          border-top-left-radius: 32px; }
+      body.scaled > .template .app-component:first-child:not(.focused).pos-absolute + .app-component > .app-component-content > section {
+        border-top-right-radius: 32px;
+        border-top-left-radius: 32px;
+        transition: .2s border-radius ease; }
+        body.scaled > .template .app-component:first-child:not(.focused).pos-absolute + .app-component > .app-component-content > section > .mbr-overlay, body.scaled > .template .app-component:first-child:not(.focused).pos-absolute + .app-component > .app-component-content > section > [id^="jarallax-container"], body.scaled > .template .app-component:first-child:not(.focused).pos-absolute + .app-component > .app-component-content > section .slider-fullscreen-image, body.scaled > .template .app-component:first-child:not(.focused).pos-absolute + .app-component > .app-component-content > section .mbr-background-video-preview, body.scaled > .template .app-component:first-child:not(.focused).pos-absolute + .app-component > .app-component-content > section .mbr-figure:not(.container) {
+          border-top-right-radius: 32px;
+          border-top-left-radius: 32px;
+          transition: .2s border-radius ease; }
+      body.scaled > .template .app-component:first-child > .app-component-content > section {
+        transition: .2s border-radius ease; }
+        body.scaled > .template .app-component:first-child > .app-component-content > section .navbar {
+          transition: .2s border-radius ease; }
+      body.scaled > .template .app-component:last-child:not(.focused) > .app-component-content > section {
+        border-bottom-right-radius: 32px;
+        border-bottom-left-radius: 32px; }
+        body.scaled > .template .app-component:last-child:not(.focused) > .app-component-content > section > .mbr-overlay, body.scaled > .template .app-component:last-child:not(.focused) > .app-component-content > section > [id^="jarallax-container"], body.scaled > .template .app-component:last-child:not(.focused) > .app-component-content > section .slider-fullscreen-image, body.scaled > .template .app-component:last-child:not(.focused) > .app-component-content > section .mbr-background-video-preview, body.scaled > .template .app-component:last-child:not(.focused) > .app-component-content > section .mbr-figure:not(.container) {
+          border-bottom-right-radius: 32px;
+          border-bottom-left-radius: 32px; }
+      body.scaled > .template .app-component:last-child > .app-component-content > section {
+        transition: .2s border-radius ease; }
+      @media (min-width: 600px) {
+        body.scaled > .template .app-component::after {
+          top: 0;
+          right: 0;
+          left: 0;
+          bottom: 0; } }
+      body.scaled > .template .app-component > .app-component-menu {
+        display: none; }
+      body.scaled > .template .app-component > .app-component-content {
+        pointer-events: none; }
+        body.scaled > .template .app-component > .app-component-content .mbr-background-video-preview {
+          min-height: 0 !important; }
+        body.scaled > .template .app-component > .app-component-content > .mbr-fullscreen {
+          min-height: 20vh !important;
+          height: auto !important; }
+          body.scaled > .template .app-component > .app-component-content > .mbr-fullscreen .mbr-overlay {
+            min-height: 20vh !important;
+            height: auto !important; }
+          body.scaled > .template .app-component > .app-component-content > .mbr-fullscreen .carousel-item img {
+            min-height: 20vh !important;
+            height: auto !important; }
+        body.scaled > .template .app-component > .app-component-content .mbr-section--full-height,
+        body.scaled > .template .app-component > .app-component-content .mbr-section-full {
+          max-height: 20vh !important; }
+          body.scaled > .template .app-component > .app-component-content .mbr-section--full-height .mbr-overlay,
+          body.scaled > .template .app-component > .app-component-content .mbr-section-full .mbr-overlay {
+            min-height: 20vh !important; }
+        body.scaled > .template .app-component > .app-component-content .full-screen .slider-fullscreen-image {
+          min-height: 20vh !important; }
+        body.scaled > .template .app-component > .app-component-content .full-screen .mbr-overlay {
+          min-height: 20vh !important; }
+        body.scaled > .template .app-component > .app-component-content .full-screen .carousel-item .container.container-slide {
+          min-height: 20vh !important; }
+    @media (min-width: 1441px) {
+      body.scaled {
+        padding: 60px !important; }
+        body.scaled > .template {
+          min-height: calc(100vh - 60px * 2) !important;
+          border-radius: 16px !important;
+          box-shadow: 0 0 24px 0 rgba(55, 73, 72, 0.06); }
+          body.scaled > .template .app-component:first-child:not(.focused) > .app-component-content > section {
+            border-top-right-radius: 16px;
+            border-top-left-radius: 16px; }
+            body.scaled > .template .app-component:first-child:not(.focused) > .app-component-content > section .navbar, body.scaled > .template .app-component:first-child:not(.focused) > .app-component-content > section > .mbr-overlay, body.scaled > .template .app-component:first-child:not(.focused) > .app-component-content > section > [id^="jarallax-container"], body.scaled > .template .app-component:first-child:not(.focused) > .app-component-content > section .slider-fullscreen-image, body.scaled > .template .app-component:first-child:not(.focused) > .app-component-content > section .mbr-background-video-preview, body.scaled > .template .app-component:first-child:not(.focused) > .app-component-content > section .mbr-figure:not(.container) {
+              border-top-right-radius: 16px;
+              border-top-left-radius: 16px; }
+          body.scaled > .template .app-component:first-child:not(.focused).pos-absolute + .app-component > .app-component-content > section {
+            border-top-right-radius: 16px;
+            border-top-left-radius: 16px; }
+            body.scaled > .template .app-component:first-child:not(.focused).pos-absolute + .app-component > .app-component-content > section > .mbr-overlay, body.scaled > .template .app-component:first-child:not(.focused).pos-absolute + .app-component > .app-component-content > section > [id^="jarallax-container"], body.scaled > .template .app-component:first-child:not(.focused).pos-absolute + .app-component > .app-component-content > section .slider-fullscreen-image, body.scaled > .template .app-component:first-child:not(.focused).pos-absolute + .app-component > .app-component-content > section .mbr-background-video-preview, body.scaled > .template .app-component:first-child:not(.focused).pos-absolute + .app-component > .app-component-content > section .mbr-figure:not(.container) {
+              border-top-right-radius: 16px;
+              border-top-left-radius: 16px; }
+          body.scaled > .template .app-component:last-child:not(.focused) > .app-component-content > section {
+            border-bottom-right-radius: 16px;
+            border-bottom-left-radius: 16px; }
+            body.scaled > .template .app-component:last-child:not(.focused) > .app-component-content > section > .mbr-overlay, body.scaled > .template .app-component:last-child:not(.focused) > .app-component-content > section > [id^="jarallax-container"], body.scaled > .template .app-component:last-child:not(.focused) > .app-component-content > section .slider-fullscreen-image, body.scaled > .template .app-component:last-child:not(.focused) > .app-component-content > section .mbr-background-video-preview, body.scaled > .template .app-component:last-child:not(.focused) > .app-component-content > section .mbr-figure:not(.container) {
+              border-bottom-right-radius: 16px;
+              border-bottom-left-radius: 16px; }
+          body.scaled > .template .app-component > .app-component-content > .mbr-fullscreen {
+            min-height: 40vh !important; }
+            body.scaled > .template .app-component > .app-component-content > .mbr-fullscreen .mbr-overlay {
+              min-height: 40vh !important; }
+            body.scaled > .template .app-component > .app-component-content > .mbr-fullscreen .carousel-item img {
+              min-height: 40vh !important; }
+          body.scaled > .template .app-component > .app-component-content .mbr-section--full-height,
+          body.scaled > .template .app-component > .app-component-content .mbr-section-full {
+            max-height: 40vh !important; }
+            body.scaled > .template .app-component > .app-component-content .mbr-section--full-height .mbr-overlay,
+            body.scaled > .template .app-component > .app-component-content .mbr-section-full .mbr-overlay {
+              min-height: 40vh !important; }
+          body.scaled > .template .app-component > .app-component-content .full-screen .slider-fullscreen-image {
+            min-height: 40vh !important; }
+          body.scaled > .template .app-component > .app-component-content .full-screen .mbr-overlay {
+            min-height: 40vh !important; }
+          body.scaled > .template .app-component > .app-component-content .full-screen .carousel-item .container.container-slide {
+            min-height: 40vh !important; } }
+  body.dark-mode {
+    background-color: #95a1b6 !important; }
+    body.dark-mode ::-webkit-scrollbar-thumb, body.dark-mode::-webkit-scrollbar-thumb {
+      background: #535b6d; }
+    body.dark-mode ::-webkit-scrollbar-track, body.dark-mode::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.05); }
+    body.dark-mode .app-component .app-component-menu .app-component-edit {
+      background-color: #373c48;
+      box-shadow: 0 5px 10px rgba(220, 220, 220, 0.2); }
+      body.dark-mode .app-component .app-component-menu .app-component-edit .mbr-btn {
+        color: #dcdcdc; }
+        body.dark-mode .app-component .app-component-menu .app-component-edit .mbr-btn.component-params {
+          color: #6592e6; }
+          body.dark-mode .app-component .app-component-menu .app-component-edit .mbr-btn.component-params:hover {
+            color: #dcdcdc; }
+    body.dark-mode .note-mbrStyle ul.dropdown-menu li.selected a {
+      background-color: #252931; }
+      body.dark-mode .note-mbrStyle ul.dropdown-menu li.selected a:hover {
+        background-color: #2e323c; }
+
+@media (max-width: 600px) {
+  .note-air-layout .dropup .caret {
+    border-top: 4px solid #333;
+    border-bottom: 0 dotted; } }
+
+.app-component-divider {
+  width: 100%;
+  height: 100px;
+  border: 15px dashed #40b0bf; }
+  @media (min-width: 1441px) {
+    .app-component-divider {
+      height: 50px;
+      border-width: 8px; } }
+
+.ui-sortable-placeholder {
+  visibility: visible !important;
+  overflow: hidden;
+  background: #fff;
+  border: 3px dashed #40b0bf;
+  height: 20px; }
+  @media (min-width: 1201px) {
+    .ui-sortable-placeholder {
+      height: 70px;
+      border-width: 7px; } }
+
+.app-component {
+  position: relative;
+  /* component menu */ }
+  @media (min-width: 600px) {
+    .app-component::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      opacity: 0;
+      border: 4px solid #40b0bf;
+      z-index: 1000;
+      user-select: none;
+      -webkit-user-drag: none;
+      pointer-events: none;
+      transition: .3s opacity ease; } }
+  .app-component.ui-sortable-helper {
+    left: auto !important;
+    width: calc(100% - 120px * 2) !important; }
+  .app-component.pos-absolute::after {
+    bottom: -93px !important; }
+  .app-component.focused[data-app-always-top="true"], .app-component.focused.pos-absolute {
+    z-index: 1040 !important; }
+  .app-component.focused::after {
+    opacity: 1; }
+  .app-component .app-component-content {
+    position: relative; }
+  .app-component *::selection {
+    background-color: rgba(66, 165, 245, 0.5);
+    color: #fff; }
+  .app-component [contenteditable],
+  .app-component [contenteditable] * {
+    user-select: auto; }
+  .app-component [data-app-btn] {
+    outline: none; }
+  .app-component [data-app-edit="content"],
+  .app-component [data-app-edit="image"] {
+    outline: none;
+    cursor: text; }
+  .app-component [data-app-btn],
+  .app-component [data-app-edit="image"],
+  .app-component [data-app-edit="media"],
+  .app-component [data-app-edit="content"],
+  .app-component [data-app-edit="full"],
+  .app-component [mbr-media],
+  .app-component [custom-code] {
+    cursor: pointer; }
+  .app-component [contentEditable="true"] {
+    cursor: text !important; }
+  .app-component[data-app-always-bottom] .app-component-menu {
+    right: 75px; }
+  .app-component .app-component-menu {
+    position: sticky;
+    top: 0;
+    z-index: 1039;
+    opacity: 0;
+    transition: .3s opacity ease; }
+    @media (max-width: 600px) {
+      .app-component .app-component-menu {
+        display: none; } }
+    .app-component .app-component-menu .app-component-edit {
+      position: absolute;
+      top: 20px;
+      right: 0;
+      padding: 5px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+    .app-component .app-component-menu .mbr-btn {
+      font-size: 24px;
+      width: 52px;
+      height: 44px;
+      line-height: 44px;
+      padding: 4px 0 0;
+      color: #808080;
+      border: none;
+      border-radius: 8px; }
+      .app-component .app-component-menu .mbr-btn:not(:last-child) {
+        margin-right: 5px; }
+      .app-component .app-component-menu .mbr-btn.component-remove {
+        margin-right: 0; }
+      .app-component .app-component-menu .mbr-btn.component-params {
+        color: #6592e6; }
+
+@keyframes rotating {
+  8% {
+    transform: rotate(90deg); }
+  16% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(0deg); } }
+        .app-component .app-component-menu .mbr-btn.component-params::before {
+          display: inline-block;
+          height: 36px;
+          animation: 10s infinite linear rotating; }
+      .app-component .app-component-menu .mbr-btn.sortable {
+        cursor: grab; }
+    .app-component .app-component-menu .hidden-param {
+      visibility: hidden;
+      opacity: 0;
+      transform: translateX(60px); }
+  .app-component:hover .app-component-menu {
+    opacity: 1; }
+    .app-component:hover .app-component-menu:hover .component-cancel:hover,
+    .app-component:hover .app-component-menu:hover .component-remove:hover {
+      color: #ffffff;
+      background: #ff6666; }
+    .app-component:hover .app-component-menu:hover .component-code:hover,
+    .app-component:hover .app-component-menu:hover .component-code-fake:hover,
+    .app-component:hover .app-component-menu:hover .component-css:hover,
+    .app-component:hover .app-component-menu:hover .component-params:hover {
+      color: #ffffff;
+      background: #6592e6; }
+    .app-component:hover .app-component-menu:hover .component-save:hover,
+    .app-component:hover .app-component-menu:hover .sortable:hover {
+      color: #ffffff;
+      background: #40b0bf; }
+  .app-component[data-app-always-top="true"] > .app-component-menu .app-component-edit, .app-component.pos-absolute > .app-component-menu .app-component-edit {
+    top: 70px; }
+  .app-component[data-app-always-top="true"] + .app-component .app-component-menu, .app-component.pos-absolute + .app-component .app-component-menu {
+    top: -73px; }
+    .app-component[data-app-always-top="true"] + .app-component .app-component-menu .app-component-edit, .app-component.pos-absolute + .app-component .app-component-menu .app-component-edit {
+      top: 93px; }
+  .app-component .app-component-menu.app-component-code-editor .app-component-edit {
+    display: none; }
+  .app-component .app-component-content footer {
+    position: relative; }
+
+.app-video-wrapper {
+  position: relative;
+  background: #3e3e3c; }
+  .app-video-wrapper::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .app-video-wrapper::before {
+    position: absolute;
+    font-family: "Moririse2";
+    content: "\e95f";
+    font-size: 70px;
+    line-height: 70px;
+    margin-left: -35px;
+    margin-top: -35px;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    text-shadow: 1px 1px #7c7c7c;
+    z-index: 1; }
+  .app-video-wrapper > img {
+    opacity: .6;
+    width: 100%;
+    height: auto; }
+
+/* Tooltip styles */
+.tooltip {
+  cursor: default;
+  user-select: none;
+  -webkit-user-drag: none; }
+  @media (max-width: 600px) {
+    .tooltip {
+      display: none !important; } }
+
+.tooltip-inner {
+  font-size: 15px;
+  font-family: 'Jost', sans-serif;
+  padding: 7px 12px;
+  border-radius: 8px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+  line-break: auto;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.note-popover .popover .popover-content {
+  padding-bottom: 4px; }
+  .note-popover .popover .popover-content > .btn-group {
+    margin-top: 4px; }
+  .note-popover .popover .popover-content .note-mbrLinkColor .btn {
+    line-height: 0; }
+  .note-popover .popover .popover-content .btn {
+    font-size: 24px !important;
+    height: 44px;
+    transition: all 0.2s ease-in-out;
+    transform: none;
+    box-shadow: none; }
+    .note-popover .popover .popover-content .btn i {
+      line-height: 42px; }
+
+.note-air-layout .btn {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+/* Fix Summernote Modal */
+.note-air-layout h4.modal-title {
+  margin: 0; }
+
+.note-air-layout .modal-footer {
+  margin-top: 0; }
+
+.note-air-layout .row {
+  margin-bottom: 15px; }
+
+.note-air-layout .checkbox {
+  padding-left: 0;
+  margin-bottom: 0; }
+
+.note-air-layout .modal-body {
+  padding-bottom: 5px; }
+
+/* Placeholder to contenteditable areas */
+span > a[contentEditable="true"]:empty,
+span[contentEditable="true"]:empty {
+  display: inline-block;
+  min-height: 20px;
+  min-width: 20px; }
+
+[data-app-placeholder]:empty:not(:focus)::after {
+  content: attr(data-app-placeholder);
+  color: inherit;
+  opacity: .5; }
+
+.mbr-btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: .375rem 1.6rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+  white-space: nowrap; }
+
+.note-mbrStyle ul.dropdown-menu li {
+  position: relative; }
+
+.note-mbrStyle ul.dropdown-menu li a {
+  font-style: normal;
+  /*clear bootstrap style*/ }
+
+.note-mbrStyle ul.dropdown-menu li span {
+  margin: 0 !important; }
+
+.note-mbrStyle .mbr-icon-paint-brush {
+  bottom: 0;
+  position: absolute;
+  right: 5px;
+  top: 0; }
+
+.note-mbrStyle ul.dropdown-menu li.selected a {
+  background-color: #f5f5f5; }
+  .note-mbrStyle ul.dropdown-menu li.selected a:hover {
+    background-color: #ebebeb; }
+
+.note-mbrStyle ul.dropdown-menu li.selected .mbr-icon-paint-brush {
+  visibility: visible !important; }
+
+.note-mbrStyle .note-current-mbrStyle,
+.note-mbrStyle ul.dropdown-menu li a,
+.note-mbrStyle ul.dropdown-menu li span {
+  font-size: 24px !important;
+  line-height: 1.4 !important; }
+
+amp-img > i-amphtml-sizer {
+  position: absolute; }
+
+.userblock-alert {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  padding: 15px 25px;
+  max-width: 250px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px;
+  z-index: 1000000; }
+  .userblock-alert.success {
+    background-color: #008000;
+    color: #ffffff; }
+  .userblock-alert.error {
+    background-color: #ff6666;
+    color: #ffffff; }
+
+.userblock-alert__close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 10px;
+  height: 10px; }
+  .userblock-alert__close::before {
+    position: absolute;
+    content: "";
+    top: 4px;
+    left: 0;
+    transform: rotate(45deg);
+    height: 2px;
+    width: 10px;
+    background-color: #fff; }
+  .userblock-alert__close::after {
+    position: absolute;
+    content: "";
+    top: 4px;
+    left: 0;
+    transform: rotate(-45deg);
+    height: 2px;
+    width: 10px;
+    background-color: #fff; }
+
+.template {
+  min-height: 100vh;
+  background-color: #fff;
+  box-shadow: 0 0 12px 0 rgba(55, 73, 72, 0.06); }
+
+.placeholderPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #696969;
+  font-size: 1.8rem;
+  text-align: center;
+  user-select: none;
+  cursor: default;
+  font-weight: 300;
+  pointer-events: none; }
+  .placeholderPage .placeholderPage__button {
+    width: 46px;
+    height: 46px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    pointer-events: all; }
+    .placeholderPage .placeholderPage__button:focus {
+      outline: none; }
+    .placeholderPage .placeholderPage__button i {
+      font-size: 20px;
+      position: relative;
+      top: -4px;
+      pointer-events: none;
+      line-height: 30px; }
+
+.btn-red:not(.btn-link):not(.btn-flat) {
+  background-color: #ff6666;
+  color: rgba(255, 255, 255, 0.84); }
+  .btn-red:not(.btn-link):not(.btn-flat):hover {
+    background-color: #ff4242; }
+
+.hidden-interface {
+  display: none !important; }
+
+html[amp-version] #scrollToTopButton {
+  right: 90px; }
+
+::-webkit-scrollbar {
+  width: 15px; }
+
+::-webkit-scrollbar-thumb {
+  background: #c9cbc7;
+  border-radius: 8px; }
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 8px; }
+.carousel-caption{
+  z-index: 1;
+}
+.mbr-masonry .editing {
+  z-index: 10;
+}

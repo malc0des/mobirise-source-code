@@ -1,0 +1,95 @@
+& when not (@fullScreen) {
+    padding-top: (@paddingTop * 1rem);
+    padding-bottom: (@paddingBottom * 1rem);
+}
+
+& when (@bg-type ='color') {
+    background-color: @bg-value;
+}
+
+& when (@bg-type ='image') {
+    background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+    display: none;
+}
+.mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    & when (@bg-type ='video') {
+        background-image: url(@fallBackImage);
+    }
+}
+
+.number-wrap {
+    color: @labelsColor;
+    text-align: center;
+}
+
+.number {
+    color: @numbersColor;
+}
+
+.period {
+    display: block;
+}
+
+.dot {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .period {
+        font-size: 0.8rem;
+    }
+}
+
+.btn {
+    height: 100%;
+    margin: 0;
+}
+
+.mbr-section-btn {
+    margin-bottom: 1.2rem;
+}
+
+.mbr-section-title {
+    color: #ffffff;
+}
+
+.mbr-text {
+    color: #ffffff;
+}
+
+.icons-menu {
+    .soc-item {
+        padding-left: 8px;
+        padding-right: 8px;
+        .mbr-iconfont {
+            font-size: 2rem;
+            display: inline-block;
+            border-radius: 50%;
+            text-align: center;
+            color: @socialIconColor;
+            border: 2px solid @socialIconColor;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            transition: all 0.3s;
+            color: @socialIconColor;
+            &:before {
+                padding: 0.6rem;
+            }
+            &:hover {
+                background-color: @socialIconColor;
+                color: contrast(@socialIconColor);
+            }
+        }
+    }
+}

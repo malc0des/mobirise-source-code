@@ -1,0 +1,74 @@
+<section class="header17" group="Headers" data-bg-video="{{bg.type == 'video' && bg.value.url}}" plugins="PlayerVimeo"
+    mbr-class="{'mbr-fullscreen': fullScreen,
+                    'mbr-parallax-background': bg.parallax}">
+
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Screen" name="fullScreen" checked>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="5"
+            condition="fullScreen == false">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="5"
+            condition="fullScreen == false">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle" checked>
+        <input type="checkbox" title="Text" name="showText" checked>
+        <input type="checkbox" title="Video PopUp" name="showVideoPopUp" checked>
+        <input type="text" title="Modal Video" name="modalVideo" value="https://www.youtube.com/watch?v=-BSQlJxCDcI"
+            condition="showVideoPopUp">
+        <input type="color" title="Color" name="videoColor" value="#6592e6" condition="showVideoPopUp">
+        <input type="checkbox" title="Description" name="showDescription" checked condition="showVideoPopUp">
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax>
+            <input title="Image" type="image" value="../_images/background5.jpg" parallax>
+            <input title="Color" type="color" value="#bed3f9" selected>
+            <input title="Video" type="video" value="https://vimeo.com/428046504">
+        </fieldset>
+        <input type="checkbox" title="Overlay" name="overlay" checked condition="bg.type !== 'color'">
+        <input type="color" title="Overlay Color" name="overlayColor" value="#ffffff"
+            condition="overlay && bg.type !== 'color'">
+        <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.4"
+            condition="overlay && bg.type !== 'color'">
+    </mbr-parameters>
+
+    <div class="mbr-overlay" mbr-if="overlay && bg.type!== 'color'"
+        mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}">
+    </div>
+
+    <div class="align-center" mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-md-center">
+            <div class="col-md-10">
+                <h1 class="mbr-section-title mb-3 mbr-fonts-style" mbr-theme-style="display-1" mbr-if="showTitle">
+                    <b>Intro with Video Popup</b>
+                </h1>
+                <p class="mbr-text mb-3 mbr-fonts-style" mbr-theme-style="display-5" mbr-if="showText" data-app-selector=".mbr-text, .mbr-media">
+                    Full-screen intro with Image and video popup.
+                </p>
+                <div class="mbr-media mb-3 show-modal" mbr-if="showVideoPopUp" data-modal=".modalWindow">
+                    <div class="icon-wrapper">
+                        <span mbr-icon class="mbr-iconfont mobi-mbri-play mobi-mbri"></span>
+                    </div>
+                </div>
+                <p class="icon-description mb-3 mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showDescription && showVideoPopUp" data-app-selector=".icon-description">
+                    Set the link to your video in Block Parameters
+                </p>
+            </div>
+        </div>
+    </div>
+    <div mbr-if="showVideoPopUp">
+        <div class="modalWindow" style="display: none;">
+            <div class="modalWindow-container">
+                <div class="modalWindow-video-container">
+                    <div class="modalWindow-video">
+                        <iframe width="100%" height="100%" data-src="{{modalVideo}}" frameborder="0"
+                            allowfullscreen="1"></iframe>
+                    </div>
+                    <a class="close" role="button" data-dismiss="modal">
+                        <span aria-hidden="true" class="mbr-iconfont mobi-mbri-close mobi-mbri closeModal"></span>
+                        <span class="sr-only">Close</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

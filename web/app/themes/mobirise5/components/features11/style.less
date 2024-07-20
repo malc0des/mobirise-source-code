@@ -1,0 +1,83 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type ="color") {
+    background-color: @bg-value;
+}
+
+& when (@bg-type ="image") {
+    background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+    display: none;
+}
+.mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    & when (@bg-type ='video') {
+        background-image: url(@fallBackImage);
+    }
+}
+.top-line {
+    display: flex;
+
+    & when (@showTitleCard) {
+        justify-content: space-between;
+    }
+
+    & when not (@showTitleCard) {
+        justify-content: flex-end;
+
+        @media (max-width: 767px) {
+            justify-content: center;
+        }
+    }
+}
+
+.mbr-section-title,
+.mbr-section-subtitle {
+    text-align: center;
+}
+
+.item:not(:nth-last-child(1)) {
+    margin-bottom: 2rem;
+}
+
+.item-wrapper {
+    border-radius: 4px;
+    background-color: @cardsBg;
+
+    & when (@transparentCard) {
+        background-color: transparent;
+    }
+}
+
+.image-wrapper img {
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 767px) {
+    .card-box {
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-box {
+        padding-right: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-box {
+        padding-left: 2rem;
+        padding-right: 4rem;
+    }
+}

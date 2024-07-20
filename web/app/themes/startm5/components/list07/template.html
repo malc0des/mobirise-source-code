@@ -1,0 +1,387 @@
+<section class="list07" group="Features" mbr-class="{'mbr-fullscreen': fullScreen,'mbr-parallax-background': bg.parallax}">
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="checkbox" name="reverseContent" title="Reverse">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="6">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="6">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle" checked>
+        <input type="checkbox" title="Subtitle" name="showSubtitle" checked>
+        <input type="checkbox" name="showButton" title="Buttons">
+        <select title="Questions" name="cardAmount">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4" selected>4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        <header>Color</header>
+        <input
+          type="color"
+          title="Item"
+          name="items"
+          value="#ffffff"
+          selected
+        >
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax>
+            <input
+              type="image"
+              title="Image"
+              value="../_images/background1.jpg"
+            >
+            <input
+              type="color"
+              title="Color"
+              value="#edefeb"
+              selected
+            >
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input
+          type="image"
+          title="Fallback Image"
+          value="../_images/background1.jpg"
+          name="fallBackImage"
+          condition="bg.type === 'video'"
+        >
+        <input
+          type="checkbox"
+          title="Overlay"
+          name="overlay"
+          condition="bg.type !== 'color'"
+        >
+        <input
+          type="color"
+          title="Overlay Color"
+          name="overlayColor"
+          value="#ffffff"
+          condition="overlay && bg.type !== 'color'"
+        >
+        <input
+          type="range"
+          inline
+          title="Opacity"
+          name="overlayOpacity"
+          min="0"
+          max="1"
+          step="0.1"
+          value="0.7"
+          condition="overlay && bg.type !== 'color'"
+        >
+    </mbr-parameters>
+    <div
+      class="mbr-overlay"
+      mbr-if="overlay && bg.type!== 'color'"
+      mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}"
+    ></div>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div class="col-lg-4">
+                <div class="col-12 col-md-12">
+                    <h5
+                      class="mbr-section-title mbr-fonts-style mt-0 mb-4"
+                      mbr-if="showTitle"
+                      data-app-selector=".mbr-section-title"
+                      mbr-theme-style="display-2"
+                    >
+                        <b>Join our community.</b>
+                    </h5>
+                    <h6
+                      class="mbr-section-subtitle mbr-fonts-style mt-0 mb-4"
+                      mbr-if="showSubtitle"
+                      data-app-selector=".mbr-section-subtitle, .main-button"
+                      mbr-theme-style="display-7"
+                    >
+                        With a spirit of innovation, we navigate uncharted territories, exploring new ideas,
+                        technologies, and approaches.</h6>
+                    <div
+                      class="mbr-section-btn item-footer mt-3  main-button"
+                      mbr-if="showButton"
+                      data-toolbar="-mbrBtnMove,-mbrBtnAdd"
+                      mbr-buttons
+                      mbr-theme-style="display-7"
+                    >
+                        <a href class="btn item-btn btn-primary" data-app-placeholder="Type Text">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+                <div id="bootstrap-accordion" class="panel-group accordionStyles accordion" role="tablist"
+                    aria-multiselectable="true">
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a
+                              role="button"
+                              class="panel-title collapsed"
+                              data-toggle="collapse"
+                              data-bs-toggle="collapse"
+                              data-core
+                              href="#collapse1"
+                              aria-expanded="false"
+                              aria-controls="collapse1"
+                            >
+                                <h6
+                                  class="panel-title-edit mbr-semibold mbr-fonts-style mb-0"
+                                  mbr-theme-style="display-5"
+                                  data-app-selector=".panel-title-edit, .mbr-iconfont"
+                                >
+                                    How much does delivery cost?
+                                </h6>
+                                <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div
+                          id="collapse1"
+                          class="panel-collapse noScroll collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingOne"
+                          data-parent="#accordion"
+                          data-bs-parent="#accordion"
+                        >
+                            <div class="panel-body">
+                                <p
+                                  class="mbr-fonts-style panel-text"
+                                  mbr-theme-style="display-7"
+                                  data-app-selector=".panel-text"
+                                >
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum
+                                    laoreet tincidunt. Proin et sapien scelerisque, ornare lectus eget, iaculis
+                                    lectus. Pellentesque viverra molestie tortor. Nunc sed interdum est, in maximus
+                                    diam. Donec eu tellus dictum, gravida velit et, sagittis arcu. Proin et lectus
+                                    dapibus. Cras fringilla elit velit placerat tortor mollis cursus.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card" mbr-if="cardAmount > 1">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a
+                              role="button"
+                              class="panel-title collapsed"
+                              data-toggle="collapse"
+                              data-bs-toggle="collapse"
+                              data-core
+                              href="#collapse2"
+                              aria-expanded="false"
+                              aria-controls="collapse2"
+                            >
+                                <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0"
+                                    mbr-theme-style="display-5" data-app-selector=".panel-title-edit">
+                                    What is the estimated delivery time?
+                                </h6>
+                                <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div
+                          id="collapse2"
+                          class="panel-collapse noScroll collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingOne"
+                          data-parent="#accordion"
+                          data-bs-parent="#accordion"
+                        >
+                            <div class="panel-body">
+                                <p
+                                  class="mbr-fonts-style panel-text"
+                                  mbr-theme-style="display-7"
+                                  data-app-selector=".panel-text"
+                                >
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum
+                                    laoreet tincidunt. Proin et sapien scelerisque, ornare lectus eget, iaculis
+                                    lectus. Pellentesque viverra molestie tortor. Nunc sed interdum est, in maximus
+                                    diam. Donec eu tellus dictum, gravida velit et, sagittis arcu. Proin et lectus
+                                    dapibus. Cras fringilla elit velit placerat tortor mollis cursus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" mbr-if="cardAmount > 2">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a
+                              role="button"
+                              class="panel-title collapsed"
+                              data-toggle="collapse"
+                              data-bs-toggle="collapse"
+                              data-core
+                              href="#collapse3"
+                              aria-expanded="false"
+                              aria-controls="collapse3"
+                            >
+                                <h6
+                                  class="panel-title-edit mbr-semibold mbr-fonts-style mb-0"
+                                  mbr-theme-style="display-5"
+                                  data-app-selector=".panel-title-edit"
+                                >
+                                    Do you offer same-day delivery?
+                                </h6>
+                                <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div
+                          id="collapse3"
+                          class="panel-collapse noScroll collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingOne"
+                          data-parent="#accordion"
+                          data-bs-parent="#accordion"
+                        >
+                            <div class="panel-body">
+                                <p
+                                  class="mbr-fonts-style panel-text"
+                                  mbr-theme-style="display-7"
+                                  data-app-selector=".panel-text"
+                                >
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum
+                                    laoreet tincidunt. Proin et sapien scelerisque, ornare lectus eget, iaculis
+                                    lectus. Pellentesque viverra molestie tortor. Nunc sed interdum est, in maximus
+                                    diam. Donec eu tellus dictum, gravida velit et, sagittis arcu. Proin et lectus
+                                    dapibus. Cras fringilla elit velit placerat tortor mollis cursus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" mbr-if="cardAmount > 3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a
+                              role="button"
+                              class="panel-title collapsed"
+                              data-toggle="collapse"
+                              data-bs-toggle="collapse"
+                              data-core
+                              href="#collapse4"
+                              aria-expanded="false"
+                              aria-controls="collapse4"
+                            >
+                                <h6
+                                  class="panel-title-edit mbr-semibold mbr-fonts-style mb-0"
+                                  mbr-theme-style="display-5"
+                                  data-app-selector=".panel-title-edit"
+                                >
+                                    Can I track my delivery order?
+                                </h6>
+                                <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div
+                          id="collapse4"
+                          class="panel-collapse noScroll collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingOne"
+                          data-parent="#accordion"
+                          data-bs-parent="#accordion"
+                        >
+                            <div class="panel-body">
+                                <p
+                                  class="mbr-fonts-style panel-text"
+                                  mbr-theme-style="display-7"
+                                  data-app-selector=".panel-text"
+                                >
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum
+                                    laoreet tincidunt. Proin et sapien scelerisque, ornare lectus eget, iaculis
+                                    lectus. Pellentesque viverra molestie tortor. Nunc sed interdum est, in maximus
+                                    diam. Donec eu tellus dictum, gravida velit et, sagittis arcu. Proin et lectus
+                                    dapibus. Cras fringilla elit velit placerat tortor mollis cursus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" mbr-if="cardAmount > 4">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a
+                              role="button"
+                              class="panel-title collapsed"
+                              data-toggle="collapse"
+                              data-bs-toggle="collapse"
+                              data-core
+                              href="#collapse5"
+                              aria-expanded="false"
+                              aria-controls="collapse5"
+                            >
+                                <h6
+                                  class="panel-title-edit mbr-semibold mbr-fonts-style mb-0"
+                                  mbr-theme-style="display-5"
+                                  data-app-selector=".panel-title-edit"
+                                >
+                                    What areas do you deliver to?
+                                </h6>
+                                <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div
+                          id="collapse5"
+                          class="panel-collapse noScroll collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingOne"
+                          data-parent="#accordion"
+                          data-bs-parent="#accordion"
+                        >
+                            <div class="panel-body">
+                                <p
+                                  class="mbr-fonts-style panel-text"
+                                  mbr-theme-style="display-7"
+                                  data-app-selector=".panel-text"
+                                >
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum
+                                    laoreet tincidunt. Proin et sapien scelerisque, ornare lectus eget, iaculis
+                                    lectus. Pellentesque viverra molestie tortor. Nunc sed interdum est, in maximus
+                                    diam. Donec eu tellus dictum, gravida velit et, sagittis arcu. Proin et lectus
+                                    dapibus. Cras fringilla elit velit placerat tortor mollis cursus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" mbr-if="cardAmount > 5">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a
+                              role="button"
+                              class="panel-title collapsed"
+                              data-toggle="collapse"
+                              data-bs-toggle="collapse"
+                              data-core
+                              href="#collapse6"
+                              aria-expanded="false"
+                              aria-controls="collapse6"
+                            >
+                                <h6
+                                  class="panel-title-edit mbr-semibold mbr-fonts-style mb-0"
+                                  mbr-theme-style="display-5"
+                                  data-app-selector=".panel-title-edit"
+                                >
+                                    Is there a minimum order requirement for delivery?
+                                </h6>
+                                <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div
+                          id="collapse6"
+                          class="panel-collapse noScroll collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingOne"
+                          data-parent="#accordion"
+                          data-bs-parent="#accordion"
+                        >
+                            <div class="panel-body">
+                                <p
+                                  class="mbr-fonts-style panel-text"
+                                  mbr-theme-style="display-7"
+                                  data-app-selector=".panel-text"
+                                >
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum
+                                    laoreet tincidunt. Proin et sapien scelerisque, ornare lectus eget, iaculis
+                                    lectus. Pellentesque viverra molestie tortor. Nunc sed interdum est, in maximus
+                                    diam. Donec eu tellus dictum, gravida velit et, sagittis arcu. Proin et lectus
+                                    dapibus. Cras fringilla elit velit placerat tortor mollis cursus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

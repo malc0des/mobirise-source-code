@@ -1,0 +1,57 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+  display: none;
+}
+.mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  & when (@bg-type = 'video') {
+    background-image: url(@fallBackImage);
+  }
+}
+.row {
+  align-items: stretch;
+  justify-content: center;
+  .img-item {
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    img {
+      width: 100%;
+      object-fit: cover;
+      min-height: 1px;
+    }
+  }
+}
+img, .item-img {
+  width: 100%;
+  & when (@autoSize) {
+    height: (@imageHeight * 100px);
+    object-fit: cover;
+    object-position: 50% top;
+    & when (@showTitle) {
+      height: (@imageHeight * 100px);
+      object-fit: cover;
+    }
+    & when (@showText) {
+      height: (@imageHeight * 100px);
+      object-fit: cover;
+    }
+    @media (max-width: 767px) {
+      max-height: 350px;
+    }
+  }
+}

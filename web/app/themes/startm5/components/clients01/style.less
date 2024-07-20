@@ -1,0 +1,162 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type ="color") {
+  background: @bg-value;
+}
+
+& when (@bg-type ="image") {
+  background-image: url(@bg-value);
+}
+
+.mbr-fallback-image.disabled {
+  display: none;
+}
+
+.mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+
+  & when (@bg-type ="video") {
+    background-image: url(@fallBackImage);
+  }
+}
+
+.mbr-section-btn {
+  opacity: 0;
+  transition-delay: 0.1s;
+  z-index: 1;
+  position: relative;
+  margin: auto;
+}
+
+.content-head {
+  max-width: 800px;
+}
+
+.card1 {
+  background-image: url(@crad1bg);
+  background-size: cover;
+  background-position: center center;
+
+  &:before {
+    background: @crad1bgcolor;
+  }
+}
+
+.card2 {
+  background-image: url(@crad2bg);
+  background-size: cover;
+  background-position: center center;
+
+  &:before {
+    background: @crad2bgcolor;
+  }
+}
+
+.card3 {
+  background-image: url(@crad3bg);
+  background-size: cover;
+  background-position: center center;
+
+  &:before {
+    background: @crad3bgcolor;
+  }
+}
+
+.card4 {
+  background-image: url(@crad4bg);
+  background-size: cover;
+  background-position: center center;
+
+  &:before {
+    background: @crad4bgcolor;
+  }
+}
+
+.content-wrap {
+  margin: auto;
+  display: flex;
+  height: 100%;
+}
+
+.card-wrap {
+  border-radius: inherit;
+  height: 400px;
+  position: relative;
+  transition: all 0.3s;
+  margin-bottom: 2rem;
+  @media (max-width: 767px) {
+    margin-bottom: 1rem;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    border-radius: inherit;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition-delay: 0.1s;
+    opacity: 0;
+  }
+}
+
+.card {
+  transition: transform 0.6s;
+
+  &:hover,
+  &:focus-within {
+    .card-wrap {
+      transform: rotateY(180deg);
+
+      &:before {
+        opacity: 1;
+      }
+    }
+
+    .mbr-section-btn {
+      opacity: 1;
+      transform: rotateY(180deg);
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .card {
+    &:hover {
+      .card-wrap {
+        transform: none;
+
+        &:before {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+
+  .card-wrap {
+    &:before {
+      opacity: 0.8;
+    }
+
+    &:hover {
+      transform: none;
+
+      .mbr-section-btn {
+        transform: none;
+      }
+    }
+  }
+
+  .mbr-section-btn {
+    opacity: 1;
+  }
+}

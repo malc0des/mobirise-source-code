@@ -1,0 +1,159 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type ="color") {
+    background-color: @bg-value;
+}
+
+& when (@bg-type ="image") {
+    background-image: url(@bg-value);
+
+    & when (@overlay) {
+        .mbr-overlay {
+            background: @overlayColor;
+            opacity: @overlayOpacity;
+        }
+    }
+}
+
+img,
+.item-img {
+    width: 100%;
+
+    & when (@autoSize) {
+        height: 100%;
+        object-fit: cover;
+
+        & when (@showCardTitle) {
+            height: (@imageHeight * 100px);
+            object-fit: cover;
+        }
+
+        & when (@showText) {
+            height: (@imageHeight * 100px);
+            object-fit: cover;
+        }
+
+        & when (@showButtons) {
+            height: (@imageHeight * 100px);
+            object-fit: cover;
+        }
+    }
+}
+
+.item:focus,
+span:focus {
+    outline: none;
+}
+
+.item {
+    margin-bottom: 2rem;
+
+    @media (max-width: 767px) {
+        margin-bottom: 1rem;
+    }
+}
+
+& when not (@spacing) {
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .item {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.item-wrapper {
+    position: relative;
+    background: @cardsBg;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+
+    .item-content {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .item-footer {
+        margin-top: auto;
+    }
+
+    & when (@showButtons) {
+        .item-content {
+            padding: 2.25rem 2.25rem 0;
+        }
+
+        .item-footer {
+            padding-bottom: 2rem;
+        }
+    }
+
+    & when not (@showButtons) {
+        .item-content {
+            padding: 2.25rem;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1200px) {
+        & when (@showButtons) {
+            .item-content {
+                padding: 1.5rem 1.5rem 0;
+            }
+
+            .item-footer {
+                padding-bottom: 1.5rem;
+            }
+        }
+
+        & when not (@showButtons) {
+            .item-content {
+                padding: 1.5rem;
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+        & when (@showButtons) {
+            .item-content {
+                padding: 1.5rem 1.5rem 0;
+            }
+
+            .item-footer {
+                padding-bottom: 1.25rem;
+            }
+        }
+
+        & when not (@showButtons) {
+            .item-content {
+                padding: 1.5rem;
+            }
+        }
+    }
+}
+
+.mbr-section-title {
+    color: #232323;
+}
+
+.mbr-text,
+.mbr-section-btn {
+    text-align: center;
+}
+
+.item-title {
+    text-align: left;
+}
+
+.content-head {
+    max-width: 800px;
+}
+
+.mbr-text,
+.item-wrapper .mbr-section-btn {
+    text-align: left;
+}

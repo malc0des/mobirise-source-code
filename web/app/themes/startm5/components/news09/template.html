@@ -1,0 +1,228 @@
+<section
+  class="news09 startm5"
+  group="News"
+>
+  <mbr-parameters>
+    <header>Size</header>
+    <input type="checkbox" title="Full Width" name="fullWidth">
+    <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="6">
+    <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="6">
+    <input type="range" name="textWidth" title="Width" min="4" max="12" value="8" step="1">
+    <header>Show/Hide</header>
+    <input type="checkbox" title="Title" name="showMainTitle" checked>
+    <input type="checkbox" title="Subtitle" name="showMainSubtitle">
+    <header>Card</header>
+    <input type="checkbox" title="Title" name="showTitle" checked>
+    <input type="checkbox" title="Date" name="showDate" checked>
+    <input type="checkbox" title="Time" name="showTime" checked>
+    <input type="checkbox" title="Location" name="showLocation" checked>
+    <input type="checkbox" title="Price" name="showPrice" checked>
+    <input type="checkbox" title="Description" name="showDescription" checked>
+    <input type="checkbox" title="Buttons" name="showButtons" checked>
+    <input type="color" title="Card BG" name="cardbg" value="#ffffff" selected>
+    <input type="color" title="Icon Color" name="iconColor" value="#9fe870" selected>
+    <header>Background</header>
+    <input type="color" title="Color" name="bgColor" value="#edefeb">
+  </mbr-parameters>
+  <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+    <div
+      class="col-12 mb-5 content-head"
+      mbr-if="showMainTitle || showMainSubtitle"
+    >
+      <h3
+        class="mbr-section-title mbr-fonts-style align-center mb-0"
+        mbr-theme-style="display-2"
+        mbr-if="showMainTitle"
+        data-app-selector=".mbr-section-title"
+      >
+        <b>Our events</b>
+      </h3>
+      <h5
+        class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4"
+        mbr-theme-style="display-7"
+        mbr-if="showMainSubtitle"
+        data-app-selector=".mbr-section-subtitle"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </h5>
+    </div>
+    <div class="row justify-content-center ">
+      <div class=" col-12 col-lg-{{textWidth}}">
+        <div class="item features-without-image col-12 active">
+          <div class="item-wrapper">
+            <h5
+              class="mbr-card-title mbr-fonts-style mt-0 mb-3"
+              mbr-if="showTitle"
+              data-app-selector=".mbr-card-title"
+              mbr-theme-style="display-5"
+            ><b>Writing workshop</b>
+            </h5>
+            <div class="details">
+              <div
+                class="details-item"
+                mbr-theme-style="display-7"
+                mbr-if="showDate"
+              >
+                <span mbr-icon class="mbr-iconfont mobi-mbri-calendar mobi-mbri details-icon"></span>
+                <p
+                  class="mbr-tag mbr-fonts-style"
+                  mbr-theme-style="display-7"
+                  data-app-selector=".mbr-tag, .tags-wrapper"
+                >November 15, 2023<br></p>
+              </div>
+              <div
+                class="details-item"
+                mbr-theme-style="display-7"
+                mbr-if="showTime"
+              >
+                <span mbr-icon class="mbr-iconfont mobi-mbri-timer mobi-mbri details-icon"></span>
+                <p
+                  class="mbr-tag mbr-fonts-style"
+                  mbr-theme-style="display-7"
+                  data-app-selector=".mbr-tag, .tags-wrapper"
+                >1:00 PM - 3:00 PM<br></p>
+              </div>
+            </div>
+            <div
+              class="details"
+              mbr-if="showLocation"
+            >
+              <div
+                class="details-item"
+                mbr-theme-style="display-7"
+              >
+                <span mbr-icon class="mbr-iconfont mobi-mbri-map-pin mobi-mbri details-icon"></span>
+                <p
+                  class="mbr-tag mbr-fonts-style"
+                  mbr-theme-style="display-7"
+                  data-app-selector=".mbr-tag, .tags-wrapper"
+                >5678 Avenue, Riseville, NY 56789<br></p>
+              </div>
+            </div>
+            <div
+              class="details"
+              mbr-if="showPrice"
+            >
+              <div
+                class="details-item"
+                mbr-theme-style="display-7"
+              >
+                <span mbr-icon class="mbr-iconfont details-icon mobi-mbri-cash mobi-mbri"></span>
+                <p
+                  class="mbr-tag mbr-fonts-style"
+                  mbr-theme-style="display-7"
+                  data-app-selector=".mbr-tag, .tags-wrapper"
+                >$50, or included in our membership fee<br></p>
+              </div>
+            </div>
+            <h6
+              class="mbr-card-subtitle mbr-fonts-style mt-0 mb-3"
+              mbr-if="showDescription"
+              data-app-selector=".mbr-card-subtitle"
+              mbr-theme-style="display-7"
+            >Join author Sarah Johnson to improve
+              your writing skills. This workshop is open to writers of all levels and backgrounds. Whether you're a
+              novice looking to start your writing journey or an experienced writer seeking to polish your skills,
+              Sarah's expertise will benefit you.</h6>
+            <div
+              mbr-buttons
+              mbr-theme-style="display-7"
+              class="mbr-section-btn"
+              mbr-if="showButtons"
+              data-toolbar="-mbrBtnMove"
+            ><a
+              class="btn btn-primary"
+              href="https://mobiri.se"
+              data-app-placeholder="Type Text"
+            >Learn more</a></div>
+          </div>
+        </div>
+        <div class="item features-without-image col-12">
+          <div class="item-wrapper">
+            <h5
+              class="mbr-card-title mbr-fonts-style mt-0 mb-3"
+              mbr-if="showTitle"
+              data-app-selector=".mbr-card-title"
+              mbr-theme-style="display-5"
+            ><b>Poetry masterclass</b></h5>
+            <div class="details">
+              <div
+                class="details-item"
+                mbr-theme-style="display-7"
+                mbr-if="showDate"
+              >
+                <span mbr-icon class="mbr-iconfont mobi-mbri-calendar mobi-mbri details-icon"></span>
+                <p
+                  class="mbr-tag mbr-fonts-style"
+                  mbr-theme-style="display-7"
+                  data-app-selector=".mbr-tag, .tags-wrapper"
+                >November 25, 2023<br></p>
+              </div>
+             <div
+                class="details-item"
+                mbr-theme-style="display-7"
+                mbr-if="showTime"
+              >
+                <span mbr-icon class="mbr-iconfont mobi-mbri-timer mobi-mbri details-icon"></span>
+                <p
+                  class="mbr-tag mbr-fonts-style"
+                  mbr-theme-style="display-7"
+                  data-app-selector=".mbr-tag, .tags-wrapper"
+                >2:00 PM - 4:00 PM<br></p>
+              </div>
+            </div>
+            <div
+              class="details"
+              mbr-if="showLocation"
+            >
+              <div class="details-item" mbr-theme-style="display-7">
+                <span mbr-icon class="mbr-iconfont mobi-mbri-map-pin mobi-mbri details-icon"></span>
+                <p
+                  class="mbr-tag mbr-fonts-style"
+                  mbr-theme-style="display-7"
+                  data-app-selector=".mbr-tag, .tags-wrapper"
+                >5678 Avenue, Riseville, NY 56789<br></p>
+              </div>
+            </div>
+            <div
+              class="details"
+              mbr-if="showPrice"
+            >
+              <div
+                class="details-item"
+                mbr-theme-style="display-7"
+              >
+                <span mbr-icon class="mbr-iconfont details-icon mobi-mbri-cash mobi-mbri"></span>
+                <p
+                  class="mbr-tag mbr-fonts-style"
+                  mbr-theme-style="display-7"
+                  data-app-selector=".mbr-tag, .tags-wrapper"
+                >$55, or included in our membership fee<br></p>
+              </div>
+            </div>
+            <h6
+              class="mbr-card-subtitle mbr-fonts-style mt-0 mb-3"
+              mbr-if="showDescription"
+              data-app-selector=".mbr-card-subtitle"
+              mbr-theme-style="display-7"
+            >Join poet Michael Smith for a Poetry
+              Workshop suitable for poets of all levels. Whether you're new to poetry or experienced, Michael will help
+              you improve your skills. Come connect with fellow poets and explore the world of poetry together.</h6>
+            <div
+              mbr-buttons
+              mbr-theme-style="display-7"
+              class="mbr-section-btn"
+              mbr-if="showButtons"
+              data-toolbar="-mbrBtnMove"
+            ><a
+                class="btn btn-primary"
+                href="https://mobiri.se"
+                data-app-placeholder="Type Text"
+              >Learn more</a></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

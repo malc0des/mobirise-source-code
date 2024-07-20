@@ -1,0 +1,145 @@
+<section class="timeline03" group="News">
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="checkbox" name="reverseContent" title="Reverse">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="6">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="6">
+        <input type="range" name="textWidth" title="Width" min="4" max="8" value="6" step="1">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showMainTitle">
+        <input type="checkbox" title="Subtitle" name="showMainSubtitle">
+        <input type="checkbox" title="Date" name="showDate" checked>
+        <input type="checkbox" title="Event Name" name="showSubtitle" checked>
+        <header>Background</header>
+        <input type="color" title="Color" name="bgColor" value="#ffffff">
+    </mbr-parameters>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div
+              class="col-12 mb-5 content-head"
+              mbr-if="showMainTitle || showMainSubtitle"
+            >
+                <h3
+                  class="mbr-section-title mbr-fonts-style align-center mb-0"
+                  mbr-theme-style="display-2"
+                  mbr-if="showMainTitle"
+                  data-app-selector=".mbr-section-title"
+                >
+                    <b>Timeline</b>
+                </h3>
+                <h5
+                  class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4"
+                  mbr-theme-style="display-7"
+                  mbr-if="showMainSubtitle"
+                  data-app-selector=".mbr-section-subtitle"
+                >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+            </div>
+        </div>
+        <div class="row justify-content-center item features-without-image mb-5">
+            <div
+              class="col-12 col-lg-2"
+              mbr-if="showDate"
+            >
+                <h5
+                  class="mbr-card-title mbr-fonts-style mt-0 mb-3"
+                  mbr-if="showDate"
+                  data-app-selector=".mbr-card-title"
+                  mbr-theme-style="display-7"
+                >
+                    2018
+                </h5>
+
+            </div>
+            <div class="col-12 col-lg" mbr-if="showSubtitle">
+
+                <h6
+                  class="mbr-card-subtitle mbr-fonts-style mt-0 mb-3"
+                  mbr-if="showSubtitle"
+                  data-app-selector=".mbr-card-subtitle"
+                  mbr-theme-style="display-7"
+                >
+                <b>Award-Winning Photographer</b>
+                </h6>
+            </div>
+            <div class="col-md-12 col-lg-{{textWidth}} item-wrapper">
+                <p
+                  class="mbr-text mbr-fonts-style mt-0 mb-0"
+                  data-app-selector=".mbr-text"
+                  mbr-theme-style="display-7"
+                >
+                    The photographer's talent and hard work are recognized as they receive a prestigious photography
+                    award. This milestone represents their achievement and recognition within the photography community.
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center item features-without-image mb-5">
+            <div
+              class="col-12 col-lg-2"
+              mbr-if="showDate"
+            >
+                <h5
+                  class="mbr-card-title mbr-fonts-style mt-0 mb-3"
+                  mbr-if="showDate"
+                  data-app-selector=".mbr-card-title"
+                  mbr-theme-style="display-7"
+                >
+                    2010
+                </h5>
+
+            </div>
+            <div class="col-12 col-lg" mbr-if="showSubtitle">
+
+                <h6
+                  class="mbr-card-subtitle mbr-fonts-style mt-0 mb-3"
+                  mbr-if="showSubtitle"
+                  data-app-selector=".mbr-card-subtitle"
+                  mbr-theme-style="display-7"
+                >
+                    <b>Professional Photography Career Launch</b>
+                </h6>
+            </div>
+            <div class="col-md-12 col-lg-{{textWidth}} item-wrapper">
+                <p
+                  class="mbr-text mbr-fonts-style mt-0 mb-0"
+                  data-app-selector=".mbr-text"
+                  mbr-theme-style="display-7"
+                >
+                The photographer takes a leap into the professional world of photography. They establish their photography studio, build a portfolio, and begin offering services to clients. This milestone signifies their dedication to their craft.
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center item features-without-image mb-5">
+            <div class="col-12 col-lg-2" mbr-if="showDate">
+                <h5
+                  class="mbr-card-title mbr-fonts-style mt-0 mb-3"
+                  mbr-if="showDate"
+                  data-app-selector=".mbr-card-title"
+                  mbr-theme-style="display-7"
+                >
+                    2005
+                </h5>
+            </div>
+            <div class="col-12 col-lg" mbr-if="showSubtitle">
+                <h6
+                  class="mbr-card-subtitle mbr-fonts-style mt-0 mb-3"
+                  mbr-if="showSubtitle"
+                  data-app-selector=".mbr-card-subtitle"
+                  mbr-theme-style="display-7"
+                >
+                    <b>Start of Photography Journey</b>
+                </h6>
+            </div>
+            <div class="col-md-12 col-lg-{{textWidth}} item-wrapper">
+                <p
+                  class="mbr-text mbr-fonts-style mt-0 mb-0"
+                  data-app-selector=".mbr-text"
+                  mbr-theme-style="display-7"
+                >
+                This marks the beginning of the photographer's passion for photography. They acquire their first camera and start capturing moments that inspire them.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

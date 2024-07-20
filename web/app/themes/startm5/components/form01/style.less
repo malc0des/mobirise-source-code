@@ -1,0 +1,63 @@
+& when not (@fullScreen) {
+  padding-top: (@paddingTop * 1rem);
+  padding-bottom: (@paddingBottom * 1rem);
+}
+
+background-color: @bgColor;
+
+input {
+  padding: 1.2rem 1.5rem;
+  border: none !important;
+  height: 100%;
+  &:hover {
+    border: none !important;
+  }
+}
+
+.btn {
+  height: 100%;
+  margin: auto;
+}
+
+.text-wrapper {
+  @media (min-width: 992px) {
+    padding: 0 2rem;
+  }
+}
+
+.row {
+  justify-content: center;
+}
+
+.mbr-section-btn {
+  display: flex;
+  margin-bottom: 1.2rem;
+  width: fit-content;
+
+  @media (min-width: 768px) {
+    margin-left: initial;
+  }
+
+  .btn {
+    width: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .image-wrapper {
+    margin-bottom: 2rem;
+  }
+
+  .content-wrapper {
+    flex-direction: column-reverse;
+  }
+}
+
+.justify-content-center {
+  align-items: center;
+}
+
+.mbr-section-title {
+  text-align: center;
+  color: #ffd7ef;
+}

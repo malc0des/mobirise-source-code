@@ -1,0 +1,4217 @@
+{
+    "title": "Chinese",
+    "language": "zh",
+    "type": "main",
+    "groups": {
+        "global": [
+            {
+                "phrase": "Pages",
+                "translate": "页面",
+                "active": true
+            },
+            {
+                "phrase": "Page Settings",
+                "translate": "页面设置",
+                "active": true
+            },
+            {
+                "phrase": "Page Title:",
+                "translate": "页面标题",
+                "active": true
+            },
+            {
+                "phrase": "Page Description:",
+                "translate": "页面描述",
+                "active": true
+            },
+            {
+                "phrase": "Page URL:",
+                "translate": "页面连接URL：",
+                "active": true
+            },
+            {
+                "phrase": "Create, Clone, Rename Pages, Edit Meta Tags",
+                "translate": "新建，复制，重命名页面，编辑Meta标签",
+                "active": true
+            },
+            {
+                "phrase": "Sites",
+                "translate": "网站",
+                "active": true
+            },
+            {
+                "phrase": "Create, Open, Rename Sites",
+                "translate": "新建，打开，重命名网站",
+                "active": true
+            },
+            {
+                "phrase": "Account",
+                "translate": "账户",
+                "active": true
+            },
+            {
+                "phrase": "Sign Up / Login to Get Latest Updates and Extensions",
+                "translate": "注册／登录获得最新升级与扩展",
+                "active": true
+            },
+            {
+                "phrase": "Reset password",
+                "translate": "重置密码",
+                "active": true
+            },
+            {
+                "phrase": "Logout",
+                "translate": "登出",
+                "active": true
+            },
+            {
+                "phrase": "Preview in Browser",
+                "translate": "浏览器预览",
+                "active": true
+            },
+            {
+                "phrase": "Publish to Local Drive, FTP",
+                "translate": "发布在本地存储，FTP",
+                "active": true
+            },
+            {
+                "phrase": "Publish",
+                "translate": "发布",
+                "active": true
+            },
+            {
+                "phrase": "Mobile View",
+                "translate": "移动端视图",
+                "active": true
+            },
+            {
+                "phrase": "Tablet View",
+                "translate": "平板电脑视图",
+                "active": true
+            },
+            {
+                "phrase": "Tablet Horizontal View",
+                "translate": "平板水平视图",
+                "active": true
+            },
+            {
+                "phrase": "Desktop View",
+                "translate": "桌面电脑视图",
+                "active": true
+            },
+            {
+                "phrase": "Blocks",
+                "translate": "区块",
+                "active": true
+            },
+            {
+                "phrase": "Edit Site Styles",
+                "translate": "编辑网站样式",
+                "active": true
+            },
+            {
+                "phrase": "Add Block to Page",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-addons": [
+            {
+                "phrase": "Not available for your Mobirise version",
+                "translate": "您的Mobirise版本不可用",
+                "active": true
+            },
+            {
+                "phrase": "Not compatible with your version of Mobirise",
+                "translate": "您的Mobirise版本不兼容",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "删除",
+                "active": true
+            },
+            {
+                "phrase": "Update",
+                "translate": "升级",
+                "active": true
+            },
+            {
+                "phrase": "Coming soon...",
+                "translate": "即将发布...",
+                "active": true
+            },
+            {
+                "phrase": "Soon...",
+                "translate": "快了...",
+                "active": true
+            },
+            {
+                "phrase": "Add",
+                "translate": "添加",
+                "active": true
+            },
+            {
+                "phrase": "Buy",
+                "translate": "购买",
+                "active": true
+            },
+            {
+                "phrase": "extension",
+                "translate": "扩展",
+                "active": true
+            },
+            {
+                "phrase": "$extension$ is successfuly added",
+                "translate": "$extension$ 已经成功添加",
+                "active": true
+            },
+            {
+                "phrase": "About",
+                "translate": "关于",
+                "active": true
+            },
+            {
+                "phrase": "Buy help",
+                "translate": "购买帮助",
+                "active": true
+            },
+            {
+                "phrase": "Redeem code",
+                "translate": "兑换码",
+                "active": true
+            },
+            {
+                "phrase": "Enter code...",
+                "translate": "输入代码...",
+                "active": true
+            },
+            {
+                "phrase": "Redeem",
+                "translate": "兑换",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "添加扩展出错",
+                "active": true
+            },
+            {
+                "phrase": "Code is successfully redeemed!",
+                "translate": "代码已经成功兑换",
+                "active": true
+            },
+            {
+                "phrase": "Incorrect code",
+                "translate": "错误代码",
+                "active": true
+            },
+            {
+                "phrase": "Activation error",
+                "translate": "激活失败",
+                "active": true
+            },
+            {
+                "phrase": "Select extension package",
+                "translate": "选择扩展包",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise Extension",
+                "translate": "Mobirise扩展",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension package",
+                "translate": "添加扩展包失败",
+                "active": true
+            },
+            {
+                "phrase": "Themes",
+                "translate": "主题",
+                "active": true
+            },
+            {
+                "phrase": "Extensions",
+                "translate": "扩展",
+                "active": true
+            },
+            {
+                "phrase": "Import",
+                "translate": "导入",
+                "active": true
+            },
+            {
+                "phrase": "Note: The server list is not available. Only installed extensions are shown",
+                "translate": "注意：服务器列表目前无法访问。只显示已经安装的扩展项。",
+                "active": true
+            },
+            {
+                "phrase": "Get more extensions",
+                "translate": "获取更多扩展",
+                "active": true
+            },
+            {
+                "phrase": "Try to log out and log back in",
+                "translate": "尝试登出然后再重新登录",
+                "active": true
+            },
+            {
+                "phrase": "Warning",
+                "translate": "警告",
+                "active": true
+            },
+            {
+                "phrase": "During the last run the program failed to load all extensions. To run again, program will temporarily disable them. Please update the extensions you use.",
+                "translate": "由于上一次运行程序无法加载所有扩展项。再次运行时，程序将临时禁止所有扩展项。请升级您所使用的所有扩展包。",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "好的",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "取消",
+                "active": true
+            },
+            {
+                "phrase": "Open \"Extensions list\"",
+                "translate": "打开“扩展包列表”",
+                "active": true
+            },
+            {
+                "phrase": "Some installed extensions $ext names$ are not compatible with the current version of the application. Please visit \"Extensions list\" dialog to update it.",
+                "translate": "有些已经安装的扩展包$ext names$无法与当前应用程序版本兼容。请访问“扩展包列表”对话框升级对应扩展包。",
+                "active": true
+            },
+            {
+                "phrase": "Extension",
+                "translate": "扩展包",
+                "active": true
+            },
+            {
+                "phrase": "No extensions matched your search. Try again.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create Site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "View Demo",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unexpected project create error",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to create the $site name$ site based on the $theme name$ theme, $name preset$ Template?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "theme",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unknown Source Warning!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You're importing an extension from unknown sources. Extension from unknown sources can harm your projects and bring incompatibility issues with Mobirise app and other extensions. Mobirise doesn't provide a support for 3rd-party extensions.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Import Anyway",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This extension works with app version $ext_version$ and higher. Please update your Mobirise app",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Update All",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Add All",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Update all installed extensions?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to download all available themes and extensions?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download all",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable to download $extension$. Try to re-login.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download cancelled:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Downloading...",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Add Themes and Extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Get ALL Mobirise Themes & Extensions!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "During the last run the program failed to load all extensions. To run again, program will temporarily disable them.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-common": [
+            {
+                "phrase": "This is a critical error, some functions of the program may not work correctly, please send information to the developers.",
+                "translate": "这是个严重错误，您程序的部分功能可能工作异常，请发送相关信息到开发者。",
+                "active": true
+            },
+            {
+                "phrase": "Critical error",
+                "translate": "严重错误",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "取消",
+                "active": true
+            },
+            {
+                "phrase": "Send feedback",
+                "translate": "发送反馈",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "好的",
+                "active": true
+            },
+            {
+                "phrase": "More",
+                "translate": "更多",
+                "active": true
+            },
+            {
+                "phrase": "Less",
+                "translate": "更少",
+                "active": true
+            },
+            {
+                "phrase": "LOADING...",
+                "translate": "加载...",
+                "active": true
+            },
+            {
+                "phrase": "Send Error Report",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-component-params": [
+            {
+                "phrase": "Remove",
+                "translate": "删除",
+                "active": true
+            },
+            {
+                "phrase": "Drag Block",
+                "translate": "拖拽区块",
+                "active": true
+            },
+            {
+                "phrase": "Block Parameters",
+                "translate": "区块参数",
+                "active": true
+            },
+            {
+                "phrase": "Remove Block",
+                "translate": "删除区块",
+                "active": true
+            },
+            {
+                "phrase": "Show More",
+                "translate": "显示更多",
+                "active": true
+            },
+            {
+                "phrase": "Remove Block?",
+                "translate": "删除区块吗？",
+                "active": true
+            },
+            {
+                "phrase": "Type address or insert",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "google map iframe",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Update",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Loading images",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This block is global. Do you want to remove it from all pages?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to remove the $ID$ block?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-components-list": [
+            {
+                "phrase": "Add Block to Page",
+                "translate": "添加区块到网页",
+                "active": true
+            },
+            {
+                "phrase": "Close",
+                "translate": "关闭",
+                "active": true
+            },
+            {
+                "phrase": "Show All Blocks",
+                "translate": "显示所有区块",
+                "active": true
+            },
+            {
+                "phrase": "Show All",
+                "translate": "显示所有",
+                "active": true
+            },
+            {
+                "phrase": "Theme",
+                "translate": "主题",
+                "active": true
+            },
+            {
+                "phrase": "Show Blocks From Theme",
+                "translate": "显示该主题区块",
+                "active": true
+            },
+            {
+                "phrase": "Extensn",
+                "translate": "扩展",
+                "active": true
+            },
+            {
+                "phrase": "Show Blocks From Extensions",
+                "translate": "显示该扩展区块",
+                "active": true
+            },
+            {
+                "phrase": "Add More",
+                "translate": "添加更多",
+                "active": true
+            },
+            {
+                "phrase": "Extension",
+                "translate": "扩展",
+                "active": true
+            },
+            {
+                "phrase": "All",
+                "translate": "所有",
+                "active": true
+            },
+            {
+                "phrase": "Added",
+                "translate": "已添加",
+                "active": true
+            },
+            {
+                "phrase": "More $groupName$ Blocks",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download $theme title$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Choose blocks' theme",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-core": [
+            {
+                "phrase": "Remove Block?",
+                "translate": "删除区块？",
+                "active": true
+            }
+        ],
+        "app-fonts": [
+            {
+                "phrase": "Browse Computer",
+                "translate": "浏览电脑",
+                "active": true
+            },
+            {
+                "phrase": "Google Fonts",
+                "translate": "Google字体",
+                "active": true
+            },
+            {
+                "phrase": "Site Fonts",
+                "translate": "网站字体",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "好的",
+                "active": true
+            },
+            {
+                "phrase": "Select font",
+                "translate": "选择字体",
+                "active": true
+            },
+            {
+                "phrase": "Fonts file",
+                "translate": "字体文件",
+                "active": true
+            },
+            {
+                "phrase": "Error saving project settings.",
+                "translate": "保存项目配置出错。",
+                "active": true
+            },
+            {
+                "phrase": "Error saving style.css for $font name$",
+                "translate": "保存$font name$对应的样式style.css出错",
+                "active": true
+            },
+            {
+                "phrase": "The quick brown fox jumps over the lazy dog.",
+                "translate": "这是一段示例文字。",
+                "active": true
+            },
+            {
+                "phrase": "Download font error!",
+                "translate": "下载字体出错！",
+                "active": true
+            },
+            {
+                "phrase": "This font has been successfully removed.",
+                "translate": "改字体已经成功被删除。",
+                "active": true
+            },
+            {
+                "phrase": "Error removal!",
+                "translate": "删除出错！",
+                "active": true
+            },
+            {
+                "phrase": "This is the font used in the project!",
+                "translate": "这个字体用在项目了！",
+                "active": true
+            },
+            {
+                "phrase": "Error file saving!",
+                "translate": "保存文件出错！",
+                "active": true
+            },
+            {
+                "phrase": "More fonts",
+                "translate": "更多字体",
+                "active": true
+            },
+            {
+                "phrase": "Font removal error!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Fonts",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search by font name",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-pages": [
+            {
+                "phrase": "Drag Page",
+                "translate": "拖拽页面",
+                "active": true
+            },
+            {
+                "phrase": "Clone Page",
+                "translate": "复制页面",
+                "active": true
+            },
+            {
+                "phrase": "Rename Page, Edit Meta Tags",
+                "translate": "重命名页面，编辑Meta标签",
+                "active": true
+            },
+            {
+                "phrase": "Remove Page",
+                "translate": "删除页面",
+                "active": true
+            },
+            {
+                "phrase": "OK",
+                "translate": "好的",
+                "active": true
+            },
+            {
+                "phrase": "Edit Title",
+                "translate": "编辑标题",
+                "active": true
+            },
+            {
+                "phrase": "Remove page $page name$?",
+                "translate": "要删除$page name$页面吗？",
+                "active": true
+            },
+            {
+                "phrase": "Create New Page",
+                "translate": "建立新页面",
+                "active": true
+            },
+            {
+                "phrase": "Create Page",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Page Settings",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-click-to-start": [
+            {
+                "phrase": "Click to Start",
+                "translate": "点击开始",
+                "active": true
+            }
+        ],
+        "app-plugin-components-list-userblocks": [
+            {
+                "phrase": "Remove Block?",
+                "translate": "删除区块？",
+                "active": true
+            },
+            {
+                "phrase": "User",
+                "translate": "用户",
+                "active": true
+            },
+            {
+                "phrase": "Show Blocks Saved By User",
+                "translate": "显示被用户保存的区块",
+                "active": true
+            },
+            {
+                "phrase": "Save To User Blocks",
+                "translate": "保存到用户区块",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "User Blocks",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-favicon": [
+            {
+                "phrase": "Favicon",
+                "translate": "Favicon",
+                "active": true
+            },
+            {
+                "phrase": "Use menu logo",
+                "translate": "使用菜单logo",
+                "active": true
+            },
+            {
+                "phrase": "Change favicon",
+                "translate": "改变favicon",
+                "active": true
+            },
+            {
+                "phrase": "Select Image",
+                "translate": "选择图片",
+                "active": true
+            }
+        ],
+        "app-plugin-github": [
+            {
+                "phrase": "GitHub UserName",
+                "translate": "GitHub用户名",
+                "active": true
+            },
+            {
+                "phrase": "GitHub Password or Token",
+                "translate": "GitHub密码或者Token",
+                "active": true
+            },
+            {
+                "phrase": "You can create GitHub Account %here%",
+                "translate": "您可以建立GitHub账户在%here%",
+                "active": true
+            },
+            {
+                "phrase": "Enter your credentials",
+                "translate": "输入您的credentials",
+                "active": true
+            },
+            {
+                "phrase": "ОК",
+                "translate": "好的",
+                "active": true
+            },
+            {
+                "phrase": "Success",
+                "translate": "成功",
+                "active": true
+            },
+            {
+                "phrase": "The site is successfully uploaded to GitHub Pages. Usually GitHub can take up to 5 minutes to show up the changes. Do you want to open the site?",
+                "translate": "网站成功上传到GitHub页面。一般GitHub需要5分钟左右更新。您要打开网站吗？",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "取消",
+                "active": true
+            },
+            {
+                "phrase": "Open",
+                "translate": "打开",
+                "active": true
+            },
+            {
+                "phrase": "Error",
+                "translate": "错误",
+                "active": true
+            },
+            {
+                "phrase": "error(s) occured while uploading files to GitHub.com. Do you want to open $link$ anyway?",
+                "translate": "上传文件到GitHub.com出错。您要强行打开$link$吗？",
+                "active": true
+            },
+            {
+                "phrase": "Check your credentials and internet connection",
+                "translate": "检查您的credetials以及互联网链接。",
+                "active": true
+            },
+            {
+                "phrase": "Error while connecting to Github.",
+                "translate": "链接到GitHub出错。",
+                "active": true
+            },
+            {
+                "phrase": "Close",
+                "translate": "关闭",
+                "active": true
+            },
+            {
+                "phrase": "GitHub Pages",
+                "translate": "GitHub页面",
+                "active": true
+            },
+            {
+                "phrase": "Account",
+                "translate": "账号",
+                "active": true
+            },
+            {
+                "phrase": "folder",
+                "translate": "文件夹",
+                "active": true
+            },
+            {
+                "phrase": "Upload",
+                "translate": "上传",
+                "active": true
+            },
+            {
+                "phrase": "GitHub Token",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Congratulations!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your site is published. Note that it takes a while for Github Pages to show updated content.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "ok",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-help": [
+            {
+                "phrase": "Please sign up/login to contact us or get the access to public forums",
+                "translate": "请注册／登录以便联系我们或者获取公共论坛访问权限。",
+                "active": true
+            },
+            {
+                "phrase": "Help",
+                "translate": "帮助",
+                "active": true
+            },
+            {
+                "phrase": "Please visit %Help Center% or %Forums% before contacting us.",
+                "translate": "请在联系我们前先阅读%Help Center%或者%Forums%",
+                "active": true
+            },
+            {
+                "phrase": "Visit Help Center",
+                "translate": "访问帮助中心",
+                "active": true
+            },
+            {
+                "phrase": "Visit Forums",
+                "translate": "访问论坛",
+                "active": true
+            },
+            {
+                "phrase": "Send us a message",
+                "translate": "发消息给我们",
+                "active": true
+            },
+            {
+                "phrase": "From",
+                "translate": "来自",
+                "active": true
+            },
+            {
+                "phrase": "Message",
+                "translate": "消息",
+                "active": true
+            },
+            {
+                "phrase": "Please explain in details what happened and what steps we can take to reproduce the problem.",
+                "translate": "请详细描述发生问题的现象，以及如何能够重现问题的详细步骤。",
+                "active": true
+            },
+            {
+                "phrase": "Send",
+                "translate": "发送",
+                "active": true
+            },
+            {
+                "phrase": "Your message is too short. Please add more details",
+                "translate": "您的消息内容太少，请添加详细描述。",
+                "active": true
+            },
+            {
+                "phrase": "Your message has been successfully sent!",
+                "translate": "你的消息已经成功发送。",
+                "active": true
+            },
+            {
+                "phrase": "We will reply to your email $userEmail$ shortly.",
+                "translate": "我们尽快答复到您的邮箱$uesrEmail$。",
+                "active": true
+            },
+            {
+                "phrase": "SEND",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Visit Help Center or Contact Us",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-history": [
+            {
+                "phrase": "Site Settings",
+                "translate": "网站设置",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "图片",
+                "active": true
+            },
+            {
+                "phrase": "Video",
+                "translate": "视频",
+                "active": true
+            },
+            {
+                "phrase": "Remove Page",
+                "translate": "删除页面",
+                "active": true
+            },
+            {
+                "phrase": "Add Block",
+                "translate": "添加区块",
+                "active": true
+            },
+            {
+                "phrase": "Remove Block",
+                "translate": "删除区块",
+                "active": true
+            },
+            {
+                "phrase": "Block Position",
+                "translate": "区块位置",
+                "active": true
+            },
+            {
+                "phrase": "Block Params",
+                "translate": "区块参数",
+                "active": true
+            },
+            {
+                "phrase": "Add Page",
+                "translate": "添加页面",
+                "active": true
+            },
+            {
+                "phrase": "Page Settings",
+                "translate": "页面设置",
+                "active": true
+            },
+            {
+                "phrase": "Block to HTML",
+                "translate": "区块转HTML",
+                "active": true
+            },
+            {
+                "phrase": "Code Editor",
+                "translate": "代码编辑器",
+                "active": true
+            },
+            {
+                "phrase": "Text Type",
+                "translate": "文本类型",
+                "active": true
+            },
+            {
+                "phrase": "Icon",
+                "translate": "图标",
+                "active": true
+            },
+            {
+                "phrase": "Load Site",
+                "translate": "加载网站",
+                "active": true
+            },
+            {
+                "phrase": "Undo",
+                "translate": "撤销",
+                "active": true
+            },
+            {
+                "phrase": "Redo",
+                "translate": "重做",
+                "active": true
+            },
+            {
+                "phrase": "Change Component",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-iconfont": [
+            {
+                "phrase": "Icon Color",
+                "translate": "图标颜色",
+                "active": true
+            },
+            {
+                "phrase": "Icon Size",
+                "translate": "图标尺寸",
+                "active": true
+            },
+            {
+                "phrase": "Auto",
+                "translate": "自动",
+                "active": true
+            },
+            {
+                "phrase": "Link Icon to",
+                "translate": "连接图标到",
+                "active": true
+            },
+            {
+                "phrase": "Edit Link",
+                "translate": "编辑链接",
+                "active": true
+            },
+            {
+                "phrase": "Search...",
+                "translate": "搜索...",
+                "active": true
+            },
+            {
+                "phrase": "Select icons",
+                "translate": "选择图标",
+                "active": true
+            },
+            {
+                "phrase": "Insert Icon",
+                "translate": "插入图标",
+                "active": true
+            },
+            {
+                "phrase": "Remove Icon",
+                "translate": "删除图标",
+                "active": true
+            },
+            {
+                "phrase": "Collapse All",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Expand All",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-image-editor-site-library": [
+            {
+                "phrase": "This image is used on the site and can't be removed from Site Library.",
+                "translate": "这个图片被网站使用，无法从网站库中删除。",
+                "active": true
+            }
+        ],
+        "app-plugin-image-editor-unsplash": [
+            {
+                "phrase": "Search by keyword",
+                "translate": "根据关键字搜索",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "搜索",
+                "active": true
+            },
+            {
+                "phrase": "Online image library is not available",
+                "translate": "在线图片库不可用",
+                "active": true
+            },
+            {
+                "phrase": "No images found!",
+                "translate": "没找到图片！",
+                "active": true
+            },
+            {
+                "phrase": "Please try another keyword",
+                "translate": "请换个关键字",
+                "active": true
+            },
+            {
+                "phrase": "e.g.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-link-editor": [
+            {
+                "phrase": "Add File",
+                "translate": "添加文件",
+                "active": true
+            },
+            {
+                "phrase": "Documents",
+                "translate": "文档",
+                "active": true
+            },
+            {
+                "phrase": "This document is already added.",
+                "translate": "这个文档已经添加过了",
+                "active": true
+            },
+            {
+                "phrase": "Link to",
+                "translate": "连接到",
+                "active": true
+            },
+            {
+                "phrase": "Page",
+                "translate": "页面",
+                "active": true
+            },
+            {
+                "phrase": "Web Address",
+                "translate": "网站地址",
+                "active": true
+            },
+            {
+                "phrase": "Email",
+                "translate": "电子邮箱",
+                "active": true
+            },
+            {
+                "phrase": "Phone",
+                "translate": "电话",
+                "active": true
+            },
+            {
+                "phrase": "File",
+                "translate": "文件",
+                "active": true
+            },
+            {
+                "phrase": "Site Pages",
+                "translate": "网站页面",
+                "active": true
+            },
+            {
+                "phrase": "Block on Page",
+                "translate": "页面区块",
+                "active": true
+            },
+            {
+                "phrase": "Open in new window",
+                "translate": "在新窗口中打开",
+                "active": true
+            },
+            {
+                "phrase": "Browse Computer",
+                "translate": "浏览电脑",
+                "active": true
+            },
+            {
+                "phrase": "Choose pdf, doc, docx, ppt, pptx, xls, xlsx, odp or odt file",
+                "translate": "选择如下格式文件：pdf，doc，docx，ppt，pptx，xls，xlsx，odp或者odt。",
+                "active": true
+            },
+            {
+                "phrase": "Insert Link",
+                "translate": "插入链接",
+                "active": true
+            },
+            {
+                "phrase": "Remove Link",
+                "translate": "删除链接",
+                "active": true
+            },
+            {
+                "phrase": "Block on $page title$ Page",
+                "translate": "$page title$页面中的区块",
+                "active": true
+            },
+            {
+                "phrase": "Block on $current page$ Page",
+                "translate": "$current page$页面的区块",
+                "active": true
+            },
+            {
+                "phrase": "Custom URL",
+                "translate": "自定义URL",
+                "active": true
+            },
+            {
+                "phrase": "e.g.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Call Phone Number",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Send SMS Text to Number",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with WhatsApp",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with Viber",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Call with Skype by Number or Name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with Telegram",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with Signal",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with Discord",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Phone/chat",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-media-editor": [
+            {
+                "phrase": "Media Image",
+                "translate": "媒体图片",
+                "active": true
+            },
+            {
+                "phrase": "Browse Computer",
+                "translate": "浏览电脑",
+                "active": true
+            },
+            {
+                "phrase": "Free Online Library",
+                "translate": "免费在线库",
+                "active": true
+            },
+            {
+                "phrase": "Site Library",
+                "translate": "网站库",
+                "active": true
+            },
+            {
+                "phrase": "Selected Image",
+                "translate": "选择的图片",
+                "active": true
+            },
+            {
+                "phrase": "Link Image to",
+                "translate": "链接图片到",
+                "active": true
+            },
+            {
+                "phrase": "Edit Link",
+                "translate": "编辑链接",
+                "active": true
+            },
+            {
+                "phrase": "Edit alt and title",
+                "translate": "边界alt与标题",
+                "active": true
+            },
+            {
+                "phrase": "Alt",
+                "translate": "可选项Alt",
+                "active": true
+            },
+            {
+                "phrase": "Title",
+                "translate": "标题",
+                "active": true
+            },
+            {
+                "phrase": "Select Image",
+                "translate": "选择图片",
+                "active": true
+            },
+            {
+                "phrase": "Crop Image",
+                "translate": "裁剪图片",
+                "active": true
+            },
+            {
+                "phrase": "More",
+                "translate": "更多",
+                "active": true
+            },
+            {
+                "phrase": "Zoom In",
+                "translate": "放大",
+                "active": true
+            },
+            {
+                "phrase": "Zoom Out",
+                "translate": "缩小",
+                "active": true
+            },
+            {
+                "phrase": "Flip Horizontal",
+                "translate": "水平翻转",
+                "active": true
+            },
+            {
+                "phrase": "Flip Vertical",
+                "translate": "垂直翻转",
+                "active": true
+            },
+            {
+                "phrase": "Aspect Ratio",
+                "translate": "显示比例",
+                "active": true
+            },
+            {
+                "phrase": "Aspect Ratio: Free",
+                "translate": "显示比例：自由",
+                "active": true
+            },
+            {
+                "phrase": "Free",
+                "translate": "自由",
+                "active": true
+            },
+            {
+                "phrase": "Media Video",
+                "translate": "媒体视频",
+                "active": true
+            },
+            {
+                "phrase": "Video URL",
+                "translate": "视频URL",
+                "active": true
+            },
+            {
+                "phrase": "Supported Youtube and Vimeo URL's",
+                "translate": "支持的Youtube以及Vimeo链接URL",
+                "active": true
+            },
+            {
+                "phrase": "Autoplay",
+                "translate": "自动播放",
+                "active": true
+            },
+            {
+                "phrase": "Loop",
+                "translate": "循环",
+                "active": true
+            },
+            {
+                "phrase": "From Phone",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Library",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Adding and optimizing images",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Adding images to the project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "To disable the image optimization, use Sites->Site Settings->Optimization",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Creating gallery",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Drop images here",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "or",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Full Screen Image",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your image is too large to be resized in the app. Please resize it before adding. You can disable the Resize Images option in Site Settings -> Optimization.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit Image",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Counter Clockwise",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Clockwise",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "YouTube, Vimeo, or custom e.g. https://site.com/video.mp4",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unsupported video format. MP4 only.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-progress": [
+            {
+                "phrase": "Progress",
+                "translate": "进度",
+                "active": true
+            },
+            {
+                "phrase": "Exporting...",
+                "translate": "导出",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "取消",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to stop?",
+                "translate": "您想停止吗？",
+                "active": true
+            },
+            {
+                "phrase": "Stop",
+                "translate": "停止",
+                "active": true
+            },
+            {
+                "phrase": "Continue",
+                "translate": "继续",
+                "active": true
+            },
+            {
+                "phrase": "Unknown error",
+                "translate": "未知错误",
+                "active": true
+            },
+            {
+                "phrase": "Ignore Errors",
+                "translate": "忽略错误",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to stop the publication?",
+                "translate": "您要停止发布？",
+                "active": true
+            },
+            {
+                "phrase": "Publishing...",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-projects-history": [
+            {
+                "phrase": "Unable to revert to history $history date$",
+                "translate": "无法回溯到历史$history date$",
+                "active": true
+            },
+            {
+                "phrase": "Show Project History",
+                "translate": "显示项目历史",
+                "active": true
+            },
+            {
+                "phrase": "History",
+                "translate": "历史",
+                "active": true
+            },
+            {
+                "phrase": "Do you really want to remove the site version from $selected date$?",
+                "translate": "您真要删除$selected date$版本的记录？",
+                "active": true
+            },
+            {
+                "phrase": "Select saved version of project",
+                "translate": "选择保存的项目历史",
+                "active": true
+            },
+            {
+                "phrase": "Revert back",
+                "translate": "回滚",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "取消",
+                "active": true
+            },
+            {
+                "phrase": "Do you really want to revert back to the site version from $selected date$? The current site will not be lost, it will be saved under $current date$.",
+                "translate": "真要恢复到$selected date$版本？当前的网站不会丢失，会自动保存在版本$current date$。",
+                "active": true
+            },
+            {
+                "phrase": "Remove Selected Version",
+                "translate": "删除所选版本",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "删除",
+                "active": true
+            },
+            {
+                "phrase": "Revert Back To Selected Version",
+                "translate": "恢复到所选择版本",
+                "active": true
+            },
+            {
+                "phrase": "Project history is empty",
+                "translate": "项目历史为空",
+                "active": true
+            },
+            {
+                "phrase": "Error while load from selected history:",
+                "translate": "加载所选历史版本失败：",
+                "active": true
+            }
+        ],
+        "app-plugin-resize-images": [
+            {
+                "phrase": "Resize Images",
+                "translate": "变更图片大小",
+                "active": true
+            }
+        ],
+        "app-plugin-spectrum": [
+            {
+                "phrase": "More",
+                "translate": "更多",
+                "active": true
+            },
+            {
+                "phrase": "Less",
+                "translate": "更少",
+                "active": true
+            }
+        ],
+        "app-projects-hash": [
+            {
+                "phrase": "Publish changes only",
+                "translate": "只发布变更部分",
+                "active": true
+            }
+        ],
+        "app-projects": [
+            {
+                "phrase": "Project file error",
+                "translate": "项目文件出错",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "取消",
+                "active": true
+            },
+            {
+                "phrase": "Error to save project file. Close application and run again.",
+                "translate": "保存项目文件出错。关闭程序再次运行一遍。",
+                "active": true
+            },
+            {
+                "phrase": "Error update recents list.",
+                "translate": "更新最近列表出错",
+                "active": true
+            },
+            {
+                "phrase": "error",
+                "translate": "错误",
+                "active": true
+            },
+            {
+                "phrase": "Unknown error while publish",
+                "translate": "发布时未知错误",
+                "active": true
+            },
+            {
+                "phrase": "Open Mobirise Site",
+                "translate": "打开Mobirise网站",
+                "active": true
+            },
+            {
+                "phrase": "Create New Site",
+                "translate": "建立新网站",
+                "active": true
+            },
+            {
+                "phrase": "Open Mobirise site (project.mobirise) not listed here.",
+                "translate": "打开Mobirise网站（project.mobirise）没有显示在这里。",
+                "active": true
+            },
+            {
+                "phrase": "Import Mobirise Site",
+                "translate": "导入Mobirise网站",
+                "active": true
+            },
+            {
+                "phrase": "Clone Site",
+                "translate": "复制网站",
+                "active": true
+            },
+            {
+                "phrase": "Edit Site Styles",
+                "translate": "编辑网站样式",
+                "active": true
+            },
+            {
+                "phrase": "Rename, Favicon, Export",
+                "translate": "重命名，Favicon，导出",
+                "active": true
+            },
+            {
+                "phrase": "Remove Site",
+                "translate": "删除网站",
+                "active": true
+            },
+            {
+                "phrase": "Select Project File",
+                "translate": "选择项目文件",
+                "active": true
+            },
+            {
+                "phrase": "Create New Site",
+                "translate": "建立新网站",
+                "active": true
+            },
+            {
+                "phrase": "Site Name",
+                "translate": "网站名称",
+                "active": true
+            },
+            {
+                "phrase": "Type the name of your new site",
+                "translate": "输入您的网站名称",
+                "active": true
+            },
+            {
+                "phrase": "Select the Theme for this Site",
+                "translate": "选择这个网站的主题",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "好的",
+                "active": true
+            },
+            {
+                "phrase": "More Themes",
+                "translate": "更多主题",
+                "active": true
+            },
+            {
+                "phrase": "Site Settings",
+                "translate": "网站设置",
+                "active": true
+            },
+            {
+                "phrase": "Site Files",
+                "translate": "网站文件",
+                "active": true
+            },
+            {
+                "phrase": "Create a project copy in a different location. Use Publish to create a full copy of the site",
+                "translate": "在新的位置建立一个网站副本",
+                "active": true
+            },
+            {
+                "phrase": "Export Project",
+                "translate": "导出网站",
+                "active": true
+            },
+            {
+                "phrase": "Theme",
+                "translate": "主题",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to remove $site name$?",
+                "translate": "您要删除$site name$?",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to close the current site and open $site name$?",
+                "translate": "您要关闭当前网站，同时打开$site name$吗？",
+                "active": true
+            },
+            {
+                "phrase": "%This site% is not available. Do you want to remove it from the list?",
+                "translate": "%This site%不可用，您要从列表中删除它吗？",
+                "active": true
+            },
+            {
+                "phrase": "No Name",
+                "translate": "未命名",
+                "active": true
+            },
+            {
+                "phrase": "Project file error. Try to restore from history",
+                "translate": "项目文件错误。尝试从历史记录恢复。",
+                "active": true
+            },
+            {
+                "phrase": "Unexpected project save error",
+                "translate": "项目保存异常出错",
+                "active": true
+            },
+            {
+                "phrase": "Unable to save loaded project",
+                "translate": "无法保存加载的项目",
+                "active": true
+            },
+            {
+                "phrase": "Unexpected project create error",
+                "translate": "项目建立时异常出错",
+                "active": true
+            },
+            {
+                "phrase": "Cloned project is wrong",
+                "translate": "复制项目出错",
+                "active": true
+            },
+            {
+                "phrase": "Empty project",
+                "translate": "空项目",
+                "active": true
+            },
+            {
+                "phrase": "Create Site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "or",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable to init project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable to clone project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create a project copy in a different location.&lt;br /&gt;Use Publish to create a full copy of the site",
+                "translate": "",
+                "active": false
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download $theme title$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Sites",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Add Blank Page",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Page Templates",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Themes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No templates matched your search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No themes matched your search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to create the $site name$ site based on the $theme name$ theme, $name preset$ Template?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Common",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Theme Name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Project Files",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to remove a local copy of $site name$?",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-publish-dlg": [
+            {
+                "phrase": "Local drive folder",
+                "translate": "本地磁盘文件夹",
+                "active": true
+            },
+            {
+                "phrase": "folder",
+                "translate": "文件夹",
+                "active": true
+            },
+            {
+                "phrase": "Edit",
+                "translate": "编辑",
+                "active": true
+            },
+            {
+                "phrase": "Browse...",
+                "translate": "浏览...",
+                "active": true
+            },
+            {
+                "phrase": "To export the site project, please use %Sites -> Site Settings%",
+                "translate": "要导出网站项目，请使用%Sites->Site Settings%",
+                "active": true
+            },
+            {
+                "phrase": "Publish",
+                "translate": "发布",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "取消",
+                "active": true
+            },
+            {
+                "phrase": "Browse for folder",
+                "translate": "浏览文件夹",
+                "active": true
+            }
+        ],
+        "app-publish-ftp": [
+            {
+                "phrase": "Edit",
+                "translate": "编辑",
+                "active": true
+            },
+            {
+                "phrase": "Add New",
+                "translate": "添加新的",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "删除",
+                "active": true
+            },
+            {
+                "phrase": "FTP",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "root folder",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Protocol",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Host",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Port",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Username",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Password",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Test FTP Server",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "FTP Site Manager",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Test connection",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Successful connection",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable connect to FTP",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Save",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove this site?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "The site published successfully to $ftp location$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "e.g.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Empty ftp.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connection timed out",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connection reset by peer",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connection refused",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Couldn't resolve the hostname to an IP address",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Network is unreachable",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unknown error while publish",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-publish": [
+            {
+                "phrase": "Initialization, please wait...",
+                "translate": "初始化，请稍等...",
+                "active": true
+            },
+            {
+                "phrase": "Preparing $page name$",
+                "translate": "准备 $page name$ 中",
+                "active": true
+            },
+            {
+                "phrase": "Internal error while processing page $page name$",
+                "translate": "处理$page name$时发生内部错误",
+                "active": true
+            },
+            {
+                "phrase": "Your site was successfully exported to the folder $folder name$",
+                "translate": "您的网站已经成功导出到$folder name$文件夹",
+                "active": true
+            },
+            {
+                "phrase": "Unknown error while publish",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Progress",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Publishing...",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Internal error while translating page $page name$",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-settings": [
+            {
+                "phrase": "App Settings",
+                "translate": "应用设置",
+                "active": true
+            },
+            {
+                "phrase": "Top Toolbar",
+                "translate": "顶部工具栏",
+                "active": true
+            },
+            {
+                "phrase": "Show Page & Site Names",
+                "translate": "显示网页&网站名字",
+                "active": true
+            },
+            {
+                "phrase": "Show All Views",
+                "translate": "显示所有视图",
+                "active": true
+            },
+            {
+                "phrase": "Show Redo",
+                "translate": "显示Redo",
+                "active": true
+            },
+            {
+                "phrase": "Editor",
+                "translate": "编辑器",
+                "active": true
+            },
+            {
+                "phrase": "Show All Block Buttons",
+                "translate": "显示所有区块按钮",
+                "active": true
+            },
+            {
+                "phrase": "Show Site Styles Button",
+                "translate": "显示网站样式按钮",
+                "active": true
+            },
+            {
+                "phrase": "APP",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Dark Mode",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Fullscreen Canvas",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Publish to GitHub Pages",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Github Login",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Token",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-theme-settings": [
+            {
+                "phrase": "Close",
+                "translate": "关闭",
+                "active": true
+            },
+            {
+                "phrase": "More",
+                "translate": "更多",
+                "active": true
+            },
+            {
+                "phrase": "Less",
+                "translate": "更少",
+                "active": true
+            }
+        ],
+        "app-updater": [
+            {
+                "phrase": "New version $version$ is available",
+                "translate": "新的版本$version$当前可用",
+                "active": true
+            },
+            {
+                "phrase": "Download now!",
+                "translate": "现在下载！",
+                "active": true
+            },
+            {
+                "phrase": "Remind later",
+                "translate": "稍后提醒",
+                "active": true
+            },
+            {
+                "phrase": "News",
+                "translate": "新内容",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise news is available, please visit $site url$ website for details.",
+                "translate": "Mobirise新内容可用，请访问$site url$网站查看详细介绍。",
+                "active": true
+            },
+            {
+                "phrase": "Read more...",
+                "translate": "阅读更多...",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "好的",
+                "active": true
+            },
+            {
+                "phrase": "Skip this version",
+                "translate": "跳过这个版本",
+                "active": true
+            }
+        ],
+        "app-user-account": [
+            {
+                "phrase": "Please, Sign Up",
+                "translate": "请注册",
+                "active": true
+            },
+            {
+                "phrase": "Please sign up / login to get latest updates and extensions",
+                "translate": "请注册或登录来获取最新更新以及扩展包",
+                "active": true
+            },
+            {
+                "phrase": "Your Email",
+                "translate": "您的电子邮箱",
+                "active": true
+            },
+            {
+                "phrase": "Sign Up / login",
+                "translate": "注册／登录",
+                "active": true
+            },
+            {
+                "phrase": "or",
+                "translate": "或者",
+                "active": true
+            },
+            {
+                "phrase": "Login with Google",
+                "translate": "用Google账号登录",
+                "active": true
+            },
+            {
+                "phrase": "Login with Facebook",
+                "translate": "用Facebook账号登录",
+                "active": true
+            },
+            {
+                "phrase": "No, I don't need this and don't show me this anymore",
+                "translate": "不用了，我不需要这个而且不要再给我显示了。",
+                "active": true
+            },
+            {
+                "phrase": "Forgot password?",
+                "translate": "忘记密码？",
+                "active": true
+            },
+            {
+                "phrase": "We've sent an email with instructions on how to reset your password to the email address $email$",
+                "translate": "我们向您的电邮$email$发送如何重置密码的指南。",
+                "active": true
+            },
+            {
+                "phrase": "Are you sure you want to logout?",
+                "translate": "您确定要登出？",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "好的",
+                "active": true
+            },
+            {
+                "phrase": "You successfully signed in",
+                "translate": "您已成功登录",
+                "active": true
+            },
+            {
+                "phrase": "Your Password",
+                "translate": "您的密码",
+                "active": true
+            },
+            {
+                "phrase": "Login",
+                "translate": "登录",
+                "active": true
+            },
+            {
+                "phrase": "Enter your password",
+                "translate": "输入您的密码",
+                "active": true
+            },
+            {
+                "phrase": "Please enter a valid email address",
+                "translate": "请输入有效的电子邮箱地址",
+                "active": true
+            },
+            {
+                "phrase": "Your account password is sent to your email. If you haven't received the email, please check Spam folder",
+                "translate": "您账户密码已经发到您的电子邮箱。如果一直收不到，请到垃圾邮件目录查看。",
+                "active": true
+            },
+            {
+                "phrase": "You already have the Mobirise account, please login with your password",
+                "translate": "您已经有Mobirise账号了，请用您的密码登录。",
+                "active": true
+            },
+            {
+                "phrase": "Please sign up / login to load the free theme",
+                "translate": "请注册／登录后使用免费主题",
+                "active": true
+            },
+            {
+                "phrase": "Your password is sent to $email$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "If you haven't received the email, please check Spam folder.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter password for your Mobirise account",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your password is sent to $email$ with first sign up. Check your email to find it.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change email",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please login to get latest updates and extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter your email",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter password",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Check your email. Your password is sent to $email$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You already have the Mobirise account for $email$. Enter your password.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please login to load the free themes and extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your account token has expired, please log in again",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/extbridge.js": [
+            {
+                "phrase": "Images",
+                "translate": "图片",
+                "active": true
+            }
+        ],
+        "add-builder-ext": [
+            {
+                "phrase": "To remove all buttons from the block use %\"Block Parameters\" -> \"Show Buttons\"%",
+                "translate": "要删除区块中的所有按钮请使用%Block Parameters\"->\"Show Buttons\"%",
+                "active": true
+            },
+            {
+                "phrase": "Insert icon",
+                "translate": "插入图标",
+                "active": true
+            },
+            {
+                "phrase": "Font",
+                "translate": "字体",
+                "active": true
+            },
+            {
+                "phrase": "Color",
+                "translate": "颜色",
+                "active": true
+            },
+            {
+                "phrase": "Add",
+                "translate": "添加",
+                "active": true
+            },
+            {
+                "phrase": "Move Left",
+                "translate": "左移",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "删除",
+                "active": true
+            },
+            {
+                "phrase": "Align",
+                "translate": "对齐",
+                "active": true
+            },
+            {
+                "phrase": "Link",
+                "translate": "链接",
+                "active": true
+            },
+            {
+                "phrase": "Edit Site Styles",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Top of Page",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Bottom of Page",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "carousel": [
+            {
+                "phrase": "VIDEO SLIDE",
+                "translate": "视频幻灯片",
+                "active": true
+            },
+            {
+                "phrase": "Play Video",
+                "translate": "播放视频",
+                "active": true
+            },
+            {
+                "phrase": "Youtube or Vimeo",
+                "translate": "Youtube或者Vimeo",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "图片",
+                "active": true
+            },
+            {
+                "phrase": "Show Title",
+                "translate": "显示标题",
+                "active": true
+            },
+            {
+                "phrase": "Show Text",
+                "translate": "显示文本",
+                "active": true
+            },
+            {
+                "phrase": "Show Buttons",
+                "translate": "显示按钮",
+                "active": true
+            },
+            {
+                "phrase": "Color",
+                "translate": "颜色",
+                "active": true
+            },
+            {
+                "phrase": "Opacity",
+                "translate": "透明",
+                "active": true
+            },
+            {
+                "phrase": "Content Align",
+                "translate": "内容对齐",
+                "active": true
+            },
+            {
+                "phrase": "FULL SCREEN SLIDER",
+                "translate": "全屏幻灯片",
+                "active": true
+            },
+            {
+                "phrase": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "translate": "从预设的备选区块中选择，如jumbotrons，hero images，parallax scrolling，视频背景，汉堡包菜单，sticky header等等。",
+                "active": true
+            },
+            {
+                "phrase": "FOR WINDOWS",
+                "translate": "WINDOWS版本",
+                "active": true
+            },
+            {
+                "phrase": "FOR MAC",
+                "translate": "MAC版本",
+                "active": true
+            },
+            {
+                "phrase": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
+                "translate": "带Youtube视频背景和彩色遮罩的幻灯片。标题与文本被左对齐。",
+                "active": true
+            },
+            {
+                "phrase": "IMAGE SLIDE",
+                "translate": "图片幻灯片",
+                "active": true
+            },
+            {
+                "phrase": "Autoplay",
+                "translate": "自动播放",
+                "active": true
+            },
+            {
+                "phrase": "Autoplay Interval (ms)",
+                "translate": "自动播放间隔（ms）",
+                "active": true
+            },
+            {
+                "phrase": "Show Bullets",
+                "translate": "显示强调符号",
+                "active": true
+            },
+            {
+                "phrase": "Type Text",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "gallery": [
+            {
+                "phrase": "Play Video",
+                "translate": "播放视频",
+                "active": true
+            },
+            {
+                "phrase": "Video URL",
+                "translate": "视频链接地址",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "图片",
+                "active": true
+            },
+            {
+                "phrase": "Tags",
+                "translate": "标签",
+                "active": true
+            },
+            {
+                "phrase": "Awesome image",
+                "translate": "酷毙图片",
+                "active": true
+            },
+            {
+                "phrase": "Awesome",
+                "translate": "酷毙",
+                "active": true
+            },
+            {
+                "phrase": "Responsive",
+                "translate": "响应式",
+                "active": true
+            },
+            {
+                "phrase": "Creative",
+                "translate": "创意",
+                "active": true
+            },
+            {
+                "phrase": "Animated",
+                "translate": "动画",
+                "active": true
+            },
+            {
+                "phrase": "Type caption here",
+                "translate": "这里输入标题",
+                "active": true
+            },
+            {
+                "phrase": "Show Bullets",
+                "translate": "显示强调符号",
+                "active": true
+            },
+            {
+                "phrase": "Show Text",
+                "translate": "实现文本",
+                "active": true
+            },
+            {
+                "phrase": "Show Tags",
+                "translate": "显示标签",
+                "active": true
+            },
+            {
+                "phrase": "Type Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Row/Column",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Containers Count",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "1st Container Items",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "2nd Container Items",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "3rd Container Items",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "4th Container Items",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "map": [
+            {
+                "phrase": "350 5th Ave, New York, NY 10118",
+                "translate": "纽约市第五大道350号",
+                "active": true
+            },
+            {
+                "phrase": "Address",
+                "translate": "地址",
+                "active": true
+            }
+        ],
+        "shop": [
+            {
+                "phrase": "Best Seller",
+                "translate": "畅销品",
+                "active": true
+            },
+            {
+                "phrase": "On Sale",
+                "translate": "优惠",
+                "active": true
+            },
+            {
+                "phrase": "Old Price",
+                "translate": "原价",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "图片",
+                "active": true
+            },
+            {
+                "phrase": "Tags",
+                "translate": "标签",
+                "active": true
+            },
+            {
+                "phrase": "Awesome image",
+                "translate": "酷毙图片",
+                "active": true
+            },
+            {
+                "phrase": "Brown Glasses",
+                "translate": "棕色眼睛",
+                "active": true
+            },
+            {
+                "phrase": "Men\\'s Shoes",
+                "translate": "男士鞋",
+                "active": true
+            },
+            {
+                "phrase": "Blue Backpack",
+                "translate": "蓝色背包",
+                "active": true
+            },
+            {
+                "phrase": "Red Snapback",
+                "translate": "红色包",
+                "active": true
+            },
+            {
+                "phrase": "Black Glasses",
+                "translate": "黑眼镜",
+                "active": true
+            },
+            {
+                "phrase": "Women\\'s Shoes",
+                "translate": "女鞋",
+                "active": true
+            },
+            {
+                "phrase": "Pink Backpack",
+                "translate": "粉色背包",
+                "active": true
+            },
+            {
+                "phrase": "Red Cap",
+                "translate": "红色帽子",
+                "active": true
+            },
+            {
+                "phrase": "Awesome",
+                "translate": "酷毙",
+                "active": true
+            },
+            {
+                "phrase": "Wonderful",
+                "translate": "惊人的",
+                "active": true
+            },
+            {
+                "phrase": "Creative",
+                "translate": "创意",
+                "active": true
+            },
+            {
+                "phrase": "Responsive",
+                "translate": "响应式",
+                "active": true
+            },
+            {
+                "phrase": "Animated",
+                "translate": "动画",
+                "active": true
+            },
+            {
+                "phrase": "Casual shoes (contact us for sizing)",
+                "translate": "便鞋（具体尺码请联系我们）",
+                "active": true
+            },
+            {
+                "phrase": "Lightweight textured fabric",
+                "translate": "便携织物",
+                "active": true
+            },
+            {
+                "phrase": "Rounded v-neckline",
+                "translate": "项链",
+                "active": true
+            },
+            {
+                "phrase": "Pom pom trims",
+                "translate": "英式大衣",
+                "active": true
+            },
+            {
+                "phrase": "Regular fit – true to size",
+                "translate": "常规尺寸",
+                "active": true
+            },
+            {
+                "phrase": "Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.",
+                "translate": "详细描述",
+                "active": true
+            },
+            {
+                "phrase": "Product code:",
+                "translate": "商品码",
+                "active": true
+            },
+            {
+                "phrase": "From:",
+                "translate": "来自：",
+                "active": true
+            },
+            {
+                "phrase": "Buy now!",
+                "translate": "现在下单！",
+                "active": true
+            },
+            {
+                "phrase": "Type caption here",
+                "translate": "输入标题",
+                "active": true
+            },
+            {
+                "phrase": "Show Sidebar",
+                "translate": "显示侧栏",
+                "active": true
+            },
+            {
+                "phrase": "Show Card Buttons",
+                "translate": "显示卡片按钮",
+                "active": true
+            },
+            {
+                "phrase": "Show Sorting Buttons",
+                "translate": "显示排序按钮",
+                "active": true
+            },
+            {
+                "phrase": "Show Best Sellers",
+                "translate": "显示畅销品",
+                "active": true
+            },
+            {
+                "phrase": "Show Price Range",
+                "translate": "显示价格范围",
+                "active": true
+            },
+            {
+                "phrase": "Show Tags",
+                "translate": "显示标签",
+                "active": true
+            },
+            {
+                "phrase": "Default sorting",
+                "translate": "默认排序",
+                "active": true
+            },
+            {
+                "phrase": "Price: low to high",
+                "translate": "价格：从低到高",
+                "active": true
+            },
+            {
+                "phrase": "Price: high to low",
+                "translate": "价格：从高到低",
+                "active": true
+            },
+            {
+                "phrase": "Filter",
+                "translate": "过滤",
+                "active": true
+            },
+            {
+                "phrase": "Show all",
+                "translate": "显示全部",
+                "active": true
+            },
+            {
+                "phrase": "Sale",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Title",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Price",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Caption",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reverse Sidebar:",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-translate": [
+            {
+                "phrase": "Language",
+                "translate": "语言",
+                "active": true
+            },
+            {
+                "phrase": "Open",
+                "translate": "打开",
+                "active": true
+            },
+            {
+                "phrase": "You\\'re connected as:",
+                "translate": "您已经连接到：",
+                "active": true
+            },
+            {
+                "phrase": "Disconnect",
+                "translate": "断开",
+                "active": true
+            },
+            {
+                "phrase": "Add",
+                "translate": "添加",
+                "active": true
+            },
+            {
+                "phrase": "Change language",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error setup language!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change language?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "blocks": [
+            {
+                "phrase": "Menu",
+                "translate": "菜单",
+                "active": true
+            },
+            {
+                "phrase": "Headers",
+                "translate": "抬头",
+                "active": true
+            },
+            {
+                "phrase": "Images & Videos",
+                "translate": "图片与视频",
+                "active": true
+            },
+            {
+                "phrase": "Sliders & Galleries",
+                "translate": "幻灯片与画廊",
+                "active": true
+            },
+            {
+                "phrase": "Article",
+                "translate": "文章",
+                "active": true
+            },
+            {
+                "phrase": "Features",
+                "translate": "特性",
+                "active": true
+            },
+            {
+                "phrase": "Animated Features",
+                "translate": "动画特性",
+                "active": true
+            },
+            {
+                "phrase": "Pricing Tables",
+                "translate": "报价表",
+                "active": true
+            },
+            {
+                "phrase": "Counters",
+                "translate": "计数",
+                "active": true
+            },
+            {
+                "phrase": "Countdowns",
+                "translate": "倒计时",
+                "active": true
+            },
+            {
+                "phrase": "Progress",
+                "translate": "进度",
+                "active": true
+            },
+            {
+                "phrase": "Timelines",
+                "translate": "时间线",
+                "active": true
+            },
+            {
+                "phrase": "Accordions & Toggles & Tabs",
+                "translate": "插画&开关&Tabs",
+                "active": true
+            },
+            {
+                "phrase": "Info",
+                "translate": "信息",
+                "active": true
+            },
+            {
+                "phrase": "Forms",
+                "translate": "表单",
+                "active": true
+            },
+            {
+                "phrase": "Maps",
+                "translate": "地图",
+                "active": true
+            },
+            {
+                "phrase": "Social",
+                "translate": "社交",
+                "active": true
+            },
+            {
+                "phrase": "Testimonials",
+                "translate": "推荐",
+                "active": true
+            },
+            {
+                "phrase": "Clients",
+                "translate": "客户",
+                "active": true
+            },
+            {
+                "phrase": "Tables",
+                "translate": "表哥",
+                "active": true
+            },
+            {
+                "phrase": "Footers",
+                "translate": "脚注",
+                "active": true
+            }
+        ],
+        "app-themes": [
+            {
+                "phrase": "This site uses the theme $theme title$ that isn't available.",
+                "translate": "本网站使用的主题$theme title$不再可用。",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "取消",
+                "active": true
+            },
+            {
+                "phrase": "Install $theme title$",
+                "translate": "安装$theme title$",
+                "active": true
+            },
+            {
+                "phrase": "No themes available for loaded project",
+                "translate": "加载的项目无主题可用",
+                "active": true
+            },
+            {
+                "phrase": "This site uses the theme $theme title$ that isn't available. If the theme is installed, then reinstall it please.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Try to log out and log back in",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download $addonName",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-mobile-interface": [
+            {
+                "phrase": "Remove Block?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove Page",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove page $page name$?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove Site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit Site Styles",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-form-editor": [
+            {
+                "phrase": "Form Fields",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Form Options",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Notification Email or Action URL",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please enter a valid email address or URL",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Success Message",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Form",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Verify",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Verified",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Email verified",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "secondary-components": [
+            {
+                "phrase": "Block Parameters",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Content",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/app-translate.js": [
+            {
+                "phrase": "Open",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You\\'re connected as:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Disconnect",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Add",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change language?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error setup language!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Language",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/app-plugin-mbrsite.js": [
+            {
+                "phrase": "Incorrect server response.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Incorrect domain name.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "File too large",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Site Domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Delete",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to delete the domain $domain$?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change Site Domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change Site Name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable to init project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Can't download the site because it was published incorrectly.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error loading project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to remove the domain $domain$? Your site will be completely removed from the Web.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error removing site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Congratulations!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your site is published and live online:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Next:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit your site online:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connect your own domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "https://",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "ok",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove Site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error removing the domain",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-account": [
+            {
+                "phrase": "Please login to get latest updates and extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Login with Google",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Login with Facebook",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "or",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter your email",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Login",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use free version",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No, I don't need this and don't show me this anymore",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Forgot password?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You successfully signed in",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter password",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter your password",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please enter a valid email address",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Check your email. Your password is sent to $email$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change email",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "If you haven't received the email, please check Spam folder.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You already have the Mobirise account for $email$. Enter your password.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your password is sent to $email$ with first sign up. Check your email to find it.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Are you sure you want to logout?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "We've sent an email with instructions on how to reset your password to the email address $email$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please login to load the free themes and extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your account token has expired, please log in again",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "addons-core": [
+            {
+                "phrase": "No internet connection found. Some extensions may be not available.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-expiration-checking": [
+            {
+                "phrase": "No internet connection found. Some extensions may be not available.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connect to the Internet to add this block",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "The block cannot be added because your license for $extension$ has expired.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Update",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-payment-checking": [
+            {
+                "phrase": "No internet connection found. Continue without Code Editor Extension.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-auto-update": [
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Updating",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Downloading",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "All extensions $text$.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Сancel $title$?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Yes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-cms": [
+            {
+                "phrase": "Add online editor (CMS) to /edit/ folder",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "cookies-alert": [
+            {
+                "phrase": "By continuing you agree to our %Terms of Service% and %Privacy Policy%",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "We use cookies to give you the best experience. Read our %cookie policy%",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "GOT IT",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "REJECT",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cookies Alert",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enable",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "GDPR Compliance",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cookies Alert Editor",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Consent",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Alert only - without blocking",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reject and Accept - \"Reject\" blocks JS and iframes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Accept - page loads only after \"Accept\"",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Layout",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Bottom panel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Center popup",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Text Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Background Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Accept Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Link Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reject Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Background Opacity",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Overlay Opacity",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your cookies alert message.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reject Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your cookies alert reject button text.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reject",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Accept Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your cookies alert accept button text.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Compliance GDPR",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Underline Link",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your GDPR message.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Demo",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/app-plugin-domains.js": [
+            {
+                "phrase": "Incorrect server response.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Copy",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connect domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "OK",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Disconnect",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Site Domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connect",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove Domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Open in Browser",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Publish",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Recheck",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Invalid domain name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This feature is not available",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Domain successfully detached",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Are you sure you want to delete this record?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Delete",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Internal server error.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "DNS management",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to disconnect the domain $domain$?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Copied",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "google-analytics": [
+            {
+                "phrase": "Analytics",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your Analytics code snippet here or paste any other code that you want to have on every page immediately after the opening $body$ tag.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-mobirise-ai": [
+            {
+                "phrase": "Create with Mobirise AI",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Describe in detail what your site will be about, what it will offer, who is behind it, your benefits and specialties. You can write in any language.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "We are Craft22, a team of skilled artisans from Brooklyn, NY.  We offer a wide range of handmade crafts, from custom jewelry to home decor.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Minimum 32 characters",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Generate",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your prompt is too short, add more details.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your prompt is too long, shorten it.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-page-presets": [
+            {
+                "phrase": "If the theme is installed, please reinstall it.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Install $theme title$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Choose Template for Page",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-projects-presets": [
+            {
+                "phrase": "If the theme is installed, please reinstall it.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Install $theme title$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Choose Template for $nameTheme$ Theme",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-restore": [
+            {
+                "phrase": "Do you really want to restore the deleted sites?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Restore Deleted Sites",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you really want to restore ALL deleted sites? This may take some time...",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/app-plugin-seo.js": [
+            {
+                "phrase": "Edit sitemap.xml",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit robots.txt",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter site URL",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "URL is not valid! (must be like \"http://mysite.com\")",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "SEO & Analytics",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use robots.txt",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit Robots.txt",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use sitemap.xml",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Auto",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit Sitemap Settings",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "user-licenses": [
+            {
+                "phrase": "No active licenses",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Kits",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Themes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Sites",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Expired",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "User Licenses",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Licenses",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-webp-convert": [
+            {
+                "phrase": "Optimization",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Convert Images to WebP",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Publishing...",
+                "translate": "",
+                "active": true
+            }
+        ]
+    },
+    "author": "119417979@qq.com"
+}

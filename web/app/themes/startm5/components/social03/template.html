@@ -1,0 +1,102 @@
+<section
+  class="social03"
+  group="Social"
+  data-bg-video="{{bg.type == 'video' && bg.value.url}}"
+  mbr-class="{'mbr-parallax-background': bg.parallax}"
+  plugins="SocialLikes,Socicon"
+>
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="9" step="1" value="5">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="9" step="1" value="5">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Show Title" name="showTitle" checked>
+        <input type="checkbox" title="Show Text" name="showText" checked>
+        <input type="checkbox" title="Square Icons" name="squareIcons">
+        <header>It will share the current page</header>
+        <input type="checkbox" title="Facebook" name="facebook" checked>
+        <input type="checkbox" title="Twitter" name="twitter" checked>
+        <input type="checkbox" title="Pinterest" name="pinterest" checked>
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax>
+            <input type="image" title="Image" value="../_images/background1.jpg">
+            <input type="color" title="Color" value="#ffffff" selected>
+            <input type="video" title="Video" value="https://vimeo.com/428046504">
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input
+          type="image"
+          title="Fallback Image"
+          value="../_images/background1.jpg"
+          name="fallBackImage"
+          condition="bg.type === 'video'"
+        >
+       <input
+          type="checkbox"
+          title="Overlay"
+          name="overlay"
+          condition="bg.type !== 'color'"
+          checked
+        >
+        <input
+          type="color"
+          title="Overlay Color"
+          name="overlayColor"
+          value="#ffffff"
+          condition="overlay && bg.type !== 'color'"
+        >
+        <input
+          type="range"
+          inline
+          title="Opacity"
+          name="overlayOpacity"
+          min="0"
+          max="1"
+          step="0.1"
+          value="0.5"
+          condition="overlay && bg.type !== 'color'"
+        >
+    </mbr-parameters>
+    <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+    <div
+      class="mbr-overlay"
+      mbr-if="overlay && bg.type!== 'color'"
+      mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}"
+    >
+    </div>
+    <div class="container">
+        <div class="media-container-row">
+            <div class="col-12">
+                <h3
+                  class="mbr-section-title mb-4 align-center mbr-fonts-style"
+                  mbr-theme-style="display-2"
+                  mbr-if="showTitle"
+                  data-app-selector=".mbr-section-title, .mbr-social-likes"
+                >
+                    <b>Share this page</b>
+                </h3>
+                <p
+                  class="mbr-section-text mb-5 align-center mbr-fonts-style"
+                  mbr-theme-style="display-7"
+                  mbr-if="showText"
+                  data-app-selector=".mbr-section-title, .mbr-social-likes"
+                >
+                    Some options of sharing are available only if your page is online.
+                </p>
+                <div>
+                    <div class="mbr-social-likes align-center">
+                        <span mbr-if="facebook" class="btn btn-social socicon-bg-facebook facebook m-2">
+                            <i class="socicon socicon-facebook"></i>
+                        </span>
+                        <span mbr-if="twitter" class="btn btn-social twitter socicon-bg-twitter m-2">
+                            <i class="socicon socicon-twitter"></i>
+                        </span>
+                        <span mbr-if="pinterest" class="btn btn-social pinterest socicon-bg-pinterest m-2">
+                            <i class="socicon socicon-pinterest"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

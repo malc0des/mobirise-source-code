@@ -1,0 +1,874 @@
+@import "../../interface/variables.scss";
+@import "../../interface/colors.scss";
+
+/* Remove animation for header arrow */
+.is-builder .mbr-arrow--floating .mbr-arrow__link {
+    animation: none;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+
+body {
+    // fix footer component
+    margin-bottom: 0 !important;
+    background-color: $color-light-background !important;
+    &.rounded-canvas {
+        .app-component.sticky-component {
+            position: sticky;
+            top: 0;
+            z-index: 1001;
+        }
+    }
+    &.desktop {
+        &.rounded-canvas {
+            // hack for rounded template with parallax block at first and last positions
+            overflow-x: hidden;
+            padding: 34px;
+            .template {
+                min-height: calc(100vh - 68px);
+                border-radius: $border-radius;
+            }
+            .app-component {
+                @media (min-width: 600px) {
+                    // component highlight
+                    &::after {
+                        top: -4px;
+                        right: -4px;
+                        left: -4px;
+                        bottom: -4px;
+                        border-radius: $border-radius;
+                    }
+                }
+                // for rounded template
+                &:first-child {
+                    &:not(.focused) {
+                        > .app-component-content {
+                            > section {
+                                border-top-right-radius: $border-radius;
+                                border-top-left-radius: $border-radius;
+                                .navbar, > .mbr-overlay, > [id^="jarallax-container"], .slider-fullscreen-image, .mbr-background-video-preview, .mbr-figure:not(.container) {
+                                    border-top-right-radius: $border-radius;
+                                    border-top-left-radius: $border-radius;
+                                }
+                            }
+                        }
+                        &.pos-absolute + .app-component {
+                            @media (min-width: 600px) {
+                                // component highlight
+                                &::after {
+                                    top: -2px;
+                                }
+                            }
+                            > .app-component-content {
+                                > section {
+                                    border-top-right-radius: $border-radius;
+                                    border-top-left-radius: $border-radius;
+                                    transition: .2s border-radius ease;
+                                    > .mbr-overlay, > [id^="jarallax-container"], .slider-fullscreen-image, .mbr-background-video-preview, .mbr-figure:not(.container) {
+                                        border-top-right-radius: $border-radius;
+                                        border-top-left-radius: $border-radius;
+                                        transition: .2s border-radius ease;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    > .app-component-content {
+                        > section {
+                            transition: .2s border-radius ease;
+                            .navbar {
+                                transition: .2s border-radius ease;
+                            }
+                        }
+                    }
+                }
+                &:last-child {
+                    &:not(.focused) {
+                        > .app-component-content {
+                            > section {
+                                border-bottom-right-radius: $border-radius;
+                                border-bottom-left-radius: $border-radius;
+                                > .mbr-overlay, > [id^="jarallax-container"], .slider-fullscreen-image, .mbr-background-video-preview, .mbr-figure:not(.container) {
+                                    border-bottom-right-radius: $border-radius;
+                                    border-bottom-left-radius: $border-radius;
+                                }
+                            }
+                        }
+                    }
+                    > .app-component-content {
+                        > section {
+                            transition: .2s border-radius ease;
+                        }
+                    }
+                }
+                /* component menu */
+                &[data-app-always-bottom] .app-component-menu {
+                    right: 75px;
+                }
+                .app-component-menu {
+                    .app-component-edit {
+                        right: -22px;
+                    }
+                }
+                &[data-app-always-top="true"], &.pos-absolute {
+                    > .app-component-menu {
+                        .app-component-edit {
+                           top: -33px;
+                       }
+                    }
+                    + .app-component .app-component-menu {
+                        top: -73px;
+                        .app-component-edit {
+                            top: 93px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.scaled {
+        padding: $scaledTemplatePadding !important;
+        > .template {
+            min-height: calc(100vh - #{$scaledTemplatePadding} * 2) !important;
+            border-radius: $border-radius * $scaleTemplateFactor !important;
+            box-shadow: 0 0 12px * $scaleTemplateFactor 0 rgba(55, 73, 72, .06);
+            .app-component {
+                &.sticky-component {
+                    position: sticky;
+                    top: 0;
+                    z-index: 1001;
+                }
+                // for rounded template
+                &:first-child {
+                    &:not(.focused) {
+                        > .app-component-content {
+                            > section {
+                                border-top-right-radius: $border-radius * $scaleTemplateFactor;
+                                border-top-left-radius: $border-radius * $scaleTemplateFactor;
+                                .navbar, > .mbr-overlay, > [id^="jarallax-container"], .slider-fullscreen-image, .mbr-background-video-preview, .mbr-figure:not(.container) {
+                                    border-top-right-radius: $border-radius * $scaleTemplateFactor;
+                                    border-top-left-radius: $border-radius * $scaleTemplateFactor;
+                                }
+                            }
+                        }
+                        &.pos-absolute + .app-component {
+                            > .app-component-content {
+                                > section {
+                                    border-top-right-radius: $border-radius * $scaleTemplateFactor;
+                                    border-top-left-radius: $border-radius * $scaleTemplateFactor;
+                                    transition: .2s border-radius ease;
+                                    > .mbr-overlay, > [id^="jarallax-container"], .slider-fullscreen-image, .mbr-background-video-preview, .mbr-figure:not(.container) {
+                                        border-top-right-radius: $border-radius * $scaleTemplateFactor;
+                                        border-top-left-radius: $border-radius * $scaleTemplateFactor;
+                                        transition: .2s border-radius ease;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    > .app-component-content {
+                        > section {
+                            transition: .2s border-radius ease;
+                            .navbar {
+                                transition: .2s border-radius ease;
+                            }
+                        }
+                    }
+                }
+                &:last-child {
+                    &:not(.focused) {
+                        > .app-component-content {
+                            > section {
+                                border-bottom-right-radius: $border-radius * $scaleTemplateFactor;
+                                border-bottom-left-radius: $border-radius * $scaleTemplateFactor;
+                                > .mbr-overlay, > [id^="jarallax-container"], .slider-fullscreen-image, .mbr-background-video-preview, .mbr-figure:not(.container) {
+                                    border-bottom-right-radius: $border-radius * $scaleTemplateFactor;
+                                    border-bottom-left-radius: $border-radius * $scaleTemplateFactor;
+                                }
+                            }
+                        }
+                    }
+                    > .app-component-content {
+                        > section {
+                            transition: .2s border-radius ease;
+                        }
+                    }
+                }
+
+                @media (min-width: 600px) {
+                    // component highlight
+                    &::after {
+                        top: 0;
+                        right: 0;
+                        left: 0;
+                        bottom: 0;
+                    }
+                }
+                > .app-component-menu {
+                    display: none;
+                }
+                > .app-component-content {
+                    pointer-events: none;
+                    .mbr-background-video-preview {
+                        min-height: 0 !important;
+                    }
+                    > .mbr-fullscreen {
+                        min-height: 20vh !important;
+                        height: auto !important;
+                        .mbr-overlay {
+                            min-height: 20vh !important;
+                            height: auto !important;
+                        }
+                        .carousel-item img {
+                            min-height: 20vh !important;
+                            height: auto !important;
+                        }
+                    }
+                    .mbr-section--full-height,
+                    .mbr-section-full {
+                        max-height: 20vh !important;
+                        .mbr-overlay {
+                            min-height: 20vh !important;
+                        }
+                    }
+                    .full-screen {
+                        .slider-fullscreen-image {
+                            min-height: 20vh !important;
+                        }
+                        .mbr-overlay {
+                            min-height: 20vh !important;
+                        }
+                        .carousel-item .container.container-slide {
+                            min-height: 20vh !important;
+                        }
+                    }
+                }
+            }
+        }
+        @media (min-width: 1441px) {
+            padding: $scaledBigTemplatePadding !important;
+            > .template {
+                min-height: calc(100vh - #{$scaledBigTemplatePadding} * 2) !important;
+                border-radius: $border-radius * $scaleBigTemplateFactor !important;
+                box-shadow: 0 0 12px * $scaleBigTemplateFactor 0 rgba(55, 73, 72, .06);
+                .app-component {
+                    // for rounded template
+                    &:first-child {
+                        &:not(.focused) {
+                            > .app-component-content {
+                                > section {
+                                    border-top-right-radius: $border-radius * $scaleBigTemplateFactor;
+                                    border-top-left-radius: $border-radius * $scaleBigTemplateFactor;
+                                    .navbar, > .mbr-overlay, > [id^="jarallax-container"], .slider-fullscreen-image, .mbr-background-video-preview, .mbr-figure:not(.container) {
+                                        border-top-right-radius: $border-radius * $scaleBigTemplateFactor;
+                                        border-top-left-radius: $border-radius * $scaleBigTemplateFactor;
+                                    }
+                                }
+                            }
+                            &.pos-absolute + .app-component {
+                                > .app-component-content {
+                                    > section {
+                                        border-top-right-radius: $border-radius * $scaleBigTemplateFactor;
+                                        border-top-left-radius: $border-radius * $scaleBigTemplateFactor;
+                                        > .mbr-overlay, > [id^="jarallax-container"], .slider-fullscreen-image, .mbr-background-video-preview, .mbr-figure:not(.container) {
+                                            border-top-right-radius: $border-radius * $scaleBigTemplateFactor;
+                                            border-top-left-radius: $border-radius * $scaleBigTemplateFactor;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &:last-child {
+                        &:not(.focused) {
+                            > .app-component-content {
+                                > section {
+                                    border-bottom-right-radius: $border-radius * $scaleBigTemplateFactor;
+                                    border-bottom-left-radius: $border-radius * $scaleBigTemplateFactor;
+                                    > .mbr-overlay, > [id^="jarallax-container"], .slider-fullscreen-image, .mbr-background-video-preview, .mbr-figure:not(.container) {
+                                        border-bottom-right-radius: $border-radius * $scaleBigTemplateFactor;
+                                        border-bottom-left-radius: $border-radius * $scaleBigTemplateFactor;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    > .app-component-content {
+                        > .mbr-fullscreen {
+                            min-height: 40vh !important;
+                            .mbr-overlay {
+                                min-height: 40vh !important;
+                            }
+                            .carousel-item img {
+                                min-height: 40vh !important;
+                            }
+                        }
+                        .mbr-section--full-height,
+                        .mbr-section-full {
+                            max-height: 40vh !important;
+                            .mbr-overlay {
+                                min-height: 40vh !important;
+                            }
+                        }
+                        .full-screen {
+                            .slider-fullscreen-image {
+                                min-height: 40vh !important;
+                            }
+                            .mbr-overlay {
+                                min-height: 40vh !important;
+                            }
+                            .carousel-item .container.container-slide {
+                                min-height: 40vh !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.dark-mode {
+        background-color: $color-dark-background !important;
+        ::-webkit-scrollbar-thumb, &::-webkit-scrollbar-thumb {
+            background: scale-color($color: $color-dark3, $lightness: 25%);
+        }
+
+        ::-webkit-scrollbar-track, &::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, .05);
+        }
+        .app-component {
+            .app-component-menu {
+                .app-component-edit {
+                    background-color: $color-dark1;
+                    box-shadow: 0 5px 10px rgba($color-dark-title2, .2);
+                    .mbr-btn {
+                        color: $color-dark-title2;
+                        &.component-params {
+                            color: $color-main2;
+                            &:hover {
+                                color: $color-dark-title2;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .note-mbrStyle {
+            ul.dropdown-menu li.selected a {
+                background-color: $color-dark3;
+                &:hover {
+                    background-color: $color-dark2;
+                }
+            }
+        }
+    }
+}
+
+.note-air-layout .dropup .caret {
+    @media (max-width: 600px) {
+        border-top: 4px solid #333;
+        border-bottom: 0 dotted;
+    }
+}
+
+.app-component-divider {
+    width: 100%;
+    height: 100px;
+    border: 15px dashed $color-main1;
+    @media (min-width: 1441px) {
+        height: 100px / $scaleBigTemplateFactor;
+        border-width: 8px;
+    }
+}
+
+.ui-sortable-placeholder {
+    visibility: visible !important;
+    overflow: hidden;
+    background: #fff;
+    border: 3px dashed $color-main1;
+    height: 20px;
+    @media (min-width: 1201px) {
+        height: 70px;
+        border-width: 7px;
+    }
+}
+
+.app-component {
+    position: relative;
+    @media (min-width: 600px) {
+        // component highlight
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            opacity: 0;
+            border: 4px solid $color-main1;
+            z-index: 1000;
+            user-select: none;
+            -webkit-user-drag: none;
+            pointer-events: none;
+            transition: .3s opacity ease;
+        }
+    }
+    &.ui-sortable-helper {
+        left: auto !important;
+        width: calc(100% - #{$scaledTemplatePadding} * 2) !important;
+    }
+    // for menu only
+    &.pos-absolute::after {
+        bottom: -93px !important;
+    }
+    &.focused {
+        &[data-app-always-top="true"], &.pos-absolute {
+            z-index: 1040 !important;
+        }
+        &::after {
+            opacity: 1;
+        }
+    }
+    .app-component-content {
+        position: relative;
+    }
+    *::selection {
+        background-color: rgba(66, 165, 245, .5);
+        color: #fff;
+    }
+    // fix user select for each editable element
+    [contenteditable] {
+        &,
+        * {
+            user-select: auto;
+        }
+    }
+    [data-app-btn] {
+        outline: none;
+    }
+    [data-app-edit="content"],
+    [data-app-edit="image"] {
+        outline: none;
+        cursor: text;
+    }
+    [data-app-btn],
+    [data-app-edit="image"],
+    [data-app-edit="media"],
+    [data-app-edit="content"],
+    [data-app-edit="full"],
+    [mbr-media],
+    [custom-code] {
+        cursor: pointer;
+    }
+    [contentEditable="true"] {
+        cursor: text !important;
+    }
+    /* component menu */
+    &[data-app-always-bottom] .app-component-menu {
+        right: 75px;
+    }
+    .app-component-menu {
+        position: sticky;
+        top: 0;
+        z-index: 1039;
+        opacity: 0;
+        transition: .3s opacity ease;
+        @media (max-width: 600px) {
+            display: none;
+        }
+        .app-component-edit {
+            position: absolute;
+            top: 20px;
+            right: 0;
+            padding: 5px;
+            background-color: #ffffff;
+            border-radius: $border-radius;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+        }
+        .mbr-btn {
+            font-size: 24px;
+            width: 52px;
+            height: 44px;
+            line-height: 44px;
+            padding: 4px 0 0;
+            color: #808080;
+            border: none;
+            border-radius: $border-radius;
+            &:not(:last-child) {
+                margin-right: 5px;
+            }
+            &.component-remove {
+                margin-right: 0;
+            }
+            &.component-params {
+                color: $color-main2;
+                @keyframes rotating {
+                    8% {
+                        transform: rotate(90deg);
+                    }
+                    16% {
+                        transform: rotate(0deg);
+                    }
+                    100% {
+                        transform: rotate(0deg);
+                    }
+                }
+                &::before {
+                    display: inline-block;
+                    height: 36px;
+                    animation: 10s infinite linear rotating;
+                }
+            }
+            &.sortable {
+                cursor: grab;
+            }
+        }
+        .hidden-param {
+            visibility: hidden;
+            opacity: 0;
+            transform: translateX(60px);
+        }
+    }
+    &:hover .app-component-menu {
+        opacity: 1;
+        &:hover {
+            .component-cancel:hover,
+            .component-remove:hover {
+                color: #ffffff;
+                background: $color-main3;
+            }
+            .component-code:hover,
+            .component-code-fake,
+            .component-css:hover,
+            .component-params:hover {
+                color: #ffffff;
+                background: $color-main2;
+            }
+            .component-save:hover,
+            .sortable:hover {
+                color: #ffffff;
+                background: $color-main1;
+            }
+        }
+    }
+    &[data-app-always-top="true"], &.pos-absolute {
+        > .app-component-menu {
+            .app-component-edit {
+               top: 70px;
+           }
+        }
+        + .app-component .app-component-menu {
+            top: -73px;
+            .app-component-edit {
+                top: 93px;
+            }
+        }
+    }
+    .app-component-menu.app-component-code-editor {
+        .app-component-edit {
+            display: none;
+        }
+    }
+    // fix Footer component
+    .app-component-content footer {
+        position: relative;
+    }
+}
+
+// video wrapper
+.app-video-wrapper {
+    position: relative;
+    background: #3e3e3c;
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    &::before {
+        position: absolute;
+        font-family: "Moririse2";
+        content: "\e95f";
+        font-size: 70px;
+        line-height: 70px;
+        margin-left: -35px;
+        margin-top: -35px;
+        top: 50%;
+        left: 50%;
+        color: #fff;
+        text-shadow: 1px 1px #7c7c7c;
+        z-index: 1;
+    }
+    > img {
+        opacity: .6;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Tooltip styles */
+.tooltip {
+    cursor: default;
+    user-select: none;
+    -webkit-user-drag: none;
+    @media (max-width: 600px) {
+        display: none !important;
+    }
+}
+
+.tooltip-inner {
+    font-size: 15px;
+    font-family: 'Jost', sans-serif;
+    padding: 7px 12px;
+    border-radius: $border-radius;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    line-break: auto;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+}
+
+// summernote
+.note-popover .popover {
+    .popover-content {
+        padding-bottom: 4px;
+        > .btn-group {
+            margin-top: 4px;
+        }
+        .note-mbrLinkColor .btn {
+            line-height: 0;
+        }
+        .btn {
+            font-size: 24px !important;
+            height: 44px;
+            transition: $transition;
+            transform: none;
+            box-shadow: none;
+            i {
+                line-height: 42px;
+            }
+        }
+    }
+}
+
+.note-air-layout .btn {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* Fix Summernote Modal */
+.note-air-layout h4.modal-title {
+    margin: 0;
+}
+
+.note-air-layout .modal-footer {
+    margin-top: 0;
+}
+
+.note-air-layout .row {
+    margin-bottom: 15px;
+}
+
+.note-air-layout .checkbox {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.note-air-layout .modal-body {
+    padding-bottom: 5px;
+}
+
+/* Placeholder to contenteditable areas */
+span > a[contentEditable="true"]:empty,
+span[contentEditable="true"]:empty {
+    display: inline-block;
+    min-height: 20px;
+    min-width: 20px;
+}
+
+[data-app-placeholder]:empty:not(:focus)::after {
+    content: attr(data-app-placeholder);
+    color: inherit;
+    opacity: .5;
+}
+
+.mbr-btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: .375rem 1.6rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: $border-radius;
+    transition: $transition;
+    white-space: nowrap;
+}
+
+.note-mbrStyle {
+    ul.dropdown-menu li {
+        position: relative;
+    }
+    ul.dropdown-menu li a {
+        font-style: normal;
+        /*clear bootstrap style*/
+    }
+    ul.dropdown-menu li span {
+        margin: 0 !important;
+    }
+    .mbr-icon-paint-brush {
+        bottom: 0;
+        position: absolute;
+        right: 5px;
+        top: 0;
+    }
+    ul.dropdown-menu li.selected a {
+        background-color: #f5f5f5;
+        &:hover {
+            background-color: #ebebeb;
+        }
+    }
+    ul.dropdown-menu li.selected .mbr-icon-paint-brush {
+        visibility: visible !important;
+    }
+    .note-current-mbrStyle,
+    ul.dropdown-menu li a,
+    ul.dropdown-menu li span {
+        font-size: 24px !important;
+        line-height: 1.4 !important;
+    }
+}
+
+amp-img > i-amphtml-sizer {
+    position: absolute;
+}
+
+.userblock-alert {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    padding: 15px 25px;
+    max-width: 250px;
+    border-radius: $border-radius;
+    text-align: center;
+    font-size: 14px;
+    z-index: 1000000;
+    &.success {
+        background-color: #008000;
+        color: #ffffff;
+    }
+    &.error {
+        background-color: $color-main3;
+        color: #ffffff;
+    }
+}
+
+.userblock-alert__close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 10px;
+    height: 10px;
+    &::before {
+        position: absolute;
+        content: "";
+        top: 4px;
+        left: 0;
+        transform: rotate(45deg);
+        height: 2px;
+        width: 10px;
+        background-color: #fff;
+    }
+    &::after {
+        position: absolute;
+        content: "";
+        top: 4px;
+        left: 0;
+        transform: rotate(-45deg);
+        height: 2px;
+        width: 10px;
+        background-color: #fff;
+    }
+}
+
+.template {
+    min-height: 100vh;
+    background-color: #fff;
+    box-shadow: 0 0 12px 0 rgba(55, 73, 72, .06);
+}
+
+//Placeholder for pages
+.placeholderPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #696969;
+    font-size: 1.8rem;
+    text-align: center;
+    user-select: none;
+    cursor: default;
+    font-weight: 300;
+    pointer-events: none;
+    .placeholderPage__button {
+        width: 46px;
+        height: 46px;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        border: none;
+        pointer-events: all;
+        &:focus {
+            outline: none;
+        }
+        i {
+            font-size: 20px;
+            position: relative;
+            top: -4px;
+            pointer-events: none;
+            line-height: 30px;
+        }
+    }
+}
+.btn-red:not(.btn-link):not(.btn-flat) {
+    background-color: $color-main3;
+    color: rgba(255, 255, 255, .84);
+    &:hover {
+        background-color: $color-main3-hover;
+    }
+}
+
+.hidden-interface {
+    display: none !important;
+}
+
+html[amp-version] {
+    #scrollToTopButton {
+        right: 90px;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: scale-color($color-title2, $lightness: 60%);
+    border-radius: $border-radius;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, .05);
+    border-radius: $border-radius;
+}

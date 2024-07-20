@@ -1,0 +1,83 @@
+<section class="contacts4" group="Contacts" data-bg-video="{{bg.type == 'video' && bg.value.url}}"
+    plugins="Socicon, SocialLikes">
+
+    <mbr-parameters>
+        <!-- Block parameters controls (Blue "Gear" panel) -->
+        <header>Size</header>
+        <input inline="" type="range" title="Top" name="paddingTop" min="0" max="8" step="1" value="6">
+        <input inline="" type="range" title="Bottom" name="paddingBottom" min="0" max="8" step="1" value="6">
+        <header>Show / Hide</header>
+        <input type="checkbox" title="Title" name="showTitle" checked>
+        <input type="checkbox" title="Text" name="showText" checked>
+        <input type="checkbox" title="Reverse Content" name="reverseContent" condition="showTitle || showText">
+        <input type="range" inline title="Icons count" name="socialCount" min="1" max="10" step="1" value="4">
+        <input type="color" title="Color" name="socialIconColor" value="#6592e6">
+        <fieldset type="background" name="bg" parallax>
+            <input type="image" title="Background Image" value="../_images/background1.jpg" parallax>
+            <input type="color" title="Background Color" value="#ffffff" selected>
+            <input type="video" title="Background Video" value="https://www.youtube.com/watch?v=-BSQlJxCDcI">
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input type="image" title="Fallback Image" value="../_images/background13.jpg" name="fallBackImage" condition="bg.type === 'video'">
+        <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'">
+        <input type="color" title="Overlay Color" name="overlayColor" value="#000000"
+            condition="overlay&amp;&amp;bg.type !== 'color'">
+        <input type="range" inline="" title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.2"
+            condition="overlay&amp;&amp;bg.type !== 'color'">
+        <!-- End block parameters -->
+    </mbr-parameters>
+
+    <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+    <div class="mbr-overlay" mbr-if="overlay&&bg.type!== 'color'"
+        mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}">
+    </div>
+
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="text-content col-12 col-md-6" mbr-class="{'order-2': reverseContent}">
+                <h2 class="mbr-section-title mbr-fonts-style" mbr-theme-style="display-2" mbr-if="showTitle"
+                    data-app-selector=".mbr-section-title">
+                    <b>Follow Us</b>
+                </h2>
+                <p mbr-theme-style="display-7" class="mbr-text mbr-fonts-style" mbr-if="showText">Start with creating a
+                    new website and picking up the theme. Then expand the blocks panel with the big red "plus" button in
+                    the
+                    lower right corner and start dragging the blocks you like.</p>
+            </div>
+            <div class="icons d-flex align-items-center col-12 col-md-6 justify-content-end mt-md-0 mt-2 flex-wrap">
+                <a href="https://twitter.com/mobirise" target="_blank">
+                    <span mbr-icon class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
+                </a>
+                <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank"
+                    mbr-if="socialCount>1">
+                    <span mbr-icon class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
+                </a>
+                <a href="https://www.youtube.com/c/mobirise" target="_blank" mbr-if="socialCount>2">
+                    <span mbr-icon class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
+                </a>
+                <a href="https://instagram.com/mobirise" target="_blank" mbr-if="socialCount>3">
+                    <span mbr-icon class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
+                </a>
+                <a href="https://www.behance.net/Mobirise" target="_blank" mbr-if="socialCount>4">
+                    <span mbr-icon class="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
+                </a>
+                <a href="https://vimeo.com/mobirise" target="_blank" mbr-if="socialCount>5">
+                    <span mbr-icon class="mbr-iconfont mbr-iconfont-social socicon-vimeo socicon"></span>
+                </a>
+                <a href="https://www.youtube.com/c/mobirise" target="_blank" mbr-if="socialCount>6">
+                    <span mbr-icon class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
+                </a>
+                <a href="https://www.behance.net/Mobirise" target="_blank" mbr-if="socialCount>7">
+                    <span mbr-icon class="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
+                </a>
+                <a href="https://www.youtube.com/c/mobirise" target="_blank" mbr-if="socialCount>8">
+                    <span mbr-icon class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
+                </a>
+                <a href="https://www.behance.net/Mobirise" target="_blank" mbr-if="socialCount>9">
+                    <span mbr-icon class="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>

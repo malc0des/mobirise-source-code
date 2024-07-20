@@ -1,0 +1,133 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type ="color") {
+	background-color: @bg-value;
+}
+
+& when (@bg-type ="image") {
+	background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+    display: none;
+}
+.mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    & when (@bg-type ='video') {
+        background-image: url(@fallBackImage);
+    }
+}
+.timeline-element {
+	position: relative;
+}
+
+.timelines-container {
+	display: flex;
+	flex-wrap: wrap;
+
+	& when (@reverseTimeline) {
+		flex-direction: column-reverse;
+	}
+}
+
+.image-wrapper img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.mbr-section-title,
+.mbr-section-subtitle,
+.timeline-date {
+	text-align: center;
+}
+
+.iconBackground {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 2px solid @lineColor;
+	margin-left: -9px;
+	padding: 0;
+
+	@media(max-width:767px) {
+		left: 15px;
+		top: 30px;
+	}
+
+	@media(min-width:768px) {
+		top: 70px;
+		left: 50%;
+	}
+}
+
+.row {
+	&:after {
+		content: "";
+		position: absolute;
+		background-color: @lineColor;
+		width: 2px;
+
+		@media(max-width:767px) {
+			height: calc(100% ~"+"30px);
+			top: 50px;
+			left: 15px;
+		}
+
+		@media(min-width:768px) {
+			& when (@showDates) {
+				height: calc(100% ~"-"20px);
+			}
+
+			& when not(@showDates) {
+				height: calc(100% ~"+"28px);
+			}
+
+			top: 90px;
+			left: 50%;
+		}
+	}
+}
+
+@media(max-width:767px) {
+
+	.timeline-date-wrapper,
+	.timeline-text-wrapper,
+	.image-wrapper {
+		padding: 0rem;
+		padding-left: 2rem;
+	}
+
+	.mbr-timeline-date {
+		text-align: left !important;
+	}
+
+	.mbr-timeline-title {
+		text-align: left;
+		margin-top: 1rem;
+	}
+}
+
+@media(max-width:991px) and (min-width:768px) {
+
+	.timeline-date-wrapper,
+	.timeline-text-wrapper {
+		padding: 1rem;
+	}
+}
+
+@media(min-width:992px) {
+
+	.timeline-date-wrapper,
+	.timeline-text-wrapper,
+	.image-wrapper {
+		padding: 2rem;
+	}
+}

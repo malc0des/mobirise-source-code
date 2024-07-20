@@ -1,0 +1,69 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type ='color') {
+  background-color: @bg-value;
+}
+
+& when (@bg-type ='image') {
+  background-image: url(@bg-value);
+}
+
+.mbr-fallback-image.disabled {
+  display: none;
+}
+
+.mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+
+  & when (@bg-type ='video') {
+    background-image: url(@fallBackImage);
+  }
+}
+
+.img-wrapper {
+  text-align: center;
+}
+
+img {
+  margin: auto;
+  width: 200px;
+}
+
+.row {
+  align-items: flex-start;
+}
+
+.item-wrapper {
+  margin-bottom: 2rem;
+  background: @cardColor;
+  padding: 1rem;
+
+  @media (max-width: 767px) {
+    margin-bottom: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    padding: 2rem;
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    margin-bottom: 3rem;
+  }
+}
+
+.mbr-section-title,
+.mbr-section-subtitle {
+  text-align: center;
+  color: #000000;
+}
+
+.content-head {
+	max-width: 800px;
+}

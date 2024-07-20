@@ -1,0 +1,47 @@
+& when not (@fullScreen) {
+    padding-top: (@paddingTop * 1rem);
+    padding-bottom: (@paddingBottom * 1rem);
+}
+
+& when (@bg-type ="image") {
+    background-image: url(@bg-value);
+}
+
+& when (@bg-type ="color") {
+    background-color: @bg-value;
+}
+.mbr-fallback-image.disabled {
+    display: none;
+}
+.mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    & when (@bg-type ='video') {
+        background-image: url(@fallBackImage);
+    }
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 2.5rem;
+}
+li {
+    position: relative;
+    margin-bottom: 1rem;
+}
+ul li::before {
+    position: absolute;
+    left: -1.6rem;
+    content: "\2022";
+    color: @iconColor;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 1.6rem;
+}

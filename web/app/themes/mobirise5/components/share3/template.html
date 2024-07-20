@@ -1,0 +1,84 @@
+<section class="share3" group="Social" data-bg-video="{{bg.type == 'video' && bg.value.url}}" plugins="Socicon">
+    
+     <mbr-parameters>
+    <!-- Block parameters controls (Blue "Gear" panel) -->
+        <header>Size</header>
+        <input type="range" inline="" title="Top" name="paddingTop" min="0" max="9" step="1" value="5">
+        <input type="range" inline="" title="Bottom" name="paddingBottom" min="0" max="9" step="1" value="5">
+         <header>Show/Hide</header>
+        <input type="checkbox" title="Show Title" name="showTitle" checked="">
+        <input type="checkbox" title="Square Icons" name="squareIcons">
+        <input type="checkbox" title="Facebook" name="facebook" checked="">
+        <input type="checkbox" title="Twitter" name="twitter" checked="">
+        <input type="checkbox" title="Instagram" name="instagram" checked="">
+        <input type="checkbox" title="Pinterest" name="pinterest">
+        <input type="checkbox" title="Slack" name="slack">
+        <input type="checkbox" title="Linkedin" name="linkedin">
+        <input type="checkbox" title="Behance" name="behance">
+        <input type="checkbox" title="Dribbble" name="dribbble">
+        <input type="checkbox" title="Tiktok" name="tiktok">
+        <input type="checkbox" title="Youtube" name="youtube">
+        <input type="checkbox" title="Twitch" name="twitch">
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax="">
+            <input type="image" title="Image" value="../_images/background1.jpg">
+            <input type="color" title="Color" value="#ffffff" selected="">
+            <input type="video" title="Video" value="https://vimeo.com/428046504">
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input type="image" title="Fallback Image" value="../_images/background13.jpg" name="fallBackImage" condition="bg.type === 'video'">
+        <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked="">
+        <input type="color" title="Overlay Color" name="overlayColor" value="#ffffff" condition="overlay && bg.type !== 'color'">
+        <input type="range" inline="" title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.5" condition="overlay && bg.type !== 'color'">
+    </mbr-parameters>
+    
+    <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+    <div class="mbr-overlay" mbr-if="overlay && bg.type!== 'color'" mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}">
+    </div>
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="col-12">
+                <h3 class="mbr-section-title align-center mb-3 mbr-fonts-style" mbr-theme-style="display-2" mbr-if="showTitle" data-app-selector=".mbr-section-title, .social-list">
+                    <b>Follow Us!</b>
+                </h3>
+                <div class="social-list align-center">
+                   
+                    <a class="iconfont-wrapper bg-facebook m-2 " target="_blank" data-app-placeholder="Type Text" href="https://mobiri.se" target="_blank" mbr-if="facebook">
+                            <span mbr-icon class="socicon-facebook socicon"></span>
+                        </a>
+                        <a class="iconfont-wrapper bg-twitter m-2" href="https://mobiri.se" target="_blank" mbr-if="twitter">
+                            <span mbr-icon class="socicon-twitter socicon"></span>
+                        </a>
+                        <a class="iconfont-wrapper bg-instagram m-2" href="https://mobiri.se" target="_blank" mbr-if="instagram">
+                            <span mbr-icon class="socicon-instagram socicon"></span>
+                        </a>
+                        <a class="iconfont-wrapper bg-pinterest m-2" href="https://mobiri.se" target="_blank" mbr-if="pinterest">
+                            <span mbr-icon class="socicon-pinterest socicon"></span>
+                        </a>
+                        <a class="iconfont-wrapper bg-slack m-2" href="https://mobiri.se" target="_blank" mbr-if="slack">
+                            <span mbr-icon class="socicon-slack socicon"></span>
+                        </a>
+                        <a class="iconfont-wrapper bg-linkedin m-2" href="https://mobiri.se" target="_blank" mbr-if="linkedin">
+                            <span mbr-icon class="socicon-linkedin socicon"></span>
+                        </a>
+                        <a class="iconfont-wrapper bg-behance m-2" href="https://mobiri.se" target="_blank" mbr-if="behance">
+                            <span mbr-icon class="socicon-behance socicon"></span>
+                        </a>
+                        <a class="iconfont-wrapper bg-dribbble m-2" href="https://mobiri.se" target="_blank" mbr-if="dribbble">
+                            <span mbr-icon class="socicon-dribbble socicon"></span>
+                        </a>
+                        <a class="iconfont-wrapper bg-tiktok m-2" href="https://mobiri.se" target="_blank" mbr-if="tiktok">
+                            <span mbr-icon class="socicon-tiktok socicon"></span>
+                        </a>
+                        <a class="iconfont-wrapper bg-youtube m-2" href="https://mobiri.se" target="_blank" mbr-if="youtube">
+                            <span mbr-icon class="socicon-youtube socicon"></span>
+                        </a>
+                        <a class="iconfont-wrapper bg-twitch m-2" href="https://mobiri.se" target="_blank" mbr-if="twitch">
+                            <span mbr-icon class="socicon-twitch socicon"></span>
+                        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

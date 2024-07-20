@@ -1,0 +1,252 @@
+<section
+  class="numbers01"
+  group="Numbers"
+  mbr-class="{'mbr-parallax-background': bg.parallax}"
+>
+	<mbr-parameters>
+		<header>Size</header>
+		<input type="checkbox" title="Full Width" name="fullWidth">
+		<input
+		  type="range"
+		  inline
+		  title="Top"
+		  name="paddingTop"
+		  min="0"
+		  max="10"
+		  step="1"
+		  value="6"
+		>
+		<input
+		  type="range"
+		  inline
+		  title="Bottom"
+		  name="paddingBottom"
+		  min="0"
+		  max="10"
+		  step="1"
+		  value="6"
+		>
+		<select title="Columns" name="cardsWidth">
+			<option value="12">1</option>
+			<option value="6">2</option>
+			<option value="4" selected>3</option>
+			<option value="3">4</option>
+		</select>
+		<header>Show/Hide</header>
+		<input type="checkbox" name="showTitle" title="Title" checked>
+		<input type="checkbox" name="showSubtitle" title="Subtitle">
+		<input type="checkbox" name="showMainButtons" title="Buttons">
+		<header>Cards</header>
+		<input type="checkbox" name="showCardTitle" title="Title" checked>
+		<input type="checkbox" name="showCardSubtitle" title="Subtitle" checked>
+		<input type="checkbox" name="showText" title="Text" checked>
+		<input type="checkbox" name="showButtons" title="Buttons" checked>
+		<input
+		  type="color"
+		  name="cardsBg"
+		  title="BG"
+		  value="#ffffff"
+		>
+		<header>Background</header>
+		<fieldset type="background" parallax name="bg" required>
+			<input
+			  type="image"
+			  title="Image"
+			  value="../_images/background1.jpg"
+			>
+			<input
+			  type="color"
+			  title="Color"
+			  value="#edefeb"
+			  selected
+			>
+		</fieldset>
+		<input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked>
+		<input
+		  type="color"
+		  title="Overlay Color"
+		  name="overlayColor"
+		  value="#ffffff"
+		  condition="overlay && bg.type == 'image'"
+		>
+		<input
+		  type="range"
+		  inline
+		  title="Opacity"
+		  name="overlayOpacity"
+		  min="0"
+		  max="1"
+		  step="0.1"
+		  value="0.5"
+		  condition="overlay && bg.type == 'image'"
+		>
+	</mbr-parameters>
+	<div
+	  class="mbr-overlay"
+	  mbr-if="overlay && bg.type !== 'color'"
+	></div>
+	<div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+		<div class="row justify-content-center">
+			<div class="col-12 content-head">
+				<div
+				  class="mbr-section-head mb-5"
+				  mbr-if="showTitle || showSubtitle || showMainButtons"
+				>
+					<h4
+					  class="mbr-section-title mbr-fonts-style align-center mb-0"
+					  mbr-theme-style="display-2"
+					  mbr-if="showTitle"
+					  data-app-selector=".mbr-section-title"
+					>
+						<b>Features with numbers</b>
+					</h4>
+					<h5
+					  class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4"
+					  mbr-theme-style="display-7"
+					  mbr-if="showSubtitle"
+					  data-app-selector=".mbr-section-subtitle, .mbr-section-head .mbr-section-btn"
+					>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</h5>
+					<div
+					  class="mbr-section-btn align-center item-footer mb-0 mt-4"
+					  mbr-if="showMainButtons"
+					  data-toolbar="-mbrBtnMove,-mbrBtnAdd"
+					  mbr-buttons
+					  mbr-theme-style="display-7"
+					>
+						<a href class="btn item-btn btn-primary" data-app-placeholder="Type Text">Get Started</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="item features-without-image col-12 col-md-6 col-lg-{{cardsWidth}} active">
+				<div class="item-wrapper">
+					<div
+					  class="item-content"
+					  mbr-if="showCardTitle || showCardSubtitle || showText || showButtons"
+					>
+						<h5
+						  class="mbr-card-title mbr-fonts-style mt-0 mb-3 mbr-number"
+						  mbr-if="showCardTitle"
+						  data-app-selector=".mbr-number"
+						  mbr-theme-style="display-1"
+						>
+							<b>01.</b>
+						</h5>
+						<h4
+						  class="card-title mbr-fonts-style"
+						  mbr-theme-style="display-5"
+						  mbr-if="showCardSubtitle"
+						  data-app-selector=".card-title"
+						>
+							<b>Form</b>
+						</h4>
+						<p
+						  class="card-text mbr-fonts-style mt-0 mb-3"
+						  data-app-selector=".card-text, .item .mbr-section-btn"
+						  mbr-theme-style="display-7"
+						>
+							We begin by shaping the form of concepts, setting the stage for meaningful content.
+						</p>
+						<div
+						  class="mbr-section-btn item-footer"
+						  mbr-if="showButtons"
+						  data-toolbar="-mbrBtnMove,-mbrBtnAdd"
+						  mbr-buttons
+						  mbr-theme-style="display-7"
+						>
+							<a href class="btn item-btn btn-primary" data-app-placeholder="Type Text">Learn More</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="item features-without-image col-12 col-md-6 col-lg-{{cardsWidth}}">
+				<div class="item-wrapper">
+					<div
+					  class="item-content"
+					  mbr-if="showCardTitle || showCardSubtitle || showText || showButtons"
+					>
+						<h5
+						  class="mbr-card-title mbr-fonts-style mt-0 mb-3 mbr-number"
+						  mbr-if="showCardTitle"
+						  data-app-selector=".mbr-number"
+						  mbr-theme-style="display-1"
+						>
+							<b>02.</b>
+						</h5>
+						<h4
+						  class="card-title mbr-fonts-style"
+						  mbr-theme-style="display-5"
+						  mbr-if="showCardSubtitle"
+						  data-app-selector=".card-title"
+						>
+							<b>Content</b>
+						</h4>
+						<p
+						  class="card-text mbr-fonts-style mt-0 mb-3"
+						  data-app-selector=".card-text, .item .mbr-section-btn"
+						  mbr-theme-style="display-7"
+						>
+							With form in place, we infuse it with engaging content, giving depth and purpose.
+						</p>
+						<div
+						  class="mbr-section-btn item-footer"
+						  mbr-if="showButtons"
+						  data-toolbar="-mbrBtnMove,-mbrBtnAdd"
+						  mbr-buttons
+						  mbr-theme-style="display-7"
+						>
+							<a href class="btn item-btn btn-primary" data-app-placeholder="Type Text">Learn More</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="item features-without-image col-12 col-md-6 col-lg-{{cardsWidth}}">
+				<div class="item-wrapper">
+					<div
+					  class="item-content"
+					  mbr-if="showCardTitle || showCardSubtitle || showText || showButtons"
+					>
+						<h5
+						  class="mbr-card-title mbr-fonts-style mt-0 mb-3 mbr-number"
+						  mbr-if="showCardTitle"
+						  data-app-selector=".mbr-number"
+						  mbr-theme-style="display-1"
+						>
+							<b>03.</b>
+						</h5>
+						<h4
+						  class="card-title mbr-fonts-style"
+						  mbr-theme-style="display-5"
+						  mbr-if="showCardSubtitle"
+						  data-app-selector=".card-title"
+						>
+							<b>Meaning</b>
+						</h4>
+						<p
+						  class="card-text mbr-fonts-style mt-0 mb-3"
+						  data-app-selector=".card-text, .item .mbr-section-btn"
+						  mbr-theme-style="display-7"
+						>
+							The journey concludes as we uncover the profound meaning within our creations, making them
+							truly resonate.
+						</p>
+						<div
+						  class="mbr-section-btn item-footer"
+						  mbr-if="showButtons"
+						  data-toolbar="-mbrBtnMove,-mbrBtnAdd"
+						  mbr-buttons
+						  mbr-theme-style="display-7"
+						>
+							<a href class="btn item-btn btn-primary" data-app-placeholder="Type Text">Learn More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,38 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+.mbr-overlay {
+    background-color: @overlayColor;
+    opacity: @overlayOpacity;
+}
+
+& when (@bg-type ='image') {
+    background-image: url(@bg-value);
+}
+
+& when (@bg-type ='color') {
+    background-color: @bg-value;
+}
+
+form.mbr-form {
+    border-radius: 10px;
+    background-color: #fafafa;
+
+    @media (min-width: 992px) {
+        padding: 3rem 2rem;
+        width: @formWidth*10%;
+    }
+
+    @media (max-width: 991px) {
+        padding: 1rem;
+    }
+
+    .mbr-section-btn {
+        text-align: center;
+        width: 100%;
+
+        .btn {
+            width: 100%;
+        }
+    }
+}

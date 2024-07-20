@@ -1,0 +1,2 @@
+defineM("app-plugin-hotkeys",function(d,b){var c=function(a,b){a=a.toUpperCase().split("+");var c=0<=a.indexOf("CTRL"),e=0<=a.indexOf("SHIFT"),f=0<=a.indexOf("ALT"),g=0<=a.indexOf("META"),h=a[a.length-1].charCodeAt(0);return function(a){a.shiftKey==e&&a.ctrlKey==c&&a.altKey==f&&a.metaKey==g&&a.keyCode==h&&b(a)}};b.regExtension({name:"hotkeys",global:{bindKey:function(a,d){document.addEventListener("keyup",c.apply(null,arguments));b.Core.$document[0].addEventListener("keyup",c.apply(null,arguments))}}})},
+["jQuery","mbrApp"]);

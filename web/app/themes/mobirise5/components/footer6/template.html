@@ -1,0 +1,127 @@
+<section class="footer6" group="Footers" mbr-class="{'mbr-parallax-background': bg.parallax}" global once="footers">
+
+    <mbr-parameters>
+        <!-- Block parameters controls (Blue "Gear" panel) -->
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="8" step="1" value="5">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="8" step="1" value="5">
+        <input type="map" title="Map" name="googleMap">
+        <input type="checkbox" title="Show Copyright" name="showCopyright" checked>
+        <select title="Icons" name="iconsCount">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6" selected>6</option>
+        </select>
+        <fieldset type="background" name="bg" parallax>
+            <input type="image" title="Background Image" value="../_images/background5.jpg">
+            <input type="color" title="Background Color" value="#232323" selected>
+        </fieldset>
+        <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked>
+        <input type="color" title="Overlay Color" name="overlayColor" value="#232323"
+            condition="overlay && bg.type !== 'color'">
+        <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.9"
+            condition="overlay && bg.type !== 'color'">
+        <!-- End block parameters -->
+    </mbr-parameters>
+
+    <div class="mbr-overlay" mbr-if="overlay && bg.type !== 'color'" opacity="{{overlayOpacity}}"
+        bg-color="{{overlayColor}}"></div>
+
+    <div class="container">
+        <div class="row content mbr-white">
+            <div class="col-12 col-md-3 mbr-fonts-style" mbr-theme-style="display-7">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2" mbr-theme-style="display-7">
+                    <b>Address</b>
+                </h5>
+                <p class="mbr-text mbr-fonts-style" mbr-theme-style="display-7" data-app-selector=".mbr-text">
+                    1234 Street Name <br>
+                    City, AA 99999
+                </p> <br>
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 mt-4" mbr-theme-style="display-7">
+                    <b>Contacts</b>
+                </h5>
+                <p class="mbr-text mbr-fonts-style mb-4" mbr-theme-style="display-7" data-app-selector=".mbr-text">
+                    Email: support@mobirise.com <br>
+                    Phone: +1 (0) 000 0000 001 <br>
+                    Fax: +1 (0) 000 0000 002
+                </p>
+            </div>
+            <div class="col-12 col-md-3 mbr-fonts-style" mbr-theme-style="display-7">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2" mbr-theme-style="display-7">
+                    <b>Links</b>
+                </h5>
+                <ul class="list mbr-fonts-style mb-4" mbr-theme-style="display-4" data-app-selector=".list"
+                    data-multiline mbr-article>
+                    <li class="mbr-text item-wrap">
+                        <a class="text-primary" href="https://mobirise.co/">Website builder</a>
+                    </li>
+                    <li class="mbr-text item-wrap">
+                        <a class="text-primary" href="https://mobirise.co/">Download for Windows</a>
+                    </li>
+                    <li class="mbr-text item-wrap">
+                        <a class="text-primary" href="https://mobirise.co/">Download for Mac</a>
+                    </li>
+                </ul>
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 mt-5" mbr-theme-style="display-7">
+                    <b>Feedback</b>
+                </h5>
+                <p class="mbr-text mbr-fonts-style mb-4" mbr-theme-style="display-7" data-app-selector=".mbr-text">
+                    Please send us your ideas, bug reports, suggestions! Any feedback would be appreciated.
+                </p>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="google-map" mbr-map="googleMap"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="social-list align-left" mbr-if="iconsCount > 0">
+                    <div class="soc-item" mbr-if="iconsCount>0">
+                        <a href="https://twitter.com/mobirise" target="_blank">
+                            <span mbr-icon class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item" mbr-if="iconsCount>1">
+                        <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                            <span mbr-icon class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item" mbr-if="iconsCount>2">
+                        <a href="https://www.youtube.com/c/mobirise" target="_blank">
+                            <span mbr-icon class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item" mbr-if="iconsCount>3">
+                        <a href="https://instagram.com/mobirise" target="_blank">
+                            <span mbr-icon class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item" mbr-if="iconsCount>4">
+                        <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
+                            <span mbr-icon class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item" mbr-if="iconsCount>5">
+                        <a href="https://www.behance.net/Mobirise" target="_blank">
+                            <span mbr-icon class="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-lower" mbr-if="showCopyright">
+            <div class="media-container-row">
+                <div class="col-sm-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="col-sm-12 copyright pl-0">
+                <p class="mbr-text mbr-fonts-style mbr-white" mbr-theme-style="display-7"
+                    data-app-selector=".copyright > p">
+                    © Copyright 2025 Mobirise - All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

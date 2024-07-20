@@ -1,0 +1,2779 @@
+{
+    "title": "English",
+    "language": "en",
+    "type": "theme",
+    "groups": {
+        "mobirise5": [
+            {
+                "phrase": "Size",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Full Width",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Top",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Bottom",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Show/Hide",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Title",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Subtitle",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Items",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Background",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Our Clients",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "For a better look, use pictures of the same size in this block.\n                elit",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Click on an image in this block to replace it. Set the number of logos in Block Parameters.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Buttons",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cards",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "BG",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Columns",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Video",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Fallback Image",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Overlay",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Overlay Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Opacity",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Our partner",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No special actions required, all sites you make with Mobirise are mobile-friendly.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Learn More",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use Mobirise website building software to create multiple sites for your clients.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create multiple pages. Don't forget to set links to your pages after creating them.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Link",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Icon",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Contacts",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Contacts Subtitle",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Email",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "We will reply as soon as possible",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Send us an\n                                email",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Phone",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mon - Fri 09:00 - 18:00",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Call (800) 123 45 67",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Icon Size",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Amount",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "info@site.com",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Address",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "4100 Ross Street, Okawville, IL",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Working Hours",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Map",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Show / Hide",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reverse Content",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Icons count",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Background Image",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Background Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Background Video",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Follow Us",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Start with creating a\n                    new website and picking up the theme. Then expand the blocks panel with the big red \"plus\" button in\n                    the\n                    lower right corner and start dragging the blocks you like.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Auto Size",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Height",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Spacing",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Last News and Articles",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Read the latest news about Mobirise",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Easy and Simple",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "John Smith",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise Page Maker is a free and simple\n                            website builder - just drop site blocks to your page, add content and style it!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Read more..",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Learn\n                            more",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Automagically Mobile",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Ann\n                                Brown",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise Site Creator offers a huge\n                            collection of 3500+ site blocks, templates and themes with thousands flexible options.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reverse",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Width",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Article Title",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Shape your future web project with the Mobirise app.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Learn more",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Live demo",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Previous",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Next",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Full Screen",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Frequently asked questions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "How to create more items in this list?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Press",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "to create a new\n                                bullet. To\n                                create an answer for a question, press",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Shift+Enter",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Can I create sites for commerical projects?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Yes, Mobirise is free for both\n                                non-profit\n                                and commercial sites.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "How to install more extensions?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Open the main menu in the app and find the\n                                Extensions\n                                tab. Click on it to open the Extensions list.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "What is Mobirise Kit?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise Kit is a service that provides the access to all current and new\n                                themes/extensions developed by Mobirise.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "What is Code Editor?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This extension allows editing the code of block in the\n                                app. Also,\n                                it's possible to add code to the head and body parts of pages.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "to create a new\n                        bullet. To\n                        create an answer for a question, press",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Yes, Mobirise is free for both\n                        non-profit\n                        and commercial sites.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Open the main menu in the app and find the\n                        Extensions\n                        tab. Click on it to open the Extensions list.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise Kit is a service that provides the access to all current and new\n                        themes/extensions developed by Mobirise.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This extension allows editing the code of block in the\n                        app. Also,\n                        it's possible to add code to the head and body parts of pages.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Content Width",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Wrap Bg",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create Site Now",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Click any text to edit or style it. Select\n                            text to insert a link. Click blue \"Gear\" icon in the top right corner to hide/show buttons,\n                            text, title and change the block background. Click red \"+\" in the bottom right corner to add\n                            a new block. Use the top left menu to create new pages, sites and add themes.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Start\n                                Now",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Accordion FAQ",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Accordion Subtitle",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "The number of items is limited in this block. Open\n                                    the Block parameters to change the amount of items.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise Kit is a service that provides the access to all current and new\n                                    themes/extensions developed by Mobirise. New themes/extensions are released every\n                                    month and will be available in your account during your plan period, without any\n                                    additional charge.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Can I create sites for commerical\n                                        projects?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Yes, Mobirise is free for both non-profit and commercial sites.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This extension allows editing the code of block in the app. Also, it's possible to\n                                    add code to the head and body parts of pages.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Toggle FAQ",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise Kit is a service that provides the access to all current and new themes/extensions developed by Mobirise. New themes/extensions are released every month and will be available in your account during your plan period, without any additional charge.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This extension allows editing the code of block in the app. Also, it's possible to add code to the head and body parts of pages.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Our Blog",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Read the recent blog posts about\n                Mobirise",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Read More\n                            >",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Auto Mobile",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Boost Your Rank",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Jessica Doe",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Our News",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Jan 10, 2025",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Read More >",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Jan 09, 2025",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Jan 08, 2025",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Boost Your Ranking",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Article Title with Solid Background",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You can arrange your articles with the Mobirise website design software.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "LEARN MORE",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "LIVE DEMO",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter your subtitle here",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You can use content blocks to arrange your articles, large texts, instructions. Combine these blocks with media blocks to add illustrations and video tutorials. You can use various content blocks to work with your text. Add quotations, lists, buttons. Select your text to change its formatting or add links. Mobirise is a simple website builder that helps you create amazing web pages without knowing any code.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use Mobirise website building software to create multiple sites for commercial and non-profit projects.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Line Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "How mobirise works?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use Mobirise website building software to create multiple sites for commercial and non-profit projects. Themes in the Mobirise website builder offer multiple blocks: intros, sliders, galleries, forms, articles, and so on. Start a project and click on the red plus buttons to see the blocks available for your theme.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Stylized",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mark",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Сircle Fill",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Circle",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Square",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No Coding",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You don't have to code to create your own site. Select one of available themes in the Mobirise sitebuilder.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Try it now!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobile Friendly.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "All sites you create with the Mobirise web builder are mobile-friendly natively. No special actions required.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unique Styles.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Select the theme that suits you. Each theme in the Mobirise site builder contains a set of unique blocks.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Stylized Counters",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Square Counters",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Settings",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Countdown",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Days",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Hours",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Minutes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Seconds",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Numbers Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Labels Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Coming Soon",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use this block as a countdown for your project if it's not ready yet. Set the date in Block\n                    Parameters.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Subscribe to find out when we launch.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Thanks for filling out the form!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Oops...! some problem!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Subscribe",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Button",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Social Icons",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Icons Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Follow us online to find out when we launch.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Contact Us",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use this block as a countdown for your project if it's not ready yet.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Card",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Icons",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Icon Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Features",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "List main features of your project in this block",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You don't have to code to create your own site. Select one of\n                        available themes in the Mobirise sitebuilder.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobile Friendly",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "All sites you create with the Mobirise web builder are\n                        mobile-friendly natively. No special actions required.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unique Styles",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Select the theme that suits you. Each theme in the Mobirise\n                            site builder contains a set of unique blocks.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Product List",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Special Issue",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Themes in the Mobirise website builder offer multiple blocks: intros, sliders, galleries,\n                            forms, articles, and so on. Start a project and click on the red plus buttons to see the\n                            blocks available for your theme.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Themes in the Mobirise website builder offer multiple blocks:\n                            intros, sliders, galleries, forms, articles, and so on. Start a project and click on the red\n                            plus buttons to see the blocks available for your theme.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Transparent",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Camera",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Themes in the Mobirise website builder offer multiple blocks: intros,\n                                            sliders, galleries, forms, articles, and so on. Start a project and click on\n                                            the red plus buttons to see the blocks available for your theme.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mug",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Coffee",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Automagically mobile",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobile-friendly",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Easy setup",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit visually",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "View all our features",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "What is Mobirise?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create your own site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "What you get",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Optimized Images",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Style Changer",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Articles",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cookie Alert",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise is a free website builder.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create landing pages with ease.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Build a website with Mobirise.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Card Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Amazing blocks",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Themes in the Mobirise website builder offer multiple blocks: intros, sliders, galleries, forms, articles, and so on. Start a project and click on the red plus buttons to see the blocks available for your theme.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Easy and simple",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "All sites you create with the Mobirise web builder are mobile-friendly natively. No special actions required. You can preview your site inside the app. Check the icons on the top.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You don't have to code to create your own site. Select one of available themes in the\n                            Mobirise sitebuilder.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Learn more >",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "All sites you create with the Mobirise web builder are mobile-friendly natively. No special\n                            actions required.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Select the theme that suits you. Each theme in the Mobirise site builder contains a set of\n                            unique blocks.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Start now",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Steps",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Step",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Arrows",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Arrows Size",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Arrows Top",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise is a free offline app for Windows and Mac to easily create small/medium websites,\n                            landing pages, online resumes and portfolios. 2500+ beautiful website blocks, templates and\n                            themes help you to start easily.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create\n                                your own site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Specification",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise is perfect for non-techies who\n                            are not familiar with\n                            the intricacies of web development.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Project Planning",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Deployment",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Numbers Size",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise is perfect for\n                            non-techies who are\n                            not familiar with\n                            the intricacies of web development.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise is a free offline app for Windows and Mac to easily create small/medium websites, landing\n                    pages, online resumes and portfolios. 2500+ beautiful website blocks, templates and themes help you\n                    to start easily.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create your own\n                        site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise is perfect for non-techies who are not familiar with the intricacies of web\n                        development.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Our Philosophy",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise is perfect for non-techies who\n                            are not familiar\n                            with\n                            the intricacies of web development.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "To add more cards, hover on a card and\n                click 'Add items'",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Card Subtitle",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise is an easy website builder. Just\n                            drop site elements to your page, add content and style it to look the way you like.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Learn More\n                            >",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You don't have to code to create your own\n                            site. Select one of available themes in the Mobirise Site Maker.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Select the theme that suits you. Each theme\n                            in the Mobirise Website Software contains a set of unique blocks.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Services",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Design",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Website Design",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Start Now\n                            >",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Programming",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "HTML/CSS Coding",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Branding",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Creating Your Brand",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Website Builder",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You don't have to code when you create your own site. Select one of available themes in the Mobirise sitebuilder.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Select the theme that suits you. Each theme in the Mobirise website building software contains a set of unique blocks.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Colors",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Bg",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Icon 1",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Icon 2",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Elevate your business",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cost",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Special Offer",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "If you're wondering how to build a website, Mobirise can be the answer. Start creating your website with pre-made blocks and place your own content. Select the theme that suits you. Each theme contains a set of unique blocks.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Buy Now",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Count",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Our Products",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "All sites you create with the Mobirise web builder are mobile-friendly natively. No special\n                            actions required. For your commercial and non-profit projects.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Price",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You can have multiple pages in each project in Mobirise website builder software. Don't forget to set links to your pages after creating them. You can use menu blocks to create navigation for your site visitors.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Social",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Social Count",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Copyright",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise Help",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Help Center",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise Forums",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise Kit",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Our site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Themes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise 5",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise AMP",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Code Editor",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Form Builder",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Popup Builder",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enterprise",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "About",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise is a free offline app for\n                    Windows and Mac to easily create small/medium websites, landing pages, online resumes and\n                    portfolios.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "© Copyright 2025 Mobirise - All Rights Reserved",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Menu Items",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Social Items",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reveal effect",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "About us",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Careers",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Work",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "© Copyright 2025 Mobirise. All Rights Reserved.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Logo Size",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise Extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Terms",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Contact",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Show Copyright",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "1234 Street Name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "City, AA 99999",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Email: support@mobirise.com",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Phone: +1 (0) 000 0000 001",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Fax: +1 (0) 000 0000 002",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Links",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Website builder",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download for Windows",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download for Mac",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Feedback",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please send us your ideas, bug reports, suggestions! Any feedback would be appreciated.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Get Latest Updates!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Start with creating a new website and picking up the theme. Then expand the blocks panel with the big red \"plus\" button in the lower right corner and start dragging the blocks you like.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Start Free Trial Now!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Fill the form below to get started.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Start Now!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Fill this form and we'll get back to you\n                                soon.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Submit",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Fill this form and we'll get back to you soon.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Send message",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Get in Touch",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Form Subtitle",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "One of our team will be in contact with you shortly.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Subscribe to us",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Exclusive offers in your inbox",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Gallery",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Gallery Subtitle",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Card Title",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Card Text. You don't have to code to create a site. Select one of available themes in the\n                            Mobirise Site Builder.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Card Text. You don't have to code to create\n                            a site. Select one of available themes in the Mobirise Site Builder.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Gallery with Text and Buttons",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Images",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create Site Today!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Image Subtitle. Create your\n                                own website!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Start\n                            Now!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Transparent BG",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Full-Width Gallery",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Images with Title and Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Card Text. You don't have to code to create a site with Mobirise Builder.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Caption",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Popup Slider",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Fade Effect",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Autoplay",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Interval",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Gallery with Popup Slider",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Image Caption and",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Images with Captions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Full-Width Gallery with Popup Slider",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Align",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Left",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Center",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Right",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create your first website",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Header Subtitle",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise Free Website Maker is perfect for non-techies and great for pro-coders for fast prototyping and small customers' projects.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create Website",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Image Width",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "INTRO WITH IMAGE",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Intro with a picture at the bottom. Great for pro-coders for fast prototyping and small customers' projects.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create Free Website!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Make Fun Creating",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Make awesome landing pages without coding!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Get Started",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Start Now >",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Attractive landing pages",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise is a free offline app for Windows and Mac to easily create small/medium websites, landing\n                    pages, portfolios. 3500+ beautiful website blocks, templates and themes help you to start easily.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create\n                        Your Website!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove Padding",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Intro with Image",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Full width intro with a sold background and a picture on the side. You can easily change the\n                        size of image in block parameters.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Explore\n                            all features",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create\n                            account >",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Intro with Video",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Intro with Color, paddings and a video on the right. Mobirise helps you cut down\n                        development time by providing you with a flexible website editor with a drag and drop interface.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Intro with a video at the bottom. Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Video PopUp",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Modal Video",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Description",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Intro with Video Popup",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Full-screen intro with Image and video popup.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Set the link to your video in Block Parameters",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Close",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "4479d9",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Gradient Bg",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Color 2",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Gradient Angle",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Intro with gradient background",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "INTRO WITH ICONS",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Full screen intro with background image, color overlay and icons",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unlimited Sites",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Full Screen Intro",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Free Download!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Live Demos >",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Building a website",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "For fast prototyping and small customers' projects.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Vertical Align",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Horizontal Align",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Overlay Opacity",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "New Possibilities",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Block with flexible configuration, free vertical and horizontal content movement (only when\n                    full screen is on)",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise gives you the freedom to develop as many websites as you like.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "MOBIRISE BUILDER",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create Your Website!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "MOBIRISE",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise Free Website Builder.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create your own website.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "How to start a website >>",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Website Builder Software",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Intro with an image above text. Click on the image to replace it. Key differences from traditional website builders: Minimalistic, extremely easy-to-use interface; Mobile-friendliness, latest website blocks and techniques \"out-the-box\"; Free for commercial and non-profit use.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download Now!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "View Demos",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Image Description",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Image with Description",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use Mobirise website building software to create multiple sites for commercial and non-profit projects. Click on the image in this block to replace it. You can add a description below your image, or on the side. If you want to hide some of the text fields, open the Block parameters, and uncheck relevant options.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Sizes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Responsive",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobile friendly",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Join our community on Mobirise Forums.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise is a free offline app for Windows and Mac to easily create small/medium websites, landing pages, online resumes and portfolios. 3100+ beautiful website blocks, templates and themes help you to start easily.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Visit Forums",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Visit our Help Center to get started developing websites with Mobirise. Use Help Center to find answers to your questions. Contact us directly at info@site.com",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Visit Help Center",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Beautiful website blocks, templates and themes help you to start easily. Expand your Mobirise experience with Code Editor, Form Builder and other extensions.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Buy Mobirise Kit",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Themes and Extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "2500+ beautiful website blocks, templates and themes help you start easily.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Buy\n                                Mobirise Kit",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create your own landing page today.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No Coding >>",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Find us here",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Map 1",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Map 2",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Our Locations",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "New York",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "London",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Logo",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Brand Name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Styles",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Sticky",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Collapsed",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Hamburger",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download Now",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Sign up",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Padding Top",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Padding Bottom",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Carousel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Loop",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Draggable",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobile Arrows",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Slides",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Gap",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Author Name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Author Title",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "What Our Fantastic Users Say",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Alexa",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "DESIGNER",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Linda",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "DEVELOPER",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Herbert",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "3100+ beautiful website blocks",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "40+ beautiful site themes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Code Editor is an extension that's intended for advanced developers who know how to edit code. Using this extension you can edit the HTML/CSS code of every block.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Monthly",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Per month",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Get started",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Yearly",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Per year",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Lifetime",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "One time",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Free",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No payment",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Free themes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Free extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Free icons",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "For non-profit projects",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Show Title",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Square Icons",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "It will share the current page",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Facebook",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Twitter",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Vkontakte",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Odnoklassniki",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Pinterest",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mailru",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Share this Page!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Instagram",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Slack",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Linkedin",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Behance",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Dribbble",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Tiktok",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Youtube",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Twitch",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Follow Us!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Slide",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Full-Width Slider",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Click on the image to edit slides.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Fixed-Height Slider",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Role",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Our team",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Meet our team",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Programmer",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "View\n                                        Profile",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Sarah Palmer",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Manager",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Jessica Swift",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Analyst",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Sarah Taylor",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise is an easy website builder. Just\n                                    drop site elements to your page, add content and style it to look the way you like.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Learn More\n                                    >",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You don't have to code to create your own\n                                    site. Select one of available themes in the Mobirise Site Maker.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Select the theme that suits you. Each theme\n                                    in the Mobirise Website Software contains a set of unique blocks.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Start Now\n                                    >",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise Page Maker is a free and simple\n                                    website builder - just drop site blocks to your page, add content and style it!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise Site Creator offers a huge\n                                    collection of 3500+ site blocks, templates and themes with thousands flexible options.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Tabs",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Active Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Tabs Subtitle",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Research",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Development",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Phases",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Architecture",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise is a free offline app for Windows and Mac to easily create small/medium\n                                    websites, landing pages, online resumes and portfolios. 3100+ beautiful website\n                                    blocks, templates and themes help you to start easily.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobile web traffic overtook desktop one in 2016 and will only grow, and that's why\n                                    it's important to create websites that look good on all devices. No special actions\n                                    required, all sites you make with the Builder are mobile-friendly. You don't have to\n                                    create a special mobile version of your website, it will adapt automagically.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise is an easy and simple free website builder - just drop site elements to\n                                    your page, add content and style it to look the way you like.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Free Website Builder offers a huge collection of 2500+ website blocks, templates and\n                                    themes with thousands flexible options. Combine blocks from different themes to\n                                    create a unique mix.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "View\n                                Profile",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Subitle",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Themes in the Mobirise website builder offer multiple blocks: intros, sliders,\n                                galleries, forms, articles, and so on. Start a project and click on the red plus buttons\n                                to see the blocks available for your theme.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Ann Brown",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Position",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Testimonials",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Jessica Brown",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Client",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Martin Smith",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reverse Timeline",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Dates",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Timeline",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter subtitle here",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "23 April 2025",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You don't have to code to create your own site. Select one of available themes in the Mobirise\n                        sitebuilder.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "All sites you create with the Mobirise web builder are mobile-friendly natively. No special\n                        actions required.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Select the theme that suits you. Each theme in the Mobirise site builder contains a set of\n                        unique blocks.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use Mobirise website building software to create multiple sites for commercial and non-profit\n                        projects.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Introductory Lesson",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. You don't have to code to create your own site. Select one of available themes in the Mobirise sitebuilder.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. All sites you create with the Mobirise web builder are mobile-friendly natively. No special actions required.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. Select the theme that suits you. Each theme in the Mobirise site builder contains a set of unique blocks.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. Use Mobirise website building software to create multiple sites for commercial and non-profit projects.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Video Popup",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Click on the video in this block to set the link to\n                your own video.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "View in Action",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Video Description",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Watch Video",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Video with description",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use Mobirise website building software to create multiple sites for commercial and non-profit projects. Click on the video preview in this block to add the link to your video. Make sure that your video is not private. You can add a description below the video. If you want to hide some of the text fields, open the Block parameters, and uncheck relevant options.",
+                "translate": "",
+                "active": true
+            }
+        ]
+    },
+    "unit": {
+        "name": "mobirise5",
+        "title": "Mobirise 5",
+        "type": "theme"
+    }
+}

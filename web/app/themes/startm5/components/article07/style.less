@@ -1,0 +1,57 @@
+& when not (@fullScreen) {
+  padding-top: (@paddingTop * 1rem);
+  padding-bottom: (@paddingBottom * 1rem);
+}
+
+& when (@bg-type ="color") {
+  background-color: @bg-value;
+}
+
+& when (@bg-type ="image") {
+  background-image: url(@bg-value);
+}
+
+.mbr-fallback-image.disabled {
+  display: none;
+}
+
+.mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+
+  & when (@bg-type ='video') {
+    background-image: url(@fallBackImage);
+  }
+}
+
+.card-wrapper {
+  background: @wrapBgColor;
+  @media (max-width: 767px) {
+    padding: 2rem 1.5rem;
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    padding: 2.25rem;
+  }
+
+  @media (min-width: 992px) {
+    padding: 4rem;
+  }
+}
+
+.mbr-text,
+.mbr-section-btn {
+  color: #000000;
+  text-align: left;
+}
+
+.card-title,
+.card-box {
+  text-align: left;
+  color: #000000;
+}

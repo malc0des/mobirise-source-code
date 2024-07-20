@@ -1,0 +1,4222 @@
+{
+    "title": "Turkish",
+    "language": "tr",
+    "type": "main",
+    "groups": {
+        "global": [
+            {
+                "phrase": "Pages",
+                "translate": "Sayfalar",
+                "active": true
+            },
+            {
+                "phrase": "Page Settings",
+                "translate": "Sayfa Ayarları",
+                "active": true
+            },
+            {
+                "phrase": "Page Title:",
+                "translate": "Sayfa Başlığı:",
+                "active": true
+            },
+            {
+                "phrase": "Page Description:",
+                "translate": "Sayfa Açıklaması:",
+                "active": true
+            },
+            {
+                "phrase": "Page URL:",
+                "translate": "Sayfa URL:",
+                "active": true
+            },
+            {
+                "phrase": "Create, Clone, Rename Pages, Edit Meta Tags",
+                "translate": "Oluştur, Klonla, Yeniden Adlandır, Meta Tags Düzenle",
+                "active": true
+            },
+            {
+                "phrase": "Sites",
+                "translate": "Siteler",
+                "active": true
+            },
+            {
+                "phrase": "Create, Open, Rename Sites",
+                "translate": "Oluştur, Aç, Siteleri Yeniden Adlandır",
+                "active": true
+            },
+            {
+                "phrase": "Account",
+                "translate": "Hesaplar",
+                "active": true
+            },
+            {
+                "phrase": "Sign Up / Login to Get Latest Updates and Extensions",
+                "translate": "Üye Ol / Son güncellemeler ve eklentilerle Giriş yap",
+                "active": true
+            },
+            {
+                "phrase": "Reset password",
+                "translate": "Parola Sıfırla",
+                "active": true
+            },
+            {
+                "phrase": "Logout",
+                "translate": "Çıkış Yap",
+                "active": true
+            },
+            {
+                "phrase": "Preview in Browser",
+                "translate": "Browserde Görüntüle",
+                "active": true
+            },
+            {
+                "phrase": "Publish to Local Drive, FTP",
+                "translate": "Yerel Disk, FTP'de Yayınla",
+                "active": true
+            },
+            {
+                "phrase": "Publish",
+                "translate": "Yayınla",
+                "active": true
+            },
+            {
+                "phrase": "Mobile View",
+                "translate": "Mobil Görünüm",
+                "active": true
+            },
+            {
+                "phrase": "Tablet View",
+                "translate": "Tablet Görünüm",
+                "active": true
+            },
+            {
+                "phrase": "Tablet Horizontal View",
+                "translate": "Tablet Dikez Görünüm",
+                "active": true
+            },
+            {
+                "phrase": "Desktop View",
+                "translate": "Masaüstü Görünümü",
+                "active": true
+            },
+            {
+                "phrase": "Blocks",
+                "translate": "Bloklar",
+                "active": true
+            },
+            {
+                "phrase": "Edit Site Styles",
+                "translate": "Site Stilini Düzenle",
+                "active": true
+            },
+            {
+                "phrase": "Add Block to Page",
+                "translate": "Sayfaya Blok Ekle",
+                "active": true
+            }
+        ],
+        "app-addons": [
+            {
+                "phrase": "Not available for your Mobirise version",
+                "translate": "Mobirise Versiyonuna uygun değil",
+                "active": true
+            },
+            {
+                "phrase": "Not compatible with your version of Mobirise",
+                "translate": "Mobirise Versiyonunla uyumlu değil",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "Kaldır",
+                "active": true
+            },
+            {
+                "phrase": "Update",
+                "translate": "Güncelle",
+                "active": true
+            },
+            {
+                "phrase": "Coming soon...",
+                "translate": "Çok Yakında",
+                "active": true
+            },
+            {
+                "phrase": "Soon...",
+                "translate": "Yakında",
+                "active": true
+            },
+            {
+                "phrase": "Add",
+                "translate": "Ekle",
+                "active": true
+            },
+            {
+                "phrase": "Buy",
+                "translate": "Satın Al",
+                "active": true
+            },
+            {
+                "phrase": "extension",
+                "translate": "Eklentiler",
+                "active": true
+            },
+            {
+                "phrase": "$extension$ is successfuly added",
+                "translate": "$extension$ başarılı bir şekilde eklendi",
+                "active": true
+            },
+            {
+                "phrase": "About",
+                "translate": "Hakkında",
+                "active": true
+            },
+            {
+                "phrase": "Buy help",
+                "translate": "Satın Alma yardım",
+                "active": true
+            },
+            {
+                "phrase": "Redeem code",
+                "translate": "İndirim Kodu",
+                "active": true
+            },
+            {
+                "phrase": "Enter code...",
+                "translate": "Kodu Gir...",
+                "active": true
+            },
+            {
+                "phrase": "Redeem",
+                "translate": "İndirim",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "Eklenti eklerken hata",
+                "active": true
+            },
+            {
+                "phrase": "Code is successfully redeemed!",
+                "translate": "Kod başarılı bir şekilde girildi!",
+                "active": true
+            },
+            {
+                "phrase": "Incorrect code",
+                "translate": "Yanlış Kod",
+                "active": true
+            },
+            {
+                "phrase": "Activation error",
+                "translate": "Aktivasyon Hatası",
+                "active": true
+            },
+            {
+                "phrase": "Select extension package",
+                "translate": "Eklenti paketi seç",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise Extension",
+                "translate": "Mobirise Eklentisi",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension package",
+                "translate": "Eklenti paketi eklenirken hata",
+                "active": true
+            },
+            {
+                "phrase": "Themes",
+                "translate": "Temalar",
+                "active": true
+            },
+            {
+                "phrase": "Extensions",
+                "translate": "Eklentiler",
+                "active": true
+            },
+            {
+                "phrase": "Import",
+                "translate": "İçeri Aktar",
+                "active": true
+            },
+            {
+                "phrase": "Note: The server list is not available. Only installed extensions are shown",
+                "translate": "Not: Server listesi mevcut değil. Sadece yüklü eklentiler gösterilecektir",
+                "active": true
+            },
+            {
+                "phrase": "Get more extensions",
+                "translate": "Daha fazla eklenti",
+                "active": true
+            },
+            {
+                "phrase": "Try to log out and log back in",
+                "translate": "Çıkıp yap ve tekrar giriş yap",
+                "active": true
+            },
+            {
+                "phrase": "Warning",
+                "translate": "Uyarı",
+                "active": true
+            },
+            {
+                "phrase": "During the last run the program failed to load all extensions. To run again, program will temporarily disable them. Please update the extensions you use.",
+                "translate": "En son çalışılan eklentiler yüklenemedi. Tekrar çalıştırın, program bunları kapattı. Lütfen eklentileri güncelleştirin.",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "Tamam",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "İptal",
+                "active": true
+            },
+            {
+                "phrase": "Open \"Extensions list\"",
+                "translate": "\"Eklenti Listesini\" Aç",
+                "active": true
+            },
+            {
+                "phrase": "Some installed extensions $ext names$ are not compatible with the current version of the application. Please visit \"Extensions list\" dialog to update it.",
+                "translate": "Bazı yüklü eklentiler $ext names$ şuanki sürümünüzle uyumlu değil. Güncellemek için lütfen \"Eklenti Listesini\" ziyaret edin.",
+                "active": true
+            },
+            {
+                "phrase": "Extension",
+                "translate": "Eklentiler",
+                "active": true
+            },
+            {
+                "phrase": "No extensions matched your search. Try again.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create Site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "View Demo",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unexpected project create error",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to create the $site name$ site based on the $theme name$ theme, $name preset$ Template?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "theme",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unknown Source Warning!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You're importing an extension from unknown sources. Extension from unknown sources can harm your projects and bring incompatibility issues with Mobirise app and other extensions. Mobirise doesn't provide a support for 3rd-party extensions.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Import Anyway",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This extension works with app version $ext_version$ and higher. Please update your Mobirise app",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Update All",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Add All",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Update all installed extensions?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to download all available themes and extensions?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download all",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable to download $extension$. Try to re-login.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download cancelled:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Downloading...",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Add Themes and Extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Get ALL Mobirise Themes & Extensions!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "During the last run the program failed to load all extensions. To run again, program will temporarily disable them.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-common": [
+            {
+                "phrase": "This is a critical error, some functions of the program may not work correctly, please send information to the developers.",
+                "translate": "Bu kritik bir hata, programın bazı işlevleri düzgün çalışmayabilir, lütfen geliştiriciye bilgi gönderin.",
+                "active": true
+            },
+            {
+                "phrase": "Critical error",
+                "translate": "Kritik Hata",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "İptal",
+                "active": true
+            },
+            {
+                "phrase": "Send feedback",
+                "translate": "Geribildirim Gönder",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "Tamam",
+                "active": true
+            },
+            {
+                "phrase": "More",
+                "translate": "Daha Fazla",
+                "active": true
+            },
+            {
+                "phrase": "Less",
+                "translate": "Daha az",
+                "active": true
+            },
+            {
+                "phrase": "LOADING...",
+                "translate": "YÜKLENİYOR...",
+                "active": true
+            },
+            {
+                "phrase": "Send Error Report",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-component-params": [
+            {
+                "phrase": "Remove",
+                "translate": "Sil",
+                "active": true
+            },
+            {
+                "phrase": "Drag Block",
+                "translate": "Blok Taşı",
+                "active": true
+            },
+            {
+                "phrase": "Block Parameters",
+                "translate": "Blok Parametreleri",
+                "active": true
+            },
+            {
+                "phrase": "Remove Block",
+                "translate": "Bloğu Sil",
+                "active": true
+            },
+            {
+                "phrase": "Show More",
+                "translate": "Daha Fazla Göster",
+                "active": true
+            },
+            {
+                "phrase": "Remove Block?",
+                "translate": "Bloğu Sil?",
+                "active": true
+            },
+            {
+                "phrase": "Type address or insert",
+                "translate": "Adress yaz ya da gir",
+                "active": true
+            },
+            {
+                "phrase": "google map iframe",
+                "translate": "google haritalar iframe",
+                "active": true
+            },
+            {
+                "phrase": "Update",
+                "translate": "Güncelle",
+                "active": true
+            },
+            {
+                "phrase": "Loading images",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This block is global. Do you want to remove it from all pages?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to remove the $ID$ block?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-components-list": [
+            {
+                "phrase": "Add Block to Page",
+                "translate": "Sayfaya Blok Ekle",
+                "active": true
+            },
+            {
+                "phrase": "Close",
+                "translate": "Kapat",
+                "active": true
+            },
+            {
+                "phrase": "Show All Blocks",
+                "translate": "Tüm Blokları Göster",
+                "active": true
+            },
+            {
+                "phrase": "Show All",
+                "translate": "Hepsini Göster",
+                "active": true
+            },
+            {
+                "phrase": "Theme",
+                "translate": "Tema",
+                "active": true
+            },
+            {
+                "phrase": "Show Blocks From Theme",
+                "translate": "Temadan Blok Göster",
+                "active": true
+            },
+            {
+                "phrase": "Extensn",
+                "translate": "Extensn",
+                "active": true
+            },
+            {
+                "phrase": "Show Blocks From Extensions",
+                "translate": "Eklentilerden Blok Göster",
+                "active": true
+            },
+            {
+                "phrase": "Add More",
+                "translate": "Daha fazla ekle",
+                "active": true
+            },
+            {
+                "phrase": "Extension",
+                "translate": "Eklentiler",
+                "active": true
+            },
+            {
+                "phrase": "All",
+                "translate": "Hepsi",
+                "active": true
+            },
+            {
+                "phrase": "Added",
+                "translate": "Eklendi",
+                "active": true
+            },
+            {
+                "phrase": "More $groupName$ Blocks",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download $theme title$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Choose blocks' theme",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-core": [
+            {
+                "phrase": "Remove Block?",
+                "translate": "Bloğu Sil?",
+                "active": true
+            }
+        ],
+        "app-fonts": [
+            {
+                "phrase": "Browse Computer",
+                "translate": "Bilgisayardan Aktar",
+                "active": true
+            },
+            {
+                "phrase": "Google Fonts",
+                "translate": "Google Fontları",
+                "active": true
+            },
+            {
+                "phrase": "Site Fonts",
+                "translate": "Site Fontları",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "Tamam",
+                "active": true
+            },
+            {
+                "phrase": "Select font",
+                "translate": "Font seç",
+                "active": true
+            },
+            {
+                "phrase": "Fonts file",
+                "translate": "Font dosyası",
+                "active": true
+            },
+            {
+                "phrase": "Error saving project settings.",
+                "translate": "Proje ayarları kaydedilirken hata oluştu.",
+                "active": true
+            },
+            {
+                "phrase": "Error saving style.css for $font name$",
+                "translate": "style.css kaydedilirken hata oluştu $font name$",
+                "active": true
+            },
+            {
+                "phrase": "The quick brown fox jumps over the lazy dog.",
+                "translate": "Çabuk kahverengi tilki tembel köpeğin üstünden atlar.",
+                "active": true
+            },
+            {
+                "phrase": "Download font error!",
+                "translate": "Font indirme hatası!",
+                "active": true
+            },
+            {
+                "phrase": "This font has been successfully removed.",
+                "translate": "Bu font başarılı bir şekilde silindi.",
+                "active": true
+            },
+            {
+                "phrase": "Error removal!",
+                "translate": "Silerken Hata!",
+                "active": true
+            },
+            {
+                "phrase": "This is the font used in the project!",
+                "translate": "Bu font projede kullanılıyor!",
+                "active": true
+            },
+            {
+                "phrase": "Error file saving!",
+                "translate": "Dosya kaydedilirken hata!",
+                "active": true
+            },
+            {
+                "phrase": "More fonts",
+                "translate": "Daha fazla font",
+                "active": true
+            },
+            {
+                "phrase": "Font removal error!",
+                "translate": "Font silinirken hata!",
+                "active": true
+            },
+            {
+                "phrase": "Fonts",
+                "translate": "Fontlar",
+                "active": true
+            },
+            {
+                "phrase": "Search by font name",
+                "translate": "Font ismine göre ara",
+                "active": true
+            }
+        ],
+        "app-pages": [
+            {
+                "phrase": "Drag Page",
+                "translate": "Sayfayı Sürükle",
+                "active": true
+            },
+            {
+                "phrase": "Clone Page",
+                "translate": "Sayfayı Klonla",
+                "active": true
+            },
+            {
+                "phrase": "Rename Page, Edit Meta Tags",
+                "translate": "Sayfayı yeniden isimlendir, Meta Tagleri düzenle",
+                "active": true
+            },
+            {
+                "phrase": "Remove Page",
+                "translate": "Sayfayı Sil",
+                "active": true
+            },
+            {
+                "phrase": "OK",
+                "translate": "Tamam",
+                "active": true
+            },
+            {
+                "phrase": "Edit Title",
+                "translate": "Başlığı Düzenle",
+                "active": true
+            },
+            {
+                "phrase": "Remove page $page name$?",
+                "translate": "Sayfayı Sil $page name$?",
+                "active": true
+            },
+            {
+                "phrase": "Create New Page",
+                "translate": "Yeni Sayfa Oluştur",
+                "active": true
+            },
+            {
+                "phrase": "Create Page",
+                "translate": "Sayfa Oluştur",
+                "active": true
+            },
+            {
+                "phrase": "Page Settings",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-click-to-start": [
+            {
+                "phrase": "Click to Start",
+                "translate": "Başlamak İçin Start'a Basın",
+                "active": true
+            }
+        ],
+        "app-plugin-components-list-userblocks": [
+            {
+                "phrase": "Remove Block?",
+                "translate": "Bloğu Sil?",
+                "active": true
+            },
+            {
+                "phrase": "User",
+                "translate": "Kullanıcı",
+                "active": true
+            },
+            {
+                "phrase": "Show Blocks Saved By User",
+                "translate": "Kullanıcı Tarafından Kaydedilen Blokları Göster",
+                "active": true
+            },
+            {
+                "phrase": "Save To User Blocks",
+                "translate": "Kullanıcı Bloklarına Kaydet",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "User Blocks",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-favicon": [
+            {
+                "phrase": "Favicon",
+                "translate": "Favicon",
+                "active": true
+            },
+            {
+                "phrase": "Use menu logo",
+                "translate": "Menü logosu kullan",
+                "active": true
+            },
+            {
+                "phrase": "Change favicon",
+                "translate": "Favicon değiştir",
+                "active": true
+            },
+            {
+                "phrase": "Select Image",
+                "translate": "Resim Seç",
+                "active": true
+            }
+        ],
+        "app-plugin-github": [
+            {
+                "phrase": "GitHub UserName",
+                "translate": "Github KullanıcıAdı",
+                "active": true
+            },
+            {
+                "phrase": "GitHub Password or Token",
+                "translate": "Github Parola ya da Token",
+                "active": true
+            },
+            {
+                "phrase": "You can create GitHub Account %here%",
+                "translate": "%here%  Github hesabı oluşturabilirsin",
+                "active": true
+            },
+            {
+                "phrase": "Enter your credentials",
+                "translate": "Kimlik bilgilerinizi girin",
+                "active": true
+            },
+            {
+                "phrase": "ОК",
+                "translate": "Tamam",
+                "active": true
+            },
+            {
+                "phrase": "Success",
+                "translate": "Başarılı",
+                "active": true
+            },
+            {
+                "phrase": "The site is successfully uploaded to GitHub Pages. Usually GitHub can take up to 5 minutes to show up the changes. Do you want to open the site?",
+                "translate": "Site GitHub Pages'e başarıyla yüklendi. Genellikle GitHub'un değişiklik göstermesi 5 dakika kadar sürebilir. Siteyi açmak ister misiniz?",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "İptal",
+                "active": true
+            },
+            {
+                "phrase": "Open",
+                "translate": "Aç",
+                "active": true
+            },
+            {
+                "phrase": "Error",
+                "translate": "Hata",
+                "active": true
+            },
+            {
+                "phrase": "error(s) occured while uploading files to GitHub.com. Do you want to open $link$ anyway?",
+                "translate": "GitHub.com'a dosya yüklerken hata oluştu. Yine de $link$ açmak ister misiniz?",
+                "active": true
+            },
+            {
+                "phrase": "Check your credentials and internet connection",
+                "translate": "Bilgilerinizi ve internet bağlantınızı kontrol edin",
+                "active": true
+            },
+            {
+                "phrase": "Error while connecting to Github.",
+                "translate": "Github'a bağlanırken Hata",
+                "active": true
+            },
+            {
+                "phrase": "Close",
+                "translate": "Kapat",
+                "active": true
+            },
+            {
+                "phrase": "GitHub Pages",
+                "translate": "Github Sayfaları",
+                "active": true
+            },
+            {
+                "phrase": "Account",
+                "translate": "Hesap",
+                "active": true
+            },
+            {
+                "phrase": "folder",
+                "translate": "dosya",
+                "active": true
+            },
+            {
+                "phrase": "Upload",
+                "translate": "Yükle",
+                "active": true
+            },
+            {
+                "phrase": "GitHub Token",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Congratulations!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your site is published. Note that it takes a while for Github Pages to show updated content.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "ok",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-help": [
+            {
+                "phrase": "Please sign up/login to contact us or get the access to public forums",
+                "translate": "Lütfen bizimle iletişim kurmak veya ortak forumlara erişmek için kaydolun / giriş yapın",
+                "active": true
+            },
+            {
+                "phrase": "Help",
+                "translate": "Yardım",
+                "active": true
+            },
+            {
+                "phrase": "Please visit %Help Center% or %Forums% before contacting us.",
+                "translate": "Bizimle iletişime geçmeden önce lütfen %Help Center% ya da %Forums% ziyaret ediniz.",
+                "active": true
+            },
+            {
+                "phrase": "Visit Help Center",
+                "translate": "Yardım Merkezini Ziyaret Et",
+                "active": true
+            },
+            {
+                "phrase": "Visit Forums",
+                "translate": "Forumu Ziyaret Et",
+                "active": true
+            },
+            {
+                "phrase": "Send us a message",
+                "translate": "Bize bir mesaj gönderin",
+                "active": true
+            },
+            {
+                "phrase": "From",
+                "translate": "Kimden",
+                "active": true
+            },
+            {
+                "phrase": "Message",
+                "translate": "Mesaj",
+                "active": true
+            },
+            {
+                "phrase": "Please explain in details what happened and what steps we can take to reproduce the problem.",
+                "translate": "Lütfen ne olduğunu ve sorunu yeniden oluşturmak için ne gibi adımlar atabileceğimizi ayrıntılı olarak açıklayın.",
+                "active": true
+            },
+            {
+                "phrase": "Send",
+                "translate": "Gönder",
+                "active": true
+            },
+            {
+                "phrase": "Your message is too short. Please add more details",
+                "translate": "Mesajınız çok kısa. Lütfen biraz daha detay belirtin",
+                "active": true
+            },
+            {
+                "phrase": "Your message has been successfully sent!",
+                "translate": "Mesajınız başarılı şekilde gönderildi!",
+                "active": true
+            },
+            {
+                "phrase": "We will reply to your email $userEmail$ shortly.",
+                "translate": "$userEmail$ Mailinizi en kısa sürede cevaplandıracağız",
+                "active": true
+            },
+            {
+                "phrase": "SEND",
+                "translate": "GÖNDER",
+                "active": true
+            },
+            {
+                "phrase": "Visit Help Center or Contact Us",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-history": [
+            {
+                "phrase": "Site Settings",
+                "translate": "Site Ayarları",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "Resim",
+                "active": true
+            },
+            {
+                "phrase": "Video",
+                "translate": "Video",
+                "active": true
+            },
+            {
+                "phrase": "Remove Page",
+                "translate": "Sayfayı Sil",
+                "active": true
+            },
+            {
+                "phrase": "Add Block",
+                "translate": "Blok Ekle",
+                "active": true
+            },
+            {
+                "phrase": "Remove Block",
+                "translate": "Blok Sil",
+                "active": true
+            },
+            {
+                "phrase": "Block Position",
+                "translate": "Blok Pozisyonu",
+                "active": true
+            },
+            {
+                "phrase": "Block Params",
+                "translate": "Blok Params",
+                "active": true
+            },
+            {
+                "phrase": "Add Page",
+                "translate": "Sayfa Ekle",
+                "active": true
+            },
+            {
+                "phrase": "Page Settings",
+                "translate": "Sayfa Ayarları",
+                "active": true
+            },
+            {
+                "phrase": "Block to HTML",
+                "translate": "HTML'a Blok",
+                "active": true
+            },
+            {
+                "phrase": "Code Editor",
+                "translate": "Kod Düzenleyici",
+                "active": true
+            },
+            {
+                "phrase": "Text Type",
+                "translate": "Yazı Türü",
+                "active": true
+            },
+            {
+                "phrase": "Icon",
+                "translate": "İcon",
+                "active": true
+            },
+            {
+                "phrase": "Load Site",
+                "translate": "Site Yükle",
+                "active": true
+            },
+            {
+                "phrase": "Undo",
+                "translate": "Geri Al",
+                "active": true
+            },
+            {
+                "phrase": "Redo",
+                "translate": "İleri Al",
+                "active": true
+            },
+            {
+                "phrase": "Change Component",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-iconfont": [
+            {
+                "phrase": "Icon Color",
+                "translate": "İcon Rengi",
+                "active": true
+            },
+            {
+                "phrase": "Icon Size",
+                "translate": "İcon Boyutu",
+                "active": true
+            },
+            {
+                "phrase": "Auto",
+                "translate": "Otomatik",
+                "active": true
+            },
+            {
+                "phrase": "Link Icon to",
+                "translate": "İcon Linki",
+                "active": true
+            },
+            {
+                "phrase": "Edit Link",
+                "translate": "Linki Düzenle",
+                "active": true
+            },
+            {
+                "phrase": "Search...",
+                "translate": "Ara...",
+                "active": true
+            },
+            {
+                "phrase": "Select icons",
+                "translate": "İconları Seç",
+                "active": true
+            },
+            {
+                "phrase": "Insert Icon",
+                "translate": "İcon Ekle",
+                "active": true
+            },
+            {
+                "phrase": "Remove Icon",
+                "translate": "İcon Sil",
+                "active": true
+            },
+            {
+                "phrase": "Collapse All",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Expand All",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-image-editor-site-library": [
+            {
+                "phrase": "This image is used on the site and can't be removed from Site Library.",
+                "translate": "Bu görüntü sitede kullanılır ve Site Kitaplığından kaldırılamaz.",
+                "active": true
+            }
+        ],
+        "app-plugin-image-editor-unsplash": [
+            {
+                "phrase": "Search by keyword",
+                "translate": "Anahtar kelime ile ara",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "Ara",
+                "active": true
+            },
+            {
+                "phrase": "Online image library is not available",
+                "translate": "Online resim kütüphanesi mevcut değil",
+                "active": true
+            },
+            {
+                "phrase": "No images found!",
+                "translate": "Resim bulunamadı!",
+                "active": true
+            },
+            {
+                "phrase": "Please try another keyword",
+                "translate": "Lütfen başka anahtar kelime deneyiniz",
+                "active": true
+            },
+            {
+                "phrase": "e.g.",
+                "translate": "e.g.",
+                "active": true
+            }
+        ],
+        "app-plugin-link-editor": [
+            {
+                "phrase": "Add File",
+                "translate": "Dosya Ekle",
+                "active": true
+            },
+            {
+                "phrase": "Documents",
+                "translate": "Belgeler",
+                "active": true
+            },
+            {
+                "phrase": "This document is already added.",
+                "translate": "Bu belge zaten eklenmiş.",
+                "active": true
+            },
+            {
+                "phrase": "Link to",
+                "translate": "Link to",
+                "active": true
+            },
+            {
+                "phrase": "Page",
+                "translate": "Sayfa",
+                "active": true
+            },
+            {
+                "phrase": "Web Address",
+                "translate": "Web Adresi",
+                "active": true
+            },
+            {
+                "phrase": "Email",
+                "translate": "Email",
+                "active": true
+            },
+            {
+                "phrase": "Phone",
+                "translate": "Telefon",
+                "active": true
+            },
+            {
+                "phrase": "File",
+                "translate": "Dosya",
+                "active": true
+            },
+            {
+                "phrase": "Site Pages",
+                "translate": "Site Sayfaları",
+                "active": true
+            },
+            {
+                "phrase": "Block on Page",
+                "translate": "Sayfadaki Bloklar",
+                "active": true
+            },
+            {
+                "phrase": "Open in new window",
+                "translate": "Yeni pencerede aç",
+                "active": true
+            },
+            {
+                "phrase": "Browse Computer",
+                "translate": "Bilgisayardan Aktar",
+                "active": true
+            },
+            {
+                "phrase": "Choose pdf, doc, docx, ppt, pptx, xls, xlsx, odp or odt file",
+                "translate": "Pdf, doc, docx, ppt, pptx, xls, xlsx, odp ya da odt dosyası seç",
+                "active": true
+            },
+            {
+                "phrase": "Insert Link",
+                "translate": "Link Bağla",
+                "active": true
+            },
+            {
+                "phrase": "Remove Link",
+                "translate": "Link Sil",
+                "active": true
+            },
+            {
+                "phrase": "Block on $page title$ Page",
+                "translate": "$page title$ Sayfadaki Bloklar",
+                "active": true
+            },
+            {
+                "phrase": "Block on $current page$ Page",
+                "translate": "$current page$ Sayfadaki Bloklar",
+                "active": true
+            },
+            {
+                "phrase": "Custom URL",
+                "translate": "Özel Url",
+                "active": true
+            },
+            {
+                "phrase": "e.g.",
+                "translate": "e.g.",
+                "active": true
+            },
+            {
+                "phrase": "Call Phone Number",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Send SMS Text to Number",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with WhatsApp",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with Viber",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Call with Skype by Number or Name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with Telegram",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with Signal",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with Discord",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Phone/chat",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-media-editor": [
+            {
+                "phrase": "Media Image",
+                "translate": "Medya Resmi",
+                "active": true
+            },
+            {
+                "phrase": "Browse Computer",
+                "translate": "Bilgisayardan Aktar",
+                "active": true
+            },
+            {
+                "phrase": "Free Online Library",
+                "translate": "Bedava Online Kütüphane",
+                "active": true
+            },
+            {
+                "phrase": "Site Library",
+                "translate": "Site Kütüphanesi",
+                "active": true
+            },
+            {
+                "phrase": "Selected Image",
+                "translate": "Seçili Resim",
+                "active": true
+            },
+            {
+                "phrase": "Link Image to",
+                "translate": "Resmi Link ile Bağla",
+                "active": true
+            },
+            {
+                "phrase": "Edit Link",
+                "translate": "Linki Düzenle",
+                "active": true
+            },
+            {
+                "phrase": "Edit alt and title",
+                "translate": "Alt ve Bağlığı Düzenle",
+                "active": true
+            },
+            {
+                "phrase": "Alt",
+                "translate": "Alt",
+                "active": true
+            },
+            {
+                "phrase": "Title",
+                "translate": "Başlık",
+                "active": true
+            },
+            {
+                "phrase": "Select Image",
+                "translate": "Resim Seç",
+                "active": true
+            },
+            {
+                "phrase": "Crop Image",
+                "translate": "Resmi Kırp",
+                "active": true
+            },
+            {
+                "phrase": "More",
+                "translate": "Daha Fazla",
+                "active": true
+            },
+            {
+                "phrase": "Zoom In",
+                "translate": "Yakınlaş+",
+                "active": true
+            },
+            {
+                "phrase": "Zoom Out",
+                "translate": "Uzaklaş-",
+                "active": true
+            },
+            {
+                "phrase": "Flip Horizontal",
+                "translate": "Yatay Çevir",
+                "active": true
+            },
+            {
+                "phrase": "Flip Vertical",
+                "translate": "Dikey Çevir",
+                "active": true
+            },
+            {
+                "phrase": "Aspect Ratio",
+                "translate": "En Boy Oranı",
+                "active": true
+            },
+            {
+                "phrase": "Aspect Ratio: Free",
+                "translate": "En Boy Oranı: Serbest",
+                "active": true
+            },
+            {
+                "phrase": "Free",
+                "translate": "Serbest",
+                "active": true
+            },
+            {
+                "phrase": "Media Video",
+                "translate": "Video Medyası",
+                "active": true
+            },
+            {
+                "phrase": "Video URL",
+                "translate": "Video URL",
+                "active": true
+            },
+            {
+                "phrase": "Supported Youtube and Vimeo URL's",
+                "translate": "Youtube ve Vimeo URL'leri desteklenir",
+                "active": true
+            },
+            {
+                "phrase": "Autoplay",
+                "translate": "Otomatik Başlat",
+                "active": true
+            },
+            {
+                "phrase": "Loop",
+                "translate": "Döngü",
+                "active": true
+            },
+            {
+                "phrase": "From Phone",
+                "translate": "Telefondan",
+                "active": true
+            },
+            {
+                "phrase": "Library",
+                "translate": "Kütüphane",
+                "active": true
+            },
+            {
+                "phrase": "Adding and optimizing images",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Adding images to the project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "To disable the image optimization, use Sites->Site Settings->Optimization",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Creating gallery",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Drop images here",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "or",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Full Screen Image",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your image is too large to be resized in the app. Please resize it before adding. You can disable the Resize Images option in Site Settings -> Optimization.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit Image",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Counter Clockwise",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Clockwise",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "YouTube, Vimeo, or custom e.g. https://site.com/video.mp4",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unsupported video format. MP4 only.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-progress": [
+            {
+                "phrase": "Progress",
+                "translate": "İlerleme",
+                "active": true
+            },
+            {
+                "phrase": "Exporting...",
+                "translate": "Aktarılıyor...",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "İptal",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to stop?",
+                "translate": "Durmak ister misiniz?",
+                "active": true
+            },
+            {
+                "phrase": "Stop",
+                "translate": "Dur",
+                "active": true
+            },
+            {
+                "phrase": "Continue",
+                "translate": "Devam Et",
+                "active": true
+            },
+            {
+                "phrase": "Unknown error",
+                "translate": "Bilinmeyen hata",
+                "active": true
+            },
+            {
+                "phrase": "Ignore Errors",
+                "translate": "Hataları Yoksay",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to stop the publication?",
+                "translate": "Yayını durdurmak istiyor musunuz?",
+                "active": true
+            },
+            {
+                "phrase": "Publishing...",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-projects-history": [
+            {
+                "phrase": "Unable to revert to history $history date$",
+                "translate": "$history date$ Geçmişe geri döndürülemiyor",
+                "active": true
+            },
+            {
+                "phrase": "Show Project History",
+                "translate": "Proje Geçmişini Göster",
+                "active": true
+            },
+            {
+                "phrase": "History",
+                "translate": "Geçmiş",
+                "active": true
+            },
+            {
+                "phrase": "Do you really want to remove the site version from $selected date$?",
+                "translate": "Site sürümünü $selected date$ gerçekten kaldırmak istiyor musunuz?",
+                "active": true
+            },
+            {
+                "phrase": "Select saved version of project",
+                "translate": "Projenin kaydedilmiş sürümünü seçin",
+                "active": true
+            },
+            {
+                "phrase": "Revert back",
+                "translate": "Geri dön",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "İptal",
+                "active": true
+            },
+            {
+                "phrase": "Do you really want to revert back to the site version from $selected date$? The current site will not be lost, it will be saved under $current date$.",
+                "translate": "Gerçekten, seçilen $selected date$ 'dan site sürümüne geri dönmek istiyor musunuz? Mevcut site kaybolmayacak,  $current date$ altına kaydedilecek.",
+                "active": true
+            },
+            {
+                "phrase": "Remove Selected Version",
+                "translate": "Seçili Versiyonu Sil",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "Sil",
+                "active": true
+            },
+            {
+                "phrase": "Revert Back To Selected Version",
+                "translate": "Seçili Versiyona Geri Dön",
+                "active": true
+            },
+            {
+                "phrase": "Project history is empty",
+                "translate": "Proje geçmişi boş",
+                "active": true
+            },
+            {
+                "phrase": "Error while load from selected history:",
+                "translate": "Seçili geçmiş geri yüklenirken hata oluştu:",
+                "active": true
+            }
+        ],
+        "app-plugin-resize-images": [
+            {
+                "phrase": "Resize Images",
+                "translate": "Resmi Yeniden Boyutlandır",
+                "active": true
+            }
+        ],
+        "app-plugin-spectrum": [
+            {
+                "phrase": "More",
+                "translate": "Daha Fazla",
+                "active": true
+            },
+            {
+                "phrase": "Less",
+                "translate": "Daha Az",
+                "active": true
+            }
+        ],
+        "app-projects-hash": [
+            {
+                "phrase": "Publish changes only",
+                "translate": "Sadece değişiklikleri yayınla",
+                "active": true
+            }
+        ],
+        "app-projects": [
+            {
+                "phrase": "Project file error",
+                "translate": "Proje dosyası hatası",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "İptal",
+                "active": true
+            },
+            {
+                "phrase": "Error to save project file. Close application and run again.",
+                "translate": "Proje dosyası kayıt edilirken hata oluştu. Uygulamayı kapatın ve tekrar çalıştırın.",
+                "active": true
+            },
+            {
+                "phrase": "Error update recents list.",
+                "translate": "Son liste güncellenirken hata.",
+                "active": true
+            },
+            {
+                "phrase": "error",
+                "translate": "hata",
+                "active": true
+            },
+            {
+                "phrase": "Unknown error while publish",
+                "translate": "Yayınlanırken bilinmeyen hata",
+                "active": true
+            },
+            {
+                "phrase": "Open Mobirise Site",
+                "translate": "Mobirise Site'sini Aç",
+                "active": true
+            },
+            {
+                "phrase": "Create New Site",
+                "translate": "Yeni Site Oluştur",
+                "active": true
+            },
+            {
+                "phrase": "Open Mobirise site (project.mobirise) not listed here.",
+                "translate": "Mobirise Site Aç (project.mobirise) burada değil.",
+                "active": true
+            },
+            {
+                "phrase": "Import Mobirise Site",
+                "translate": "Mobirise Site  İçe Aktar",
+                "active": true
+            },
+            {
+                "phrase": "Clone Site",
+                "translate": "Siteyi Klonla",
+                "active": true
+            },
+            {
+                "phrase": "Edit Site Styles",
+                "translate": "Site Sitilini Düzenle",
+                "active": true
+            },
+            {
+                "phrase": "Rename, Favicon, Export",
+                "translate": "Yeniden Adlandır, Favicon, Dışa Aktar",
+                "active": true
+            },
+            {
+                "phrase": "Remove Site",
+                "translate": "Siteyi Sil",
+                "active": true
+            },
+            {
+                "phrase": "Select Project File",
+                "translate": "Proje Dosyasını Seç",
+                "active": true
+            },
+            {
+                "phrase": "Site Name",
+                "translate": "Site İsmi",
+                "active": true
+            },
+            {
+                "phrase": "Type the name of your new site",
+                "translate": "Yeni sitenizin ismini yazın",
+                "active": true
+            },
+            {
+                "phrase": "Select the Theme for this Site",
+                "translate": "Bu Site İçin Tema Seçin",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "Tamam",
+                "active": true
+            },
+            {
+                "phrase": "More Themes",
+                "translate": "Daha Fazla Tema",
+                "active": true
+            },
+            {
+                "phrase": "Site Settings",
+                "translate": "Site Ayarları",
+                "active": true
+            },
+            {
+                "phrase": "Site Files",
+                "translate": "Site Dosyaları",
+                "active": true
+            },
+            {
+                "phrase": "Create a site copy in different location",
+                "translate": "Farklı lokasyona sitenin kopyasını oluştur",
+                "active": true
+            },
+            {
+                "phrase": "Export Site",
+                "translate": "Siteyi Dışarı Aktar",
+                "active": true
+            },
+            {
+                "phrase": "Theme",
+                "translate": "Tema",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to remove $site name$?",
+                "translate": "$site name$ silmek ister misin?",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to close the current site and open $site name$?",
+                "translate": "Şuanki siteyi kapatıp $site name$? 'i açmak ister misin?",
+                "active": true
+            },
+            {
+                "phrase": "%This site% is not available. Do you want to remove it from the list?",
+                "translate": "%This site% mevcut değil. Bunu listeden silmek ister misin?",
+                "active": true
+            },
+            {
+                "phrase": "No Name",
+                "translate": "İsim Yok",
+                "active": true
+            },
+            {
+                "phrase": "Project file error. Try to restore from history",
+                "translate": "Proje dosya hatası. Geçmişten geri yüklemeyi deneyin",
+                "active": true
+            },
+            {
+                "phrase": "Unexpected project save error",
+                "translate": "Beklenmeyen proje kaydetme hatası",
+                "active": true
+            },
+            {
+                "phrase": "Unable to save loaded project",
+                "translate": "Yüklenen proje kaydedilemiyor",
+                "active": true
+            },
+            {
+                "phrase": "Unexpected project create error",
+                "translate": "Beklenmeyen proje hata oluştur",
+                "active": true
+            },
+            {
+                "phrase": "Cloned project is wrong",
+                "translate": "Klonlanmış proje yanlış",
+                "active": true
+            },
+            {
+                "phrase": "Empty project",
+                "translate": "Boş Proje",
+                "active": true
+            },
+            {
+                "phrase": "Create Site",
+                "translate": "Site Oluştur",
+                "active": true
+            },
+            {
+                "phrase": "or",
+                "translate": "ya da",
+                "active": true
+            },
+            {
+                "phrase": "Unable to init project",
+                "translate": "Proje başlatılamıyor",
+                "active": true
+            },
+            {
+                "phrase": "Unable to clone project",
+                "translate": "Proje klonlanamıyor",
+                "active": true
+            },
+            {
+                "phrase": "Create a project copy in a different location.&lt;br /&gt;Use Publish to create a full copy of the site",
+                "translate": "",
+                "active": false
+            },
+            {
+                "phrase": "Export Project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download $theme title$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Sites",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Add Blank Page",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Page Templates",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Themes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No templates matched your search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No themes matched your search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to create the $site name$ site based on the $theme name$ theme, $name preset$ Template?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Common",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Theme Name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Project Files",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create a project copy in a different location. Use Publish to create a full copy of the site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to remove a local copy of $site name$?",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-publish-dlg": [
+            {
+                "phrase": "Local drive folder",
+                "translate": "Lokal sürücü dosyası",
+                "active": true
+            },
+            {
+                "phrase": "folder",
+                "translate": "dosya",
+                "active": true
+            },
+            {
+                "phrase": "Edit",
+                "translate": "Düzenle",
+                "active": true
+            },
+            {
+                "phrase": "Browse...",
+                "translate": "Araştır...",
+                "active": true
+            },
+            {
+                "phrase": "To export the site project, please use %Sites -> Site Settings%",
+                "translate": "Projeyi dışa aktarmak için %Sites -> Site Settings% kullanın",
+                "active": true
+            },
+            {
+                "phrase": "Publish",
+                "translate": "Yayınla",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "İptal",
+                "active": true
+            },
+            {
+                "phrase": "Browse for folder",
+                "translate": "Klasöre göz at",
+                "active": true
+            }
+        ],
+        "app-publish-ftp": [
+            {
+                "phrase": "Edit",
+                "translate": "Düzenle",
+                "active": true
+            },
+            {
+                "phrase": "Add New",
+                "translate": "Yeni Ekle",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "Sil",
+                "active": true
+            },
+            {
+                "phrase": "FTP",
+                "translate": "FTP",
+                "active": true
+            },
+            {
+                "phrase": "root folder",
+                "translate": "Root Dosyası",
+                "active": true
+            },
+            {
+                "phrase": "Protocol",
+                "translate": "Protokol",
+                "active": true
+            },
+            {
+                "phrase": "Host",
+                "translate": "Host",
+                "active": true
+            },
+            {
+                "phrase": "Port",
+                "translate": "Port",
+                "active": true
+            },
+            {
+                "phrase": "Username",
+                "translate": "Kullanıcı Adı",
+                "active": true
+            },
+            {
+                "phrase": "Password",
+                "translate": "Parola",
+                "active": true
+            },
+            {
+                "phrase": "Test FTP Server",
+                "translate": "FTP Serveri Test Et",
+                "active": true
+            },
+            {
+                "phrase": "FTP Site Manager",
+                "translate": "FTP Site Yöneticisi",
+                "active": true
+            },
+            {
+                "phrase": "Test connection",
+                "translate": "Bağlantıyı test et",
+                "active": true
+            },
+            {
+                "phrase": "Successful connection",
+                "translate": "Başarılı bağlantı",
+                "active": true
+            },
+            {
+                "phrase": "Unable connect to FTP",
+                "translate": "FTP'ye bağlanılamıyor",
+                "active": true
+            },
+            {
+                "phrase": "Save",
+                "translate": "Kaydet",
+                "active": true
+            },
+            {
+                "phrase": "Remove this site?",
+                "translate": "Bu siteyi sil?",
+                "active": true
+            },
+            {
+                "phrase": "The site published successfully to $ftp location$",
+                "translate": "Bu site başarılı şekilde $ftp location$ 'da yayınlandı",
+                "active": true
+            },
+            {
+                "phrase": "e.g.",
+                "translate": "e.g.",
+                "active": true
+            },
+            {
+                "phrase": "Empty ftp.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connection timed out",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connection reset by peer",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connection refused",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Couldn't resolve the hostname to an IP address",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Network is unreachable",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unknown error while publish",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-publish": [
+            {
+                "phrase": "Initialization, please wait...",
+                "translate": "Başlatılıyor, lütfen bekleyin ...",
+                "active": true
+            },
+            {
+                "phrase": "Preparing $page name$",
+                "translate": "$page name$ hazırlanıyor",
+                "active": true
+            },
+            {
+                "phrase": "Internal error while processing page $page name$",
+                "translate": "Sayfa işlenirken hata oluştu $page name$",
+                "active": true
+            },
+            {
+                "phrase": "Your site was successfully exported to the folder $folder name$",
+                "translate": "Siteniz başarıyla $folder name$ klasörüne aktarıldı",
+                "active": true
+            },
+            {
+                "phrase": "Unknown error while publish",
+                "translate": "Yayınlanırken bilinmeyen hata",
+                "active": true
+            },
+            {
+                "phrase": "Progress",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Publishing...",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Internal error while translating page $page name$",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-settings": [
+            {
+                "phrase": "App Settings",
+                "translate": "Uygulama Ayarları",
+                "active": true
+            },
+            {
+                "phrase": "Top Toolbar",
+                "translate": "Top Araçbarı",
+                "active": true
+            },
+            {
+                "phrase": "Show Page & Site Names",
+                "translate": "Sayfaları & Site İsimlerini Göster",
+                "active": true
+            },
+            {
+                "phrase": "Show All Views",
+                "translate": "Tüm Görünenleri Göster",
+                "active": true
+            },
+            {
+                "phrase": "Show Redo",
+                "translate": "Redoları Göster",
+                "active": true
+            },
+            {
+                "phrase": "Editor",
+                "translate": "Editör",
+                "active": true
+            },
+            {
+                "phrase": "Show All Block Buttons",
+                "translate": "Tüm Blok Tuşlarını Göster",
+                "active": true
+            },
+            {
+                "phrase": "Show Site Styles Button",
+                "translate": "Site Still Tuşlarını Göster",
+                "active": true
+            },
+            {
+                "phrase": "APP",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Dark Mode",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Fullscreen Canvas",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Publish to GitHub Pages",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Github Login",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Token",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-theme-settings": [
+            {
+                "phrase": "Close",
+                "translate": "Kapat",
+                "active": true
+            },
+            {
+                "phrase": "More",
+                "translate": "Daha fazla",
+                "active": true
+            },
+            {
+                "phrase": "Less",
+                "translate": "Daha az",
+                "active": true
+            }
+        ],
+        "app-updater": [
+            {
+                "phrase": "New version $version$ is available",
+                "translate": "Yeni versiyon $version$ mevcut",
+                "active": true
+            },
+            {
+                "phrase": "Download now!",
+                "translate": "Şimdi indir!",
+                "active": true
+            },
+            {
+                "phrase": "Remind later",
+                "translate": "Daha sonra hatırlat",
+                "active": true
+            },
+            {
+                "phrase": "News",
+                "translate": "Yenilikler",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise news is available, please visit $site url$ website for details.",
+                "translate": "Mobirise yenilikleri mevcut, lütfen detaylar için $site url$ sayfasını ziyaret edin.",
+                "active": true
+            },
+            {
+                "phrase": "Read more...",
+                "translate": "Daha Fazla...",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "Tama",
+                "active": true
+            },
+            {
+                "phrase": "Skip this version",
+                "translate": "Versiyonu Atla",
+                "active": true
+            }
+        ],
+        "app-user-account": [
+            {
+                "phrase": "Please, Sign Up",
+                "translate": "Lütfen, Kayıt Ol",
+                "active": true
+            },
+            {
+                "phrase": "Please sign up / login to get latest updates and extensions",
+                "translate": "En son güncellemeler ve eklentiler için lütfen kayıt ol / giriş yap",
+                "active": true
+            },
+            {
+                "phrase": "Your Email",
+                "translate": "Mail Adresiniz",
+                "active": true
+            },
+            {
+                "phrase": "Sign Up / login",
+                "translate": "Kayıt Ol / Giriş Yap",
+                "active": true
+            },
+            {
+                "phrase": "or",
+                "translate": "ya da",
+                "active": true
+            },
+            {
+                "phrase": "Login with Google",
+                "translate": "Google ile giriş yap",
+                "active": true
+            },
+            {
+                "phrase": "Login with Facebook",
+                "translate": "Facebook ile giriş yap",
+                "active": true
+            },
+            {
+                "phrase": "No, I don't need this and don't show me this anymore",
+                "translate": "Hayır, buna ihtiyacım yok ve artık bana bunu gösterme",
+                "active": true
+            },
+            {
+                "phrase": "Forgot password?",
+                "translate": "Parolanı mı unuttun?",
+                "active": true
+            },
+            {
+                "phrase": "We've sent an email with instructions on how to reset your password to the email address $email$",
+                "translate": "Şifrenizi nasıl sıfırlayacağınıza dair talimatları içeren bir e-posta gönderdik. $email$",
+                "active": true
+            },
+            {
+                "phrase": "Are you sure you want to logout?",
+                "translate": "Çıkmak istediğinize emin misiniz?",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "Tamam",
+                "active": true
+            },
+            {
+                "phrase": "You successfully signed in",
+                "translate": "Başarılı bir şekilde giriş yaptınız",
+                "active": true
+            },
+            {
+                "phrase": "Your Password",
+                "translate": "Parolanız",
+                "active": true
+            },
+            {
+                "phrase": "Login",
+                "translate": "Giriş Yap",
+                "active": true
+            },
+            {
+                "phrase": "Enter your password",
+                "translate": "Parolanızı girin",
+                "active": true
+            },
+            {
+                "phrase": "Please enter a valid email address",
+                "translate": "Geçerli bir mail adresi girin",
+                "active": true
+            },
+            {
+                "phrase": "Your account password is sent to your email. If you haven't received the email, please check Spam folder",
+                "translate": "Hesap şifreniz e-posta adresinize gönderilir. E-postayı almadıysanız, lütfen Spam klasörünü kontrol edin.",
+                "active": true
+            },
+            {
+                "phrase": "You already have the Mobirise account, please login with your password",
+                "translate": "Zaten Mobirise hesabınız var, lütfen şifrenizle giriş yapın",
+                "active": true
+            },
+            {
+                "phrase": "Please sign up / login to load the free theme",
+                "translate": "Ücretsiz temayı yüklemek için lütfen kayıt olun / giriş yapın",
+                "active": true
+            },
+            {
+                "phrase": "Your password is sent to $email$",
+                "translate": "Şifreniz $email$l adresine gönderildi",
+                "active": true
+            },
+            {
+                "phrase": "If you haven't received the email, please check Spam folder.",
+                "translate": "E-postayı almadıysanız, lütfen Spam klasörünü kontrol edin.",
+                "active": true
+            },
+            {
+                "phrase": "Enter password for your Mobirise account",
+                "translate": "Mobirise hesabınızın şifresini girin",
+                "active": true
+            },
+            {
+                "phrase": "Your password is sent to $email$ with first sign up. Check your email to find it.",
+                "translate": "Şifreniz ilk kayıt olunca$email$ 'a gönderildi. Görmek için e-postanızı kontrol edin.",
+                "active": true
+            },
+            {
+                "phrase": "Change email",
+                "translate": "Email değiştir",
+                "active": true
+            },
+            {
+                "phrase": "Please login to get latest updates and extensions",
+                "translate": "En son güncellemeleri ve uzantıları almak için lütfen giriş yapın",
+                "active": true
+            },
+            {
+                "phrase": "Enter your email",
+                "translate": "Emailinizi girin",
+                "active": true
+            },
+            {
+                "phrase": "Enter password",
+                "translate": "Parolanızı girin",
+                "active": true
+            },
+            {
+                "phrase": "Check your email. Your password is sent to $email$",
+                "translate": "E-postanı kontrol et. Şifreniz $email$ adresine gönderildi",
+                "active": true
+            },
+            {
+                "phrase": "You already have the Mobirise account for $email$. Enter your password.",
+                "translate": "Zaten $email$ için Mobirise hesabınız var. Şifrenizi girin.",
+                "active": true
+            },
+            {
+                "phrase": "Please login to load the free themes and extensions",
+                "translate": "Ücretsiz tema ve uzantıları yüklemek için lütfen giriş yapın.",
+                "active": true
+            },
+            {
+                "phrase": "Your account token has expired, please log in again",
+                "translate": "Hesap kartınızın süresi doldu, lütfen tekrar giriş yapın",
+                "active": true
+            }
+        ],
+        "web/app/interface/extbridge.js": [
+            {
+                "phrase": "Images",
+                "translate": "Resimler",
+                "active": true
+            }
+        ],
+        "add-builder-ext": [
+            {
+                "phrase": "To remove all buttons from the block use %\"Block Parameters\" -> \"Show Buttons\"%",
+                "translate": "Tüm düğmeleri bloktan çıkarmak için %\"Block Parameters\" -> \"Show Buttons\"% kullanın",
+                "active": true
+            },
+            {
+                "phrase": "Insert icon",
+                "translate": "İcon Ekle",
+                "active": true
+            },
+            {
+                "phrase": "Font",
+                "translate": "Font",
+                "active": true
+            },
+            {
+                "phrase": "Color",
+                "translate": "Renk",
+                "active": true
+            },
+            {
+                "phrase": "Add",
+                "translate": "Ekle",
+                "active": true
+            },
+            {
+                "phrase": "Move Left",
+                "translate": "Sola Taşı",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "Sil",
+                "active": true
+            },
+            {
+                "phrase": "Align",
+                "translate": "Hizalama",
+                "active": true
+            },
+            {
+                "phrase": "Link",
+                "translate": "Link",
+                "active": true
+            },
+            {
+                "phrase": "Edit Site Styles",
+                "translate": "Site Stilini Düzenle",
+                "active": true
+            },
+            {
+                "phrase": "Top of Page",
+                "translate": "Sayfanın Başı",
+                "active": true
+            },
+            {
+                "phrase": "Bottom of Page",
+                "translate": "Sayfanın Ortası",
+                "active": true
+            }
+        ],
+        "carousel": [
+            {
+                "phrase": "VIDEO SLIDE",
+                "translate": "VİDEO SLİDE",
+                "active": true
+            },
+            {
+                "phrase": "Play Video",
+                "translate": "Video Oynat",
+                "active": true
+            },
+            {
+                "phrase": "Youtube or Vimeo",
+                "translate": "Youtube ya da Vimeo",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "Resim",
+                "active": true
+            },
+            {
+                "phrase": "Show Title",
+                "translate": "Başlığı Göster",
+                "active": true
+            },
+            {
+                "phrase": "Show Text",
+                "translate": "Yazıyı Göster",
+                "active": true
+            },
+            {
+                "phrase": "Show Buttons",
+                "translate": "Butonları Göster",
+                "active": true
+            },
+            {
+                "phrase": "Color",
+                "translate": "Renk",
+                "active": true
+            },
+            {
+                "phrase": "Opacity",
+                "translate": "Opaklık",
+                "active": true
+            },
+            {
+                "phrase": "Content Align",
+                "translate": "İçerik Hizalama",
+                "active": true
+            },
+            {
+                "phrase": "FULL SCREEN SLIDER",
+                "translate": "FULL EKREN SLİDER",
+                "active": true
+            },
+            {
+                "phrase": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "translate": "Jumbotronlar, kahraman görüntüleri, paralaks kaydırma, video arka planlar, hamburger menüsü, yapışkan başlık ve daha fazlası - En son önceden yapılmış blokların geniş bir seçim.",
+                "active": true
+            },
+            {
+                "phrase": "FOR WINDOWS",
+                "translate": "WİNDOWS İÇİN",
+                "active": true
+            },
+            {
+                "phrase": "FOR MAC",
+                "translate": "MAC İÇİN",
+                "active": true
+            },
+            {
+                "phrase": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
+                "translate": "Youtube video arka planı ve renk kaplaması ile kaydırın. Başlık ve metin sola hizalanır.",
+                "active": true
+            },
+            {
+                "phrase": "IMAGE SLIDE",
+                "translate": "RESİM SLİDE",
+                "active": true
+            },
+            {
+                "phrase": "Autoplay",
+                "translate": "Otomatik Oynat",
+                "active": true
+            },
+            {
+                "phrase": "Autoplay Interval (ms)",
+                "translate": "Otomatik Oynatma Aralığı (ms)",
+                "active": true
+            },
+            {
+                "phrase": "Show Bullets",
+                "translate": "Madde İşaretlerini Göster",
+                "active": true
+            },
+            {
+                "phrase": "Type Text",
+                "translate": "Metin yaz",
+                "active": true
+            }
+        ],
+        "gallery": [
+            {
+                "phrase": "Play Video",
+                "translate": "Video Oynat",
+                "active": true
+            },
+            {
+                "phrase": "Video URL",
+                "translate": "Video URL",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "Resim",
+                "active": true
+            },
+            {
+                "phrase": "Tags",
+                "translate": "Etiketler",
+                "active": true
+            },
+            {
+                "phrase": "Awesome image",
+                "translate": "Harika Resim",
+                "active": true
+            },
+            {
+                "phrase": "Awesome",
+                "translate": "Harika",
+                "active": true
+            },
+            {
+                "phrase": "Responsive",
+                "translate": "Responsiv",
+                "active": true
+            },
+            {
+                "phrase": "Creative",
+                "translate": "Yaratıcı",
+                "active": true
+            },
+            {
+                "phrase": "Animated",
+                "translate": "Animasyonlu",
+                "active": true
+            },
+            {
+                "phrase": "Type caption here",
+                "translate": "Başlığı buraya yazın",
+                "active": true
+            },
+            {
+                "phrase": "Show Bullets",
+                "translate": "Madde İşaretlerini Göster",
+                "active": true
+            },
+            {
+                "phrase": "Show Text",
+                "translate": "Metni Göster",
+                "active": true
+            },
+            {
+                "phrase": "Show Tags",
+                "translate": "Etiketi Göster",
+                "active": true
+            },
+            {
+                "phrase": "Type Text",
+                "translate": "Metin yaz",
+                "active": true
+            },
+            {
+                "phrase": "Row/Column",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Containers Count",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "1st Container Items",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "2nd Container Items",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "3rd Container Items",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "4th Container Items",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "map": [
+            {
+                "phrase": "350 5th Ave, New York, NY 10118",
+                "translate": "350 5th Ave, New York, NY 10118",
+                "active": true
+            },
+            {
+                "phrase": "Address",
+                "translate": "Adres",
+                "active": true
+            }
+        ],
+        "shop": [
+            {
+                "phrase": "Best Seller",
+                "translate": "En Çok Satan",
+                "active": true
+            },
+            {
+                "phrase": "On Sale",
+                "translate": "İndirimde",
+                "active": true
+            },
+            {
+                "phrase": "Old Price",
+                "translate": "Eski Fiyat",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "Resim",
+                "active": true
+            },
+            {
+                "phrase": "Tags",
+                "translate": "Etiketler",
+                "active": true
+            },
+            {
+                "phrase": "Awesome image",
+                "translate": "Harika Resim",
+                "active": true
+            },
+            {
+                "phrase": "Brown Glasses",
+                "translate": "Kahverengi Bardaklar",
+                "active": true
+            },
+            {
+                "phrase": "Men\\'s Shoes",
+                "translate": "Erkek Ayakkabıları",
+                "active": true
+            },
+            {
+                "phrase": "Blue Backpack",
+                "translate": "Mavi Sırt Çantası",
+                "active": true
+            },
+            {
+                "phrase": "Red Snapback",
+                "translate": "Kırmızı Snapback",
+                "active": true
+            },
+            {
+                "phrase": "Black Glasses",
+                "translate": "Siyah Bardaklar",
+                "active": true
+            },
+            {
+                "phrase": "Women\\'s Shoes",
+                "translate": "Kadın Ayakkabıları",
+                "active": true
+            },
+            {
+                "phrase": "Pink Backpack",
+                "translate": "Pembe Sırt Çantası",
+                "active": true
+            },
+            {
+                "phrase": "Red Cap",
+                "translate": "Kırmızı Şapka",
+                "active": true
+            },
+            {
+                "phrase": "Awesome",
+                "translate": "Harika",
+                "active": true
+            },
+            {
+                "phrase": "Wonderful",
+                "translate": "Mükemmel",
+                "active": true
+            },
+            {
+                "phrase": "Creative",
+                "translate": "Yaratıcı",
+                "active": true
+            },
+            {
+                "phrase": "Responsive",
+                "translate": "Responsiv",
+                "active": true
+            },
+            {
+                "phrase": "Animated",
+                "translate": "Animasyonlu",
+                "active": true
+            },
+            {
+                "phrase": "Casual shoes (contact us for sizing)",
+                "translate": "Rahat ayakkabılar (Numara için bize ulaşın)",
+                "active": true
+            },
+            {
+                "phrase": "Lightweight textured fabric",
+                "translate": "Hafif dokulu kumaş",
+                "active": true
+            },
+            {
+                "phrase": "Rounded v-neckline",
+                "translate": "Yuvarlak v yaka",
+                "active": true
+            },
+            {
+                "phrase": "Pom pom trims",
+                "translate": "Pom pom süslemeler",
+                "active": true
+            },
+            {
+                "phrase": "Regular fit – true to size",
+                "translate": "Düzenli yerleştirme - Doğru Beden",
+                "active": true
+            },
+            {
+                "phrase": "Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.",
+                "translate": "Büro ödev yazar sadece ama vulputate etek. Stres makyaj çok mezun vadi, sıcaklığını hedef aldı.",
+                "active": true
+            },
+            {
+                "phrase": "Product code:",
+                "translate": "Ürün Kodu:",
+                "active": true
+            },
+            {
+                "phrase": "From:",
+                "translate": "Kimden:",
+                "active": true
+            },
+            {
+                "phrase": "Buy now!",
+                "translate": "Şimdi Satın Al!",
+                "active": true
+            },
+            {
+                "phrase": "Type caption here",
+                "translate": "Başlığı buraya yazın",
+                "active": true
+            },
+            {
+                "phrase": "Show Sidebar",
+                "translate": "Kenar Çubuğunu Göster",
+                "active": true
+            },
+            {
+                "phrase": "Show Card Buttons",
+                "translate": "Kart Düğmelerini Göster",
+                "active": true
+            },
+            {
+                "phrase": "Show Sorting Buttons",
+                "translate": "Sıralama Düğmelerini Göster",
+                "active": true
+            },
+            {
+                "phrase": "Show Best Sellers",
+                "translate": "En Çok Satanı Göster",
+                "active": true
+            },
+            {
+                "phrase": "Show Price Range",
+                "translate": "Fiyat Aralığını Göster",
+                "active": true
+            },
+            {
+                "phrase": "Show Tags",
+                "translate": "Etiketleri Göster",
+                "active": true
+            },
+            {
+                "phrase": "Default sorting",
+                "translate": "Varsayılan sıralama",
+                "active": true
+            },
+            {
+                "phrase": "Price: low to high",
+                "translate": "Fiyat: Ucuzdan pahalıya",
+                "active": true
+            },
+            {
+                "phrase": "Price: high to low",
+                "translate": "Fiyat: Pahalıda ucuza",
+                "active": true
+            },
+            {
+                "phrase": "Filter",
+                "translate": "Filtre",
+                "active": true
+            },
+            {
+                "phrase": "Show all",
+                "translate": "Hepsini Göster",
+                "active": true
+            },
+            {
+                "phrase": "Sale",
+                "translate": "Satış",
+                "active": true
+            },
+            {
+                "phrase": "Type Title",
+                "translate": "Bağlık Yaz",
+                "active": true
+            },
+            {
+                "phrase": "Type Price",
+                "translate": "Fiyat Yaz",
+                "active": true
+            },
+            {
+                "phrase": "Type Caption",
+                "translate": "Yazı tipi",
+                "active": true
+            },
+            {
+                "phrase": "Type Text",
+                "translate": "Metin Yaz",
+                "active": true
+            },
+            {
+                "phrase": "Reverse Sidebar:",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-translate": [
+            {
+                "phrase": "Language",
+                "translate": "Dil",
+                "active": true
+            },
+            {
+                "phrase": "Open",
+                "translate": "Aç",
+                "active": true
+            },
+            {
+                "phrase": "You\\'re connected as:",
+                "translate": "Olarak bağlandınız:",
+                "active": true
+            },
+            {
+                "phrase": "Disconnect",
+                "translate": "Çıkış Yap",
+                "active": true
+            },
+            {
+                "phrase": "Add",
+                "translate": "Ekle",
+                "active": true
+            },
+            {
+                "phrase": "Change language",
+                "translate": "Dili Değiştir",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again?",
+                "translate": "Tekrar Gösterme?",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "Tamam",
+                "active": true
+            },
+            {
+                "phrase": "Error setup language!",
+                "translate": "Dil ayarlanırken hata!",
+                "active": true
+            },
+            {
+                "phrase": "Change language?",
+                "translate": "Dili değiştir",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "Tekrar gösterme",
+                "active": true
+            }
+        ],
+        "blocks": [
+            {
+                "phrase": "Menu",
+                "translate": "Menü",
+                "active": true
+            },
+            {
+                "phrase": "Headers",
+                "translate": "Başlıklar",
+                "active": true
+            },
+            {
+                "phrase": "Images & Videos",
+                "translate": "Resimler & Videolar",
+                "active": true
+            },
+            {
+                "phrase": "Sliders & Galleries",
+                "translate": "Galeri & Slaytlar",
+                "active": true
+            },
+            {
+                "phrase": "Article",
+                "translate": "Makale",
+                "active": true
+            },
+            {
+                "phrase": "Features",
+                "translate": "Özellikler",
+                "active": true
+            },
+            {
+                "phrase": "Animated Features",
+                "translate": "Animasyonlu Özellikler",
+                "active": true
+            },
+            {
+                "phrase": "Pricing Tables",
+                "translate": "Fiyat Tablosu",
+                "active": true
+            },
+            {
+                "phrase": "Counters",
+                "translate": "Sayaçlar",
+                "active": true
+            },
+            {
+                "phrase": "Countdowns",
+                "translate": "Geri Sayımlar",
+                "active": true
+            },
+            {
+                "phrase": "Progress",
+                "translate": "İlerleme",
+                "active": true
+            },
+            {
+                "phrase": "Timelines",
+                "translate": "Zaman Çizelgeleri",
+                "active": true
+            },
+            {
+                "phrase": "Accordions & Toggles & Tabs",
+                "translate": "Akordeonlar & Geçişler & Sekmeler",
+                "active": true
+            },
+            {
+                "phrase": "Info",
+                "translate": "Bilgi",
+                "active": true
+            },
+            {
+                "phrase": "Forms",
+                "translate": "Formlar",
+                "active": true
+            },
+            {
+                "phrase": "Maps",
+                "translate": "Haritalar",
+                "active": true
+            },
+            {
+                "phrase": "Social",
+                "translate": "Sosyal",
+                "active": true
+            },
+            {
+                "phrase": "Testimonials",
+                "translate": "Görüşler",
+                "active": true
+            },
+            {
+                "phrase": "Clients",
+                "translate": "Müşteriler",
+                "active": true
+            },
+            {
+                "phrase": "Tables",
+                "translate": "Tablolar",
+                "active": true
+            },
+            {
+                "phrase": "Footers",
+                "translate": "Altbilgiler",
+                "active": true
+            }
+        ],
+        "app-themes": [
+            {
+                "phrase": "This site uses the theme $theme title$ that isn't available.",
+                "translate": "Bu site mevcut olmayan $theme title$ temasını kullanıyor.",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "İptal",
+                "active": true
+            },
+            {
+                "phrase": "Install $theme title$",
+                "translate": "Yükle $theme title$",
+                "active": true
+            },
+            {
+                "phrase": "No themes available for loaded project",
+                "translate": "Yüklü proje için tema mevcut değil",
+                "active": true
+            },
+            {
+                "phrase": "This site uses the theme $theme title$ that isn't available. If the theme is installed, then reinstall it please.",
+                "translate": "Bu site mevcut olmayan $theme title$ temasını kullanıyor. Tema yüklüyse, lütfen tekrar yükleyin.",
+                "active": true
+            },
+            {
+                "phrase": "Try to log out and log back in",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download $addonName",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-mobile-interface": [
+            {
+                "phrase": "Remove Block?",
+                "translate": "Bloğu Sil",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "Sil",
+                "active": true
+            },
+            {
+                "phrase": "Remove Page",
+                "translate": "Sayfayı Sil",
+                "active": true
+            },
+            {
+                "phrase": "Remove page $page name$?",
+                "translate": "Sayfayı Sil $page name$?",
+                "active": true
+            },
+            {
+                "phrase": "Remove Site",
+                "translate": "Siteyi Sil",
+                "active": true
+            },
+            {
+                "phrase": "Edit Site Styles",
+                "translate": "Site Sitilini Düzenle",
+                "active": true
+            }
+        ],
+        "app-plugin-form-editor": [
+            {
+                "phrase": "Form Fields",
+                "translate": "Form Alanları",
+                "active": true
+            },
+            {
+                "phrase": "Form Options",
+                "translate": "Form Ayarları",
+                "active": true
+            },
+            {
+                "phrase": "Notification Email or Action URL",
+                "translate": "Bildirim için Email ya da aksiyon URLsi",
+                "active": true
+            },
+            {
+                "phrase": "Please enter a valid email address or URL",
+                "translate": "Lütfen geçerli mail ya da URL girin",
+                "active": true
+            },
+            {
+                "phrase": "Success Message",
+                "translate": "Başarılı Mesaj",
+                "active": true
+            },
+            {
+                "phrase": "Form",
+                "translate": "Form",
+                "active": true
+            },
+            {
+                "phrase": "Verify",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Verified",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Email verified",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "secondary-components": [
+            {
+                "phrase": "Block Parameters",
+                "translate": "Blok Parametleri",
+                "active": true
+            },
+            {
+                "phrase": "Type Text",
+                "translate": "Metin Yaz",
+                "active": true
+            },
+            {
+                "phrase": "Type Content",
+                "translate": "İçerik Yaz",
+                "active": true
+            }
+        ],
+        "web/app/interface/app-translate.js": [
+            {
+                "phrase": "Open",
+                "translate": "Aç",
+                "active": true
+            },
+            {
+                "phrase": "You\\'re connected as:",
+                "translate": "Olarak bağlısınız:",
+                "active": true
+            },
+            {
+                "phrase": "Disconnect",
+                "translate": "Çıkış",
+                "active": true
+            },
+            {
+                "phrase": "Add",
+                "translate": "Ekle",
+                "active": true
+            },
+            {
+                "phrase": "Change language?",
+                "translate": "Dili değiştir?",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "Tekrar gösterme",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "Tamam",
+                "active": true
+            },
+            {
+                "phrase": "Error setup language!",
+                "translate": "Dil ayarlanırken hata!",
+                "active": true
+            },
+            {
+                "phrase": "Language",
+                "translate": "Dil",
+                "active": true
+            }
+        ],
+        "web/app/interface/app-plugin-mbrsite.js": [
+            {
+                "phrase": "Incorrect server response.",
+                "translate": "Yanlış sunucu yanıtı.",
+                "active": true
+            },
+            {
+                "phrase": "Incorrect domain name.",
+                "translate": "Yanlış alan adı.",
+                "active": true
+            },
+            {
+                "phrase": "File too large",
+                "translate": "Dosya çok büyük",
+                "active": true
+            },
+            {
+                "phrase": "Site Domain",
+                "translate": "Site Domain",
+                "active": true
+            },
+            {
+                "phrase": "Delete",
+                "translate": "Sil",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to delete the domain $domain$?",
+                "translate": "Alan adını silmek ister misin $domain$?",
+                "active": true
+            },
+            {
+                "phrase": "Change Site Domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change Site Name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable to init project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Can't download the site because it was published incorrectly.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error loading project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to remove the domain $domain$? Your site will be completely removed from the Web.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error removing site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Congratulations!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your site is published and live online:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Next:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit your site online:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connect your own domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "https://",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "ok",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove Site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error removing the domain",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-account": [
+            {
+                "phrase": "Please login to get latest updates and extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Login with Google",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Login with Facebook",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "or",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter your email",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Login",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use free version",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No, I don't need this and don't show me this anymore",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Forgot password?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You successfully signed in",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter password",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter your password",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please enter a valid email address",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Check your email. Your password is sent to $email$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change email",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "If you haven't received the email, please check Spam folder.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You already have the Mobirise account for $email$. Enter your password.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your password is sent to $email$ with first sign up. Check your email to find it.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Are you sure you want to logout?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "We've sent an email with instructions on how to reset your password to the email address $email$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please login to load the free themes and extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your account token has expired, please log in again",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "addons-core": [
+            {
+                "phrase": "No internet connection found. Some extensions may be not available.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-expiration-checking": [
+            {
+                "phrase": "No internet connection found. Some extensions may be not available.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connect to the Internet to add this block",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "The block cannot be added because your license for $extension$ has expired.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Update",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-payment-checking": [
+            {
+                "phrase": "No internet connection found. Continue without Code Editor Extension.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-auto-update": [
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Updating",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Downloading",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "All extensions $text$.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Сancel $title$?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Yes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-cms": [
+            {
+                "phrase": "Add online editor (CMS) to /edit/ folder",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "cookies-alert": [
+            {
+                "phrase": "By continuing you agree to our %Terms of Service% and %Privacy Policy%",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "We use cookies to give you the best experience. Read our %cookie policy%",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "GOT IT",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "REJECT",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cookies Alert",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enable",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "GDPR Compliance",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cookies Alert Editor",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Consent",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Alert only - without blocking",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reject and Accept - \"Reject\" blocks JS and iframes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Accept - page loads only after \"Accept\"",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Layout",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Bottom panel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Center popup",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Text Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Background Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Accept Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Link Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reject Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Background Opacity",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Overlay Opacity",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your cookies alert message.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reject Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your cookies alert reject button text.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reject",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Accept Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your cookies alert accept button text.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Compliance GDPR",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Underline Link",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your GDPR message.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Demo",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/app-plugin-domains.js": [
+            {
+                "phrase": "Incorrect server response.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Copy",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connect domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "OK",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Disconnect",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Site Domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connect",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove Domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Open in Browser",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Publish",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Recheck",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Invalid domain name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This feature is not available",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Domain successfully detached",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Are you sure you want to delete this record?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Delete",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Internal server error.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "DNS management",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to disconnect the domain $domain$?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Copied",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "google-analytics": [
+            {
+                "phrase": "Analytics",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your Analytics code snippet here or paste any other code that you want to have on every page immediately after the opening $body$ tag.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-mobirise-ai": [
+            {
+                "phrase": "Create with Mobirise AI",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Describe in detail what your site will be about, what it will offer, who is behind it, your benefits and specialties. You can write in any language.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "We are Craft22, a team of skilled artisans from Brooklyn, NY.  We offer a wide range of handmade crafts, from custom jewelry to home decor.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Minimum 32 characters",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Generate",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your prompt is too short, add more details.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your prompt is too long, shorten it.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-page-presets": [
+            {
+                "phrase": "If the theme is installed, please reinstall it.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Install $theme title$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Choose Template for Page",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-projects-presets": [
+            {
+                "phrase": "If the theme is installed, please reinstall it.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Install $theme title$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Choose Template for $nameTheme$ Theme",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-restore": [
+            {
+                "phrase": "Do you really want to restore the deleted sites?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Restore Deleted Sites",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you really want to restore ALL deleted sites? This may take some time...",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/app-plugin-seo.js": [
+            {
+                "phrase": "Edit sitemap.xml",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit robots.txt",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter site URL",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "URL is not valid! (must be like \"http://mysite.com\")",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "SEO & Analytics",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use robots.txt",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit Robots.txt",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use sitemap.xml",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Auto",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit Sitemap Settings",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "user-licenses": [
+            {
+                "phrase": "No active licenses",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Kits",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Themes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Sites",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Expired",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "User Licenses",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Licenses",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-webp-convert": [
+            {
+                "phrase": "Optimization",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Convert Images to WebP",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Publishing...",
+                "translate": "",
+                "active": true
+            }
+        ]
+    },
+    "author": "lazzpanyol@gmail.com"
+}

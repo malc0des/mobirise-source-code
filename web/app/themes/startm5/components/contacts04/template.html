@@ -1,0 +1,47 @@
+<section class="contacts4 map1" group="Contact">
+
+	<mbr-parameters>
+		<input type="map" title="Map" name="googleMap">
+		<input type="range" inline title="Height Map" name="heightMap" min="8" max="11" step="0.1" value="8">
+		<header>Show/Hide</header>
+		<input type="checkbox" title="Card" name="showCard" checked>
+		<input type="checkbox" title="Card Title" name="showCardTitle" checked condition="showCard">
+		<input type="color" title="Card BG color" name="cardColor" value="#ffffff" condition="showCard">
+		<input type="range" inline title="BG card opacity" name="cardOpacity" min="0" max="100" value="100" step="1" condition="showCard">
+		<select name="alignContent" title="Align Content" condition="showCard">
+			<option value="1" selected>Left</option>
+			<option value="2">Center</option>
+			<option value="3">Right</option>
+		</select>
+	</mbr-parameters>
+
+	<div class="main_wrapper">
+		<div class="b_wrapper" mbr-if="showCard">
+			<div class="container-fluid">
+				<div class="row" mbr-class="{'justify-content-start' : alignContent == 1, 
+                                            'justify-content-center' : alignContent == 2, 
+                                            'justify-content-end' : alignContent == 3}">
+					<div class="col-md-5 col-lg-4 item-wrapper">
+                        <h5 mbr-text="" class="cardTitle mbr-fonts-style mb-2" data-app-selector=".cardTitle"
+                            mbr-theme-style="display-5" mbr-if="showCardTitle">
+                            <b>Contact Us</b>
+                        </h5>
+                        <ul class="list mbr-fonts-style" mbr-theme-style="display-7" data-app-selector=".list, .item-wrap"
+                            data-multiline="" mbr-article="">
+                            <li class="mbr-text item-wrap">Phone: <a href="tel:+12345678910" class="text-primary">0 (800) 123 45
+                                    67</a></li>
+                            <li class="mbr-text item-wrap">WhatsApp: <a href="tel:+12345678910" class="text-primary">0 (800) 123
+                                    45 67</a></li>
+                            <li class="mbr-text item-wrap">Email: <a href="mailto:info@site.com"
+                                    class="text-primary">info@site.com</a></li>
+                            <li class="mbr-text item-wrap">Address: 350 5th Ave, New York, NY 10118</li>
+                            <li class="mbr-text item-wrap">Working hours: 9:00AM - 6:00PM</li>
+                        </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="google-map" mbr-map="googleMap">
+        </div>
+	</div>
+</section>

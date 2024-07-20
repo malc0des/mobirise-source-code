@@ -1,0 +1,4217 @@
+{
+    "title": "Portuguese",
+    "language": "pt",
+    "type": "main",
+    "groups": {
+        "global": [
+            {
+                "phrase": "Pages",
+                "translate": "Página",
+                "active": true
+            },
+            {
+                "phrase": "Page Settings",
+                "translate": "Configuração de Página",
+                "active": true
+            },
+            {
+                "phrase": "Page Title:",
+                "translate": "Título da Página",
+                "active": true
+            },
+            {
+                "phrase": "Page Description:",
+                "translate": "Descrição da Página",
+                "active": true
+            },
+            {
+                "phrase": "Page URL:",
+                "translate": "URL da Página",
+                "active": true
+            },
+            {
+                "phrase": "Create, Clone, Rename Pages, Edit Meta Tags",
+                "translate": "Crear, Copiar, Ronomear Página, Editar Meta Tag",
+                "active": true
+            },
+            {
+                "phrase": "Sites",
+                "translate": "Sites",
+                "active": true
+            },
+            {
+                "phrase": "Create, Open, Rename Sites",
+                "translate": "Criar, Abrir, Renomear Sites",
+                "active": true
+            },
+            {
+                "phrase": "Account",
+                "translate": "Conta",
+                "active": true
+            },
+            {
+                "phrase": "Sign Up / Login to Get Latest Updates and Extensions",
+                "translate": "Inscreva-se/Faça login para obter as últimas atualizações e extensões",
+                "active": true
+            },
+            {
+                "phrase": "Reset password",
+                "translate": "Resetar Senha",
+                "active": true
+            },
+            {
+                "phrase": "Logout",
+                "translate": "Sair",
+                "active": true
+            },
+            {
+                "phrase": "Preview in Browser",
+                "translate": "Visualizar Site",
+                "active": true
+            },
+            {
+                "phrase": "Publish to Local Drive, FTP",
+                "translate": "Publicar no Local, FTP",
+                "active": true
+            },
+            {
+                "phrase": "Publish",
+                "translate": "Publicar",
+                "active": true
+            },
+            {
+                "phrase": "Mobile View",
+                "translate": "Visualizar no Celular",
+                "active": true
+            },
+            {
+                "phrase": "Tablet View",
+                "translate": "Visualizar no Tablet",
+                "active": true
+            },
+            {
+                "phrase": "Tablet Horizontal View",
+                "translate": "Visualizar Tablet Horizintal",
+                "active": true
+            },
+            {
+                "phrase": "Desktop View",
+                "translate": "Visualizar no Desktop",
+                "active": true
+            },
+            {
+                "phrase": "Blocks",
+                "translate": "Blocos",
+                "active": true
+            },
+            {
+                "phrase": "Edit Site Styles",
+                "translate": "Editar Estilo do Site",
+                "active": true
+            },
+            {
+                "phrase": "Add Block to Page",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-addons": [
+            {
+                "phrase": "Not available for your Mobirise version",
+                "translate": "Indisponível para a sua versão Mobirise",
+                "active": true
+            },
+            {
+                "phrase": "Not compatible with your version of Mobirise",
+                "translate": "Incompativel com sua versão do Mobirise",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "Remover",
+                "active": true
+            },
+            {
+                "phrase": "Update",
+                "translate": "Atualizar",
+                "active": true
+            },
+            {
+                "phrase": "Coming soon...",
+                "translate": "Em Breve",
+                "active": true
+            },
+            {
+                "phrase": "Soon...",
+                "translate": "Breve",
+                "active": true
+            },
+            {
+                "phrase": "Add",
+                "translate": "Adicionar",
+                "active": true
+            },
+            {
+                "phrase": "Buy",
+                "translate": "Comprar",
+                "active": true
+            },
+            {
+                "phrase": "extension",
+                "translate": "Extenções",
+                "active": true
+            },
+            {
+                "phrase": "$extension$ is successfuly added",
+                "translate": "$extension$ Extensão adicionada com sucesso!",
+                "active": true
+            },
+            {
+                "phrase": "About",
+                "translate": "Sobre",
+                "active": true
+            },
+            {
+                "phrase": "Buy help",
+                "translate": "Ajuda na compra",
+                "active": true
+            },
+            {
+                "phrase": "Redeem code",
+                "translate": "Resgatar Código",
+                "active": true
+            },
+            {
+                "phrase": "Enter code...",
+                "translate": "Entre com op Código",
+                "active": true
+            },
+            {
+                "phrase": "Redeem",
+                "translate": "Resgatar",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "Erro ao adicionar extensão",
+                "active": true
+            },
+            {
+                "phrase": "Code is successfully redeemed!",
+                "translate": "Código resgatado com sucesso!",
+                "active": true
+            },
+            {
+                "phrase": "Incorrect code",
+                "translate": "Código Incorreto",
+                "active": true
+            },
+            {
+                "phrase": "Activation error",
+                "translate": "Erro na Ativação",
+                "active": true
+            },
+            {
+                "phrase": "Select extension package",
+                "translate": "Selecione pacote de extensão",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise Extension",
+                "translate": "Extensão Mobirise",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension package",
+                "translate": "Erro ao adicionar pacote",
+                "active": true
+            },
+            {
+                "phrase": "Themes",
+                "translate": "Layouts",
+                "active": true
+            },
+            {
+                "phrase": "Extensions",
+                "translate": "Extensões",
+                "active": true
+            },
+            {
+                "phrase": "Import",
+                "translate": "Importar",
+                "active": true
+            },
+            {
+                "phrase": "Note: The server list is not available. Only installed extensions are shown",
+                "translate": "Nota: A lista de servidores não está disponível. Apenas as extensões instaladas são exibidas",
+                "active": true
+            },
+            {
+                "phrase": "Get more extensions",
+                "translate": "Obtenha mais extensões",
+                "active": true
+            },
+            {
+                "phrase": "Try to log out and log back in",
+                "translate": "Tente desconectar e voltar a entrar",
+                "active": true
+            },
+            {
+                "phrase": "Warning",
+                "translate": "Atenção",
+                "active": true
+            },
+            {
+                "phrase": "During the last run the program failed to load all extensions. To run again, program will temporarily disable them. Please update the extensions you use.",
+                "translate": "Durante a última execução, o programa falhou ao carregar todas as extensões. Para executar novamente, o programa vai desativar temporariamente. Atualize as extensões que você usa.",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "OK",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Cancelar",
+                "active": true
+            },
+            {
+                "phrase": "Open \"Extensions list\"",
+                "translate": "Abrir \"Lista de Extensões\"",
+                "active": true
+            },
+            {
+                "phrase": "Some installed extensions $ext names$ are not compatible with the current version of the application. Please visit \"Extensions list\" dialog to update it.",
+                "translate": "Algumas extensões instaladas $ext names$ não são compatíveis com a versão atual do aplicativo. Por favor, visite a caixa de diálogo \"Lista de extensões\" para atualizá-lo.",
+                "active": true
+            },
+            {
+                "phrase": "Extension",
+                "translate": "Extensões",
+                "active": true
+            },
+            {
+                "phrase": "No extensions matched your search. Try again.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create Site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "View Demo",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unexpected project create error",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to create the $site name$ site based on the $theme name$ theme, $name preset$ Template?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "theme",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unknown Source Warning!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You're importing an extension from unknown sources. Extension from unknown sources can harm your projects and bring incompatibility issues with Mobirise app and other extensions. Mobirise doesn't provide a support for 3rd-party extensions.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Import Anyway",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This extension works with app version $ext_version$ and higher. Please update your Mobirise app",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Update All",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Add All",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Update all installed extensions?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to download all available themes and extensions?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download all",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable to download $extension$. Try to re-login.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download cancelled:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Downloading...",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Add Themes and Extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Get ALL Mobirise Themes & Extensions!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "During the last run the program failed to load all extensions. To run again, program will temporarily disable them.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-common": [
+            {
+                "phrase": "This is a critical error, some functions of the program may not work correctly, please send information to the developers.",
+                "translate": "Este é um erro crítico, algumas funções do programa podem não funcionar corretamente, envie informações aos desenvolvedores.",
+                "active": true
+            },
+            {
+                "phrase": "Critical error",
+                "translate": "Erro Crítico",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Cancelar",
+                "active": true
+            },
+            {
+                "phrase": "Send feedback",
+                "translate": "Enviar Feedback",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "OK",
+                "active": true
+            },
+            {
+                "phrase": "More",
+                "translate": "Mais",
+                "active": true
+            },
+            {
+                "phrase": "Less",
+                "translate": "Menos",
+                "active": true
+            },
+            {
+                "phrase": "LOADING...",
+                "translate": "Carregando...",
+                "active": true
+            },
+            {
+                "phrase": "Send Error Report",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-component-params": [
+            {
+                "phrase": "Remove",
+                "translate": "Remover",
+                "active": true
+            },
+            {
+                "phrase": "Drag Block",
+                "translate": "Arrastar Bloco",
+                "active": true
+            },
+            {
+                "phrase": "Block Parameters",
+                "translate": "Parâmetros do Bloco",
+                "active": true
+            },
+            {
+                "phrase": "Remove Block",
+                "translate": "Remover Bloco",
+                "active": true
+            },
+            {
+                "phrase": "Show More",
+                "translate": "Mostre Mais",
+                "active": true
+            },
+            {
+                "phrase": "Remove Block?",
+                "translate": "Remover Bolco?",
+                "active": true
+            },
+            {
+                "phrase": "Type address or insert",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "google map iframe",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Update",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Loading images",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This block is global. Do you want to remove it from all pages?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to remove the $ID$ block?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-components-list": [
+            {
+                "phrase": "Add Block to Page",
+                "translate": "Adicionar novo Bloco",
+                "active": true
+            },
+            {
+                "phrase": "Close",
+                "translate": "Fechar",
+                "active": true
+            },
+            {
+                "phrase": "Show All Blocks",
+                "translate": "Mostrar todos Blocos",
+                "active": true
+            },
+            {
+                "phrase": "Show All",
+                "translate": "Mostrar tudo",
+                "active": true
+            },
+            {
+                "phrase": "Theme",
+                "translate": "Layout",
+                "active": true
+            },
+            {
+                "phrase": "Show Blocks From Theme",
+                "translate": "Mostrar blocos do tema",
+                "active": true
+            },
+            {
+                "phrase": "Extensn",
+                "translate": "Extensão",
+                "active": true
+            },
+            {
+                "phrase": "Show Blocks From Extensions",
+                "translate": "Mostrar blocos de extensões",
+                "active": true
+            },
+            {
+                "phrase": "Add More",
+                "translate": "Adicionar mais",
+                "active": true
+            },
+            {
+                "phrase": "Extension",
+                "translate": "Extesões",
+                "active": true
+            },
+            {
+                "phrase": "All",
+                "translate": "Todos",
+                "active": true
+            },
+            {
+                "phrase": "Added",
+                "translate": "Adicionado",
+                "active": true
+            },
+            {
+                "phrase": "More $groupName$ Blocks",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download $theme title$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Choose blocks' theme",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-core": [
+            {
+                "phrase": "Remove Block?",
+                "translate": "Remover Bloco?",
+                "active": true
+            }
+        ],
+        "app-fonts": [
+            {
+                "phrase": "Browse Computer",
+                "translate": "Navegue pelo computador",
+                "active": true
+            },
+            {
+                "phrase": "Google Fonts",
+                "translate": "Fontes Google",
+                "active": true
+            },
+            {
+                "phrase": "Site Fonts",
+                "translate": "Fontes do Google",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "OK",
+                "active": true
+            },
+            {
+                "phrase": "Select font",
+                "translate": "Selecionar Fonte",
+                "active": true
+            },
+            {
+                "phrase": "Fonts file",
+                "translate": "Arquivo da fonte",
+                "active": true
+            },
+            {
+                "phrase": "Error saving project settings.",
+                "translate": "Erro ao salvar as configurações do projeto.",
+                "active": true
+            },
+            {
+                "phrase": "Error saving style.css for $font name$",
+                "translate": "Erro ao salvar style.css para $font name$",
+                "active": true
+            },
+            {
+                "phrase": "The quick brown fox jumps over the lazy dog.",
+                "translate": "A raposa marrom rápida salta sobre o cão preguiçoso.",
+                "active": true
+            },
+            {
+                "phrase": "Download font error!",
+                "translate": "Baixar erro da fonte!",
+                "active": true
+            },
+            {
+                "phrase": "This font has been successfully removed.",
+                "translate": "Essa fonte foi removida com sucesso.",
+                "active": true
+            },
+            {
+                "phrase": "Error removal!",
+                "translate": "Remoção de erro!",
+                "active": true
+            },
+            {
+                "phrase": "This is the font used in the project!",
+                "translate": "Esta é a fonte usada no projeto!",
+                "active": true
+            },
+            {
+                "phrase": "Error file saving!",
+                "translate": "Salvando arquivos de erro!",
+                "active": true
+            },
+            {
+                "phrase": "More fonts",
+                "translate": "Mais Fontes",
+                "active": true
+            },
+            {
+                "phrase": "Font removal error!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Fonts",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search by font name",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-pages": [
+            {
+                "phrase": "Drag Page",
+                "translate": "Página de arrastar",
+                "active": true
+            },
+            {
+                "phrase": "Clone Page",
+                "translate": "Clonar Página",
+                "active": true
+            },
+            {
+                "phrase": "Rename Page, Edit Meta Tags",
+                "translate": "Renomear Página, Editar Meta Tags",
+                "active": true
+            },
+            {
+                "phrase": "Remove Page",
+                "translate": "Remover Página",
+                "active": true
+            },
+            {
+                "phrase": "OK",
+                "translate": "OK",
+                "active": true
+            },
+            {
+                "phrase": "Edit Title",
+                "translate": "Editar Título",
+                "active": true
+            },
+            {
+                "phrase": "Remove page $page name$?",
+                "translate": "Remover página $page name$",
+                "active": true
+            },
+            {
+                "phrase": "Create New Page",
+                "translate": "Criar nova página",
+                "active": true
+            },
+            {
+                "phrase": "Create Page",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Page Settings",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-click-to-start": [
+            {
+                "phrase": "Click to Start",
+                "translate": "Clique para iniciar",
+                "active": true
+            }
+        ],
+        "app-plugin-components-list-userblocks": [
+            {
+                "phrase": "Remove Block?",
+                "translate": "Remover Bloco?",
+                "active": true
+            },
+            {
+                "phrase": "User",
+                "translate": "Usuário",
+                "active": true
+            },
+            {
+                "phrase": "Show Blocks Saved By User",
+                "translate": "Mostrar blocos salvos pelo usuário",
+                "active": true
+            },
+            {
+                "phrase": "Save To User Blocks",
+                "translate": "Salvar em blocos de usuários",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "User Blocks",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-favicon": [
+            {
+                "phrase": "Favicon",
+                "translate": "Favicon",
+                "active": true
+            },
+            {
+                "phrase": "Use menu logo",
+                "translate": "Usar Logo no Menu",
+                "active": true
+            },
+            {
+                "phrase": "Change favicon",
+                "translate": "Alterar Favicon",
+                "active": true
+            },
+            {
+                "phrase": "Select Image",
+                "translate": "Selecione a imagem",
+                "active": true
+            }
+        ],
+        "app-plugin-github": [
+            {
+                "phrase": "GitHub UserName",
+                "translate": "Nome de usuário do GitHub",
+                "active": true
+            },
+            {
+                "phrase": "GitHub Password or Token",
+                "translate": "Senha ou Token GitHub",
+                "active": true
+            },
+            {
+                "phrase": "You can create GitHub Account %here%",
+                "translate": "Você pode criar a conta GitHub %here%",
+                "active": true
+            },
+            {
+                "phrase": "Enter your credentials",
+                "translate": "Entre com suas credênciais",
+                "active": true
+            },
+            {
+                "phrase": "ОК",
+                "translate": "OK",
+                "active": true
+            },
+            {
+                "phrase": "Success",
+                "translate": "Sucesso!",
+                "active": true
+            },
+            {
+                "phrase": "The site is successfully uploaded to GitHub Pages. Usually GitHub can take up to 5 minutes to show up the changes. Do you want to open the site?",
+                "translate": "O site foi carregado com sucesso para a página do GitHub. Normalmente, o GitHub pode demorar até 5 minutos para atualizar. Você quer abrir o site?",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Cancelar",
+                "active": true
+            },
+            {
+                "phrase": "Open",
+                "translate": "Abrir",
+                "active": true
+            },
+            {
+                "phrase": "Error",
+                "translate": "Erro",
+                "active": true
+            },
+            {
+                "phrase": "error(s) occured while uploading files to GitHub.com. Do you want to open $link$ anyway?",
+                "translate": "Ocorreram erros durante o upload de arquivos para o GitHub.com. Deseja abrir $link$ de qualquer maneira?",
+                "active": true
+            },
+            {
+                "phrase": "Check your credentials and internet connection",
+                "translate": "Verifique suas credenciais e a sua conexão com a internet",
+                "active": true
+            },
+            {
+                "phrase": "Error while connecting to Github.",
+                "translate": "Erro ao conectar-se ao Github.",
+                "active": true
+            },
+            {
+                "phrase": "Close",
+                "translate": "Fechar",
+                "active": true
+            },
+            {
+                "phrase": "GitHub Pages",
+                "translate": "Página do GitHub",
+                "active": true
+            },
+            {
+                "phrase": "Account",
+                "translate": "Conta",
+                "active": true
+            },
+            {
+                "phrase": "folder",
+                "translate": "Pasta",
+                "active": true
+            },
+            {
+                "phrase": "Upload",
+                "translate": "Upload",
+                "active": true
+            },
+            {
+                "phrase": "GitHub Token",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Congratulations!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your site is published. Note that it takes a while for Github Pages to show updated content.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "ok",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-help": [
+            {
+                "phrase": "Please sign up/login to contact us or get the access to public forums",
+                "translate": "Faça o login para contatar-nos ou obter o acesso a fóruns públicos",
+                "active": true
+            },
+            {
+                "phrase": "Help",
+                "translate": "Ajuda",
+                "active": true
+            },
+            {
+                "phrase": "Please visit %Help Center% or %Forums% before contacting us.",
+                "translate": "Visite %Help Center% ou %Forums% antes de nos contactar.",
+                "active": true
+            },
+            {
+                "phrase": "Visit Help Center",
+                "translate": "Visite a Central de Ajuda",
+                "active": true
+            },
+            {
+                "phrase": "Visit Forums",
+                "translate": "Visite o Fórum",
+                "active": true
+            },
+            {
+                "phrase": "Send us a message",
+                "translate": "Nos envie uma mensagem",
+                "active": true
+            },
+            {
+                "phrase": "From",
+                "translate": "Para",
+                "active": true
+            },
+            {
+                "phrase": "Message",
+                "translate": "Mensagem",
+                "active": true
+            },
+            {
+                "phrase": "Please explain in details what happened and what steps we can take to reproduce the problem.",
+                "translate": "Explique em detalhes o que aconteceu e quais os passos que podemos tomar para reproduzir o problema.",
+                "active": true
+            },
+            {
+                "phrase": "Send",
+                "translate": "Enviar",
+                "active": true
+            },
+            {
+                "phrase": "Your message is too short. Please add more details",
+                "translate": "Sua mensagem é muito curta. Por favor adicione mais detalhes",
+                "active": true
+            },
+            {
+                "phrase": "Your message has been successfully sent!",
+                "translate": "Sua mensagem foi enviada com sucesso!",
+                "active": true
+            },
+            {
+                "phrase": "We will reply to your email $userEmail$ shortly.",
+                "translate": "Responderemos seu email $userEmail$ em breve.",
+                "active": true
+            },
+            {
+                "phrase": "SEND",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Visit Help Center or Contact Us",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-history": [
+            {
+                "phrase": "Site Settings",
+                "translate": "Configurações do site",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "Imagem",
+                "active": true
+            },
+            {
+                "phrase": "Video",
+                "translate": "Vídeo",
+                "active": true
+            },
+            {
+                "phrase": "Remove Page",
+                "translate": "Remover Página",
+                "active": true
+            },
+            {
+                "phrase": "Add Block",
+                "translate": "Adicionar Bloco",
+                "active": true
+            },
+            {
+                "phrase": "Remove Block",
+                "translate": "Remover Bloco",
+                "active": true
+            },
+            {
+                "phrase": "Block Position",
+                "translate": "Posição do Bloco",
+                "active": true
+            },
+            {
+                "phrase": "Block Params",
+                "translate": "Parametros do bloco",
+                "active": true
+            },
+            {
+                "phrase": "Add Page",
+                "translate": "Adicionar Página",
+                "active": true
+            },
+            {
+                "phrase": "Page Settings",
+                "translate": "Configurar Página",
+                "active": true
+            },
+            {
+                "phrase": "Block to HTML",
+                "translate": "Bloco para HTML",
+                "active": true
+            },
+            {
+                "phrase": "Code Editor",
+                "translate": "Editor de código",
+                "active": true
+            },
+            {
+                "phrase": "Text Type",
+                "translate": "Tipo de Texto",
+                "active": true
+            },
+            {
+                "phrase": "Icon",
+                "translate": "Icone",
+                "active": true
+            },
+            {
+                "phrase": "Load Site",
+                "translate": "Carregar Site",
+                "active": true
+            },
+            {
+                "phrase": "Undo",
+                "translate": "Desfazer",
+                "active": true
+            },
+            {
+                "phrase": "Redo",
+                "translate": "Refazer",
+                "active": true
+            },
+            {
+                "phrase": "Change Component",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-iconfont": [
+            {
+                "phrase": "Icon Color",
+                "translate": "Cor do Icone",
+                "active": true
+            },
+            {
+                "phrase": "Icon Size",
+                "translate": "Tamanho do Icone",
+                "active": true
+            },
+            {
+                "phrase": "Auto",
+                "translate": "Automático",
+                "active": true
+            },
+            {
+                "phrase": "Link Icon to",
+                "translate": "Link do Icone Para",
+                "active": true
+            },
+            {
+                "phrase": "Edit Link",
+                "translate": "Editar Link",
+                "active": true
+            },
+            {
+                "phrase": "Search...",
+                "translate": "Pesquisar",
+                "active": true
+            },
+            {
+                "phrase": "Select icons",
+                "translate": "Selecionar Icone",
+                "active": true
+            },
+            {
+                "phrase": "Insert Icon",
+                "translate": "Inserir Icone",
+                "active": true
+            },
+            {
+                "phrase": "Remove Icon",
+                "translate": "Remover Icone",
+                "active": true
+            },
+            {
+                "phrase": "Collapse All",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Expand All",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-image-editor-site-library": [
+            {
+                "phrase": "This image is used on the site and can't be removed from Site Library.",
+                "translate": "Esta imagem é usada no site e não pode ser removida da Biblioteca do Site.",
+                "active": true
+            }
+        ],
+        "app-plugin-image-editor-unsplash": [
+            {
+                "phrase": "Search by keyword",
+                "translate": "Pesquisa por palavra-chave",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "Pesquisar",
+                "active": true
+            },
+            {
+                "phrase": "Online image library is not available",
+                "translate": "A biblioteca de imagens on-line não está disponível",
+                "active": true
+            },
+            {
+                "phrase": "No images found!",
+                "translate": "Nenhuma imagem encontrada!",
+                "active": true
+            },
+            {
+                "phrase": "Please try another keyword",
+                "translate": "Por favor tente outra palavra-chave",
+                "active": true
+            },
+            {
+                "phrase": "e.g.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-link-editor": [
+            {
+                "phrase": "Add File",
+                "translate": "Adicionar arquivo",
+                "active": true
+            },
+            {
+                "phrase": "Documents",
+                "translate": "Documentos",
+                "active": true
+            },
+            {
+                "phrase": "This document is already added.",
+                "translate": "Este documento já foi adicionado.",
+                "active": true
+            },
+            {
+                "phrase": "Link to",
+                "translate": "Link para",
+                "active": true
+            },
+            {
+                "phrase": "Page",
+                "translate": "Página",
+                "active": true
+            },
+            {
+                "phrase": "Web Address",
+                "translate": "Endereço da Web",
+                "active": true
+            },
+            {
+                "phrase": "Email",
+                "translate": "e-Mail",
+                "active": true
+            },
+            {
+                "phrase": "Phone",
+                "translate": "Telefone",
+                "active": true
+            },
+            {
+                "phrase": "File",
+                "translate": "Arquivo",
+                "active": true
+            },
+            {
+                "phrase": "Site Pages",
+                "translate": "Página do Site",
+                "active": true
+            },
+            {
+                "phrase": "Block on Page",
+                "translate": "Bloquear Página",
+                "active": true
+            },
+            {
+                "phrase": "Open in new window",
+                "translate": "Abrir em nova janela",
+                "active": true
+            },
+            {
+                "phrase": "Browse Computer",
+                "translate": "Navegue pelo computador",
+                "active": true
+            },
+            {
+                "phrase": "Choose pdf, doc, docx, ppt, pptx, xls, xlsx, odp or odt file",
+                "translate": "Escolha arquivos pdf, doc, docx, ppt, pptx, xls, xlsx, odp ou odt",
+                "active": true
+            },
+            {
+                "phrase": "Insert Link",
+                "translate": "Inserir Link",
+                "active": true
+            },
+            {
+                "phrase": "Remove Link",
+                "translate": "Remover Link",
+                "active": true
+            },
+            {
+                "phrase": "Block on $page title$ Page",
+                "translate": "Bloquear Página Título $page title$",
+                "active": true
+            },
+            {
+                "phrase": "Block on $current page$ Page",
+                "translate": "Bloquear Página atual $current page$",
+                "active": true
+            },
+            {
+                "phrase": "Custom URL",
+                "translate": "URL Personalizada",
+                "active": true
+            },
+            {
+                "phrase": "e.g.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Call Phone Number",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Send SMS Text to Number",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with WhatsApp",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with Viber",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Call with Skype by Number or Name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with Telegram",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with Signal",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with Discord",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Phone/chat",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-media-editor": [
+            {
+                "phrase": "Media Image",
+                "translate": "Imagem de mídia",
+                "active": true
+            },
+            {
+                "phrase": "Browse Computer",
+                "translate": "Navegue pelo computador",
+                "active": true
+            },
+            {
+                "phrase": "Free Online Library",
+                "translate": "Biblioteca Online Gratuita",
+                "active": true
+            },
+            {
+                "phrase": "Site Library",
+                "translate": "Biblioteca do site",
+                "active": true
+            },
+            {
+                "phrase": "Selected Image",
+                "translate": "Imagem Selecionada",
+                "active": true
+            },
+            {
+                "phrase": "Link Image to",
+                "translate": "Link da Imagem",
+                "active": true
+            },
+            {
+                "phrase": "Edit Link",
+                "translate": "Editar Link",
+                "active": true
+            },
+            {
+                "phrase": "Edit alt and title",
+                "translate": "Editar alt e título da imagem",
+                "active": true
+            },
+            {
+                "phrase": "Alt",
+                "translate": "Alt",
+                "active": true
+            },
+            {
+                "phrase": "Title",
+                "translate": "Título",
+                "active": true
+            },
+            {
+                "phrase": "Select Image",
+                "translate": "Selecione a imagem",
+                "active": true
+            },
+            {
+                "phrase": "Crop Image",
+                "translate": "Cortar Imgem",
+                "active": true
+            },
+            {
+                "phrase": "More",
+                "translate": "Mais",
+                "active": true
+            },
+            {
+                "phrase": "Zoom In",
+                "translate": "Mais Zoom",
+                "active": true
+            },
+            {
+                "phrase": "Zoom Out",
+                "translate": "Menos Zoom",
+                "active": true
+            },
+            {
+                "phrase": "Flip Horizontal",
+                "translate": "Giro Horizontal",
+                "active": true
+            },
+            {
+                "phrase": "Flip Vertical",
+                "translate": "Giro Vertical",
+                "active": true
+            },
+            {
+                "phrase": "Aspect Ratio",
+                "translate": "Proporção de tela",
+                "active": true
+            },
+            {
+                "phrase": "Aspect Ratio: Free",
+                "translate": "Proporção de tela padrão",
+                "active": true
+            },
+            {
+                "phrase": "Free",
+                "translate": "Grátis",
+                "active": true
+            },
+            {
+                "phrase": "Media Video",
+                "translate": "Vídeo",
+                "active": true
+            },
+            {
+                "phrase": "Video URL",
+                "translate": "URL do Vídeo",
+                "active": true
+            },
+            {
+                "phrase": "Supported Youtube and Vimeo URL's",
+                "translate": "URLs suportadas: Youtube ou Vimeo",
+                "active": true
+            },
+            {
+                "phrase": "Autoplay",
+                "translate": "Reprodução automática",
+                "active": true
+            },
+            {
+                "phrase": "Loop",
+                "translate": "Loop",
+                "active": true
+            },
+            {
+                "phrase": "From Phone",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Library",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Adding and optimizing images",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Adding images to the project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "To disable the image optimization, use Sites->Site Settings->Optimization",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Creating gallery",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Drop images here",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "or",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Full Screen Image",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your image is too large to be resized in the app. Please resize it before adding. You can disable the Resize Images option in Site Settings -> Optimization.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit Image",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Counter Clockwise",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Clockwise",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "YouTube, Vimeo, or custom e.g. https://site.com/video.mp4",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unsupported video format. MP4 only.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-progress": [
+            {
+                "phrase": "Progress",
+                "translate": "Progresso",
+                "active": true
+            },
+            {
+                "phrase": "Exporting...",
+                "translate": "Exportador...",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Cancelar",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to stop?",
+                "translate": "Você quer parar?",
+                "active": true
+            },
+            {
+                "phrase": "Stop",
+                "translate": "Parar",
+                "active": true
+            },
+            {
+                "phrase": "Continue",
+                "translate": "Continuar",
+                "active": true
+            },
+            {
+                "phrase": "Unknown error",
+                "translate": "Erro desconhecido",
+                "active": true
+            },
+            {
+                "phrase": "Ignore Errors",
+                "translate": "Ignorar Erro",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to stop the publication?",
+                "translate": "Deseja parar a publicação?",
+                "active": true
+            },
+            {
+                "phrase": "Publishing...",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-projects-history": [
+            {
+                "phrase": "Unable to revert to history $history date$",
+                "translate": "Não é possível reverter o histórico para  $history date$",
+                "active": true
+            },
+            {
+                "phrase": "Show Project History",
+                "translate": "Mostrar histórico do projetos",
+                "active": true
+            },
+            {
+                "phrase": "History",
+                "translate": "Histórico",
+                "active": true
+            },
+            {
+                "phrase": "Do you really want to remove the site version from $selected date$?",
+                "translate": "Você realmente deseja remover a versão do site de $selected date$?",
+                "active": true
+            },
+            {
+                "phrase": "Select saved version of project",
+                "translate": "Selecione a versão do projeto salvo",
+                "active": true
+            },
+            {
+                "phrase": "Revert back",
+                "translate": "Reverter",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Cancelar",
+                "active": true
+            },
+            {
+                "phrase": "Do you really want to revert back to the site version from $selected date$? The current site will not be lost, it will be saved under $current date$.",
+                "translate": "Você realmente deseja reverter para a versão do site a partir de $selected date$? \nO site atual não será perdido, ele será salvo em $current date$.",
+                "active": true
+            },
+            {
+                "phrase": "Remove Selected Version",
+                "translate": "Remover a versão selecionada",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "Remover",
+                "active": true
+            },
+            {
+                "phrase": "Revert Back To Selected Version",
+                "translate": "Reverter para a versão selecionada",
+                "active": true
+            },
+            {
+                "phrase": "Project history is empty",
+                "translate": "O histórico do projeto está vazio",
+                "active": true
+            },
+            {
+                "phrase": "Error while load from selected history:",
+                "translate": "Erro durante a carga do histórico selecionado:",
+                "active": true
+            }
+        ],
+        "app-plugin-resize-images": [
+            {
+                "phrase": "Resize Images",
+                "translate": "Redimensionar imagens",
+                "active": true
+            }
+        ],
+        "app-plugin-spectrum": [
+            {
+                "phrase": "More",
+                "translate": "Mais",
+                "active": true
+            },
+            {
+                "phrase": "Less",
+                "translate": "Menos",
+                "active": true
+            }
+        ],
+        "app-projects-hash": [
+            {
+                "phrase": "Publish changes only",
+                "translate": "Apenas modifique mudanças",
+                "active": true
+            }
+        ],
+        "app-projects": [
+            {
+                "phrase": "Project file error",
+                "translate": "Erro no arquivo de projeto",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Cancelar",
+                "active": true
+            },
+            {
+                "phrase": "Error to save project file. Close application and run again.",
+                "translate": "Erro para salvar o arquivo do projeto. Feche o aplicativo e execute novamente.",
+                "active": true
+            },
+            {
+                "phrase": "Error update recents list.",
+                "translate": "Lista recentes de atualização de erros.",
+                "active": true
+            },
+            {
+                "phrase": "error",
+                "translate": "Erro",
+                "active": true
+            },
+            {
+                "phrase": "Unknown error while publish",
+                "translate": "Erro desconhecido ao publicar",
+                "active": true
+            },
+            {
+                "phrase": "Open Mobirise Site",
+                "translate": "Site Mobirise aberto",
+                "active": true
+            },
+            {
+                "phrase": "Create New Site",
+                "translate": "Criar Novo Site",
+                "active": true
+            },
+            {
+                "phrase": "Open Mobirise site (project.mobirise) not listed here.",
+                "translate": "Abra o site (project.mobirise) não listado aqui.",
+                "active": true
+            },
+            {
+                "phrase": "Import Mobirise Site",
+                "translate": "Importar Site",
+                "active": true
+            },
+            {
+                "phrase": "Clone Site",
+                "translate": "Clonar Site",
+                "active": true
+            },
+            {
+                "phrase": "Edit Site Styles",
+                "translate": "Editar estilos do site",
+                "active": true
+            },
+            {
+                "phrase": "Rename, Favicon, Export",
+                "translate": "Renomear, Favicon, Exportar",
+                "active": true
+            },
+            {
+                "phrase": "Remove Site",
+                "translate": "Remover Site",
+                "active": true
+            },
+            {
+                "phrase": "Select Project File",
+                "translate": "Selecionar arquivo de projeto",
+                "active": true
+            },
+            {
+                "phrase": "Create New Site",
+                "translate": "Criar Novo Site",
+                "active": true
+            },
+            {
+                "phrase": "Site Name",
+                "translate": "Nome do Site",
+                "active": true
+            },
+            {
+                "phrase": "Type the name of your new site",
+                "translate": "Digite o nome do seu novo site",
+                "active": true
+            },
+            {
+                "phrase": "Select the Theme for this Site",
+                "translate": "Selecione o tema para este site",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "OK",
+                "active": true
+            },
+            {
+                "phrase": "More Themes",
+                "translate": "Mais Layouts",
+                "active": true
+            },
+            {
+                "phrase": "Site Settings",
+                "translate": "Configurar Site",
+                "active": true
+            },
+            {
+                "phrase": "Site Files",
+                "translate": "Arqivos do Site",
+                "active": true
+            },
+            {
+                "phrase": "Create a project copy in a different location. Use Publish to create a full copy of the site",
+                "translate": "Crie uma cópia do site em local diferente",
+                "active": true
+            },
+            {
+                "phrase": "Export Project",
+                "translate": "Exportar Site",
+                "active": true
+            },
+            {
+                "phrase": "Theme",
+                "translate": "Layout",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to remove $site name$?",
+                "translate": "Você deseja remover $site name$?",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to close the current site and open $site name$?",
+                "translate": "Deseja fechar o site atual e abrir $site name$?",
+                "active": true
+            },
+            {
+                "phrase": "%This site% is not available. Do you want to remove it from the list?",
+                "translate": "%This site% não está disponível. Deseja removê-lo da lista?",
+                "active": true
+            },
+            {
+                "phrase": "No Name",
+                "translate": "Sem Nome",
+                "active": true
+            },
+            {
+                "phrase": "Project file error. Try to restore from history",
+                "translate": "Erro no arquivo do projeto. Tente restaurar a partir do histórico",
+                "active": true
+            },
+            {
+                "phrase": "Unexpected project save error",
+                "translate": "Erro de economia de projeto inesperado",
+                "active": true
+            },
+            {
+                "phrase": "Unable to save loaded project",
+                "translate": "Não foi possível salvar o projeto carregado",
+                "active": true
+            },
+            {
+                "phrase": "Unexpected project create error",
+                "translate": "Erro inesperado no projeto",
+                "active": true
+            },
+            {
+                "phrase": "Cloned project is wrong",
+                "translate": "O projeto clonado com erro",
+                "active": true
+            },
+            {
+                "phrase": "Empty project",
+                "translate": "Projeto Vazio",
+                "active": true
+            },
+            {
+                "phrase": "Create Site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "or",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable to init project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable to clone project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create a project copy in a different location.&lt;br /&gt;Use Publish to create a full copy of the site",
+                "translate": "",
+                "active": false
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download $theme title$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Sites",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Add Blank Page",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Page Templates",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Themes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No templates matched your search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No themes matched your search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to create the $site name$ site based on the $theme name$ theme, $name preset$ Template?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Common",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Theme Name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Project Files",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to remove a local copy of $site name$?",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-publish-dlg": [
+            {
+                "phrase": "Local drive folder",
+                "translate": "Pasta de unidade local",
+                "active": true
+            },
+            {
+                "phrase": "folder",
+                "translate": "Pasta",
+                "active": true
+            },
+            {
+                "phrase": "Edit",
+                "translate": "Editar",
+                "active": true
+            },
+            {
+                "phrase": "Browse...",
+                "translate": "Navegador",
+                "active": true
+            },
+            {
+                "phrase": "To export the site project, please use %Sites -> Site Settings%",
+                "translate": "Para exportar o projeto do site, use %Sites -> Site Settings%",
+                "active": true
+            },
+            {
+                "phrase": "Publish",
+                "translate": "Publicar",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Cancelar",
+                "active": true
+            },
+            {
+                "phrase": "Browse for folder",
+                "translate": "Procurar pasta",
+                "active": true
+            }
+        ],
+        "app-publish-ftp": [
+            {
+                "phrase": "Edit",
+                "translate": "Editar",
+                "active": true
+            },
+            {
+                "phrase": "Add New",
+                "translate": "Adicionar Novo",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "Remover",
+                "active": true
+            },
+            {
+                "phrase": "FTP",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "root folder",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Protocol",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Host",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Port",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Username",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Password",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Test FTP Server",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "FTP Site Manager",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Test connection",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Successful connection",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable connect to FTP",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Save",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove this site?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "The site published successfully to $ftp location$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "e.g.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Empty ftp.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connection timed out",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connection reset by peer",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connection refused",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Couldn't resolve the hostname to an IP address",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Network is unreachable",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unknown error while publish",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-publish": [
+            {
+                "phrase": "Initialization, please wait...",
+                "translate": "Inicialização, aguarde ...",
+                "active": true
+            },
+            {
+                "phrase": "Preparing $page name$",
+                "translate": "Preparando $page name$",
+                "active": true
+            },
+            {
+                "phrase": "Internal error while processing page $page name$",
+                "translate": "Erro interno ao processar a página $page name$",
+                "active": true
+            },
+            {
+                "phrase": "Your site was successfully exported to the folder $folder name$",
+                "translate": "Seu site foi exportado com sucesso para a pasta $folder name$",
+                "active": true
+            },
+            {
+                "phrase": "Unknown error while publish",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Progress",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Publishing...",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Internal error while translating page $page name$",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-settings": [
+            {
+                "phrase": "App Settings",
+                "translate": "Configurações do aplicativo",
+                "active": true
+            },
+            {
+                "phrase": "Top Toolbar",
+                "translate": "Barra de ferramentas superior",
+                "active": true
+            },
+            {
+                "phrase": "Show Page & Site Names",
+                "translate": "Mostrar página e nomes de sites",
+                "active": true
+            },
+            {
+                "phrase": "Show All Views",
+                "translate": "Mostrar todas as visualizações",
+                "active": true
+            },
+            {
+                "phrase": "Show Redo",
+                "translate": "Mostrar Refazer",
+                "active": true
+            },
+            {
+                "phrase": "Editor",
+                "translate": "Editor",
+                "active": true
+            },
+            {
+                "phrase": "Show All Block Buttons",
+                "translate": "Mostrar todos os botões de bloco",
+                "active": true
+            },
+            {
+                "phrase": "Show Site Styles Button",
+                "translate": "Botão de estilos do site",
+                "active": true
+            },
+            {
+                "phrase": "APP",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Dark Mode",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Fullscreen Canvas",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Publish to GitHub Pages",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Github Login",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Token",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-theme-settings": [
+            {
+                "phrase": "Close",
+                "translate": "Fechar",
+                "active": true
+            },
+            {
+                "phrase": "More",
+                "translate": "Mais",
+                "active": true
+            },
+            {
+                "phrase": "Less",
+                "translate": "Menos",
+                "active": true
+            }
+        ],
+        "app-updater": [
+            {
+                "phrase": "New version $version$ is available",
+                "translate": "Nova versão $version$ esta disponível",
+                "active": true
+            },
+            {
+                "phrase": "Download now!",
+                "translate": "Baixe Agora!",
+                "active": true
+            },
+            {
+                "phrase": "Remind later",
+                "translate": "Lembre-me depois",
+                "active": true
+            },
+            {
+                "phrase": "News",
+                "translate": "Novidades",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise news is available, please visit $site url$ website for details.",
+                "translate": "Novidades Mobirise estão disponíveis, visite $site url$ para obter mais detalhes.",
+                "active": true
+            },
+            {
+                "phrase": "Read more...",
+                "translate": "Consulte Mais informação...",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "OK",
+                "active": true
+            },
+            {
+                "phrase": "Skip this version",
+                "translate": "Ignore esta versão",
+                "active": true
+            }
+        ],
+        "app-user-account": [
+            {
+                "phrase": "Please, Sign Up",
+                "translate": "Por favor, inscreva-se",
+                "active": true
+            },
+            {
+                "phrase": "Please sign up / login to get latest updates and extensions",
+                "translate": "Faça login para obter as últimas atualizações e extensões",
+                "active": true
+            },
+            {
+                "phrase": "Your Email",
+                "translate": "Seu e-Mail",
+                "active": true
+            },
+            {
+                "phrase": "Sign Up / login",
+                "translate": "Inscreva-se / Faça login",
+                "active": true
+            },
+            {
+                "phrase": "or",
+                "translate": "ou",
+                "active": true
+            },
+            {
+                "phrase": "Login with Google",
+                "translate": "Entrar com o Google",
+                "active": true
+            },
+            {
+                "phrase": "Login with Facebook",
+                "translate": "Entrar com Facebook",
+                "active": true
+            },
+            {
+                "phrase": "No, I don't need this and don't show me this anymore",
+                "translate": "Não, eu não preciso disso e não me mais isso",
+                "active": true
+            },
+            {
+                "phrase": "Forgot password?",
+                "translate": "Esqueceu a senha?",
+                "active": true
+            },
+            {
+                "phrase": "We've sent an email with instructions on how to reset your password to the email address $email$",
+                "translate": "Enviamos um e-mail com instruções sobre como redefinir sua senha para o endereço de e-mail $email$",
+                "active": true
+            },
+            {
+                "phrase": "Are you sure you want to logout?",
+                "translate": "Tem certeza que deseja sair?\nSugerir uma edição",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "OK",
+                "active": true
+            },
+            {
+                "phrase": "You successfully signed in",
+                "translate": "Você iniciou sessão com sucesso",
+                "active": true
+            },
+            {
+                "phrase": "Your Password",
+                "translate": "Sua Senha",
+                "active": true
+            },
+            {
+                "phrase": "Login",
+                "translate": "Entrar",
+                "active": true
+            },
+            {
+                "phrase": "Enter your password",
+                "translate": "Coloque sua senha",
+                "active": true
+            },
+            {
+                "phrase": "Please enter a valid email address",
+                "translate": "Por favor insira um endereço de e-mail válido",
+                "active": true
+            },
+            {
+                "phrase": "Your account password is sent to your email. If you haven't received the email, please check Spam folder",
+                "translate": "A senha da sua conta é enviada para o seu e-mail. Se você não recebeu o e-mail, verifique a pasta Spam",
+                "active": true
+            },
+            {
+                "phrase": "You already have the Mobirise account, please login with your password",
+                "translate": "Você já possui a conta Mobirise, faça o login com sua senha",
+                "active": true
+            },
+            {
+                "phrase": "Please sign up / login to load the free theme",
+                "translate": "Faça o login para carregar os temas gratuitos",
+                "active": true
+            },
+            {
+                "phrase": "Your password is sent to $email$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "If you haven't received the email, please check Spam folder.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter password for your Mobirise account",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your password is sent to $email$ with first sign up. Check your email to find it.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change email",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please login to get latest updates and extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter your email",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter password",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Check your email. Your password is sent to $email$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You already have the Mobirise account for $email$. Enter your password.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please login to load the free themes and extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your account token has expired, please log in again",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/extbridge.js": [
+            {
+                "phrase": "Images",
+                "translate": "Imagens",
+                "active": true
+            }
+        ],
+        "add-builder-ext": [
+            {
+                "phrase": "To remove all buttons from the block use %\"Block Parameters\" -> \"Show Buttons\"%",
+                "translate": "Para remover todos os botões do uso do bloco %\"Block Parameters\" -> \"Show Buttons\"%",
+                "active": true
+            },
+            {
+                "phrase": "Insert icon",
+                "translate": "Insrir Icone",
+                "active": true
+            },
+            {
+                "phrase": "Font",
+                "translate": "Font",
+                "active": true
+            },
+            {
+                "phrase": "Color",
+                "translate": "Cor",
+                "active": true
+            },
+            {
+                "phrase": "Add",
+                "translate": "Adiciona",
+                "active": true
+            },
+            {
+                "phrase": "Move Left",
+                "translate": "Mova para a esquerda",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "Remover",
+                "active": true
+            },
+            {
+                "phrase": "Align",
+                "translate": "Alinhamento",
+                "active": true
+            },
+            {
+                "phrase": "Link",
+                "translate": "Link",
+                "active": true
+            },
+            {
+                "phrase": "Edit Site Styles",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Top of Page",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Bottom of Page",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "carousel": [
+            {
+                "phrase": "VIDEO SLIDE",
+                "translate": "VÍDEO SLIDE",
+                "active": true
+            },
+            {
+                "phrase": "Play Video",
+                "translate": "Reproduzir Vídeo",
+                "active": true
+            },
+            {
+                "phrase": "Youtube or Vimeo",
+                "translate": "Youtube or Vimeo",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "Imagem",
+                "active": true
+            },
+            {
+                "phrase": "Show Title",
+                "translate": "Mostrar Título",
+                "active": true
+            },
+            {
+                "phrase": "Show Text",
+                "translate": "Mostrar Texto",
+                "active": true
+            },
+            {
+                "phrase": "Show Buttons",
+                "translate": "Mostrar Botões",
+                "active": true
+            },
+            {
+                "phrase": "Color",
+                "translate": "Cor",
+                "active": true
+            },
+            {
+                "phrase": "Opacity",
+                "translate": "Opacidade",
+                "active": true
+            },
+            {
+                "phrase": "Content Align",
+                "translate": "Alinhamento de conteúdo",
+                "active": true
+            },
+            {
+                "phrase": "FULL SCREEN SLIDER",
+                "translate": "SLIDER DE TELA CHEIA",
+                "active": true
+            },
+            {
+                "phrase": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "translate": "Escolha a partir da grande seleção de blocos pré-fabricados mais recentes - jumbotrons, imagens de heróis, rolagem de paralaxe, fundos de vídeo, menu de hambúrguer, cabeçalho e mais.",
+                "active": true
+            },
+            {
+                "phrase": "FOR WINDOWS",
+                "translate": "PARA WINDOWS",
+                "active": true
+            },
+            {
+                "phrase": "FOR MAC",
+                "translate": "PARA MAC",
+                "active": true
+            },
+            {
+                "phrase": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
+                "translate": "Deslize com o fundo do vídeo e a sobreposição de cores do youtube. O título e o texto estão alinhados à esquerda.",
+                "active": true
+            },
+            {
+                "phrase": "IMAGE SLIDE",
+                "translate": "Imagem do Slider",
+                "active": true
+            },
+            {
+                "phrase": "Autoplay",
+                "translate": "Reprodução automática",
+                "active": true
+            },
+            {
+                "phrase": "Autoplay Interval (ms)",
+                "translate": "Reprodução automática Intervalo (ms)",
+                "active": true
+            },
+            {
+                "phrase": "Show Bullets",
+                "translate": "Mostrar balas",
+                "active": true
+            },
+            {
+                "phrase": "Type Text",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "gallery": [
+            {
+                "phrase": "Play Video",
+                "translate": "Reproduzir Vídeo",
+                "active": true
+            },
+            {
+                "phrase": "Video URL",
+                "translate": "URL do Vídeo",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "Imagem",
+                "active": true
+            },
+            {
+                "phrase": "Tags",
+                "translate": "Tags",
+                "active": true
+            },
+            {
+                "phrase": "Awesome image",
+                "translate": "Imagem fantástica",
+                "active": true
+            },
+            {
+                "phrase": "Awesome",
+                "translate": "Fantástica",
+                "active": true
+            },
+            {
+                "phrase": "Responsive",
+                "translate": "Responsivo",
+                "active": true
+            },
+            {
+                "phrase": "Creative",
+                "translate": "Criativo",
+                "active": true
+            },
+            {
+                "phrase": "Animated",
+                "translate": "Animado",
+                "active": true
+            },
+            {
+                "phrase": "Type caption here",
+                "translate": "Digite aqui a legenda",
+                "active": true
+            },
+            {
+                "phrase": "Show Bullets",
+                "translate": "Mostrar balas",
+                "active": true
+            },
+            {
+                "phrase": "Show Text",
+                "translate": "Mostrar Texto",
+                "active": true
+            },
+            {
+                "phrase": "Show Tags",
+                "translate": "Mostrar Tags",
+                "active": true
+            },
+            {
+                "phrase": "Type Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Row/Column",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Containers Count",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "1st Container Items",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "2nd Container Items",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "3rd Container Items",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "4th Container Items",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "map": [
+            {
+                "phrase": "350 5th Ave, New York, NY 10118",
+                "translate": "Rua Primeiro de Janeiro, 200, SP-Brasil",
+                "active": true
+            },
+            {
+                "phrase": "Address",
+                "translate": "Endereço",
+                "active": true
+            }
+        ],
+        "shop": [
+            {
+                "phrase": "Best Seller",
+                "translate": "Mais vendidos",
+                "active": true
+            },
+            {
+                "phrase": "On Sale",
+                "translate": "À venda",
+                "active": true
+            },
+            {
+                "phrase": "Old Price",
+                "translate": "Preço antigo",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "Imagem",
+                "active": true
+            },
+            {
+                "phrase": "Tags",
+                "translate": "Tags",
+                "active": true
+            },
+            {
+                "phrase": "Awesome image",
+                "translate": "Imagem Fantástica",
+                "active": true
+            },
+            {
+                "phrase": "Brown Glasses",
+                "translate": "Óculos castanhos",
+                "active": true
+            },
+            {
+                "phrase": "Men\\'s Shoes",
+                "translate": "Sapatos Masculinos",
+                "active": true
+            },
+            {
+                "phrase": "Blue Backpack",
+                "translate": "Mochila Azul",
+                "active": true
+            },
+            {
+                "phrase": "Red Snapback",
+                "translate": "Snapback Vermelho",
+                "active": true
+            },
+            {
+                "phrase": "Black Glasses",
+                "translate": "Óculos pretos",
+                "active": true
+            },
+            {
+                "phrase": "Women\\'s Shoes",
+                "translate": "Sapatos femininos",
+                "active": true
+            },
+            {
+                "phrase": "Pink Backpack",
+                "translate": "Mochila rosa",
+                "active": true
+            },
+            {
+                "phrase": "Red Cap",
+                "translate": "Boné vermelho",
+                "active": true
+            },
+            {
+                "phrase": "Awesome",
+                "translate": "Impressionante",
+                "active": true
+            },
+            {
+                "phrase": "Wonderful",
+                "translate": "Maravilhoso",
+                "active": true
+            },
+            {
+                "phrase": "Creative",
+                "translate": "Criativo",
+                "active": true
+            },
+            {
+                "phrase": "Responsive",
+                "translate": "Responsivo",
+                "active": true
+            },
+            {
+                "phrase": "Animated",
+                "translate": "Animado",
+                "active": true
+            },
+            {
+                "phrase": "Casual shoes (contact us for sizing)",
+                "translate": "Calçados casuais (entre em contato para Tamanho)",
+                "active": true
+            },
+            {
+                "phrase": "Lightweight textured fabric",
+                "translate": "Tecido com textura leve",
+                "active": true
+            },
+            {
+                "phrase": "Rounded v-neckline",
+                "translate": "Decote V Arredondado",
+                "active": true
+            },
+            {
+                "phrase": "Pom pom trims",
+                "translate": "Pom pom trims",
+                "active": true
+            },
+            {
+                "phrase": "Regular fit – true to size",
+                "translate": "Ajuste regular - verdadeiro ao tamanho",
+                "active": true
+            },
+            {
+                "phrase": "Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.",
+                "translate": "Única casa Bureau autor, mas saia do vulputate.\nEstresse alvo temperatura do vale, que se formou um monte de maquiagem.",
+                "active": true
+            },
+            {
+                "phrase": "Product code:",
+                "translate": "Código do Produto",
+                "active": true
+            },
+            {
+                "phrase": "From:",
+                "translate": "De:",
+                "active": true
+            },
+            {
+                "phrase": "Buy now!",
+                "translate": "Compre!",
+                "active": true
+            },
+            {
+                "phrase": "Type caption here",
+                "translate": "Digite aqui a legenda",
+                "active": true
+            },
+            {
+                "phrase": "Show Sidebar",
+                "translate": "Mostrar barra lateral",
+                "active": true
+            },
+            {
+                "phrase": "Show Card Buttons",
+                "translate": "Mostrar botões do cartão",
+                "active": true
+            },
+            {
+                "phrase": "Show Sorting Buttons",
+                "translate": "Mostrar botões de classificação",
+                "active": true
+            },
+            {
+                "phrase": "Show Best Sellers",
+                "translate": "Mostrar os mais vendidos",
+                "active": true
+            },
+            {
+                "phrase": "Show Price Range",
+                "translate": "Mostrar faixa de preço",
+                "active": true
+            },
+            {
+                "phrase": "Show Tags",
+                "translate": "Mostrar Tags",
+                "active": true
+            },
+            {
+                "phrase": "Default sorting",
+                "translate": "Classificação padrão",
+                "active": true
+            },
+            {
+                "phrase": "Price: low to high",
+                "translate": "Preço: Mai barato / Mais caro",
+                "active": true
+            },
+            {
+                "phrase": "Price: high to low",
+                "translate": "Preço: Mais Caro / Mais Barato",
+                "active": true
+            },
+            {
+                "phrase": "Filter",
+                "translate": "Filtro",
+                "active": true
+            },
+            {
+                "phrase": "Show all",
+                "translate": "Mostrar tudo",
+                "active": true
+            },
+            {
+                "phrase": "Sale",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Title",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Price",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Caption",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reverse Sidebar:",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-translate": [
+            {
+                "phrase": "Language",
+                "translate": "Idioma",
+                "active": true
+            },
+            {
+                "phrase": "Open",
+                "translate": "Abrir",
+                "active": true
+            },
+            {
+                "phrase": "You\\'re connected as:",
+                "translate": "Você está conectado como:",
+                "active": true
+            },
+            {
+                "phrase": "Disconnect",
+                "translate": "Disconectar",
+                "active": true
+            },
+            {
+                "phrase": "Add",
+                "translate": "Adicionar",
+                "active": true
+            },
+            {
+                "phrase": "Change language",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error setup language!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change language?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "blocks": [
+            {
+                "phrase": "Menu",
+                "translate": "Menu",
+                "active": true
+            },
+            {
+                "phrase": "Headers",
+                "translate": "Cabeçalhos",
+                "active": true
+            },
+            {
+                "phrase": "Images & Videos",
+                "translate": "Imagem & Vídeo",
+                "active": true
+            },
+            {
+                "phrase": "Sliders & Galleries",
+                "translate": "Sliders & Galleries",
+                "active": true
+            },
+            {
+                "phrase": "Article",
+                "translate": "Artigo",
+                "active": true
+            },
+            {
+                "phrase": "Features",
+                "translate": "Características",
+                "active": true
+            },
+            {
+                "phrase": "Animated Features",
+                "translate": "Recursos animados",
+                "active": true
+            },
+            {
+                "phrase": "Pricing Tables",
+                "translate": "Tabelas de preços",
+                "active": true
+            },
+            {
+                "phrase": "Counters",
+                "translate": "Contadores",
+                "active": true
+            },
+            {
+                "phrase": "Countdowns",
+                "translate": "Countdowns",
+                "active": true
+            },
+            {
+                "phrase": "Progress",
+                "translate": "Progresso",
+                "active": true
+            },
+            {
+                "phrase": "Timelines",
+                "translate": "Linhas do tempo",
+                "active": true
+            },
+            {
+                "phrase": "Accordions & Toggles & Tabs",
+                "translate": "Acordeões e Toggles & Tabs",
+                "active": true
+            },
+            {
+                "phrase": "Info",
+                "translate": "Informação",
+                "active": true
+            },
+            {
+                "phrase": "Forms",
+                "translate": "Formulários",
+                "active": true
+            },
+            {
+                "phrase": "Maps",
+                "translate": "Mapas",
+                "active": true
+            },
+            {
+                "phrase": "Social",
+                "translate": "Social",
+                "active": true
+            },
+            {
+                "phrase": "Testimonials",
+                "translate": "Testemunhos",
+                "active": true
+            },
+            {
+                "phrase": "Clients",
+                "translate": "Cliente",
+                "active": true
+            },
+            {
+                "phrase": "Tables",
+                "translate": "Tabelas",
+                "active": true
+            },
+            {
+                "phrase": "Footers",
+                "translate": "Rodapés",
+                "active": true
+            }
+        ],
+        "app-themes": [
+            {
+                "phrase": "This site uses the theme $theme title$ that isn't available.",
+                "translate": "Este site usa o tema $theme title$ que não está disponível.",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Cnacelar",
+                "active": true
+            },
+            {
+                "phrase": "Install $theme title$",
+                "translate": "Instalar $theme title$",
+                "active": true
+            },
+            {
+                "phrase": "No themes available for loaded project",
+                "translate": "Sem temas disponíveis para o projeto carregado",
+                "active": true
+            },
+            {
+                "phrase": "This site uses the theme $theme title$ that isn't available. If the theme is installed, then reinstall it please.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Try to log out and log back in",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download $addonName",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-mobile-interface": [
+            {
+                "phrase": "Remove Block?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove Page",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove page $page name$?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove Site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit Site Styles",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-form-editor": [
+            {
+                "phrase": "Form Fields",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Form Options",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Notification Email or Action URL",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please enter a valid email address or URL",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Success Message",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Form",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Verify",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Verified",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Email verified",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "secondary-components": [
+            {
+                "phrase": "Block Parameters",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Content",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/app-translate.js": [
+            {
+                "phrase": "Open",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You\\'re connected as:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Disconnect",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Add",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change language?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error setup language!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Language",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/app-plugin-mbrsite.js": [
+            {
+                "phrase": "Incorrect server response.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Incorrect domain name.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "File too large",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Site Domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Delete",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to delete the domain $domain$?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change Site Domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change Site Name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable to init project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Can't download the site because it was published incorrectly.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error loading project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to remove the domain $domain$? Your site will be completely removed from the Web.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error removing site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Congratulations!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your site is published and live online:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Next:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit your site online:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connect your own domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "https://",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "ok",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove Site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error removing the domain",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-account": [
+            {
+                "phrase": "Please login to get latest updates and extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Login with Google",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Login with Facebook",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "or",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter your email",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Login",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use free version",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No, I don't need this and don't show me this anymore",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Forgot password?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You successfully signed in",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter password",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter your password",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please enter a valid email address",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Check your email. Your password is sent to $email$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change email",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "If you haven't received the email, please check Spam folder.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You already have the Mobirise account for $email$. Enter your password.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your password is sent to $email$ with first sign up. Check your email to find it.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Are you sure you want to logout?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "We've sent an email with instructions on how to reset your password to the email address $email$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please login to load the free themes and extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your account token has expired, please log in again",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "addons-core": [
+            {
+                "phrase": "No internet connection found. Some extensions may be not available.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-expiration-checking": [
+            {
+                "phrase": "No internet connection found. Some extensions may be not available.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connect to the Internet to add this block",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "The block cannot be added because your license for $extension$ has expired.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Update",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-payment-checking": [
+            {
+                "phrase": "No internet connection found. Continue without Code Editor Extension.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-auto-update": [
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Updating",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Downloading",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "All extensions $text$.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Сancel $title$?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Yes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-cms": [
+            {
+                "phrase": "Add online editor (CMS) to /edit/ folder",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "cookies-alert": [
+            {
+                "phrase": "By continuing you agree to our %Terms of Service% and %Privacy Policy%",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "We use cookies to give you the best experience. Read our %cookie policy%",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "GOT IT",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "REJECT",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cookies Alert",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enable",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "GDPR Compliance",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cookies Alert Editor",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Consent",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Alert only - without blocking",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reject and Accept - \"Reject\" blocks JS and iframes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Accept - page loads only after \"Accept\"",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Layout",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Bottom panel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Center popup",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Text Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Background Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Accept Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Link Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reject Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Background Opacity",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Overlay Opacity",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your cookies alert message.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reject Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your cookies alert reject button text.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reject",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Accept Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your cookies alert accept button text.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Compliance GDPR",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Underline Link",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your GDPR message.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Demo",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/app-plugin-domains.js": [
+            {
+                "phrase": "Incorrect server response.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Copy",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connect domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "OK",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Disconnect",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Site Domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connect",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove Domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Open in Browser",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Publish",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Recheck",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Invalid domain name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This feature is not available",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Domain successfully detached",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Are you sure you want to delete this record?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Delete",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Internal server error.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "DNS management",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to disconnect the domain $domain$?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Copied",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "google-analytics": [
+            {
+                "phrase": "Analytics",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your Analytics code snippet here or paste any other code that you want to have on every page immediately after the opening $body$ tag.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-mobirise-ai": [
+            {
+                "phrase": "Create with Mobirise AI",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Describe in detail what your site will be about, what it will offer, who is behind it, your benefits and specialties. You can write in any language.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "We are Craft22, a team of skilled artisans from Brooklyn, NY.  We offer a wide range of handmade crafts, from custom jewelry to home decor.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Minimum 32 characters",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Generate",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your prompt is too short, add more details.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your prompt is too long, shorten it.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-page-presets": [
+            {
+                "phrase": "If the theme is installed, please reinstall it.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Install $theme title$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Choose Template for Page",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-projects-presets": [
+            {
+                "phrase": "If the theme is installed, please reinstall it.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Install $theme title$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Choose Template for $nameTheme$ Theme",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-restore": [
+            {
+                "phrase": "Do you really want to restore the deleted sites?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Restore Deleted Sites",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you really want to restore ALL deleted sites? This may take some time...",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/app-plugin-seo.js": [
+            {
+                "phrase": "Edit sitemap.xml",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit robots.txt",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter site URL",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "URL is not valid! (must be like \"http://mysite.com\")",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "SEO & Analytics",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use robots.txt",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit Robots.txt",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use sitemap.xml",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Auto",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit Sitemap Settings",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "user-licenses": [
+            {
+                "phrase": "No active licenses",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Kits",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Themes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Sites",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Expired",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "User Licenses",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Licenses",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-webp-convert": [
+            {
+                "phrase": "Optimization",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Convert Images to WebP",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Publishing...",
+                "translate": "",
+                "active": true
+            }
+        ]
+    },
+    "author": "mauricioccd@gmail.com"
+}

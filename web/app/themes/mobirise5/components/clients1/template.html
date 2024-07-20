@@ -1,0 +1,55 @@
+<section class="clients1" group="Clients">
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="6">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="6">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle">
+        <input type="checkbox" title="Subtitle" name="showSubTitle">
+        <input type="checkbox" title="Text" name="showText">
+        <input type="range" inline title="Items" name="items" min="1" max="8" value="8" step="1">
+        <header>Background</header>
+        <input type="color" title="Color" name="bgColor" value="#ffffff">
+    </mbr-parameters>
+    <div class="images-container" mbr-class="{'container-fluid':fullWidth, container:fullWidth==false}">
+        <div class="mbr-section-head">
+            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0" mbr-theme-style="display-2"
+                mbr-if="showTitle" data-app-selector=".mbr-section-title">
+                <b>Our Clients</b>
+            </h3>
+            <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2" mbr-theme-style="display-5"
+                mbr-if="showSubTitle" data-app-selector=".mbr-section-subtitle">For a better look, use pictures of the same size in this block.
+                elit</h4>
+            <p class="mbr-text mbr-fonts-style align-center mt-2" mbr-theme-style="display-7" mbr-if="showText"
+                data-app-selector=".mbr-text">
+                Click on an image in this block to replace it. Set the number of logos in Block Parameters. </p>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-3 card">
+                <img src="../_images/clients/1.png" alt="Mobirise Website Builder">
+            </div>
+            <div class="col-md-3 card" mbr-if="items > 1">
+                <img src="../_images/clients/2.png" alt="Mobirise Website Builder">
+            </div>
+            <div class="col-md-3 card" mbr-if="items > 2">
+                <img src="../_images/clients/3.png" alt="Mobirise Website Builder">
+            </div>
+            <div class="col-md-3 card" mbr-if="items > 3">
+                <img src="../_images/clients/4.png" alt="Mobirise Website Builder">
+            </div>
+            <div class="col-md-3 card" mbr-if="items > 4">
+                <img src="../_images/clients/2.png" alt="Mobirise Website Builder">
+            </div>
+            <div class="col-md-3 card" mbr-if="items > 5">
+                <img src="../_images/clients/3.png" alt="Mobirise Website Builder">
+            </div>
+            <div class="col-md-3 card" mbr-if="items > 6">
+                <img src="../_images/clients/4.png" alt="Mobirise Website Builder">
+            </div>
+            <div class="col-md-3 card" mbr-if="items > 7">
+                <img src="../_images/clients/5.png" alt="Mobirise Website Builder">
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,89 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+  display: none;
+}
+.mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+
+  & when (@bg-type ='video') {
+      background-image: url(@fallBackImage);
+  }
+}
+.socicon-bg-facebook {
+  background: #1778f2;
+  color: contrast(#1778f2);
+  &:hover {
+    background: darken(#1778f2, 10);
+  }
+}
+.socicon-bg-twitter {
+  background: #1da1f2;
+  color: contrast(#1da1f2);
+  &:hover {
+    background: darken(#1da1f2, 10);
+  }
+}
+.socicon-bg-vkontakte {
+  background: #4680C2;
+  color: contrast(#4680c2);
+  &:hover {
+    background: darken(#4680c2, 10);
+  }
+}
+.socicon-bg-odnoklassniki {
+  background: #ee8208;
+  color: contrast(#ee8208);
+  &:hover {
+    background: darken(#ee8208, 10);
+  }
+}
+.socicon-bg-pinterest {
+  background: #e60023;
+  color: contrast(#e60023);
+  &:hover {
+    background: darken(#e60023, 10);
+  }
+}
+.socicon-bg-mail {
+  background: #005ff9;
+  color: contrast(#005ff9);
+  &:hover {
+    background: darken(#005ff9, 10);
+  }
+}
+.btn-social {
+  font-size: 32px;
+  border-radius: 50%;
+  padding: 0;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  i {
+    top: 0;
+    line-height: 55px;
+    width: 55px;
+  }
+  border: none !important;
+  & when (@squareIcons) {
+    border-radius: 0 !important;
+  }
+}
+[class^="socicon-"]:before, [class*=" socicon-"]:before {
+  line-height: 55px;
+}

@@ -1,0 +1,86 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type ='color') {
+    background-color: @bg-value;
+}
+
+& when (@bg-type ='image') {
+    background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+    display: none;
+}
+.mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    & when (@bg-type ='video') {
+        background-image: url(@fallBackImage);
+    }
+}
+.carousel-item {
+    justify-content: center;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+    display: flex;
+}
+
+.carousel-controls {
+    a {
+        transition: opacity .5s;
+        font-size: 30px;
+        position: absolute;
+        top: 180px;
+        bottom: auto;
+        height: 60px;
+        width: 60px;
+        padding: 10px;
+        color: #155ce0;
+        .mbr-iconfont {
+            font-weight: 800;
+        }
+    }
+}
+
+.carousel-control-next {
+    span {
+        padding-left: 5px;
+    }
+}
+
+.carousel-control-prev {
+    span {
+        padding-right: 5px;
+    }
+}
+
+.user_image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1.6rem;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 2rem auto;
+
+    img {
+        width: 100%;
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
+
+@media (max-width: 230px) {
+    .user_image {
+        width: 100%;
+        height: auto;
+    }
+}

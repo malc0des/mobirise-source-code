@@ -1,0 +1,80 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type ="color") {
+    background-color: @bg-value;
+}
+
+& when (@bg-type ="image") {
+    background-image: url(@bg-value);
+}
+
+.item-wrapper img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50% !important;
+}
+
+.mbr-fallback-image.disabled {
+    display: none;
+}
+
+.mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    & when (@bg-type ="video") {
+        background-image: url(@fallBackImage);
+    }
+}
+
+.item-wrapper {
+    background: @cardbg;
+    padding: 2.25rem;
+    height: 100%;
+
+    @media (max-width: 767px) {
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    @media (min-width: 992px) and (max-width: 1200px) {
+        padding: 2rem 1.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.card-title,
+.iconfont-wrapper {
+    color: #000000;
+}
+
+.content-head {
+    max-width: 800px;
+}
+
+.mbr-section-title {
+    color: #000000;
+}
+
+.mbr-section-subtitle {
+    color: #000000;
+}
+
+.card-text {
+    color: #000000;
+}
+
+.item-mb {
+    margin-bottom: 2rem;
+
+    @media (max-width: 767px) {
+        margin-bottom: 1rem;
+    }
+}

@@ -1,0 +1,48 @@
+& when not (@fullScreen) {
+    padding-top: (@paddingTop * 1rem);
+    padding-bottom: (@paddingBottom * 1rem);
+}
+
+& when (@bg-type ="image") {
+    background-image: url(@bg-value);
+}
+
+& when (@bg-type ="color") {
+    background-color: @bg-value;
+}
+.mbr-fallback-image.disabled {
+    display: none;
+}
+.mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    & when (@bg-type ='video') {
+        background-image: url(@fallBackImage);
+    }
+}
+.social-row {
+    .soc-item {
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 1rem;
+        margin-right: .7rem;
+        .mbr-iconfont {
+            font-size: 32px;
+            border-radius: 50%;
+            padding: 0.6rem;
+            border: 2px solid @socialIconColor;
+            transition: all 0.3s;
+            color: @socialIconColor;
+            &:hover {
+                background-color: @socialIconColor;
+                color: contrast(@socialIconColor);
+            }
+        }
+    }
+}

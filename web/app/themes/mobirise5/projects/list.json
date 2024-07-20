@@ -1,0 +1,20 @@
+{
+    "company": {
+        "title": "Company"
+    },
+    "portfolio": {
+        "title": "Portfolio"
+    },
+    "shop": {
+        "title": "Shop"
+    },
+    "event": {
+        "title": "Event"
+    },
+    "agency": {
+        "title": "Agency"
+    },
+    "photo": {
+        "title": "Photo"
+    }
+}

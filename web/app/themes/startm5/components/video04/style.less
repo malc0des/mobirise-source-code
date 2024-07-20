@@ -1,0 +1,14 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(@bg-value);
+}
+.video-wrapper iframe {
+  width: 100%;
+}
+.mbr-section-title, .mbr-section-subtitle, .mbr-text {
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+background-color: @bgColor;
+
+.counter-container {
+    ul {
+        margin: 0;
+        padding-left: 2.25rem;
+        list-style: none;
+
+        li {
+            position: relative;
+            list-style: none;
+            margin-bottom: 2rem;
+
+            &:before {
+                position: absolute;
+                left: -1.5em;
+                content: "";
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: @iconColor;
+                background-color: @iconColor;
+                width: 0.5em;
+                height: 0.5em;
+                top: 0.4em;
+                border-radius: 50%;
+            }
+        }
+    }
+}

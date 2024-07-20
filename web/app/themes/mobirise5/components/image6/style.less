@@ -1,0 +1,46 @@
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+& when (@bg-type = "color") {
+  background-color: @bg-value;
+}
+& when (@bg-type = "image") {
+  background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+  display: none;
+}
+.mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+
+  & when (@bg-type ='video') {
+      background-image: url(@fallBackImage);
+  }
+}
+.row {
+  align-items: stretch;
+  justify-content: center;
+}
+.img-item {
+  position: relative;
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .img-description {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    padding: .5rem 1rem .5rem;
+    word-break: break-word;
+    p {
+      margin-bottom: 0;
+    }
+  }
+}

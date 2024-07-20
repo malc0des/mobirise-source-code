@@ -1,0 +1,4217 @@
+{
+    "title": "Croatian",
+    "language": "hr",
+    "type": "main",
+    "groups": {
+        "global": [
+            {
+                "phrase": "Pages",
+                "translate": "Stranice",
+                "active": true
+            },
+            {
+                "phrase": "Page Settings",
+                "translate": "Postavke Stranica",
+                "active": true
+            },
+            {
+                "phrase": "Page Title:",
+                "translate": "Naslov Stranice:",
+                "active": true
+            },
+            {
+                "phrase": "Page Description:",
+                "translate": "Opis Stranice:",
+                "active": true
+            },
+            {
+                "phrase": "Page URL:",
+                "translate": "URL Stranice:",
+                "active": true
+            },
+            {
+                "phrase": "Create, Clone, Rename Pages, Edit Meta Tags",
+                "translate": "Kreiraj, Cloniraj, Preimenuj, Editiraj Meta Oznake",
+                "active": true
+            },
+            {
+                "phrase": "Sites",
+                "translate": "Sajtovi",
+                "active": true
+            },
+            {
+                "phrase": "Create, Open, Rename Sites",
+                "translate": "Kreiraj, Otvori, Preimenuj Sajtove",
+                "active": true
+            },
+            {
+                "phrase": "Account",
+                "translate": "Račun",
+                "active": true
+            },
+            {
+                "phrase": "Sign Up / Login to Get Latest Updates and Extensions",
+                "translate": "Prijavite se / Logiraj se za najnovija ažuriranja i proširenja",
+                "active": true
+            },
+            {
+                "phrase": "Reset password",
+                "translate": "Resetiraj Lozinku",
+                "active": true
+            },
+            {
+                "phrase": "Logout",
+                "translate": "Odjavi se",
+                "active": true
+            },
+            {
+                "phrase": "Preview in Browser",
+                "translate": "Pregled u Pregledniku",
+                "active": true
+            },
+            {
+                "phrase": "Publish to Local Drive, FTP",
+                "translate": "Objavi na Lokalni Disk, FTP",
+                "active": true
+            },
+            {
+                "phrase": "Publish",
+                "translate": "Objavi",
+                "active": true
+            },
+            {
+                "phrase": "Mobile View",
+                "translate": "Mobilni Prikaz",
+                "active": true
+            },
+            {
+                "phrase": "Tablet View",
+                "translate": "Tablet Prikaz",
+                "active": true
+            },
+            {
+                "phrase": "Tablet Horizontal View",
+                "translate": "Tablet Vodoravni Prikaz",
+                "active": true
+            },
+            {
+                "phrase": "Desktop View",
+                "translate": "Desktop Prikaz",
+                "active": true
+            },
+            {
+                "phrase": "Blocks",
+                "translate": "Blokovi",
+                "active": true
+            },
+            {
+                "phrase": "Edit Site Styles",
+                "translate": "Uredi Stilove Sajta",
+                "active": true
+            },
+            {
+                "phrase": "Add Block to Page",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-addons": [
+            {
+                "phrase": "Not available for your Mobirise version",
+                "translate": "Nije dostupno za vašu Mobirise verziju",
+                "active": true
+            },
+            {
+                "phrase": "Not compatible with your version of Mobirise",
+                "translate": "Nije kompatibilno sa vašom verzijom Mobirise",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "Ukloni",
+                "active": true
+            },
+            {
+                "phrase": "Update",
+                "translate": "Ažuriraj",
+                "active": true
+            },
+            {
+                "phrase": "Coming soon...",
+                "translate": "Dolazi uskoro...",
+                "active": true
+            },
+            {
+                "phrase": "Soon...",
+                "translate": "Uskoro...",
+                "active": true
+            },
+            {
+                "phrase": "Add",
+                "translate": "Dodaj",
+                "active": true
+            },
+            {
+                "phrase": "Buy",
+                "translate": "Kupi",
+                "active": true
+            },
+            {
+                "phrase": "extension",
+                "translate": "proširenje",
+                "active": true
+            },
+            {
+                "phrase": "$extension$ is successfuly added",
+                "translate": "$extension$ je uspješno dodano",
+                "active": true
+            },
+            {
+                "phrase": "About",
+                "translate": "O Nama",
+                "active": true
+            },
+            {
+                "phrase": "Buy help",
+                "translate": "Kupi pomoč",
+                "active": true
+            },
+            {
+                "phrase": "Redeem code",
+                "translate": "Otkupi Kod",
+                "active": true
+            },
+            {
+                "phrase": "Enter code...",
+                "translate": "Unesi kod...",
+                "active": true
+            },
+            {
+                "phrase": "Redeem",
+                "translate": "Otkupi",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "Greška u dodavanju proširenja",
+                "active": true
+            },
+            {
+                "phrase": "Code is successfully redeemed!",
+                "translate": "Kod je uspješno otkupljen",
+                "active": true
+            },
+            {
+                "phrase": "Incorrect code",
+                "translate": "Nepravilni Kod",
+                "active": true
+            },
+            {
+                "phrase": "Activation error",
+                "translate": "Greška u aktivaciji",
+                "active": true
+            },
+            {
+                "phrase": "Select extension package",
+                "translate": "Odaberite paket proširenja",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise Extension",
+                "translate": "Mobirise Proširenje",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension package",
+                "translate": "Greška u dodavanju paketa proširenja",
+                "active": true
+            },
+            {
+                "phrase": "Themes",
+                "translate": "Teme",
+                "active": true
+            },
+            {
+                "phrase": "Extensions",
+                "translate": "Proširenja",
+                "active": true
+            },
+            {
+                "phrase": "Import",
+                "translate": "Importiraj",
+                "active": true
+            },
+            {
+                "phrase": "Note: The server list is not available. Only installed extensions are shown",
+                "translate": "Napomena: Lista servera nije dostupna. Prikazana su samo instalirana proširenja",
+                "active": true
+            },
+            {
+                "phrase": "Get more extensions",
+                "translate": "Više proširenja",
+                "active": true
+            },
+            {
+                "phrase": "Try to log out and log back in",
+                "translate": "Pokušajte se odjaviti i ponovno prijaviti",
+                "active": true
+            },
+            {
+                "phrase": "Warning",
+                "translate": "Upozorenje",
+                "active": true
+            },
+            {
+                "phrase": "During the last run the program failed to load all extensions. To run again, program will temporarily disable them. Please update the extensions you use.",
+                "translate": "Tijekom posljednjeg pokretanja program nije uspio učitati sva proširenja. Program če ih privremeno onemogučiti. Molimo ažurirajte proširenja koja upotrebljavate.",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "Ok",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Odustani",
+                "active": true
+            },
+            {
+                "phrase": "Open \"Extensions list\"",
+                "translate": "Otvori \"Lista proširenja\"",
+                "active": true
+            },
+            {
+                "phrase": "Some installed extensions $ext names$ are not compatible with the current version of the application. Please visit \"Extensions list\" dialog to update it.",
+                "translate": "Neka od instaliranih proširenja $ext names$ nisu kompatibilna sa trenutnom verzijom programa. Molimo otvorite dialog \"Lista proširenja\" za ažuriranje",
+                "active": true
+            },
+            {
+                "phrase": "Extension",
+                "translate": "Proširenje",
+                "active": true
+            },
+            {
+                "phrase": "No extensions matched your search. Try again.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create Site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "View Demo",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unexpected project create error",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to create the $site name$ site based on the $theme name$ theme, $name preset$ Template?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "theme",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unknown Source Warning!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You're importing an extension from unknown sources. Extension from unknown sources can harm your projects and bring incompatibility issues with Mobirise app and other extensions. Mobirise doesn't provide a support for 3rd-party extensions.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Import Anyway",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This extension works with app version $ext_version$ and higher. Please update your Mobirise app",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Update All",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Add All",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Update all installed extensions?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to download all available themes and extensions?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download all",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable to download $extension$. Try to re-login.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download cancelled:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Downloading...",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Add Themes and Extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Get ALL Mobirise Themes & Extensions!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "During the last run the program failed to load all extensions. To run again, program will temporarily disable them.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-common": [
+            {
+                "phrase": "This is a critical error, some functions of the program may not work correctly, please send information to the developers.",
+                "translate": "To je kritična greška, neke funkcije programa možda neče ispravno raditi, molimo pošaljite informaciju programerima.",
+                "active": true
+            },
+            {
+                "phrase": "Critical error",
+                "translate": "Kritična greška",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Odustani",
+                "active": true
+            },
+            {
+                "phrase": "Send feedback",
+                "translate": "Pošalji povratne informacije",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "Ok",
+                "active": true
+            },
+            {
+                "phrase": "More",
+                "translate": "Više",
+                "active": true
+            },
+            {
+                "phrase": "Less",
+                "translate": "Manje",
+                "active": true
+            },
+            {
+                "phrase": "LOADING...",
+                "translate": "UČITAVANJE...",
+                "active": true
+            },
+            {
+                "phrase": "Send Error Report",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-component-params": [
+            {
+                "phrase": "Remove",
+                "translate": "Ukloni",
+                "active": true
+            },
+            {
+                "phrase": "Drag Block",
+                "translate": "Povuci Blok",
+                "active": true
+            },
+            {
+                "phrase": "Block Parameters",
+                "translate": "Parametri Bloka",
+                "active": true
+            },
+            {
+                "phrase": "Remove Block",
+                "translate": "Ukloni Blok",
+                "active": true
+            },
+            {
+                "phrase": "Show More",
+                "translate": "Prikaži Više",
+                "active": true
+            },
+            {
+                "phrase": "Remove Block?",
+                "translate": "Ukloniti Blok?",
+                "active": true
+            },
+            {
+                "phrase": "Type address or insert",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "google map iframe",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Update",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Loading images",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This block is global. Do you want to remove it from all pages?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to remove the $ID$ block?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-components-list": [
+            {
+                "phrase": "Add Block to Page",
+                "translate": "Dodaj Blok na Stranicu",
+                "active": true
+            },
+            {
+                "phrase": "Close",
+                "translate": "Zatvori",
+                "active": true
+            },
+            {
+                "phrase": "Show All Blocks",
+                "translate": "Prikaži Sve Blokove",
+                "active": true
+            },
+            {
+                "phrase": "Show All",
+                "translate": "Prikaži Sve",
+                "active": true
+            },
+            {
+                "phrase": "Theme",
+                "translate": "Tema",
+                "active": true
+            },
+            {
+                "phrase": "Show Blocks From Theme",
+                "translate": "Prikaži Blokove Teme",
+                "active": true
+            },
+            {
+                "phrase": "Extensn",
+                "translate": "Proširenje",
+                "active": true
+            },
+            {
+                "phrase": "Show Blocks From Extensions",
+                "translate": "Prikaži Blokove Proširenja",
+                "active": true
+            },
+            {
+                "phrase": "Add More",
+                "translate": "Dodaj Više",
+                "active": true
+            },
+            {
+                "phrase": "Extension",
+                "translate": "Proširenje",
+                "active": true
+            },
+            {
+                "phrase": "All",
+                "translate": "Sve",
+                "active": true
+            },
+            {
+                "phrase": "Added",
+                "translate": "Dodano",
+                "active": true
+            },
+            {
+                "phrase": "More $groupName$ Blocks",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download $theme title$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Choose blocks' theme",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-core": [
+            {
+                "phrase": "Remove Block?",
+                "translate": "Ukloniti Blok?",
+                "active": true
+            }
+        ],
+        "app-fonts": [
+            {
+                "phrase": "Browse Computer",
+                "translate": "Pretraži Računalo",
+                "active": true
+            },
+            {
+                "phrase": "Google Fonts",
+                "translate": "Google Fontovi",
+                "active": true
+            },
+            {
+                "phrase": "Site Fonts",
+                "translate": "Fontovi Sajta",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "Ok",
+                "active": true
+            },
+            {
+                "phrase": "Select font",
+                "translate": "Odaberi Font",
+                "active": true
+            },
+            {
+                "phrase": "Fonts file",
+                "translate": "Font Dokument",
+                "active": true
+            },
+            {
+                "phrase": "Error saving project settings.",
+                "translate": "Greška u spremanju postavki projekta",
+                "active": true
+            },
+            {
+                "phrase": "Error saving style.css for $font name$",
+                "translate": "Greška u spremanju style.css za $font name$",
+                "active": true
+            },
+            {
+                "phrase": "The quick brown fox jumps over the lazy dog.",
+                "translate": "The quick brown fox jumps over the lazy dog.",
+                "active": true
+            },
+            {
+                "phrase": "Download font error!",
+                "translate": "Greška u preuzimanju fonta!",
+                "active": true
+            },
+            {
+                "phrase": "This font has been successfully removed.",
+                "translate": "Ovaj font je uspješno uklonjen.",
+                "active": true
+            },
+            {
+                "phrase": "Error removal!",
+                "translate": "Greška u uklanjanju!",
+                "active": true
+            },
+            {
+                "phrase": "This is the font used in the project!",
+                "translate": "Ovaj font je korišten u projektu!",
+                "active": true
+            },
+            {
+                "phrase": "Error file saving!",
+                "translate": "Greška prilikom spremanja dokumenta!",
+                "active": true
+            },
+            {
+                "phrase": "More fonts",
+                "translate": "Više fontova",
+                "active": true
+            },
+            {
+                "phrase": "Font removal error!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Fonts",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search by font name",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-pages": [
+            {
+                "phrase": "Drag Page",
+                "translate": "Povuci Stranicu",
+                "active": true
+            },
+            {
+                "phrase": "Clone Page",
+                "translate": "Kloniraj Stranicu",
+                "active": true
+            },
+            {
+                "phrase": "Rename Page, Edit Meta Tags",
+                "translate": "Preimenuj Stranicu, Uredi Meta Oznake",
+                "active": true
+            },
+            {
+                "phrase": "Remove Page",
+                "translate": "Ukloni Stranicu",
+                "active": true
+            },
+            {
+                "phrase": "OK",
+                "translate": "OK",
+                "active": true
+            },
+            {
+                "phrase": "Edit Title",
+                "translate": "Uredi Naslov",
+                "active": true
+            },
+            {
+                "phrase": "Remove page $page name$?",
+                "translate": "Ukloniti stranicu $page name$?",
+                "active": true
+            },
+            {
+                "phrase": "Create New Page",
+                "translate": "Kreiraj Novu Stranicu",
+                "active": true
+            },
+            {
+                "phrase": "Create Page",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Page Settings",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-click-to-start": [
+            {
+                "phrase": "Click to Start",
+                "translate": "Klikni za Početak",
+                "active": true
+            }
+        ],
+        "app-plugin-components-list-userblocks": [
+            {
+                "phrase": "Remove Block?",
+                "translate": "Ukloniti Blok?",
+                "active": true
+            },
+            {
+                "phrase": "User",
+                "translate": "Korisnik",
+                "active": true
+            },
+            {
+                "phrase": "Show Blocks Saved By User",
+                "translate": "Prikaži Blokove Spremljene od Korisnika",
+                "active": true
+            },
+            {
+                "phrase": "Save To User Blocks",
+                "translate": "Spremi u Blokove Korisnika",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "User Blocks",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-favicon": [
+            {
+                "phrase": "Favicon",
+                "translate": "Favicon",
+                "active": true
+            },
+            {
+                "phrase": "Use menu logo",
+                "translate": "Upotrijebi meni logo",
+                "active": true
+            },
+            {
+                "phrase": "Change favicon",
+                "translate": "Promjeni favicon",
+                "active": true
+            },
+            {
+                "phrase": "Select Image",
+                "translate": "Izaberi Sliku",
+                "active": true
+            }
+        ],
+        "app-plugin-github": [
+            {
+                "phrase": "GitHub UserName",
+                "translate": "GitHub Korisničko Ime",
+                "active": true
+            },
+            {
+                "phrase": "GitHub Password or Token",
+                "translate": "GitHub Lozinka ili Token",
+                "active": true
+            },
+            {
+                "phrase": "You can create GitHub Account %here%",
+                "translate": "GitHub račun možete kreirati %here%",
+                "active": true
+            },
+            {
+                "phrase": "Enter your credentials",
+                "translate": "Unesite svoje podatke",
+                "active": true
+            },
+            {
+                "phrase": "ОК",
+                "translate": "OK",
+                "active": true
+            },
+            {
+                "phrase": "Success",
+                "translate": "Uspješno",
+                "active": true
+            },
+            {
+                "phrase": "The site is successfully uploaded to GitHub Pages. Usually GitHub can take up to 5 minutes to show up the changes. Do you want to open the site?",
+                "translate": "Stranica je uspješno prenesena na GitHub Stranice. Obično može potrajati i do 5 minuta da se pokažu promjene. Želite li otvoriti stranicu sada?",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Odustani",
+                "active": true
+            },
+            {
+                "phrase": "Open",
+                "translate": "Otvori",
+                "active": true
+            },
+            {
+                "phrase": "Error",
+                "translate": "Greška",
+                "active": true
+            },
+            {
+                "phrase": "error(s) occured while uploading files to GitHub.com. Do you want to open $link$ anyway?",
+                "translate": "pogreška(e) u spremanju dokumenata na GitHub.com. Želite li otvoriti $link$?",
+                "active": true
+            },
+            {
+                "phrase": "Check your credentials and internet connection",
+                "translate": "Provjerite svoje podatke i internetu vezu",
+                "active": true
+            },
+            {
+                "phrase": "Error while connecting to Github.",
+                "translate": "Greška u spajanju na GitHub",
+                "active": true
+            },
+            {
+                "phrase": "Close",
+                "translate": "Zatvori",
+                "active": true
+            },
+            {
+                "phrase": "GitHub Pages",
+                "translate": "GitHub Pages",
+                "active": true
+            },
+            {
+                "phrase": "Account",
+                "translate": "Račun",
+                "active": true
+            },
+            {
+                "phrase": "folder",
+                "translate": "mapa",
+                "active": true
+            },
+            {
+                "phrase": "Upload",
+                "translate": "Prenesi",
+                "active": true
+            },
+            {
+                "phrase": "GitHub Token",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Congratulations!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your site is published. Note that it takes a while for Github Pages to show updated content.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "ok",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-help": [
+            {
+                "phrase": "Please sign up/login to contact us or get the access to public forums",
+                "translate": "Molimo prijavite/logirajte se, da bi nas kontaktirali ili pristupili javnim forumima",
+                "active": true
+            },
+            {
+                "phrase": "Help",
+                "translate": "Pomoč",
+                "active": true
+            },
+            {
+                "phrase": "Please visit %Help Center% or %Forums% before contacting us.",
+                "translate": "Molimo posjetite %Help Center% prije nego nas kontaktirate.",
+                "active": true
+            },
+            {
+                "phrase": "Visit Help Center",
+                "translate": "Posjetite Help Center",
+                "active": true
+            },
+            {
+                "phrase": "Visit Forums",
+                "translate": "Posjetite Forume",
+                "active": true
+            },
+            {
+                "phrase": "Send us a message",
+                "translate": "Pošaljite nam poruku",
+                "active": true
+            },
+            {
+                "phrase": "From",
+                "translate": "Od",
+                "active": true
+            },
+            {
+                "phrase": "Message",
+                "translate": "Poruka",
+                "active": true
+            },
+            {
+                "phrase": "Please explain in details what happened and what steps we can take to reproduce the problem.",
+                "translate": "Molimo da detaljno objasnite što se dogodilo i koje korake trebamo poduzeti, da bismo reproducirali problem.",
+                "active": true
+            },
+            {
+                "phrase": "Send",
+                "translate": "Pošalji",
+                "active": true
+            },
+            {
+                "phrase": "Your message is too short. Please add more details",
+                "translate": "Vaša poruka je prekratka. Molimo dodajte više detalja.",
+                "active": true
+            },
+            {
+                "phrase": "Your message has been successfully sent!",
+                "translate": "Vaša poruka je uspješno poslana!",
+                "active": true
+            },
+            {
+                "phrase": "We will reply to your email $userEmail$ shortly.",
+                "translate": "Odgovorit čemo na vaš email $userEmail$ uskoro.",
+                "active": true
+            },
+            {
+                "phrase": "SEND",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Visit Help Center or Contact Us",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-history": [
+            {
+                "phrase": "Site Settings",
+                "translate": "Postavke Sajta",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "Slika",
+                "active": true
+            },
+            {
+                "phrase": "Video",
+                "translate": "Video",
+                "active": true
+            },
+            {
+                "phrase": "Remove Page",
+                "translate": "Ukloni Stranicu",
+                "active": true
+            },
+            {
+                "phrase": "Add Block",
+                "translate": "Dodaj Blok",
+                "active": true
+            },
+            {
+                "phrase": "Remove Block",
+                "translate": "Ukloni Blok",
+                "active": true
+            },
+            {
+                "phrase": "Block Position",
+                "translate": "Pozicija Bloka",
+                "active": true
+            },
+            {
+                "phrase": "Block Params",
+                "translate": "Parametri Bloka",
+                "active": true
+            },
+            {
+                "phrase": "Add Page",
+                "translate": "Dodaj Stranicu",
+                "active": true
+            },
+            {
+                "phrase": "Page Settings",
+                "translate": "Postavke Stranice",
+                "active": true
+            },
+            {
+                "phrase": "Block to HTML",
+                "translate": "Blok u HTML",
+                "active": true
+            },
+            {
+                "phrase": "Code Editor",
+                "translate": "Editor Koda",
+                "active": true
+            },
+            {
+                "phrase": "Text Type",
+                "translate": "Tekst",
+                "active": true
+            },
+            {
+                "phrase": "Icon",
+                "translate": "Ikona",
+                "active": true
+            },
+            {
+                "phrase": "Load Site",
+                "translate": "Otvori Sajt",
+                "active": true
+            },
+            {
+                "phrase": "Undo",
+                "translate": "Vrati",
+                "active": true
+            },
+            {
+                "phrase": "Redo",
+                "translate": "Ponovi",
+                "active": true
+            },
+            {
+                "phrase": "Change Component",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-iconfont": [
+            {
+                "phrase": "Icon Color",
+                "translate": "Boja Ikone",
+                "active": true
+            },
+            {
+                "phrase": "Icon Size",
+                "translate": "Veličina Ikone",
+                "active": true
+            },
+            {
+                "phrase": "Auto",
+                "translate": "Auto",
+                "active": true
+            },
+            {
+                "phrase": "Link Icon to",
+                "translate": "Poveži Ikonu sa",
+                "active": true
+            },
+            {
+                "phrase": "Edit Link",
+                "translate": "Uredi Link",
+                "active": true
+            },
+            {
+                "phrase": "Search...",
+                "translate": "Traži...",
+                "active": true
+            },
+            {
+                "phrase": "Select icons",
+                "translate": "Izaberi ikone",
+                "active": true
+            },
+            {
+                "phrase": "Insert Icon",
+                "translate": "Umetni Ikonu",
+                "active": true
+            },
+            {
+                "phrase": "Remove Icon",
+                "translate": "Ukloni Ikonu",
+                "active": true
+            },
+            {
+                "phrase": "Collapse All",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Expand All",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-image-editor-site-library": [
+            {
+                "phrase": "This image is used on the site and can't be removed from Site Library.",
+                "translate": "Ova slika je korištena na Sajtu i ne može biti uklonjena iz knjižnice.",
+                "active": true
+            }
+        ],
+        "app-plugin-image-editor-unsplash": [
+            {
+                "phrase": "Search by keyword",
+                "translate": "Traži po ključnoj riječi",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "Traži",
+                "active": true
+            },
+            {
+                "phrase": "Online image library is not available",
+                "translate": "Online knjižnica slika nije dostupna",
+                "active": true
+            },
+            {
+                "phrase": "No images found!",
+                "translate": "Slike nisu pronađene!",
+                "active": true
+            },
+            {
+                "phrase": "Please try another keyword",
+                "translate": "Molimo pokušajte drugu ključnu riječ",
+                "active": true
+            },
+            {
+                "phrase": "e.g.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-link-editor": [
+            {
+                "phrase": "Add File",
+                "translate": "Dodaj Dokument",
+                "active": true
+            },
+            {
+                "phrase": "Documents",
+                "translate": "Dokumenti",
+                "active": true
+            },
+            {
+                "phrase": "This document is already added.",
+                "translate": "Ovaj dokument je več dodan.",
+                "active": true
+            },
+            {
+                "phrase": "Link to",
+                "translate": "Poveži sa",
+                "active": true
+            },
+            {
+                "phrase": "Page",
+                "translate": "Stranica",
+                "active": true
+            },
+            {
+                "phrase": "Web Address",
+                "translate": "Web Adresa",
+                "active": true
+            },
+            {
+                "phrase": "Email",
+                "translate": "Email",
+                "active": true
+            },
+            {
+                "phrase": "Phone",
+                "translate": "Telefon",
+                "active": true
+            },
+            {
+                "phrase": "File",
+                "translate": "Dokument",
+                "active": true
+            },
+            {
+                "phrase": "Site Pages",
+                "translate": "Stranice Sajta",
+                "active": true
+            },
+            {
+                "phrase": "Block on Page",
+                "translate": "Blok na Stranici",
+                "active": true
+            },
+            {
+                "phrase": "Open in new window",
+                "translate": "Otvori u novom prozoru",
+                "active": true
+            },
+            {
+                "phrase": "Browse Computer",
+                "translate": "Pretraži računalo",
+                "active": true
+            },
+            {
+                "phrase": "Choose pdf, doc, docx, ppt, pptx, xls, xlsx, odp or odt file",
+                "translate": "Izaberi pdf, doc, docx, ppt, pptx, xls, xlsx, odp or odt dokument",
+                "active": true
+            },
+            {
+                "phrase": "Insert Link",
+                "translate": "Umetni Link",
+                "active": true
+            },
+            {
+                "phrase": "Remove Link",
+                "translate": "Ukloni Link",
+                "active": true
+            },
+            {
+                "phrase": "Block on $page title$ Page",
+                "translate": "Blok na Stranici $page title$",
+                "active": true
+            },
+            {
+                "phrase": "Block on $current page$ Page",
+                "translate": "Blok na Stranici $current page$",
+                "active": true
+            },
+            {
+                "phrase": "Custom URL",
+                "translate": "Proizvoljni URL",
+                "active": true
+            },
+            {
+                "phrase": "e.g.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Call Phone Number",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Send SMS Text to Number",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with WhatsApp",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with Viber",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Call with Skype by Number or Name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with Telegram",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with Signal",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Chat with Discord",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Phone/chat",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-media-editor": [
+            {
+                "phrase": "Media Image",
+                "translate": "Media Slike",
+                "active": true
+            },
+            {
+                "phrase": "Browse Computer",
+                "translate": "Pretraži Računalo",
+                "active": true
+            },
+            {
+                "phrase": "Free Online Library",
+                "translate": "Besplatna Online Knjižnica",
+                "active": true
+            },
+            {
+                "phrase": "Site Library",
+                "translate": "Knjižnica Sajta",
+                "active": true
+            },
+            {
+                "phrase": "Selected Image",
+                "translate": "Izabrana Slika",
+                "active": true
+            },
+            {
+                "phrase": "Link Image to",
+                "translate": "Poveži Sliku sa",
+                "active": true
+            },
+            {
+                "phrase": "Edit Link",
+                "translate": "Uredi Link",
+                "active": true
+            },
+            {
+                "phrase": "Edit alt and title",
+                "translate": "Uredi alt i naslov",
+                "active": true
+            },
+            {
+                "phrase": "Alt",
+                "translate": "Alt",
+                "active": true
+            },
+            {
+                "phrase": "Title",
+                "translate": "Naslov",
+                "active": true
+            },
+            {
+                "phrase": "Select Image",
+                "translate": "Izaberi Sliku",
+                "active": true
+            },
+            {
+                "phrase": "Crop Image",
+                "translate": "Obreži Sliku",
+                "active": true
+            },
+            {
+                "phrase": "More",
+                "translate": "Više",
+                "active": true
+            },
+            {
+                "phrase": "Zoom In",
+                "translate": "Približi",
+                "active": true
+            },
+            {
+                "phrase": "Zoom Out",
+                "translate": "Udalji",
+                "active": true
+            },
+            {
+                "phrase": "Flip Horizontal",
+                "translate": "Okreni Vodoravno",
+                "active": true
+            },
+            {
+                "phrase": "Flip Vertical",
+                "translate": "Okrani Okomito",
+                "active": true
+            },
+            {
+                "phrase": "Aspect Ratio",
+                "translate": "Omjer",
+                "active": true
+            },
+            {
+                "phrase": "Aspect Ratio: Free",
+                "translate": "Omjer: Slobodno",
+                "active": true
+            },
+            {
+                "phrase": "Free",
+                "translate": "Slobodno",
+                "active": true
+            },
+            {
+                "phrase": "Media Video",
+                "translate": "Media Video",
+                "active": true
+            },
+            {
+                "phrase": "Video URL",
+                "translate": "Video URL",
+                "active": true
+            },
+            {
+                "phrase": "Supported Youtube and Vimeo URL's",
+                "translate": "Podržani Youtube i Vimeo naslovi",
+                "active": true
+            },
+            {
+                "phrase": "Autoplay",
+                "translate": "Autoplay",
+                "active": true
+            },
+            {
+                "phrase": "Loop",
+                "translate": "Petlja",
+                "active": true
+            },
+            {
+                "phrase": "From Phone",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Library",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Adding and optimizing images",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Adding images to the project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "To disable the image optimization, use Sites->Site Settings->Optimization",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Creating gallery",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Drop images here",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "or",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Full Screen Image",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your image is too large to be resized in the app. Please resize it before adding. You can disable the Resize Images option in Site Settings -> Optimization.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit Image",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Counter Clockwise",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Clockwise",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "YouTube, Vimeo, or custom e.g. https://site.com/video.mp4",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unsupported video format. MP4 only.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-progress": [
+            {
+                "phrase": "Progress",
+                "translate": "Napredak",
+                "active": true
+            },
+            {
+                "phrase": "Exporting...",
+                "translate": "Izvoz...",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Odustani",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to stop?",
+                "translate": "Želite zaustaviti?",
+                "active": true
+            },
+            {
+                "phrase": "Stop",
+                "translate": "Stop",
+                "active": true
+            },
+            {
+                "phrase": "Continue",
+                "translate": "Nastavi",
+                "active": true
+            },
+            {
+                "phrase": "Unknown error",
+                "translate": "Nepoznata greška",
+                "active": true
+            },
+            {
+                "phrase": "Ignore Errors",
+                "translate": "Zanemari Greške",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to stop the publication?",
+                "translate": "Želite li zaustaviti objavljivanje?",
+                "active": true
+            },
+            {
+                "phrase": "Publishing...",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-projects-history": [
+            {
+                "phrase": "Unable to revert to history $history date$",
+                "translate": "Nije moguče vratiti povijest na $history date$",
+                "active": true
+            },
+            {
+                "phrase": "Show Project History",
+                "translate": "Prikaži Povijest Projekta",
+                "active": true
+            },
+            {
+                "phrase": "History",
+                "translate": "Povijest",
+                "active": true
+            },
+            {
+                "phrase": "Do you really want to remove the site version from $selected date$?",
+                "translate": "Zaista želite ukloniti verziju Sajta od $selected date$?",
+                "active": true
+            },
+            {
+                "phrase": "Select saved version of project",
+                "translate": "Odaberite spremljenu verziju projekta",
+                "active": true
+            },
+            {
+                "phrase": "Revert back",
+                "translate": "Vrati nazad",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Odustani",
+                "active": true
+            },
+            {
+                "phrase": "Do you really want to revert back to the site version from $selected date$? The current site will not be lost, it will be saved under $current date$.",
+                "translate": "Da li zaista želite vratiti Sajt na verziju od $selected date$? Trenutni Sajt neče biti izgubljen, nego sačuvan pod $current date$.",
+                "active": true
+            },
+            {
+                "phrase": "Remove Selected Version",
+                "translate": "Ukloni Odabranu Verziju",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "Ukloni",
+                "active": true
+            },
+            {
+                "phrase": "Revert Back To Selected Version",
+                "translate": "Vrati na Odabranu Verziju",
+                "active": true
+            },
+            {
+                "phrase": "Project history is empty",
+                "translate": "Povijest projekta je prazna",
+                "active": true
+            },
+            {
+                "phrase": "Error while load from selected history:",
+                "translate": "Greška prilikom učitavanja odabrane povijesti:",
+                "active": true
+            }
+        ],
+        "app-plugin-resize-images": [
+            {
+                "phrase": "Resize Images",
+                "translate": "Promjena veličine slike",
+                "active": true
+            }
+        ],
+        "app-plugin-spectrum": [
+            {
+                "phrase": "More",
+                "translate": "Više",
+                "active": true
+            },
+            {
+                "phrase": "Less",
+                "translate": "Manje",
+                "active": true
+            }
+        ],
+        "app-projects-hash": [
+            {
+                "phrase": "Publish changes only",
+                "translate": "Objavi samo promjene",
+                "active": true
+            }
+        ],
+        "app-projects": [
+            {
+                "phrase": "Project file error",
+                "translate": "Pogreška na dokumentu projekta",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Odustani",
+                "active": true
+            },
+            {
+                "phrase": "Error to save project file. Close application and run again.",
+                "translate": "Greška u spremanju dokumenta projekta. Zatvorite aplikaciju i pokušajte ponovno.",
+                "active": true
+            },
+            {
+                "phrase": "Error update recents list.",
+                "translate": "Greška u ažuriranju liste.",
+                "active": true
+            },
+            {
+                "phrase": "error",
+                "translate": "greška",
+                "active": true
+            },
+            {
+                "phrase": "Unknown error while publish",
+                "translate": "Nepoznata greška u objavljivanju",
+                "active": true
+            },
+            {
+                "phrase": "Open Mobirise Site",
+                "translate": "Otvori Mobirise Sajt",
+                "active": true
+            },
+            {
+                "phrase": "Create New Site",
+                "translate": "Kreiraj Novi Sajt",
+                "active": true
+            },
+            {
+                "phrase": "Open Mobirise site (project.mobirise) not listed here.",
+                "translate": "Mobirise sajt (projekt .mobirise) nije pronađen.",
+                "active": true
+            },
+            {
+                "phrase": "Import Mobirise Site",
+                "translate": "Uvoz Mobirise Sajta",
+                "active": true
+            },
+            {
+                "phrase": "Clone Site",
+                "translate": "Kloniraj Sajt",
+                "active": true
+            },
+            {
+                "phrase": "Edit Site Styles",
+                "translate": "Uredi Stil Sajta",
+                "active": true
+            },
+            {
+                "phrase": "Rename, Favicon, Export",
+                "translate": "Preimenuj, Favicon, Izvoz",
+                "active": true
+            },
+            {
+                "phrase": "Remove Site",
+                "translate": "Ukloni Sajt",
+                "active": true
+            },
+            {
+                "phrase": "Select Project File",
+                "translate": "Odaberi Projektni Dokument",
+                "active": true
+            },
+            {
+                "phrase": "Create New Site",
+                "translate": "Kreiraj novi Sajt",
+                "active": true
+            },
+            {
+                "phrase": "Site Name",
+                "translate": "Ime Sajta",
+                "active": true
+            },
+            {
+                "phrase": "Type the name of your new site",
+                "translate": "Unesi ime svog novog sajta",
+                "active": true
+            },
+            {
+                "phrase": "Select the Theme for this Site",
+                "translate": "Izaberi Temu za ovaj Sajt",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "Ok",
+                "active": true
+            },
+            {
+                "phrase": "More Themes",
+                "translate": "Više Tema",
+                "active": true
+            },
+            {
+                "phrase": "Site Settings",
+                "translate": "Postavke Sajta",
+                "active": true
+            },
+            {
+                "phrase": "Site Files",
+                "translate": "Dokumenti Sajta",
+                "active": true
+            },
+            {
+                "phrase": "Create a project copy in a different location. Use Publish to create a full copy of the site",
+                "translate": "Kreiraj kopiju sajt na drugoj lokaciji",
+                "active": true
+            },
+            {
+                "phrase": "Export Project",
+                "translate": "Izvoz Sajta",
+                "active": true
+            },
+            {
+                "phrase": "Theme",
+                "translate": "Tema",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to remove $site name$?",
+                "translate": "Da li želite ukloniti $site name$?",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to close the current site and open $site name$?",
+                "translate": "Da li želite zatvoriti trenutni sajt i otvoriti $site name$?",
+                "active": true
+            },
+            {
+                "phrase": "%This site% is not available. Do you want to remove it from the list?",
+                "translate": "%This site% nije dostupan. Da li ga želite ukloniti sa liste?",
+                "active": true
+            },
+            {
+                "phrase": "No Name",
+                "translate": "Bez Imena",
+                "active": true
+            },
+            {
+                "phrase": "Project file error. Try to restore from history",
+                "translate": "Greška projektnog dokumenta. Pokušajte restaurirati iz povijesti",
+                "active": true
+            },
+            {
+                "phrase": "Unexpected project save error",
+                "translate": "Neočekivana greška u spremanju projekta",
+                "active": true
+            },
+            {
+                "phrase": "Unable to save loaded project",
+                "translate": "Nije moguče spremiti projekt",
+                "active": true
+            },
+            {
+                "phrase": "Unexpected project create error",
+                "translate": "Neočekivana greška u kreiranju projekta",
+                "active": true
+            },
+            {
+                "phrase": "Cloned project is wrong",
+                "translate": "Klonirani projekt je pogrešan",
+                "active": true
+            },
+            {
+                "phrase": "Empty project",
+                "translate": "Prazan projekt",
+                "active": true
+            },
+            {
+                "phrase": "Create Site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "or",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable to init project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable to clone project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Create a project copy in a different location.&lt;br /&gt;Use Publish to create a full copy of the site",
+                "translate": "",
+                "active": false
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download $theme title$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Sites",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Add Blank Page",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Page Templates",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Themes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No templates matched your search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No themes matched your search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to create the $site name$ site based on the $theme name$ theme, $name preset$ Template?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Common",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Theme Name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Project Files",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to remove a local copy of $site name$?",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-publish-dlg": [
+            {
+                "phrase": "Local drive folder",
+                "translate": "Mapa na lokalnom disku",
+                "active": true
+            },
+            {
+                "phrase": "folder",
+                "translate": "mapa",
+                "active": true
+            },
+            {
+                "phrase": "Edit",
+                "translate": "Uredi",
+                "active": true
+            },
+            {
+                "phrase": "Browse...",
+                "translate": "Pretraži...",
+                "active": true
+            },
+            {
+                "phrase": "To export the site project, please use %Sites -> Site Settings%",
+                "translate": "Za izvoz projekta sajta, molimo upotrijebite %Sites -> Site Settings%",
+                "active": true
+            },
+            {
+                "phrase": "Publish",
+                "translate": "Objavi",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Odustani",
+                "active": true
+            },
+            {
+                "phrase": "Browse for folder",
+                "translate": "Pretraži za mapu",
+                "active": true
+            }
+        ],
+        "app-publish-ftp": [
+            {
+                "phrase": "Edit",
+                "translate": "Uredi",
+                "active": true
+            },
+            {
+                "phrase": "Add New",
+                "translate": "Dodaj Novo",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "Ukloni",
+                "active": true
+            },
+            {
+                "phrase": "FTP",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "root folder",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Protocol",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Host",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Port",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Username",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Password",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Test FTP Server",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "FTP Site Manager",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Test connection",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Successful connection",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable connect to FTP",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Save",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove this site?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "The site published successfully to $ftp location$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "e.g.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Empty ftp.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connection timed out",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connection reset by peer",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connection refused",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Couldn't resolve the hostname to an IP address",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Network is unreachable",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unknown error while publish",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-publish": [
+            {
+                "phrase": "Initialization, please wait...",
+                "translate": "Pokretanje, molimo pričekajte...",
+                "active": true
+            },
+            {
+                "phrase": "Preparing $page name$",
+                "translate": "Pripremanje $page name$",
+                "active": true
+            },
+            {
+                "phrase": "Internal error while processing page $page name$",
+                "translate": "Interna greška u procesiranju stranice $page name$",
+                "active": true
+            },
+            {
+                "phrase": "Your site was successfully exported to the folder $folder name$",
+                "translate": "Vaš sajt je uspješno izvezen u mapu  $folder name$",
+                "active": true
+            },
+            {
+                "phrase": "Unknown error while publish",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Progress",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Publishing...",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Internal error while translating page $page name$",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-settings": [
+            {
+                "phrase": "App Settings",
+                "translate": "Postavke Aplikacije",
+                "active": true
+            },
+            {
+                "phrase": "Top Toolbar",
+                "translate": "Gornja Alatna Traka",
+                "active": true
+            },
+            {
+                "phrase": "Show Page & Site Names",
+                "translate": "Prikaži Stranicu & Ime Sajta",
+                "active": true
+            },
+            {
+                "phrase": "Show All Views",
+                "translate": "Prikaži Sve Prikaze",
+                "active": true
+            },
+            {
+                "phrase": "Show Redo",
+                "translate": "Prikaži Nazad",
+                "active": true
+            },
+            {
+                "phrase": "Editor",
+                "translate": "Urednik",
+                "active": true
+            },
+            {
+                "phrase": "Show All Block Buttons",
+                "translate": "Prikaži Sve Gumbe Bloka",
+                "active": true
+            },
+            {
+                "phrase": "Show Site Styles Button",
+                "translate": "Prikaži Gumbe Za Stil Sajta",
+                "active": true
+            },
+            {
+                "phrase": "APP",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Dark Mode",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Fullscreen Canvas",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Publish to GitHub Pages",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Github Login",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Token",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-theme-settings": [
+            {
+                "phrase": "Close",
+                "translate": "Zatvori",
+                "active": true
+            },
+            {
+                "phrase": "More",
+                "translate": "Više",
+                "active": true
+            },
+            {
+                "phrase": "Less",
+                "translate": "Manje",
+                "active": true
+            }
+        ],
+        "app-updater": [
+            {
+                "phrase": "New version $version$ is available",
+                "translate": "Nova verzija $version$ je dostupna",
+                "active": true
+            },
+            {
+                "phrase": "Download now!",
+                "translate": "Preuzmi sada!",
+                "active": true
+            },
+            {
+                "phrase": "Remind later",
+                "translate": "Podsjeti me kasnije",
+                "active": true
+            },
+            {
+                "phrase": "News",
+                "translate": "Novosti",
+                "active": true
+            },
+            {
+                "phrase": "Mobirise news is available, please visit $site url$ website for details.",
+                "translate": "Mobirise novosti su dostupna, molimo posjetite $site url$ za detalje.",
+                "active": true
+            },
+            {
+                "phrase": "Read more...",
+                "translate": "Saznaj više...",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "Ok",
+                "active": true
+            },
+            {
+                "phrase": "Skip this version",
+                "translate": "Preskoči ovu verziju",
+                "active": true
+            }
+        ],
+        "app-user-account": [
+            {
+                "phrase": "Please, Sign Up",
+                "translate": "Molimo Prijavite Se",
+                "active": true
+            },
+            {
+                "phrase": "Please sign up / login to get latest updates and extensions",
+                "translate": "Molimo prijavite / logirajte se za zadnja ažuriranja i dodatke",
+                "active": true
+            },
+            {
+                "phrase": "Your Email",
+                "translate": "Vaš Email",
+                "active": true
+            },
+            {
+                "phrase": "Sign Up / login",
+                "translate": "Prijavi se / Logiraj se",
+                "active": true
+            },
+            {
+                "phrase": "or",
+                "translate": "ili",
+                "active": true
+            },
+            {
+                "phrase": "Login with Google",
+                "translate": "Logiraj se sa Google računom",
+                "active": true
+            },
+            {
+                "phrase": "Login with Facebook",
+                "translate": "Logiraj se sa Facebook računom",
+                "active": true
+            },
+            {
+                "phrase": "No, I don't need this and don't show me this anymore",
+                "translate": "Ne, ne treba mi, nemojte mi više to nuditi",
+                "active": true
+            },
+            {
+                "phrase": "Forgot password?",
+                "translate": "Zaboravili ste lozinku?",
+                "active": true
+            },
+            {
+                "phrase": "We've sent an email with instructions on how to reset your password to the email address $email$",
+                "translate": "Poslali smo vam email sa uputama za resetiranje lozinke na email adresu $email$",
+                "active": true
+            },
+            {
+                "phrase": "Are you sure you want to logout?",
+                "translate": "Sigurni ste da se želite odlogirati?",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "Ok",
+                "active": true
+            },
+            {
+                "phrase": "You successfully signed in",
+                "translate": "Uspješno ste se prijavili",
+                "active": true
+            },
+            {
+                "phrase": "Your Password",
+                "translate": "Vaša Lozinka",
+                "active": true
+            },
+            {
+                "phrase": "Login",
+                "translate": "Logiranje",
+                "active": true
+            },
+            {
+                "phrase": "Enter your password",
+                "translate": "Unesite vašu lozinku",
+                "active": true
+            },
+            {
+                "phrase": "Please enter a valid email address",
+                "translate": "Molimo unesite valjanu email adresu",
+                "active": true
+            },
+            {
+                "phrase": "Your account password is sent to your email. If you haven't received the email, please check Spam folder",
+                "translate": "Lozinka za vaš račun je poslana na vaš email. Ako niste primili emaila, molimo provjerite neželjenu poštu",
+                "active": true
+            },
+            {
+                "phrase": "You already have the Mobirise account, please login with your password",
+                "translate": "Več imate Mobirise račun, molimo prijavite se sa svojom lozinkom",
+                "active": true
+            },
+            {
+                "phrase": "Please sign up / login to load the free theme",
+                "translate": "Molimo prijavite / logirajte se za prijenos besplatne teme",
+                "active": true
+            },
+            {
+                "phrase": "Your password is sent to $email$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "If you haven't received the email, please check Spam folder.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter password for your Mobirise account",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your password is sent to $email$ with first sign up. Check your email to find it.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change email",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please login to get latest updates and extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter your email",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter password",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Check your email. Your password is sent to $email$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You already have the Mobirise account for $email$. Enter your password.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please login to load the free themes and extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your account token has expired, please log in again",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/extbridge.js": [
+            {
+                "phrase": "Images",
+                "translate": "SLike",
+                "active": true
+            }
+        ],
+        "add-builder-ext": [
+            {
+                "phrase": "To remove all buttons from the block use %\"Block Parameters\" -> \"Show Buttons\"%",
+                "translate": "Da biste uklonili sve gumbe iz bloka, upotrijebite %\"Block Parameters\" -> \"Show Buttons\"%",
+                "active": true
+            },
+            {
+                "phrase": "Insert icon",
+                "translate": "Umetni ikonu",
+                "active": true
+            },
+            {
+                "phrase": "Font",
+                "translate": "Font",
+                "active": true
+            },
+            {
+                "phrase": "Color",
+                "translate": "Boja",
+                "active": true
+            },
+            {
+                "phrase": "Add",
+                "translate": "Dodaj",
+                "active": true
+            },
+            {
+                "phrase": "Move Left",
+                "translate": "Pomakni Lijevo",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "Ukloni",
+                "active": true
+            },
+            {
+                "phrase": "Align",
+                "translate": "Poravnaj",
+                "active": true
+            },
+            {
+                "phrase": "Link",
+                "translate": "Link",
+                "active": true
+            },
+            {
+                "phrase": "Edit Site Styles",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Top of Page",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Bottom of Page",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "carousel": [
+            {
+                "phrase": "VIDEO SLIDE",
+                "translate": "VIDE SLAJD",
+                "active": true
+            },
+            {
+                "phrase": "Play Video",
+                "translate": "Prikaži Video",
+                "active": true
+            },
+            {
+                "phrase": "Youtube or Vimeo",
+                "translate": "Youtube ili Vimeo",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "Slika",
+                "active": true
+            },
+            {
+                "phrase": "Show Title",
+                "translate": "Prikaži Naslov",
+                "active": true
+            },
+            {
+                "phrase": "Show Text",
+                "translate": "Prikaži Tekst",
+                "active": true
+            },
+            {
+                "phrase": "Show Buttons",
+                "translate": "Prikaži Gumbe",
+                "active": true
+            },
+            {
+                "phrase": "Color",
+                "translate": "Boja",
+                "active": true
+            },
+            {
+                "phrase": "Opacity",
+                "translate": "Prozirnost",
+                "active": true
+            },
+            {
+                "phrase": "Content Align",
+                "translate": "Poravnaj Sadržaj",
+                "active": true
+            },
+            {
+                "phrase": "FULL SCREEN SLIDER",
+                "translate": "SLIDER PUNI EKRAN",
+                "active": true
+            },
+            {
+                "phrase": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "translate": "Izaberite iz širokog izbora najnovijih blokova - jumbotroni, hero slike, paralax scrolleri, video pozadine, ljepljivi headeri i više",
+                "active": true
+            },
+            {
+                "phrase": "FOR WINDOWS",
+                "translate": "ZA WINDOWS",
+                "active": true
+            },
+            {
+                "phrase": "FOR MAC",
+                "translate": "ZA MAC",
+                "active": true
+            },
+            {
+                "phrase": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
+                "translate": "Slide sa youtube video pozadinom i drugom bojom. Naslov i tekst su poravnani lijevo.",
+                "active": true
+            },
+            {
+                "phrase": "IMAGE SLIDE",
+                "translate": "SLIKA SLIDE",
+                "active": true
+            },
+            {
+                "phrase": "Autoplay",
+                "translate": "Autoplay",
+                "active": true
+            },
+            {
+                "phrase": "Autoplay Interval (ms)",
+                "translate": "Autoplay Interval (ms)",
+                "active": true
+            },
+            {
+                "phrase": "Show Bullets",
+                "translate": "Prikaži Točke",
+                "active": true
+            },
+            {
+                "phrase": "Type Text",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "gallery": [
+            {
+                "phrase": "Play Video",
+                "translate": "Play Video",
+                "active": true
+            },
+            {
+                "phrase": "Video URL",
+                "translate": "Video URL",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "Slika",
+                "active": true
+            },
+            {
+                "phrase": "Tags",
+                "translate": "Tagovi",
+                "active": true
+            },
+            {
+                "phrase": "Awesome image",
+                "translate": "Fenomenalna slika",
+                "active": true
+            },
+            {
+                "phrase": "Awesome",
+                "translate": "Fenomenalno",
+                "active": true
+            },
+            {
+                "phrase": "Responsive",
+                "translate": "Prilagodljivo",
+                "active": true
+            },
+            {
+                "phrase": "Creative",
+                "translate": "Kreativno",
+                "active": true
+            },
+            {
+                "phrase": "Animated",
+                "translate": "Animirano",
+                "active": true
+            },
+            {
+                "phrase": "Type caption here",
+                "translate": "Unesi natpis ovdje",
+                "active": true
+            },
+            {
+                "phrase": "Show Bullets",
+                "translate": "Prikaži Točke",
+                "active": true
+            },
+            {
+                "phrase": "Show Text",
+                "translate": "Prikaži Tekst",
+                "active": true
+            },
+            {
+                "phrase": "Show Tags",
+                "translate": "Prikaži Oznake",
+                "active": true
+            },
+            {
+                "phrase": "Type Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Row/Column",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Containers Count",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "1st Container Items",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "2nd Container Items",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "3rd Container Items",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "4th Container Items",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "map": [
+            {
+                "phrase": "350 5th Ave, New York, NY 10118",
+                "translate": "350 5th Ave, New York, NY 10118",
+                "active": true
+            },
+            {
+                "phrase": "Address",
+                "translate": "Adresa",
+                "active": true
+            }
+        ],
+        "shop": [
+            {
+                "phrase": "Best Seller",
+                "translate": "Najprodavanije",
+                "active": true
+            },
+            {
+                "phrase": "On Sale",
+                "translate": "Na akciji",
+                "active": true
+            },
+            {
+                "phrase": "Old Price",
+                "translate": "Stara Cijena",
+                "active": true
+            },
+            {
+                "phrase": "Image",
+                "translate": "Slika",
+                "active": true
+            },
+            {
+                "phrase": "Tags",
+                "translate": "Tagovi",
+                "active": true
+            },
+            {
+                "phrase": "Awesome image",
+                "translate": "Fenomenalna slika",
+                "active": true
+            },
+            {
+                "phrase": "Brown Glasses",
+                "translate": "Smeđa Stakla",
+                "active": true
+            },
+            {
+                "phrase": "Men\\'s Shoes",
+                "translate": "Muške Cipele",
+                "active": true
+            },
+            {
+                "phrase": "Blue Backpack",
+                "translate": "Plavi Ruksak",
+                "active": true
+            },
+            {
+                "phrase": "Red Snapback",
+                "translate": "Crveni Snapback",
+                "active": true
+            },
+            {
+                "phrase": "Black Glasses",
+                "translate": "Crne Naočale",
+                "active": true
+            },
+            {
+                "phrase": "Women\\'s Shoes",
+                "translate": "Ženske Cipele",
+                "active": true
+            },
+            {
+                "phrase": "Pink Backpack",
+                "translate": "Roza Ruksak",
+                "active": true
+            },
+            {
+                "phrase": "Red Cap",
+                "translate": "Crvena Kapa",
+                "active": true
+            },
+            {
+                "phrase": "Awesome",
+                "translate": "Fenomenalno",
+                "active": true
+            },
+            {
+                "phrase": "Wonderful",
+                "translate": "Prekrasno",
+                "active": true
+            },
+            {
+                "phrase": "Creative",
+                "translate": "Kreativno",
+                "active": true
+            },
+            {
+                "phrase": "Responsive",
+                "translate": "Prilagodljivo",
+                "active": true
+            },
+            {
+                "phrase": "Animated",
+                "translate": "Animirano",
+                "active": true
+            },
+            {
+                "phrase": "Casual shoes (contact us for sizing)",
+                "translate": "Cipele za svaki dan (kontaktirajte nas za brojeve)",
+                "active": true
+            },
+            {
+                "phrase": "Lightweight textured fabric",
+                "translate": "Tkanina sa laganom teksturom",
+                "active": true
+            },
+            {
+                "phrase": "Rounded v-neckline",
+                "translate": "Zaokruženi dekolte",
+                "active": true
+            },
+            {
+                "phrase": "Pom pom trims",
+                "translate": "Pom pom ukrasi",
+                "active": true
+            },
+            {
+                "phrase": "Regular fit – true to size",
+                "translate": "Standardna mjera - sve po mjeri",
+                "active": true
+            },
+            {
+                "phrase": "Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.",
+                "translate": "Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.",
+                "active": true
+            },
+            {
+                "phrase": "Product code:",
+                "translate": "Koda proizvoda:",
+                "active": true
+            },
+            {
+                "phrase": "From:",
+                "translate": "Od:",
+                "active": true
+            },
+            {
+                "phrase": "Buy now!",
+                "translate": "Kupi sada!",
+                "active": true
+            },
+            {
+                "phrase": "Type caption here",
+                "translate": "Unesi natpis ovdje",
+                "active": true
+            },
+            {
+                "phrase": "Show Sidebar",
+                "translate": "Prikaži Bočni Izbornik",
+                "active": true
+            },
+            {
+                "phrase": "Show Card Buttons",
+                "translate": "Prikaži Gumbe Kartice",
+                "active": true
+            },
+            {
+                "phrase": "Show Sorting Buttons",
+                "translate": "Prikaži Gumbe za Sortiranje",
+                "active": true
+            },
+            {
+                "phrase": "Show Best Sellers",
+                "translate": "Prikaži Najprodavanije",
+                "active": true
+            },
+            {
+                "phrase": "Show Price Range",
+                "translate": "Prikaži Raspon Cijena",
+                "active": true
+            },
+            {
+                "phrase": "Show Tags",
+                "translate": "Prikaži Oznake",
+                "active": true
+            },
+            {
+                "phrase": "Default sorting",
+                "translate": "Zadano sortiranje",
+                "active": true
+            },
+            {
+                "phrase": "Price: low to high",
+                "translate": "Cijena: od niže prema višoj",
+                "active": true
+            },
+            {
+                "phrase": "Price: high to low",
+                "translate": "Cijena: od više prema nižoj",
+                "active": true
+            },
+            {
+                "phrase": "Filter",
+                "translate": "Filter",
+                "active": true
+            },
+            {
+                "phrase": "Show all",
+                "translate": "Prikaži sve",
+                "active": true
+            },
+            {
+                "phrase": "Sale",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Title",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Price",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Caption",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reverse Sidebar:",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-translate": [
+            {
+                "phrase": "Language",
+                "translate": "Jezik",
+                "active": true
+            },
+            {
+                "phrase": "Open",
+                "translate": "Otvori",
+                "active": true
+            },
+            {
+                "phrase": "You\\'re connected as:",
+                "translate": "Spojeni ste kao:",
+                "active": true
+            },
+            {
+                "phrase": "Disconnect",
+                "translate": "Isključi",
+                "active": true
+            },
+            {
+                "phrase": "Add",
+                "translate": "Dodaj",
+                "active": true
+            },
+            {
+                "phrase": "Change language",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error setup language!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change language?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "blocks": [
+            {
+                "phrase": "Menu",
+                "translate": "Izbornik",
+                "active": true
+            },
+            {
+                "phrase": "Headers",
+                "translate": "Zaglavlje",
+                "active": true
+            },
+            {
+                "phrase": "Images & Videos",
+                "translate": "Slike & Video",
+                "active": true
+            },
+            {
+                "phrase": "Sliders & Galleries",
+                "translate": "Slideri & Galerije",
+                "active": true
+            },
+            {
+                "phrase": "Article",
+                "translate": "Članak",
+                "active": true
+            },
+            {
+                "phrase": "Features",
+                "translate": "Svojstva",
+                "active": true
+            },
+            {
+                "phrase": "Animated Features",
+                "translate": "Animirana Svojstva",
+                "active": true
+            },
+            {
+                "phrase": "Pricing Tables",
+                "translate": "Tablice sa Cijenama",
+                "active": true
+            },
+            {
+                "phrase": "Counters",
+                "translate": "Brojači",
+                "active": true
+            },
+            {
+                "phrase": "Countdowns",
+                "translate": "Odbrojavanje",
+                "active": true
+            },
+            {
+                "phrase": "Progress",
+                "translate": "Napredak",
+                "active": true
+            },
+            {
+                "phrase": "Timelines",
+                "translate": "Vremenske Linije",
+                "active": true
+            },
+            {
+                "phrase": "Accordions & Toggles & Tabs",
+                "translate": "Zgibni meni & Preklopni meni & Kartice",
+                "active": true
+            },
+            {
+                "phrase": "Info",
+                "translate": "Info",
+                "active": true
+            },
+            {
+                "phrase": "Forms",
+                "translate": "Obrasci",
+                "active": true
+            },
+            {
+                "phrase": "Maps",
+                "translate": "Mape",
+                "active": true
+            },
+            {
+                "phrase": "Social",
+                "translate": "Socialno",
+                "active": true
+            },
+            {
+                "phrase": "Testimonials",
+                "translate": "Svjedočanstva",
+                "active": true
+            },
+            {
+                "phrase": "Clients",
+                "translate": "Klienti",
+                "active": true
+            },
+            {
+                "phrase": "Tables",
+                "translate": "Tabele",
+                "active": true
+            },
+            {
+                "phrase": "Footers",
+                "translate": "Podnožje",
+                "active": true
+            }
+        ],
+        "app-themes": [
+            {
+                "phrase": "This site uses the theme $theme title$ that isn't available.",
+                "translate": "Ovaj sajt upotrebljava temu $theme title$ koja nije dostupna",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "Odustani",
+                "active": true
+            },
+            {
+                "phrase": "Install $theme title$",
+                "translate": "Instaliraj $theme title$",
+                "active": true
+            },
+            {
+                "phrase": "No themes available for loaded project",
+                "translate": "Za trenutni projekt nije dostupna tema",
+                "active": true
+            },
+            {
+                "phrase": "This site uses the theme $theme title$ that isn't available. If the theme is installed, then reinstall it please.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Try to log out and log back in",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Download $addonName",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-mobile-interface": [
+            {
+                "phrase": "Remove Block?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove Page",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove page $page name$?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove Site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit Site Styles",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-form-editor": [
+            {
+                "phrase": "Form Fields",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Form Options",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Notification Email or Action URL",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please enter a valid email address or URL",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Success Message",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Form",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Verify",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Verified",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Email verified",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "secondary-components": [
+            {
+                "phrase": "Block Parameters",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Type Content",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/app-translate.js": [
+            {
+                "phrase": "Open",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You\\'re connected as:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Disconnect",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Add",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change language?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Don't show again",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error setup language!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Language",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/app-plugin-mbrsite.js": [
+            {
+                "phrase": "Incorrect server response.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Incorrect domain name.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "File too large",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Site Domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Delete",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to delete the domain $domain$?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change Site Domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change Site Name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Unable to init project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Can't download the site because it was published incorrectly.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error loading project",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to remove the domain $domain$? Your site will be completely removed from the Web.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error removing site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Congratulations!",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your site is published and live online:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Next:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit your site online:",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connect your own domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "https://",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "ok",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove Site",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error removing the domain",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-account": [
+            {
+                "phrase": "Please login to get latest updates and extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Login with Google",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Login with Facebook",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "or",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter your email",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Login",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use free version",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No, I don't need this and don't show me this anymore",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Forgot password?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You successfully signed in",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter password",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter your password",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please enter a valid email address",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Check your email. Your password is sent to $email$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Change email",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "If you haven't received the email, please check Spam folder.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "You already have the Mobirise account for $email$. Enter your password.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your password is sent to $email$ with first sign up. Check your email to find it.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Are you sure you want to logout?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "We've sent an email with instructions on how to reset your password to the email address $email$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Please login to load the free themes and extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your account token has expired, please log in again",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "addons-core": [
+            {
+                "phrase": "No internet connection found. Some extensions may be not available.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-expiration-checking": [
+            {
+                "phrase": "No internet connection found. Some extensions may be not available.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connect to the Internet to add this block",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "The block cannot be added because your license for $extension$ has expired.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Update",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-payment-checking": [
+            {
+                "phrase": "No internet connection found. Continue without Code Editor Extension.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-auto-update": [
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Updating",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Downloading",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "All extensions $text$.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Сancel $title$?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Yes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "No",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-cms": [
+            {
+                "phrase": "Add online editor (CMS) to /edit/ folder",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "cookies-alert": [
+            {
+                "phrase": "By continuing you agree to our %Terms of Service% and %Privacy Policy%",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "We use cookies to give you the best experience. Read our %cookie policy%",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "GOT IT",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "REJECT",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cookies Alert",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enable",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "GDPR Compliance",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cookies Alert Editor",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Consent",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Alert only - without blocking",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reject and Accept - \"Reject\" blocks JS and iframes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Accept - page loads only after \"Accept\"",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Layout",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Bottom panel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Center popup",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Text Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Background Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Accept Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Link Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reject Color",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Background Opacity",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Overlay Opacity",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your cookies alert message.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reject Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your cookies alert reject button text.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Reject",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Accept Text",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your cookies alert accept button text.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Compliance GDPR",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Underline Link",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your GDPR message.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Demo",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/app-plugin-domains.js": [
+            {
+                "phrase": "Incorrect server response.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Copy",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connect domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "OK",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Disconnect",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Site Domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Connect",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Remove Domain",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Open in Browser",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Publish",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Recheck",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Invalid domain name",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "This feature is not available",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Domain successfully detached",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Are you sure you want to delete this record?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Delete",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Internal server error.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "DNS management",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you want to disconnect the domain $domain$?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Copied",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "google-analytics": [
+            {
+                "phrase": "Analytics",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Paste your Analytics code snippet here or paste any other code that you want to have on every page immediately after the opening $body$ tag.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-mobirise-ai": [
+            {
+                "phrase": "Create with Mobirise AI",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Describe in detail what your site will be about, what it will offer, who is behind it, your benefits and specialties. You can write in any language.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "We are Craft22, a team of skilled artisans from Brooklyn, NY.  We offer a wide range of handmade crafts, from custom jewelry to home decor.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Minimum 32 characters",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Generate",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your prompt is too short, add more details.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Your prompt is too long, shorten it.",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-page-presets": [
+            {
+                "phrase": "If the theme is installed, please reinstall it.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Install $theme title$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Choose Template for Page",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-projects-presets": [
+            {
+                "phrase": "If the theme is installed, please reinstall it.",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Install $theme title$",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Error add extension",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Search",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Choose Template for $nameTheme$ Theme",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-restore": [
+            {
+                "phrase": "Do you really want to restore the deleted sites?",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Restore Deleted Sites",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Do you really want to restore ALL deleted sites? This may take some time...",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "web/app/interface/app-plugin-seo.js": [
+            {
+                "phrase": "Edit sitemap.xml",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit robots.txt",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Enter site URL",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "URL is not valid! (must be like \"http://mysite.com\")",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "SEO & Analytics",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use robots.txt",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit Robots.txt",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Use sitemap.xml",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Auto",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Edit Sitemap Settings",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "user-licenses": [
+            {
+                "phrase": "No active licenses",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Kits",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Themes",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Extensions",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Sites",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Expired",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "User Licenses",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Licenses",
+                "translate": "",
+                "active": true
+            }
+        ],
+        "app-plugin-webp-convert": [
+            {
+                "phrase": "Optimization",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Convert Images to WebP",
+                "translate": "",
+                "active": true
+            },
+            {
+                "phrase": "Publishing...",
+                "translate": "",
+                "active": true
+            }
+        ]
+    },
+    "author": "kosir.milan@gmail.com"
+}

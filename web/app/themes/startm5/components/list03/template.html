@@ -1,0 +1,119 @@
+<section
+  class="list03"
+  group="List"
+>
+  <mbr-parameters>
+    <header>Size</header>
+    <input type="checkbox" title="Full Width" name="fullWidth">
+    <input type="checkbox" name="reverseContent" title="Reverse">
+    <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="6">
+    <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="6">
+    <input type="range" name="textWidth" title="Width" min="4" max="9" value="8" step="1">
+    <header>Show/Hide</header>
+    <input type="checkbox" title="Main Title" name="showMainTitle" checked>
+    <input type="checkbox" title="Main Subtitle" name="showMainSubtitle">
+    <input type="checkbox" title="Title" name="showTitle" checked>
+    <header>Background</header>
+    <input type="color" title="Color" name="bgColor" value="#ffffff">
+  </mbr-parameters>
+  <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+    <div class="row justify-content-center">
+      <div
+        class="col-12 mb-5 content-head"
+        mbr-if="showMainTitle || showMainSubtitle"
+      >
+        <h3
+          class="mbr-section-title mbr-fonts-style align-center mb-0"
+          mbr-theme-style="display-2"
+          mbr-if="showMainTitle"
+          data-app-selector=".mbr-section-title"
+        >
+          <b>List</b>
+        </h3>
+        <h5
+          class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4"
+          mbr-theme-style="display-7"
+          mbr-if="showMainSubtitle"
+          data-app-selector=".mbr-section-subtitle"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </h5>
+      </div>
+    </div>
+
+    <div class="row justify-content-left item features-without-image mt-0 mb-5 active">
+      <div
+        class="col-12 col-md-12 col-lg-3"
+        mbr-if="showTitle"
+      >
+        <h5
+          class="mbr-card-title mbr-fonts-style mt-0 mb-3"
+          mbr-if="showTitle"
+          data-app-selector=".mbr-card-title"
+          mbr-theme-style="display-7"
+        >
+          <b>About Us</b>
+        </h5>
+      </div>
+      <div class="col-md-12 col-lg-{{textWidth}} item-wrapper">
+        <p
+          class="mbr-text mbr-fonts-style mt-0 mb-0"
+          data-app-selector=".mbr-text"
+          mbr-theme-style="display-7"
+        >
+          Welcome to Creative Group, where imagination knows no bounds. Founded in 2010, we're a close-knit family of
+          artists, designers, and strategists on a mission to infuse creativity and authenticity into every project.
+          Join us on this inspiring adventure, and let's turn your dreams into reality.
+        </p>
+      </div>
+    </div>
+    <div class="row justify-content-left item features-without-image mt-0 mb-5">
+      <div
+        class="col-12 col-md-12 col-lg-3"
+        mbr-if="showTitle"
+      >
+        <h5
+          class="mbr-card-title mbr-fonts-style mt-0 mb-3"
+          mbr-if="showTitle"
+          data-app-selector=".mbr-card-title"
+          mbr-theme-style="display-7"
+        >
+          <b>Services</b>
+        </h5>
+      </div>
+      <div class="col-md-12 col-lg-{{textWidth}} item-wrapper">
+        <p
+          class="mbr-text mbr-fonts-style mt-0 mb-0"
+          data-app-selector=".mbr-text"
+          mbr-theme-style="display-7"
+        >
+          Graphic Design, Web Development, Content Creation, Social Media, Management, Branding and Identity, Marketing Strategy, Email Marketing, Copywriting, App Development, Event Planning, Public Relations, Market Research</p>
+      </div>
+    </div>
+    <div class="row justify-content-left item features-without-image mt-0 mb-5">
+      <div
+        class="col-12 col-md-12 col-lg-3"
+        mbr-if="showTitle"
+      >
+        <h5
+          class="mbr-card-title mbr-fonts-style mt-0 mb-3"
+          mbr-if="showTitle"
+          data-app-selector=".mbr-card-title"
+          mbr-theme-style="display-7"
+        >
+          <b>Contact</b>
+        </h5>
+      </div>
+      <div class="col-md-12 col-lg-{{textWidth}} item-wrapper">
+        <p
+          class="mbr-text mbr-fonts-style mt-0 mb-0"
+          data-app-selector=".mbr-text"
+          mbr-theme-style="display-7"
+        >
+          Connect with us on <a href="http://mobiri.se" class="text-primary">Facebook</a>, <a href="http://mobiri.se" class="text-primary">Instagram</a>, and <a href="http://mobiri.se" class="text-primary">Twitter</a><br>+1 (555) 123-4567<br>contact@yourbusiness.com<br>123 Main Street, Creative City, CA 12345<a href="http://mobiri.se" class="text-primary"><br></a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>

@@ -1,0 +1,61 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+background-color: @bgColor;
+
+.mbr-text {
+    color: #000000;
+}
+
+.mbr-section-subtitle {
+    color: #000000;
+}
+
+.mbr-section-title {
+    color: #000000;
+    text-align: center;
+}
+
+.mbr-text,
+.item .mbr-section-btn {
+    text-align: left;
+}
+
+.item-wrapper {
+    background: @cardbg;
+    margin-bottom: 2rem;
+
+    @media (max-width: 767px) {
+        padding: 2rem 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        padding: 2.25rem;
+    }
+
+    @media (min-width: 992px) {
+        padding: 4rem;
+    }
+}
+
+.details-icon {
+    color: @iconColor;
+    padding-right: 0.5rem;
+}
+
+.mbr-card-subtitle {
+    color: #232323;
+    text-align: left;
+}
+
+.details {
+    .details-item {
+        display: inline-flex;
+        padding-right: 1rem;
+    }
+}
+
+.mbr-tag,
+.tags-wrapper {
+    color: #000000;
+}

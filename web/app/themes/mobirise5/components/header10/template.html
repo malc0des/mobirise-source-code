@@ -1,0 +1,46 @@
+<section class="header10" group="Headers" data-bg-video="{{bg.type == 'video' && bg.value.url}}" mbr-class="{
+    'mbr-fullscreen': fullScreen,
+    'mbr-parallax-background': bg.parallax}">
+
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Screen" name="fullScreen">
+        <input type="checkbox" title="Full Width" name="fullWidth" checked>
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="6" condition="fullScreen == false">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="0" condition="fullScreen == false">
+        <input type="range" name="imageWidth" title="Image Width" min="1" max="10" step="1" value="8" condition="showImage">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle" checked>
+        <input type="checkbox" title="Text" name="showText" checked>
+        <input type="checkbox" title="Buttons" name="showButtons" checked>
+        <input type="checkbox" title="Image" name="showImage" checked>
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax>
+            <input type="image" title="Image" value="../_images/background7.jpg" parallax>
+            <input type="color" title="Color" value="#9fdbf8" selected>
+            <input type="video" title="Video" value="https://vimeo.com/428046504">
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input type="image" title="Fallback Image" value="../_images/background13.jpg" name="fallBackImage" condition="bg.type === 'video'">
+        <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'">
+        <input type="color" title="Overlay Color" name="overlayColor" value="#2299aa" condition="overlay && bg.type !== 'color'">
+        <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.1" condition="overlay && bg.type !== 'color'">
+    </mbr-parameters>
+
+    <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+    <div class="mbr-overlay" mbr-if="overlay && bg.type !== 'color'" opacity="{{overlayOpacity}}" bg-color="{{overlayColor}}"></div>
+
+    <div class="align-center" mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9">
+                <h1 class="mbr-section-title mbr-fonts-style mb-3" data-app-selector=".mbr-section-title" mbr-theme-style="display-1" mbr-if="showTitle"><b>INTRO WITH IMAGE</b></h1>
+                <p class="mbr-text mbr-fonts-style" mbr-theme-style="display-7" mbr-if="showText" data-app-selector=".mbr-text, .mbr-section-btn">
+                    Intro with a picture at the bottom. Great for pro-coders for fast prototyping and small customers' projects.</p>
+                <div mbr-buttons mbr-theme-style="display-4" class="mbr-section-btn mt-3" mbr-if="showButtons" data-toolbar="-mbrBtnMove"><a class="btn btn-secondary" href="https://mobiri.se" data-app-placeholder="Type Text">Create Free Website!</a></div>
+                <div class="image-wrap mt-4" mbr-if="showImage">
+                    <img src="../_images/app/app4.jpg" alt="Mobirise Website Builder" title>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

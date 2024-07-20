@@ -1,0 +1,89 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type ="color") {
+  background-color: @bg-value;
+}
+
+& when (@bg-type ="image") {
+  background-image: url(@bg-value);
+}
+
+.mbr-fallback-image.disabled {
+  display: none;
+}
+
+.mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+
+  & when (@bg-type ="video") {
+    background-image: url(@fallBackImage);
+  }
+}
+
+.item-mb {
+  margin-bottom: 2rem;
+
+  @media (max-width: 767px) {
+    margin-bottom: 1rem;
+  }
+}
+
+.item-wrapper {
+  background: @cardbg;
+  padding: 2.25rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+    padding: 2rem 1.5rem;
+    margin-bottom: 0rem;
+  }
+
+  @media (max-width: 767px) {
+    padding: 2rem 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.mbr-iconfont {
+  display: inline-flex;
+  font-size: 3rem;
+  color: @iconColor;
+  margin-bottom: 1rem;
+  width: 80px;
+  justify-content: center;
+  align-items: center;
+  background: @iconbg;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.mbr-section-title {
+  color: #9fe870;
+}
+
+.mbr-section-subtitle {
+  color: #ffffff;
+}
+
+.card-box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .item-footer {
+    margin-top: auto;
+  }
+}
+
+.content-head {
+  max-width: 800px;
+}

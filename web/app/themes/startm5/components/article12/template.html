@@ -1,0 +1,100 @@
+<section
+      class="article12"
+      group="Article"
+    >    
+    <mbr-parameters>
+        <header>Size</header>
+        <input
+          type="checkbox"
+          title="Full Width"
+          name="fullWidth"
+        >
+        <input
+          type="range"
+          inline
+          title="Top"
+          name="paddingTop"
+          min="0"
+          max="10"
+          step="1"
+          value="5"
+        >
+        <input
+          type="range"
+          inline
+          title="Bottom"
+          name="paddingBottom"
+          min="0"
+          max="10"
+          step="1"
+          value="5"
+        >
+        <input
+          type="range"
+          name="textWidth"
+          title="Width"
+          min="4"
+          max="12"
+          value="10"
+          step="1"
+        >
+        <header>Show/Hide</header>
+        <input
+          type="checkbox"
+          title="Title"
+          name="showTitle"
+          checked
+        >
+        <input
+          type="checkbox"
+          title="Subtitle"
+          name="showSubtitle"
+        >
+        <input
+          type="checkbox"
+          title="Text"
+          name="showText"
+          checked
+        >
+        <header>Background</header>
+        <input
+          type="color"
+          title="Color"
+          name="bgColor"
+          value="#ffffff"
+        >
+    </mbr-parameters>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-{{textWidth}}">
+                <h3
+                  class="mbr-section-title mbr-fonts-style mb-4 mt-0"
+                  mbr-if="showTitle"
+                  data-app-selector=".mbr-section-title"
+                  mbr-theme-style="display-2"
+                >
+                <b>Framing time</b>
+                </h3>
+                <h4
+                  class="mbr-section-subtitle mbr-fonts-style mb-4"
+                  mbr-if="showSubtitle"
+                  data-app-selector=".mbr-section-subtitle"
+                  mbr-theme-style="display-5"
+                  >The storytelling magic of photos
+                </h4>
+                <p
+                  class="mbr-text mbr-fonts-style"
+                  mbr-if="showText"
+                  data-app-selector=".mbr-text"
+                  mbr-theme-style="display-7"
+                >
+                In a fleeting world, photographs are like tiny frames capturing life's essence. They freeze moments, preserving emotions and stories for eternity. Like artwork in frames, photos capture the ordinary and make it extraordinary. A smile, a glance, a sunset—they all become chapters in our personal narrative.
+                <br>
+                <br>Photographers are storytellers. They use frames, light, and composition to craft emotional tales. Each shot is a canvas painted with memories, inviting us to revisit the past. In today's digital age, photos connect us globally, but their essence remains timeless, whether on mantelpieces or screens.
+                <br>
+                <br>Photos as frames bridge generations. Family albums pass down traditions and legacies. Amid life's chaos, photos offer a pause, a chance to reflect and appreciate. They're the threads weaving our life's tapestry, reminding us of the beauty in the everyday.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

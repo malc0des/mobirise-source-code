@@ -1,0 +1,78 @@
+<section group="Content" class="content13" data-bg-video="{{bg.type == 'video' && bg.value.url}}" mbr-class="{
+    'mbr-fullscreen': fullScreen,
+    'mbr-parallax-background': bg.parallax}">
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Screen" name="fullScreen">
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="5"
+            condition="fullScreen == false">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="5"
+            condition="fullScreen == false">
+        <input type="range" name="textWidth" title="Width" min="4" max="12" value="10" step="1">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showTitle" checked>
+        <select title="Amount" name="colAmount">
+            <option value="1">1</option>
+            <option value="2" selected>2</option>
+        </select>
+        <input type="color" name="iconColor" title="Color" value="#6592e6">
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax>
+            <input type="image" title="Image" value="../_images/background1.jpg" parallax>
+            <input type="color" title="Color" value="#ffffff" selected>
+            <input type="video" title="Video" value="https://vimeo.com/428046504">
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input type="image" title="Fallback Image" value="../_images/background13.jpg" name="fallBackImage" condition="bg.type === 'video'">
+        <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked>
+        <input type="color" title="Overlay Color" name="overlayColor" value="#ffffff"
+            condition="overlay && bg.type !== 'color'">
+        <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.8"
+            condition="overlay && bg.type !== 'color'">
+    </mbr-parameters>
+
+    <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
+    <div class="mbr-overlay" mbr-if="overlay && bg.type !== 'color'" opacity="{{overlayOpacity}}"
+        bg-color="{{overlayColor}}"></div>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-{{textWidth}}" mbr-if="showTitle">
+                <h3 class="mbr-section-title mbr-fonts-style mb-4" mbr-theme-style="display-5" mbr-if="showTitle">
+                    <b>Frequently asked questions</b>
+                </h3>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-{{textWidth}}">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-6">
+                        <ul class="list mbr-fonts-style" mbr-theme-style="display-7" data-app-selector=".list"
+                            data-multiline mbr-article>
+                            <li><b>How to create more items in this list?</b><br>Press <b>Enter </b>to create a new
+                                bullet. To
+                                create an answer for a question, press <b>Shift+Enter</b>.</li>
+                            <li><b>Can I create sites for commerical projects?</b><br>Yes, Mobirise is free for both
+                                non-profit
+                                and commercial sites.</li>
+                            <li><b>How to install more extensions?</b><br>Open the main menu in the app and find the
+                                Extensions
+                                tab. Click on it to open the Extensions list.</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-6" mbr-if="colAmount > 1">
+                        <ul class="list mbr-fonts-style" mbr-theme-style="display-7" data-app-selector=".list"
+                            data-multiline mbr-article>
+                            <li><b>What is Mobirise Kit?
+                                </b><br>Mobirise Kit is a service that provides the access to all current and new
+                                themes/extensions developed by Mobirise.&nbsp;</li>
+                            <li><b>What is Code Editor?<br></b>This extension allows editing the code of block in the
+                                app. Also,
+                                it's possible to add code to the head and body parts of pages.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

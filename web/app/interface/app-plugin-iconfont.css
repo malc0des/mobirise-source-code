@@ -1,0 +1,83 @@
+/*
+   individual styles for iconfont tables
+ */
+/* copied from bootstrap */
+a {
+  color: #009688;
+  font-size: 14px;
+  line-height: 1.42857143;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+.font-table > * {
+  /* 13 : 32 == 20 : 48 */
+  display: inline-block;
+  font-size: 32px;
+  padding: 8px;
+  margin: 2px;
+  color: #757575;
+  border-radius: 6px;
+  cursor: pointer; }
+
+.font-table .fa {
+  font-size: 32px; }
+
+.font-table .char-active {
+  background-color: #E0E0E0; }
+
+.modal-title .form-control {
+  padding: 2px 2px;
+  /* icon font */ }
+
+.iconfont-selected > * {
+  color: #757575;
+  font-size: 110px !important; }
+
+.note-font-dialog .sp-replacer {
+  float: left; }
+
+.font-title {
+  font-family: RobotoDraft, Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #009688;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #E0E0E0;
+  padding: 10px;
+  margin: 1px 0;
+  cursor: pointer; }
+
+/* exception for Mobirise Icons - small is interlaced*/
+.font-table [class^="mbri-"], .font-table [class^="mbrib-"] {
+  font-size: 48px;
+  padding: 6px; }
+
+::-webkit-scrollbar {
+  width: 15px; }
+
+::-webkit-scrollbar-thumb {
+  background: #c9cbc7;
+  border-radius: 8px; }
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 8px; }
+
+body.dark-mode .font-title {
+  background-color: #252931; }
+
+body.dark-mode .font-table .char-active {
+  background-color: #252931; }
+
+body.dark-mode .font-table > * {
+  color: #dcdcdc; }
+
+body.dark-mode.iconfont-selected > * {
+  color: #dcdcdc; }
+
+body.dark-mode ::-webkit-scrollbar-thumb, body.dark-mode::-webkit-scrollbar-thumb {
+  background: #666f85; }
+
+body.dark-mode ::-webkit-scrollbar-track, body.dark-mode::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05); }

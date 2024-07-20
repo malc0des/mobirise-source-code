@@ -1,0 +1,98 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+  display: none;
+}
+.mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  & when (@bg-type = 'video') {
+    background-image: url(@fallBackImage);
+  }
+}
+& when (@reverseContent) {
+  .row {
+    flex-direction: row-reverse;
+  }
+}
+.mbr-text {
+  color: #000000;
+}
+.mbr-section-subtitle {
+  color: #ffffff;
+  text-align: left;
+}
+.item-wrapper {
+  background: @cardbg;
+  margin-bottom: 0rem;
+  padding: 2.25rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 767px) {
+    padding: 2rem 1.5rem;
+    margin-bottom: 0rem;
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    padding: 2rem 1.5rem;
+    margin-bottom: 0rem;
+  }
+}
+.item-mb {
+  margin-bottom: 2rem;
+  @media (max-width: 767px) {
+    margin-bottom: 1rem;
+  }
+}
+.mbr-number {
+  color: #9fe870;
+  text-align: left;
+}
+.mbr-section-title {
+  color: #000000;
+}
+.card-text, .item .mbr-section-btn {
+  text-align: left;
+}
+.card-title, .iconfont-wrapper {
+  text-align: left;
+}
+.mbr-section-subtitle, .main-button {
+  text-align: left;
+  color: #000000;
+}
+.item-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .item-footer {
+    margin-top: auto;
+  }
+}
+.main-button {
+  margin-bottom: 2rem;
+  @media (max-width: 767px) {
+    margin-bottom: 2rem;
+  }
+}
+.side-features {
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  padding-left: 0px;
+  padding-right: 0px;
+  .item {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

@@ -1,0 +1,83 @@
+<section
+  class="article14"
+  group="Article"
+>
+    <mbr-parameters>
+        <header>Size</header>
+        <input
+          type="checkbox"
+          title="Full Width"
+          name="fullWidth"
+        >
+        <input
+          type="range"
+          inline
+          title="Top"
+          name="paddingTop"
+          min="0"
+          max="10"
+          step="1"
+          value="5"
+        >
+        <input
+          type="range"
+          inline
+          title="Bottom"
+          name="paddingBottom"
+          min="0"
+          max="10"
+          step="1"
+          value="5"
+        >
+        <input
+          type="range"
+          name="textWidth"
+          title="Width"
+          min="4"
+          max="12"
+          value="10"
+          step="1"
+        >
+        <header>Show/Hide</header>
+        <input
+          type="checkbox"
+          title="Quote"
+          name="showTitle"
+          checked
+        >
+        <input
+          type="checkbox"
+          title="Author"
+          name="showSubtitle"
+        >
+        <header>Background</header>
+        <input
+          type="color"
+          title="Color"
+          name="bgColor"
+          value="#ffffff"
+        >
+    </mbr-parameters>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-{{textWidth}}">
+                <h3
+                  class="mbr-section-title mbr-fonts-style"
+                  mbr-if="showTitle"
+                  data-app-selector=".mbr-section-title"
+                  mbr-theme-style="display-2"
+                >
+                    <b>Each shot is a canvas painted with memories, inviting us to revisit the past.</b>
+                </h3>
+                <p
+                  class="mbr-section-subtitle mbr-fonts-style mt-4"
+                  mbr-if="showSubtitle"
+                  data-app-selector=".mbr-section-subtitle"
+                  mbr-theme-style="display-7"
+                >
+                    Andrea F.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

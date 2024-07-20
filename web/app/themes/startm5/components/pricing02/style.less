@@ -1,0 +1,128 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type ="color") {
+  background-color: @bg-value;
+}
+
+& when (@bg-type ="image") {
+  background-image: url(@bg-value);
+
+  & when (@overlay) {
+    .mbr-overlay {
+      background: @overlayColor;
+      opacity: @overlayOpacity;
+    }
+  }
+}
+
+img,
+.item-img {
+  width: 100%;
+
+  & when (@autoSize) {
+    height: 100%;
+    object-fit: cover;
+
+    & when (@showCardTitle) {
+      height: (@imageHeight * 100px);
+      object-fit: cover;
+    }
+
+    & when (@showCardSubtitle) {
+      height: (@imageHeight * 100px);
+      object-fit: cover;
+    }
+
+    & when (@showText) {
+      height: (@imageHeight * 100px);
+      object-fit: cover;
+    }
+
+    & when (@showButtons) {
+      height: (@imageHeight * 100px);
+      object-fit: cover;
+    }
+  }
+}
+
+.item:focus,
+span:focus {
+  outline: none;
+}
+
+.item {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 767px) {
+  .item {
+    margin-bottom: 1rem;
+  }
+}
+
+& when not (@spacing) {
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .item {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.item-content {
+  margin-top: 2rem;
+  padding: 0 2.25rem 2.25rem;
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+    padding: 2rem 1.5rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+  }
+
+  @media (max-width: 767px) {
+    padding: 2rem 1.5rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+  }
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.item-wrapper {
+  position: relative;
+  background: @cardsBg;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+
+  .item-footer {
+    margin-top: auto;
+  }
+}
+
+.mbr-section-title {
+  color: #000000;
+}
+
+.item-title {
+  text-align: left;
+}
+
+.item-subtitle {
+  text-align: left;
+}
+
+.mbr-text,
+.item .mbr-section-btn {
+  text-align: left;
+}
+
+.content-head {
+  max-width: 800px;
+}

@@ -1,0 +1,44 @@
+<section class="gallery10" group="Gallery" mbr-class="{'mbr-parallax-background': bg.parallax}">
+  <mbr-parameters>
+    <header>Size</header>
+    <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="6" />
+    <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="6" />
+    </select>
+    <header>Animated Text Settings</header>
+    <select title="Font style" name="linesTitle">
+      <option value="title1" selected>Title 1</option>
+      <option value="title2">Title 2</option>
+    </select>
+    <input type="text" title="Line content 1 <br> (For the best experience, please write at least 100 characters)" inline name="animatedLine1" value="☁️ Best offers ☁️ Free delivery ☁️ Perfect design ☁️ Comfort ☁️ Support 24/7 ☁️ Vibes">
+    <input type="range" inline title="Line speed" name="speed" min="0.01" max="0.09" step="0.01" value="0.05" />
+    <select title="Direction" name="direction">
+      <option value="-1" selected>Left</option>
+      <option value="1">Right</option>
+    </select>
+    <input type="color" title="Content color" value="#232323" name="contentColor" selected />
+    <header>Background</header>
+    <fieldset type="background" parallax name="bg" required>
+      <input type="image" title="Image" value="../_images/background1.jpg" />
+      <input type="color" title="Color" value="#ffffff" selected />
+    </fieldset>
+    <input type="checkbox" title="Overlay" name="overlay" checked condition="bg.type !== 'color'">
+    <input type="color" title="Overlay Color" name="overlayColor" value="#f7f7f7"
+        condition="overlay && bg.type !== 'color'">
+    <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.7"
+        condition="overlay && bg.type !== 'color'">
+</mbr-parameters>
+
+<div class="mbr-overlay" mbr-if="overlay && bg.type!== 'color'"
+    mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}">
+</div>
+  <div class="container-fluid">
+
+      <div class="loop-container">
+        <div class="item" mbr-class="{'display-1':linesTitle=='title1','display-2':linesTitle=='title2'}" 
+        data-linewords="{{animatedLine1}}" data-direction="{{direction}}" data-speed="{{speed}}">☁️ Best offers ☁️ Free delivery ☁️ Perfect design ☁️ Comfort ☁️ Support 24/7 ☁️ Vibes</div>
+        <div class="item" mbr-class="{'display-1':linesTitle=='title1','display-2':linesTitle=='title2'}" 
+        data-linewords="{{animatedLine1}}" data-direction="{{direction}}" data-speed="{{speed}}">☁️ Best offers ☁️ Free delivery ☁️ Perfect design ☁️ Comfort ☁️ Support 24/7 ☁️ Vibes</div>
+      </div>
+    
+  </div>
+</section>

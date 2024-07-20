@@ -1,0 +1,24 @@
+{
+    "startm5": {
+        "description": "Default Mobirise 5 Theme",
+        "minAppVersion": "5",
+        "title": "StartM5",
+        "cover": "app/themes/startm5/thumbnail.png",
+        "largeCover": "app/themes/startm5/cover.jpg",
+        "name": "startm5",
+        "type": "theme",
+        "status": "system",
+        "version": 1
+    },
+    "mobirise5": {
+        "description": "Default Mobirise 5 Theme",
+        "minAppVersion": "5",
+        "title": "Mobirise 5",
+        "cover": "app/themes/mobirise5/thumbnail.png",
+        "largeCover": "app/themes/mobirise5/cover.jpg",
+        "name": "mobirise5",
+        "type": "theme",
+        "status": "system",
+        "version": 1
+    }
+}

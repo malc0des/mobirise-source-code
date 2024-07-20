@@ -1,0 +1,138 @@
+<section
+  class="social05"
+  group="Social"
+  global
+  mbr-class="{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}"
+>
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="6">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="6">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Show Title" name="showTitle" checked>
+        <header>Social</header>
+        <input type="checkbox" title="Social" name="showSoc" checked>
+        <input type="range" inline title="Icons Amount" name="soc" min="1" max="5" step="1" value="5"
+            condition="showSoc">
+        <input type="color" title="Color" value="#393193" name="icon" condition="showSoc">
+        <input type="color" title="Active Color" value="#f7f7f7" condition="showSoc" name="active">
+        <input type="color" title="BG" value="#f7f7f7" name="iconBg" condition="showSoc">
+        <header>Background</header>
+        <fieldset type="background" name="bg" parallax>
+            <input
+              type="image"
+              title="Image"
+              value="../_images/background1.jpg"
+              parallax
+            >
+            <input
+              type="color"
+              title="Color"
+              value="#ffffff"
+              selected
+            >
+        </fieldset>
+        <header condition="bg.type === 'video'">Fallback Image</header>
+        <input
+          type="image"
+          title="Fallback Image"
+          value="../_images/background1.jpg"
+          name="fallBackImage"
+          condition="bg.type === 'video'"
+        >
+        <input
+          type="checkbox"
+          title="Overlay"
+          name="overlay"
+          condition="bg.type !== 'color'"
+          checked
+        >
+        <input
+          type="color"
+          title="Overlay Color"
+          name="overlayColor"
+          value="#ffffff"
+          condition="overlay && bg.type !== 'color'"
+        >
+        <input
+          type="range"
+          inline
+          title="Opacity"
+          name="overlayOpacity"
+          min="0"
+          max="1"
+          step="0.1"
+          value="0.7"
+          condition="overlay && bg.type !== 'color'"
+        >
+    </mbr-parameters>
+
+    <div
+      class="mbr-overlay"
+      mbr-if="overlay && bg.type!== 'color'"
+      mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}"
+    >
+    </div>
+
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div class="row">
+            <h3
+              class="mbr-section-title align-center mb-5 mbr-fonts-style"
+              mbr-theme-style="display-2"
+              mbr-if="showTitle"
+              data-app-selector=".mbr-section-title, .social-list"
+            >
+                <b>Follow us</b>
+            </h3>
+            <div class="col-12">
+                <div class="social-row" mbr-if="showSoc">
+                    <div class="soc-item">
+                        <a href="https://mobiri.se/" target="_blank">
+                            <span
+                              mbr-icon
+                              class="mbr-iconfont socicon socicon-facebook"
+                            >
+                            </span>
+                        </a>
+                    </div>
+                    <div class="soc-item" mbr-if="soc > 1">
+                        <a href="https://mobiri.se/" target="_blank">
+                            <span
+                              mbr-icon
+                              class="mbr-iconfont socicon-twitter socicon"
+                            >
+                            </span>
+                        </a>
+                    </div>
+                    <div class="soc-item" mbr-if="soc > 2">
+                        <a href="https://mobiri.se/" target="_blank">
+                            <span
+                              mbr-icon
+                              class="mbr-iconfont socicon-instagram socicon"
+                            >
+                            </span>
+                        </a>
+                    </div>
+                    <div class="soc-item" mbr-if="soc > 3">
+                        <a href="https://mobiri.se/" target="_blank">
+                            <span
+                              mbr-icon
+                              class="mbr-iconfont socicon socicon-linkedin"
+                            >
+                            </span>
+                        </a>
+                    </div>
+                    <div class="soc-item" mbr-if="soc > 4">
+                        <a href="https://mobiri.se/" target="_blank">
+                            <span
+                              mbr-icon
+                              class="mbr-iconfont socicon socicon-twitch"
+                            >
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

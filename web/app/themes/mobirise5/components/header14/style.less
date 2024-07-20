@@ -1,0 +1,69 @@
+& when not (@fullScreen) {
+    padding-top: (@paddingTop * 1rem);
+    padding-bottom: (@paddingBottom * 1rem);
+}
+
+& when (@bg-type ="image") {
+    background-image: url(@bg-value);
+}
+
+& when (@bg-type ="color") {
+    background-color: @bg-value;
+}
+.mbr-fallback-image.disabled {
+    display: none;
+}
+.mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    & when (@bg-type ='video') {
+        background-image: url(@fallBackImage);
+    }
+}
+& when (@reverseContent) {
+    .row {
+        flex-direction: row-reverse;
+    }
+}
+
+& when (@fullWidth) {
+    & when (@imageFullWidth) {
+        .container-fluid {
+            padding: 0;
+        }
+        .text-wrapper {
+            padding: 0 4rem;
+            @media (max-width: 768px) {
+                padding: 0 2rem;
+            }
+        }
+    }
+}
+
+.image-wrapper {
+    @media (max-width: 991px) {
+        margin-bottom: 2rem;
+    }
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.text-wrapper {
+    @media (min-width: 992px) {
+        padding: 0 2rem;
+        & when (@fullWidth) {
+            padding: 0 4rem;
+        }
+    }
+    @media (max-width: 768px) {
+        margin-bottom: 2rem;
+    }
+}

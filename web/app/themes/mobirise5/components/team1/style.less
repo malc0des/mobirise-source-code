@@ -1,0 +1,85 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type ="color") {
+    background: @bg-value;
+}
+
+& when (@bg-type ="image") {
+    background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+    display: none;
+}
+.mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    & when (@bg-type ='video') {
+        background-image: url(@fallBackImage);
+    }
+}
+.team-card {
+    margin-bottom: 2rem;
+    transition: all 0.3s;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+}
+
+.item-wrapper {
+    background: @cardBg;
+    border-radius: 4px;
+
+    @media (max-width: 991px) {
+        margin-bottom: 2rem;
+    }
+
+    .image-wrap img {
+        width: 100%;
+    }
+
+    .content-wrap {
+        @media (min-width: 768px) {
+            padding: 2rem;
+        }
+
+        @media (max-width: 767px) {
+            padding: 1rem;
+        }
+    }
+}
+
+.social-row {
+    text-align: center;
+    .soc-item {
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%;
+        margin-right: 0.6rem;
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+        border: 2px solid @socialIconColor;
+        transition: all 0.3s;
+        .mbr-iconfont {
+            transition: all 0.3s;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            color: @socialIconColor;
+            font-size: 1.5rem;
+        }
+        &:hover {
+            background-color: @socialIconColor;
+            .mbr-iconfont {
+                color: contrast(@socialIconColor);
+            }
+        }
+    }
+}

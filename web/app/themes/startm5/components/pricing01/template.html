@@ -1,0 +1,304 @@
+<section class="pricing1" group="Pricing" mbr-class="{'mbr-parallax-background': bg.parallax}">
+  <mbr-parameters>
+    <header>Size</header>
+    <input type="checkbox" title="Full Width" name="fullWidth" />
+    <input
+      type="range"
+      inline
+      title="Top"
+      name="paddingTop"
+      min="0"
+      max="10"
+      step="1"
+      value="6"
+    />
+    <input
+      type="range"
+      inline
+      title="Bottom"
+      name="paddingBottom"
+      min="0"
+      max="10"
+      step="1"
+      value="6"
+    />
+    <header>Show/Hide</header>
+    <input type="checkbox" name="showTitle" title="Title" checked />
+    <input type="checkbox" name="showSubtitle" title="Subtitle" />
+    <select title="Columns" name="columns">
+      <option value="6">2</option>
+      <option value="4">3</option>
+      <option value="3" selected>4</option>
+    </select>
+    <header>Cards</header>
+    <input type="checkbox" name="showCardTitle" title="Title" checked />
+    <input type="checkbox" name="showCardSubtitle" title="Subtitle" checked />
+    <input type="checkbox" name="showText" title="Text" checked />
+    <input type="checkbox" name="showButtons" title="Buttons" checked />
+    <input type="color" name="cardsHead" title="Head" value="#9fe870" />
+    <input type="color" name="cardsBg" title="BG" value="#ffffff" />
+    <header>Background</header>
+    <fieldset type="background" parallax name="bg" required>
+      <input type="image" title="Image" value="../_images/background1.jpg" />
+      <input type="color" title="Color" value="#2e481a" selected />
+    </fieldset>
+    <input
+      type="checkbox"
+      title="Overlay"
+      name="overlay"
+      condition="bg.type !== 'color'"
+      checked
+    />
+    <input
+      type="color"
+      title="Overlay Color"
+      name="overlayColor"
+      value="#ffffff"
+      condition="overlay && bg.type == 'image'"
+    />
+    <input
+      type="range"
+      inline
+      title="Opacity"
+      name="overlayOpacity"
+      min="0"
+      max="1"
+      step="0.1"
+      value="0.5"
+      condition="overlay && bg.type == 'image'"
+    />
+  </mbr-parameters>
+  <div class="mbr-overlay" mbr-if="overlay && bg.type !== 'color'"></div>
+  <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+    <div class="row justify-content-center">
+      <div class="col-12 content-head">
+        <div class="mbr-section-head mb-5" mbr-if="showTitle || showSubtitle">
+          <h4
+            class="mbr-section-title mbr-fonts-style align-center mb-0"
+            mbr-theme-style="display-2"
+            mbr-if="showTitle"
+            data-app-selector=".mbr-section-title"
+          >
+            <b>Pricing plan</b>
+          </h4>
+          <h5
+            class="mbr-section-subtitle mbr-fonts-style align-center mt-4 mb-0"
+            mbr-theme-style="display-7"
+            mbr-if="showSubtitle"
+            data-app-selector=".mbr-section-subtitle"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div class="row"> 
+      <div class="item features-without-image col-12 col-md-6 col-lg-{{columns}} item-mb">
+        <div class="item-wrapper">
+          <div class="item-head">
+            <h5
+              class="item-title mbr-fonts-style mb-0"
+              mbr-theme-style="display-5"
+              data-app-selector=".item-title"
+              mbr-if="showCardTitle"
+            >
+              <b>Premium</b>
+            </h5>
+            <h6
+              class="item-subtitle mbr-fonts-style mt-0 mb-0"
+              mbr-theme-style="display-7"
+              data-app-selector=".item-subtitle"
+              mbr-if="showCardSubtitle"
+            >
+              <b>$24</b>/month
+            </h6>
+          </div>
+          <div
+            class="item-content"
+            mbr-if="showCardTitle || showCardSubtitle || showText || showButtons"
+          >
+            <p
+              class="mbr-text mbr-fonts-style "
+              mbr-if="showText"
+              mbr-theme-style="display-7"
+              data-app-selector=".mbr-text, .mbr-section-btn"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              egestas massa.
+            </p>
+          </div>
+          <div
+          class="mbr-section-btn item-footer "
+          mbr-if="showButtons"
+          data-toolbar="-mbrBtnMove,-mbrBtnAdd"
+          mbr-buttons=""
+          mbr-theme-style="display-7"
+        >
+          <a
+            href
+            class="btn item-btn btn-primary"
+
+            data-app-placeholder="Type Text"
+            >Learn More</a
+          >
+        </div>
+        </div>
+      </div>
+
+      <div class="item features-without-image col-12 col-md-6 col-lg-{{columns}} item-mb">
+        <div class="item-wrapper">
+          <div class="item-head">
+            <h5
+              class="item-title mbr-fonts-style mb-0"
+              mbr-theme-style="display-5"
+              data-app-selector=".item-title"
+              mbr-if="showCardTitle"
+            >
+              <b>Pro</b>
+            </h5>
+            <h6
+              class="item-subtitle mbr-fonts-style mt-0 mb-0"
+              mbr-theme-style="display-7"
+              data-app-selector=".item-subtitle"
+              mbr-if="showCardSubtitle"
+            >
+              <b>$10</b>/month
+            </h6>
+          </div>
+          <div
+            class="item-content"
+            mbr-if="showCardTitle || showCardSubtitle || showText || showButtons"
+          >
+            <p
+              class="mbr-text mbr-fonts-style "
+              mbr-if="showText"
+              mbr-theme-style="display-7"
+              data-app-selector=".mbr-text, .mbr-section-btn"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              egestas massa.
+            </p>
+          </div>
+          <div
+          class="mbr-section-btn item-footer "
+          mbr-if="showButtons"
+          data-toolbar="-mbrBtnMove,-mbrBtnAdd"
+          mbr-buttons=""
+          mbr-theme-style="display-7"
+        >
+          <a
+            href
+            class="btn item-btn btn-primary"
+           
+            data-app-placeholder="Type Text"
+            >Learn More</a
+          >
+        </div>
+        </div>
+      </div>
+
+      <div class="item features-without-image col-12 col-md-6 col-lg-{{columns}} item-mb">
+        <div class="item-wrapper">
+          <div class="item-head">
+            <h5
+              class="item-title mbr-fonts-style mb-0"
+              mbr-theme-style="display-5"
+              data-app-selector=".item-title"
+              mbr-if="showCardTitle"
+            >
+              <b>Starter</b>
+            </h5>
+            <h6
+              class="item-subtitle mbr-fonts-style mt-0 mb-0"
+              mbr-theme-style="display-7"
+              data-app-selector=".item-subtitle"
+              mbr-if="showCardSubtitle"
+            >
+              <b>$5</b>/month
+            </h6>
+          </div>
+          <div
+            class="item-content"
+            mbr-if="showCardTitle || showCardSubtitle || showText || showButtons"
+          >
+            <p
+              class="mbr-text mbr-fonts-style "
+              mbr-if="showText"
+              mbr-theme-style="display-7"
+              data-app-selector=".mbr-text, .mbr-section-btn"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              egestas massa.
+            </p>
+          </div>
+          <div
+          class="mbr-section-btn item-footer "
+          mbr-if="showButtons"
+          data-toolbar="-mbrBtnMove,-mbrBtnAdd"
+          mbr-buttons=""
+          mbr-theme-style="display-7"
+        >
+          <a
+            href
+            class="btn item-btn btn-primary"
+           
+            data-app-placeholder="Type Text"
+            >Learn More</a
+          >
+        </div>
+        </div>
+      </div>
+      <div class="item features-without-image col-12 col-md-6 col-lg-{{columns}} item-mb">
+        <div class="item-wrapper">
+          <div class="item-head">
+            <h5
+              class="item-title mbr-fonts-style mb-0"
+              mbr-theme-style="display-5"
+              data-app-selector=".item-title"
+              mbr-if="showCardTitle"
+            >
+              <b>Free</b>
+            </h5>
+            <h6
+              class="item-subtitle mbr-fonts-style mt-0 mb-0"
+              mbr-theme-style="display-7"
+              data-app-selector=".item-subtitle"
+              mbr-if="showCardSubtitle"
+            >
+              <b>$0</b>/month
+            </h6>
+          </div>
+          <div
+            class="item-content"
+            mbr-if="showCardTitle || showCardSubtitle || showText || showButtons"
+          >
+            <p
+              class="mbr-text mbr-fonts-style "
+              mbr-if="showText"
+              mbr-theme-style="display-7"
+              data-app-selector=".mbr-text, .mbr-section-btn"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              egestas massa.
+            </p>
+          </div>
+          <div
+          class="mbr-section-btn item-footer "
+          mbr-if="showButtons"
+          data-toolbar="-mbrBtnMove,-mbrBtnAdd"
+          mbr-buttons=""
+          mbr-theme-style="display-7"
+        >
+          <a
+            href
+            class="btn item-btn btn-primary"
+           
+            data-app-placeholder="Type Text"
+            >Learn More</a
+          >
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

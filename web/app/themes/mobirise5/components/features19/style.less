@@ -1,0 +1,52 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type ='color') {
+  background-color: @bg-value;
+}
+
+& when (@bg-type ='image') {
+  background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+  display: none;
+}
+.mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+
+  & when (@bg-type ='video') {
+      background-image: url(@fallBackImage);
+  }
+}
+.row {
+  align-items: center;
+}
+@media(max-width:991px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+
+  .image-wrapper {
+    margin-bottom: 2rem;
+  }
+  .card-wrapper {
+    padding: 0 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-wrapper {
+    padding-right: 2rem;
+  }
+}
+
+.image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}

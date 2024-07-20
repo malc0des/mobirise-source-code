@@ -1,0 +1,104 @@
+<section
+  class="news07"
+  group="News"
+>
+    <mbr-parameters>
+        <header>Size</header>
+        <input type="checkbox" title="Full Width" name="fullWidth">
+        <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="5">
+        <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="5">
+        <input type="range" name="textWidth" title="Width" min="4" max="12" value="8" step="1">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Title" name="showMainTitle" checked>
+        <input type="checkbox" title="Subtitle" name="showMainSubtitle">
+        <input type="checkbox" title="Event Name" name="showTitle" checked>
+        <input type="checkbox" title="Date" name="showSubtitle" checked>
+        <input type="checkbox" title="Buttons" name="showButtons" checked>
+        <input type="checkbox" title="Images" name="showImage" checked>
+        <input type="color" title="Card BG" name="cardbg" value="#ffffff" selected>
+        <header>Background</header>
+        <input type="color" title="Color" name="bgColor" value="#edefeb">
+    </mbr-parameters>
+    <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
+        <div
+          class="col-12 mb-5 content-head"
+          mbr-if="showMainTitle || showMainSubtitle"
+        >
+            <h3
+              class="mbr-section-title mbr-fonts-style align-center mb-0"
+              mbr-theme-style="display-2"
+              mbr-if="showMainTitle"
+              data-app-selector=".mbr-section-title"
+            >
+                <b>Upcoming events with images</b>
+            </h3>
+            <h5
+              class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4"
+              mbr-theme-style="display-7"
+              mbr-if="showMainSubtitle"
+              data-app-selector=".mbr-section-subtitle"
+            >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </h5>
+        </div>
+        <div class="row justify-content-center ">
+            <div class=" col-12 col-lg-{{textWidth}}">
+                <div class="item features-without-image col-12 active">
+                    <div class="item-wrapper card-wrapper">
+                        <div class="card text-content">
+                            <h5
+                              class="mbr-card-title mbr-fonts-style mt-0 mb-3"
+                              mbr-if="showTitle"
+                              data-app-selector=".mbr-card-title"
+                              mbr-theme-style="display-5"
+                            >
+                                <b>Golden Hour Mastery</b>
+                            </h5>
+                            <h6
+                              class="mbr-card-subtitle mbr-fonts-style mt-0 mb-3"
+                              mbr-if="showSubtitle"
+                              data-app-selector=".mbr-card-subtitle"
+                              mbr-theme-style="display-7"
+                            >
+                                May 17-18, 2025
+                            </h6>
+                            <p
+                              class="mbr-text mbr-fonts-style mt-0 mb-3"
+                              data-app-selector=".mbr-text, .item .mbr-section-btn"
+                              mbr-theme-style="display-7"
+                            >
+                                Unveil the enchanting allure of the golden hour in this comprehensive workshop.
+                                Learn advanced techniques to create breathtaking photos as you harness the magical light
+                                of sunrise and sunset. Explore composition, lighting, and post-processing tricks that will elevate your
+                                photography skills.
+                            </p>
+                            <div
+                              mbr-buttons
+                              mbr-theme-style="display-7"
+                              class="mbr-section-btn"
+                              mbr-if="showButtons"
+                              data-toolbar="-mbrBtnMove"
+                            >
+                                <a
+                                  class="btn btn-white"
+                                  href="https://mobiri.se"
+                                  data-app-placeholder="Type Text"
+                                >
+                                    Learn more</a>
+                            </div>
+                        </div>
+                        <div class="image-wrapper d-flex justify-content-center">
+                            <img
+                              mbr-if="showImage"
+                              src="../_images/hightlights/11.jpg"
+                              alt="Mobirise Website Builder"
+                              data-slide-to="1"
+                              data-bs-slide-to="2"
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

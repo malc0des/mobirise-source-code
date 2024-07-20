@@ -1,0 +1,116 @@
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+
+& when (@bg-type ="color") {
+    background-color: @bg-value;
+}
+
+& when (@bg-type ="image") {
+    background-image: url(@bg-value);
+}
+.mbr-fallback-image.disabled {
+    display: none;
+}
+.mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    & when (@bg-type ='video') {
+        background-image: url(@fallBackImage);
+    }
+}
+.item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    // padding: 2rem;
+
+    .icon-wrap {
+        text-align: center;
+    }
+
+    span {
+        font-size: 2rem;
+        color: contrast(@iconColor, darken(@iconColor, 50%), #ffffff, 60%);
+        line-height: 60px;
+    }
+
+    & when (@showArrows) {
+        &::before {
+            content: "\e96b";
+            font-family: Moririse2 !important;
+            position: absolute;
+            font-size: 32px;
+            left: -15px;
+            top: 12%;
+
+            & when not (@showCardTitle) {
+                & when not (@showCardText) {
+                    top: 50%;
+                    transform: translate(0, -50%);
+                }
+            }
+
+            & when not (@showCardText) {
+                & when (@showCardTitle) {
+                    top: 20%;
+                }
+            }
+
+            color: @iconColor;
+        }
+
+        &.first {
+            &:before {
+                display: none;
+            }
+        }
+        &.five {
+            &:before {
+                display: none;
+            }
+        }
+    }
+}
+
+.icon-box {
+    background: @iconColor;
+    width: 60px;
+    min-width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    text-align: center;
+    display: inline-block;
+}
+
+.text-box {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.mbr-iconfont {
+    color: @primaryColor  !important;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+}
+
+@media (max-width: 991px) {
+    .item {
+        &:before {
+            display: none;
+        }
+    }
+
+    .card-wrapper {
+        margin-bottom: 2rem;
+    }
+}
